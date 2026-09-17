@@ -230,8 +230,16 @@
   }
 
   function renderMarket(d) {
+    const sub = (title, rows) => rows && rows.length
+      ? `<h3 class="sub-head">${title}</h3><dl class="kv">${rows.map(([k, v]) =>
+          `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`
+      : "";
     return `<dl class="kv">${d.market.map(([k, v]) =>
-      `<dt>${esc(k)}</dt><dd>${esc(v)}${/^Businesses/.test(k) ? cite(d, 4) : ""}</dd>`).join("")}</dl>`;
+      `<dt>${esc(k)}</dt><dd>${esc(v)}${/^Businesses/.test(k) ? cite(d, 4) : ""}</dd>`).join("")}</dl>
+      ${sub("Labor", d.labor)}
+      ${sub("Cost of Doing Business", d.costs)}
+      ${sub("Consumer Demand", d.demand)}
+      ${sub("Catchment & Connectivity", d.catchment)}`;
   }
 
   function renderPoints(d) {
@@ -255,7 +263,22 @@
         ${d.dynasty ? `<p><strong>Dynasty:</strong> ${esc(d.dynasty)}</p>` : ""}
         ${d.climate ? `<p><strong>Climate:</strong> ${esc(d.climate)}</p>` : ""}
       </div>
+      ${d.political.businessClimate ? renderBusinessClimate(d.political.businessClimate) : ""}
       ${d.caution ? `<div class="warning-card slim"><p><strong>Caution:</strong> ${esc(d.caution)}</p></div>` : ""}`;
+  }
+
+  function renderBusinessClimate(bc) {
+    const cards = [
+      ["Permitting", bc.permitting],
+      ["Investment Promotion", bc.investmentPromo],
+      ["Incentives", bc.incentives],
+      ["Taxes", bc.taxes],
+    ].filter(([, v]) => v);
+    if (!cards.length) return "";
+    return `<h3 class="sub-head">Business Climate</h3>
+      <div class="bc-cards">
+        ${cards.map(([t, v]) => `<div class="bc-card"><h4>${esc(t)}</h4><p>${esc(v)}</p></div>`).join("")}
+      </div>`;
   }
 
   function renderReferences(d) {
