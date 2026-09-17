@@ -176,14 +176,102 @@
     const p = f.properties;
     const isCity = p.geo_level === "City";
     document.title = p.adm3_en + " — Region 2 — Info";
+    const data = (window.LGU_DATA || {})[slug];
     app.innerHTML = `
       <div class="city-page">
         <span class="city-badge ${isCity ? "city" : "mun"}">${isCity ? "City" : "Municipality"}</span>
         <h2>${p.adm3_en}</h2>
         <p class="meta">Isabela, Cagayan Valley · PSGC ${p.adm3_psgc} · Area ${p.area_km2} km²</p>
-        <div class="placeholder">Detail content coming soon — demographics, officials, attractions, and more.</div>
+        ${data ? renderTabs(data) : `
+        <div class="placeholder">Detail content coming soon — demographics, officials, attractions, and more.</div>`}
         <a class="back-link" href="#/">← Back to map</a>
       </div>`;
+    if (data) wireTabs();
+  }
+
+  // esc() keeps compiled research strings (which contain quotes) safe inside HTML
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  function renderTabs(d) {
+    const tabs = [
+      ["general", "General"],
+      ["market", "Market"],
+      ["points", "Points"],
+      ["political", "Political"],
+    ];
+    return `
+      ${d.nicknames ? `<p class="nicknames">${d.nicknames.map(esc).join(" · ")}</p>` : ""}
+      <div class="tabs" role="tablist">
+        ${tabs.map(([id, label], i) => `
+          <button class="tab${i === 0 ? " active" : ""}" role="tab" aria-selected="${i === 0}"
+            data-tab="${id}" tabindex="${i === 0 ? 0 : -1}">${label}</button>`).join("")}
+      </div>
+      <div class="tab-panel" data-panel="general">${renderGeneral(d)}</div>
+      <div class="tab-panel" data-panel="market" hidden>${renderMarket(d)}</div>
+      <div class="tab-panel" data-panel="points" hidden>${renderPoints(d)}</div>
+      <div class="tab-panel" data-panel="political" hidden>${renderPolitical(d)}</div>`;
+  }
+
+  function renderGeneral(d) {
+    return `
+      ${d.founded ? `<p class="kv-founded">${esc(d.founded)}</p>` : ""}
+      ${d.etymology ? `<p class="kv-etym">${esc(d.etymology)}</p>` : ""}
+      ${d.smartCity ? `<div class="callout">★ ${esc(d.smartCity)}</div>` : ""}
+      <dl class="kv">${d.general.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`;
+  }
+
+  function renderMarket(d) {
+    return `<dl class="kv">${d.market.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`;
+  }
+
+  function renderPoints(d) {
+    return `
+      <ul class="point-cards">${d.points.cards.map((c) => `<li>${esc(c)}</li>`).join("")}</ul>
+      <div class="warning-card">
+        <h3>⚠ Flood-risk barangays</h3>
+        <ul class="risk-list">${d.points.floodRisk.map((b) => `<li>${esc(b)}</li>`).join("")}</ul>
+        <p>${esc(d.points.floodNote)}</p>
+      </div>`;
+  }
+
+  function renderPolitical(d) {
+    return `
+      <ul class="officials">${d.political.officials.map(([role, name, note]) => `
+        <li><span class="role">${esc(role)}</span><span class="name">${esc(name)}</span>
+        <span class="note">${esc(note)}</span></li>`).join("")}</ul>
+      ${d.officialNote ? `<div class="warning-card slim"><p>${esc(d.officialNote)}</p></div>` : ""}
+      <div class="dynasty-block">
+        <h3>Political context</h3>
+        ${d.dynasty ? `<p><strong>Dynasty:</strong> ${esc(d.dynasty)}</p>` : ""}
+        ${d.climate ? `<p><strong>Climate:</strong> ${esc(d.climate)}</p>` : ""}
+      </div>
+      ${d.caution ? `<div class="warning-card slim"><p><strong>Caution:</strong> ${esc(d.caution)}</p></div>` : ""}`;
+  }
+
+  function wireTabs() {
+    const tablist = app.querySelector(".tabs");
+    tablist.addEventListener("click", (e) => {
+      const btn = e.target.closest(".tab");
+      if (!btn) return;
+      app.querySelectorAll(".tab").forEach((t) => {
+        const active = t === btn;
+        t.classList.toggle("active", active);
+        t.setAttribute("aria-selected", active);
+        t.tabIndex = active ? 0 : -1;
+      });
+      app.querySelectorAll(".tab-panel").forEach((p) => {
+        p.hidden = p.dataset.panel !== btn.dataset.tab;
+      });
+    });
+    tablist.addEventListener("keydown", (e) => {
+      const tabs = [...app.querySelectorAll(".tab")];
+      const i = tabs.indexOf(document.activeElement);
+      if (i < 0) return;
+      const next = e.key === "ArrowRight" ? tabs[(i + 1) % tabs.length]
+        : e.key === "ArrowLeft" ? tabs[(i - 1) % tabs.length] : null;
+      if (next) { e.preventDefault(); next.focus(); next.click(); }
+    });
   }
 
   // ---------- Router ----------
