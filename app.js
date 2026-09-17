@@ -25,15 +25,23 @@
   function renderMap() {
     document.title = "Region 2 — Info";
     app.innerHTML = `
-      <div class="map-wrap">
-        <svg id="isabela-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="Interactive map of Isabela province, 37 clickable municipalities and cities"></svg>
-        <div class="map-legend">
-          <span><i class="dot m"></i> Municipality</span>
-          <span><i class="dot c"></i> City</span>
+      <div class="map-layout">
+        <div class="map-wrap">
+          <svg id="isabela-map" viewBox="0 0 ${W} ${H}" role="group" aria-label="Interactive map of Isabela province, 37 clickable municipalities and cities"></svg>
+          <div class="map-legend">
+            <span><i class="dot m"></i> Municipality</span>
+            <span><i class="dot c"></i> City</span>
+          </div>
         </div>
+        <aside class="lgu-sidebar" aria-label="List of Isabela LGUs">
+          <h2 class="sidebar-title">LGUs <span class="sidebar-count">${GEO.features.length}</span></h2>
+          <ul class="lgu-list" id="lgu-list"></ul>
+        </aside>
       </div>`;
     const svg = document.getElementById("isabela-map");
     const NS = "http://www.w3.org/2000/svg";
+    const listEl = document.getElementById("lgu-list");
+    const pathBySlug = {}, rowBySlug = {};
 
     GEO.features.forEach((f) => {
       const p = f.properties;
@@ -49,6 +57,7 @@
       path.setAttribute("role", "link");
       path.setAttribute("aria-label", p.adm3_en + (isCity ? " (city)" : " (municipality)") + " — view details");
       path.dataset.name = p.adm3_en;
+      path.dataset.slug = slug;
       path.dataset.cx = px(centroid(f)[0]);
       path.dataset.cy = py(centroid(f)[1]);
       path.addEventListener("click", () => { location.hash = "#/city/" + slug; });
@@ -56,6 +65,68 @@
         if (e.key === "Enter" || e.key === " ") { e.preventDefault(); location.hash = "#/city/" + slug; }
       });
       svg.appendChild(path);
+      pathBySlug[slug] = path;
+    });
+
+    // sidebar rows (alphabetical)
+    const sorted = GEO.features.slice().sort((a, b) =>
+      a.properties.adm3_en.localeCompare(b.properties.adm3_en));
+    sorted.forEach((f) => {
+      const p = f.properties;
+      const slug = slugify(p.adm3_en);
+      const isCity = p.geo_level === "City";
+      const li = document.createElement("li");
+      li.className = "lgu-row" + (isCity ? " city" : "");
+      li.setAttribute("tabindex", "0");
+      li.setAttribute("role", "button");
+      li.setAttribute("aria-label", p.adm3_en + (isCity ? " (city)" : " (municipality)") + " — highlight on map");
+      li.dataset.slug = slug;
+      li.innerHTML = `<span class="lgu-row-name">${p.adm3_en}</span>` +
+        (isCity ? `<span class="row-badge">City</span>` : "");
+      rowBySlug[slug] = li;
+      listEl.appendChild(li);
+    });
+
+    // row hover → soft polygon highlight; row click → select/pulse polygon
+    listEl.addEventListener("mouseover", (e) => {
+      const row = e.target.closest(".lgu-row");
+      if (row) pathBySlug[row.dataset.slug].classList.add("soft");
+    });
+    listEl.addEventListener("mouseout", (e) => {
+      const row = e.target.closest(".lgu-row");
+      if (row) pathBySlug[row.dataset.slug].classList.remove("soft");
+    });
+    listEl.addEventListener("click", (e) => {
+      const row = e.target.closest(".lgu-row");
+      if (!row) return;
+      const path = pathBySlug[row.dataset.slug];
+      const wasSelected = path.classList.contains("selected");
+      listEl.querySelector(".lgu-row.selected")?.classList.remove("selected");
+      svg.querySelector(".lgu.selected")?.classList.remove("selected");
+      if (!wasSelected) {
+        row.classList.add("selected");
+        path.classList.add("selected");
+      }
+    });
+    listEl.addEventListener("keydown", (e) => {
+      if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("lgu-row")) {
+        e.preventDefault();
+        e.target.click();
+      }
+    });
+
+    // polygon hover → highlight + scroll to matching row
+    svg.addEventListener("mouseover", (e) => {
+      if (!e.target.classList || !e.target.classList.contains("lgu")) return;
+      const row = rowBySlug[e.target.dataset.slug];
+      if (row) {
+        row.classList.add("active");
+        row.scrollIntoView({ block: "nearest" });
+      }
+    });
+    svg.addEventListener("mouseout", (e) => {
+      if (!e.target.classList || !e.target.classList.contains("lgu")) return;
+      rowBySlug[e.target.dataset.slug]?.classList.remove("active");
     });
 
     // hover label
