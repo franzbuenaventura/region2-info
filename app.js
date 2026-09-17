@@ -304,11 +304,77 @@
     }));
   }
 
+  // ---------- Schema config view ----------
+  // Renders from window.SCHEMA (data/schema.js) — the field list lives there, not here.
+  function renderSchema() {
+    const SCHEMA = window.SCHEMA || [];
+    const DATA = window.LGU_DATA || {};
+    document.title = "Schema — Region 2 — Info";
+    const filledCount = (d, k) => {
+      const v = d ? d[k] : undefined;
+      return !!v && (!Array.isArray(v) || v.length > 0) &&
+        (typeof v !== "object" || Array.isArray(v) || Object.keys(v).length > 0);
+    };
+    const example = DATA.cauayan;
+    const lguRows = GEO.features.slice()
+      .sort((a, b) => a.properties.adm3_en.localeCompare(b.properties.adm3_en))
+      .map((f) => {
+        const slug = slugify(f.properties.adm3_en);
+        const filled = SCHEMA.filter((s) => filledCount(DATA[slug], s.key)).length;
+        const pct = SCHEMA.length ? Math.round((filled / SCHEMA.length) * 100) : 0;
+        return { name: f.properties.adm3_en, slug, filled, pct };
+      });
+    const withData = lguRows.filter((r) => r.filled > 0).length;
+    app.innerHTML = `
+      <div class="schema-page">
+        <h2>LGU data schema</h2>
+        <p class="meta">Fields each LGU detail entry can carry. Edit <code>data/schema.js</code> to add or remove fields — this page and the completion bars below render from it.</p>
+        <div class="table-wrap">
+          <table class="schema-table">
+            <thead><tr>
+              <th>Field key</th><th>Friendly name</th><th>Tab</th>
+              <th>Description</th><th>Example — Cauayan</th><th>Requirement</th>
+            </tr></thead>
+            <tbody>
+              ${SCHEMA.map((s) => {
+                const has = filledCount(example, s.key);
+                return `<tr>
+                  <td><code>${esc(s.key)}</code></td>
+                  <td>${esc(s.label)}</td>
+                  <td>${esc(s.tab)}</td>
+                  <td class="col-desc">${esc(s.desc)}</td>
+                  <td class="col-example${has ? "" : " missing"}">${has ? esc(s.example) : "—"}</td>
+                  <td><span class="req-badge ${s.required ? "req" : "opt"}">${s.required ? "Required" : "Optional"}</span></td>
+                </tr>`;
+              }).join("")}
+            </tbody>
+          </table>
+        </div>
+        <h3>Completion by LGU <span class="sidebar-count">${withData}/${lguRows.length} started</span></h3>
+        <p class="meta">Share of schema fields with data, computed from <code>LGU_DATA</code>.</p>
+        <ul class="completion-list">
+          ${lguRows.map((r) => `
+            <li class="completion-row${r.pct === 100 ? " done" : r.pct === 0 ? " empty" : ""}">
+              <a href="#/city/${r.slug}" class="completion-name">${esc(r.name)}</a>
+              <div class="meter" role="img" aria-label="${esc(r.name)}: ${r.filled} of ${SCHEMA.length} fields filled (${r.pct}%)">
+                <span style="width:${r.pct}%"></span>
+              </div>
+              <span class="completion-num">${r.filled}/${SCHEMA.length}</span>
+            </li>`).join("")}
+        </ul>
+        <a class="back-link" href="#/">← Back to map</a>
+      </div>`;
+  }
+
   // ---------- Router ----------
   function route() {
     const m = location.hash.match(/^#\/city\/([a-z0-9-]+)$/);
     if (m) renderCity(m[1]);
+    else if (location.hash === "#/schema") renderSchema();
     else renderMap();
+    const here = location.hash === "#/schema" ? "#/schema" : "#/";
+    document.querySelectorAll(".site-nav a").forEach((a) =>
+      a.classList.toggle("active", a.getAttribute("href") === here));
   }
   window.addEventListener("hashchange", route);
   route();

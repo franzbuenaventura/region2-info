@@ -32,6 +32,28 @@ window.LGU_DATA = {
       ["Coworking competition", 'Regus/Spaces markets "2 centers in Isabela" (Ilagan/Santiago) at ₱890/day — none confirmed open in Cauayan proper'],
       ["Services", "33 laundry shops; water-refilling active (LaundryAtlas)"],
     ],
+    labor: [
+      ["Minimum wage (R2)", "₱480/day non-agri · ₱460 agri (Wage Order 02 series; sweldoph/PNA)"],
+      ["Universities", "ISU Cauayan campus ~7,700 students (crim, IT, business, educ); UPHS-Isabela; STI; NU Cauayan opening"],
+      ["BPO labor market", "Everise ~1,000 agents & hiring — de facto provincial talent hub for CX work"],
+      ["Electorate", "93,785 registered voters (2025) — proxy for working-age base"],
+    ],
+    costs: [
+      ["Commercial rent", "Warehouse ₱120–180/sqm/mo (regional benchmark); office first-mover space implied ₱350–450/sqm"],
+      ["Power", "ISELCO-I residential ₱9.4848/kWh (Feb 2026)"],
+      ["Water", "₱25.00/cum flat (Cauayan City Water District, Jan–Apr 2026)"],
+      ["Internet", "PLDT 'fully fiberized' Cauayan (2019 program); PLDT + Converge fiber plans available; BPO-grade leased lines via PLDT enterprise"],
+    ],
+    demand: [
+      ["Avg family income (R2)", "₱290,120/yr (FIES 2023) · fastest-growing region nationally, +25.0% 2023→2025 (PSA)"],
+      ["Poverty incidence", "Cauayan 11.71% (2023) vs national families 10.9% — city outperforms region"],
+      ["Remittance base", "PH remittances record $39.62B (2025) — resilient provincial demand driver"],
+    ],
+    catchment: [
+      ["Position", "Central Isabela on Maharlika Hwy (18.16 km national road) — transport pivot of Cagayan Valley"],
+      ["Distances", "Ilagan 34 km · Santiago ~55 km · Tuguegarao ~70 km (bus ~2h20m) · Manila 367–405 km"],
+      ["Catchment logic", "Central location between Ilagan & Santiago draws shoppers/workers from surrounding municipalities — catchment population exceeds resident 143K"],
+    ],
     points: {
       cards: [
         "First DOST smart city of the Philippines (2025) — hosted the iSCENE international expo (2023, 2025); free WiFi across 65 barangays (GovNet)",
@@ -45,6 +67,19 @@ window.LGU_DATA = {
       ],
       floodRisk: ["Cabaruan", "Alicaocao", "Turayong", "Baringin Sur", "Labinab"],
       floodNote: "100-yr floodplain barangays (Round 2 research). SM / Districts I–III core is LOW risk. Typhoon stress test: Signal No. 4 during Typhoon Paolo; 33 region towns went dark after Typhoon Uwan.",
+      geohazard: {
+        seismic: "Isabela crossed by 3 active faults (Phivolcs, Jun 2026): Divilacan Fault (M7.2 potential, 2023 M5.8 event), Santiago Segment (M7.2), unnamed Ilagan fault (500-tremor swarm Jun 2025). Cauayan sits west of the coastal Divilacan trace — verify site-level via Phivolcs FaultFinder.",
+        typhoon: "Peak season Jul–Oct (PAGASA: ~20 TCs enter PAR/yr, 8–9 make landfall; ~70% develop Jul–Oct). Isabela is a frequent direct-landfall province (Uwan Nov 2025 super typhoon, Paolo Sig#4).",
+        implication: "Flood + seismic + wind triple exposure → build to higher structural spec, budget backup power (Everise-model), insurance is a real cost line not an afterthought.",
+      },
+      security: "Cagayan Valley declared insurgency-free (RPOC, Jun 2026); PRO2 focus crimes down 26.09% (Aug 2026). Cauayan = stable urban core.",
+      growthPipeline: [
+        ["Park Inn by Radisson Cauayan", "Q2 2027 — 151-room upper-midscale atop SM City Cauayan; first international brand in the city"],
+        ["TotalEnergies 440MWp solar (Ilagan)", "$300M, financial close Apr 2026, commercial ops late 2027 (65/35 TotalEnergies–Nextnorth)"],
+        ["NU Cauayan campus", "opening — national private university chain (83K+ students network)"],
+        ["CPF Ilagan agri-complex", "₱5.5B swine + ₱1.8B feed mill, doubling toward ₱10B — regional agri-services magnet"],
+        ["PRC largest offsite center", "already live — government traffic continues"],
+      ],
     },
     political: {
       officials: [
@@ -57,6 +92,12 @@ window.LGU_DATA = {
       dynasty: "Dy political dynasty dominant in Cauayan for decades — Dy family mayors since 1983 (Benjamin Dy, Bernard Faustino Dy, Caesar Dy).",
       climate: "Stable dynasty-led NPC/Lakas coalition; business-friendly continuity; LEDIPO (investment promotions office) active; smart-city partnership culture (DOST / ISU / PLDT-Smart).",
       caution: "Verify the current mayor via cityofcauayan.gov.ph/city-officials before relying on these names in any formal document.",
+      businessClimate: {
+        permitting: "Online BPLS (electronic Business Permit & Licensing System) — apply/renew online (v2.cityofcauayan.gov.ph/business); province-wide Business One-Stop Shop (BOSS) initiative (PIA 2026)",
+        investmentPromo: "LEDIPO (Local Economic Development & Investment Promotions Office) active — year-end ops reporting, investor-ready environment push (PIA 2026)",
+        incentives: "Provincial investment code incentives available; PEZA agro-industrial ecozones in the region (r2invest: Isabela Ecofuel, GFII sugarcane complex) — Cauayan itself is not a PEZA zone; national BOI registration open to qualified projects",
+        taxes: "Standard LGU schedule: real property tax + local business tax on gross sales (rates per city revenue code; verify schedule at city hall — not published online)",
+      },
     },
     references: [
       { title: "Cauayan, Isabela — Wikipedia (2024 census: population, land area, income class, revenue, officials)", url: "https://en.wikipedia.org/wiki/Cauayan,_Isabela" },
@@ -89,6 +130,25 @@ window.LGU_DATA = {
       { title: "DOST/astig.ph — CharM EV fast-charging + e-trike deployment in Cauayan (DOST network)", url: "https://astig.ph/dost-to-lgus-and-investors-back-filipino-made-evs-from-e-trikes-to-e-jeepneys-and-help-drivers-escape-fuel-prices/" },
       { title: "LaundryAtlas — 33 laundry shops in Cauayan City", url: "https://laundryatlas.com/ph/north-luzon/cauayan-city" },
       { title: "Turista sa Pilipinas — Cauayan 'Ideal City of the North' overview (tourism, etymology, Gawagaway-yan)", url: "https://turistasapilipinas.com/cauayan-isabela-the-ideal-city-of-the-north" },
+      { title: "SweldoPH — Region II wage order 02 series (₱480 non-agri daily minimum, eff. Nov 5 2025)", url: "https://sweldoph.com/calculators/minimum-wage" },
+      { title: "PSA FIES 2023 — Region 2 avg family income ₱290.12K; +25.0% growth 2023→2025 (fastest nationally)", url: "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928" },
+      { title: "Manila Times — Phivolcs: 3 active faults in Isabela (Divilacan M7.2, Santiago Segment M7.2, Ilagan fault) Jun 2026", url: "https://www.manilatimes.net/2026/06/11/regions/phivolcs-identifies-active-fault-lines-in-isabela-amid-rising-mindanao-quake-toll/2362958" },
+      { title: "PAGASA — tropical cyclone climatology: ~20 TCs/yr enter PAR, 8–9 landfall, peak Jul–Oct", url: "https://www.pagasa.dost.gov.ph/climate/tropical-cyclone-information" },
+      { title: "Cauayan City Water District — water rates ₱25.00/cum (2026) + official site", url: "https://cauayancitywaterdistrict.gov.ph/wrate.php" },
+      { title: "GMA News — PLDT 'fully fiberize' Cauayan program", url: "https://www.gmanetwork.com/news/money/companies/711818/pldt-gearing-up-to-lsquo-fully-fiberize-rsquo-cauayan-isabela/story" },
+      { title: "Manila Bulletin — Cagayan Valley declared insurgency-free (RPOC, Jun 2026)", url: "https://mb.com.ph/2026/06/06/cagayan-valley-declared-insurgency-free" },
+      { title: "PRO2 (PNP) — focus crimes down 26.09% across Cagayan Valley, Aug 2026", url: "https://www.facebook.com/pro2rpio/posts/1420235443534317" },
+      { title: "Radisson Hotel Group — Park Inn by Radisson Cauayan: 151 rooms atop SM City Cauayan, opening Q2 2027", url: "https://www.radissonhotels.com/en-us/corporate/media/press-releases/Radisson-Hotel-Group-adds-three-hotels-to-bolster-portfolio-in-the-Philippines" },
+      { title: "BusinessWorld — Radisson expands PH: Park Inn Cauayan 151 rooms Q2 2027", url: "https://bworldonline.com/corporate/2024/07/25/610148/radisson-expands-phl-reach-with-3-new-park-inn-locations" },
+      { title: "TotalEnergies — 440MWp Ilagan solar: financial close + construction start Apr 2026, ops late 2027", url: "https://totalenergies.com/philippines" },
+      { title: "Enerdata — TotalEnergies Ilagan solar details ($300M, 65/35 JV, SMBC/ING/SCB financed, offtake AdventEnergy/PrimeRES)", url: "https://www.enerdata.net/publications/daily-energy-news/totalenergies-starts-building-440-mw-solar-project-philippines.html" },
+      { title: "ISU Cauayan Campus — program offerings (official)", url: "https://isu.edu.ph/cauayan-campus" },
+      { title: "unirank — ISU profile: branch campuses incl. Cauayan, est. 1926", url: "https://www.unirank.org/ph/uni/isabela-state-university" },
+      { title: "City of Cauayan — online BPLS business permit portal (v2.cityofcauayan.gov.ph/business)", url: "https://v2.cityofcauayan.gov.ph/business" },
+      { title: "PIA — Isabela Business One-Stop Shop (BOSS) investor-ready environment (2026)", url: "https://pia.gov.ph/news/luzon/cv/isabela-advances-investor-ready-environment-through-business-one-stop-shop" },
+      { title: "R2 Investment (RDC2) — Economic Zones in Region 2 (Isabela Ecofuel, GFII sugarcane growership)", url: "https://r2invest.rdc2.gov.ph?page_id=4157" },
+      { title: "Rome2Rio — Cauayan–Tuguegarao bus ~2h20m (connectivity)", url: "https://www.rome2rio.com/s/Cauayan/Cagayan-Valley" },
+      { title: "Wikivoyage — Ilagan access: 20 km from CYZ airport, 67 km Tuguegarao (regional distances)", url: "https://en.wikivoyage.org/wiki/Ilagan" },
     ],
   },
 };
