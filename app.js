@@ -199,6 +199,7 @@
       ["market", "Market"],
       ["points", "Points"],
       ["political", "Political"],
+      ["references", "References"],
     ];
     return `
       ${d.nicknames ? `<p class="nicknames">${d.nicknames.map(esc).join(" · ")}</p>` : ""}
@@ -210,19 +211,27 @@
       <div class="tab-panel" data-panel="general">${renderGeneral(d)}</div>
       <div class="tab-panel" data-panel="market" hidden>${renderMarket(d)}</div>
       <div class="tab-panel" data-panel="points" hidden>${renderPoints(d)}</div>
-      <div class="tab-panel" data-panel="political" hidden>${renderPolitical(d)}</div>`;
+      <div class="tab-panel" data-panel="political" hidden>${renderPolitical(d)}</div>
+      <div class="tab-panel" data-panel="references" hidden>${renderReferences(d)}</div>`;
   }
+
+  // superscript citation marker → jumps to references tab row n (1-indexed)
+  const cite = (d, n) => d.references && d.references[n - 1]
+    ? `<button type="button" class="cite" data-cite="${n}" aria-label="Citation ${n} — see reference ${n} in the References tab">[${n}]</button>`
+    : "";
 
   function renderGeneral(d) {
     return `
       ${d.founded ? `<p class="kv-founded">${esc(d.founded)}</p>` : ""}
       ${d.etymology ? `<p class="kv-etym">${esc(d.etymology)}</p>` : ""}
       ${d.smartCity ? `<div class="callout">★ ${esc(d.smartCity)}</div>` : ""}
-      <dl class="kv">${d.general.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`;
+      <dl class="kv">${d.general.map(([k, v]) =>
+        `<dt>${esc(k)}</dt><dd>${esc(v)}${/^Population/.test(k) ? cite(d, 1) : ""}</dd>`).join("")}</dl>`;
   }
 
   function renderMarket(d) {
-    return `<dl class="kv">${d.market.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`;
+    return `<dl class="kv">${d.market.map(([k, v]) =>
+      `<dt>${esc(k)}</dt><dd>${esc(v)}${/^Businesses/.test(k) ? cite(d, 4) : ""}</dd>`).join("")}</dl>`;
   }
 
   function renderPoints(d) {
@@ -238,7 +247,7 @@
   function renderPolitical(d) {
     return `
       <ul class="officials">${d.political.officials.map(([role, name, note]) => `
-        <li><span class="role">${esc(role)}</span><span class="name">${esc(name)}</span>
+        <li><span class="role">${esc(role)}</span><span class="name">${esc(name)}${role === "Mayor" ? cite(d, 8) : ""}</span>
         <span class="note">${esc(note)}</span></li>`).join("")}</ul>
       ${d.officialNote ? `<div class="warning-card slim"><p>${esc(d.officialNote)}</p></div>` : ""}
       <div class="dynasty-block">
@@ -249,20 +258,36 @@
       ${d.caution ? `<div class="warning-card slim"><p><strong>Caution:</strong> ${esc(d.caution)}</p></div>` : ""}`;
   }
 
+  function renderReferences(d) {
+    if (!d.references || !d.references.length) {
+      return `<div class="placeholder">Reference list coming soon — sources for this LGU's data will appear here.</div>`;
+    }
+    const domain = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
+    const ext = `<svg class="ext" viewBox="0 0 24 24" width="11" height="11" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>`;
+    return `<ol class="ref-list">${d.references.map((r, i) => `
+      <li id="ref-${i + 1}">
+        <a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}${ext}</a>
+        <span class="ref-domain">${esc(domain(r.url))}</span>
+      </li>`).join("")}</ol>`;
+  }
+
+  function selectTab(id) {
+    app.querySelectorAll(".tab").forEach((t) => {
+      const active = t.dataset.tab === id;
+      t.classList.toggle("active", active);
+      t.setAttribute("aria-selected", active);
+      t.tabIndex = active ? 0 : -1;
+    });
+    app.querySelectorAll(".tab-panel").forEach((p) => {
+      p.hidden = p.dataset.panel !== id;
+    });
+  }
+
   function wireTabs() {
     const tablist = app.querySelector(".tabs");
     tablist.addEventListener("click", (e) => {
       const btn = e.target.closest(".tab");
-      if (!btn) return;
-      app.querySelectorAll(".tab").forEach((t) => {
-        const active = t === btn;
-        t.classList.toggle("active", active);
-        t.setAttribute("aria-selected", active);
-        t.tabIndex = active ? 0 : -1;
-      });
-      app.querySelectorAll(".tab-panel").forEach((p) => {
-        p.hidden = p.dataset.panel !== btn.dataset.tab;
-      });
+      if (btn) selectTab(btn.dataset.tab);
     });
     tablist.addEventListener("keydown", (e) => {
       const tabs = [...app.querySelectorAll(".tab")];
@@ -272,6 +297,11 @@
         : e.key === "ArrowLeft" ? tabs[(i - 1) % tabs.length] : null;
       if (next) { e.preventDefault(); next.focus(); next.click(); }
     });
+    app.querySelectorAll(".cite").forEach((c) => c.addEventListener("click", () => {
+      selectTab("references");
+      const ref = document.getElementById("ref-" + c.dataset.cite);
+      if (ref) ref.scrollIntoView({ block: "center", behavior: "smooth" });
+    }));
   }
 
   // ---------- Router ----------

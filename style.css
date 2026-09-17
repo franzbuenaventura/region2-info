@@ -291,4 +291,46 @@ main { flex: 1; display: flex; flex-direction: column; align-items: center; padd
 .dynasty-block h3 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; }
 .dynasty-block p { margin: 0.3rem 0; font-size: 0.92rem; }
 
+/* Citation markers + References tab */
+.cite {
+  background: none; border: none; padding: 0 0 0 0.3rem;
+  color: var(--text-dim); font: inherit; font-size: 0.72em;
+  vertical-align: super; cursor: pointer;
+  transition: color 0.15s ease;
+}
+.cite:hover, .cite:focus-visible { color: var(--municipality); }
+.cite:focus-visible { outline: 2px solid var(--municipality); outline-offset: 1px; border-radius: 3px; }
+
+.ref-list {
+  list-style: none; margin: 0.8rem 0 0; padding: 0;
+  counter-reset: ref; display: grid; gap: 0.45rem;
+}
+.ref-list li {
+  counter-increment: ref;
+  display: grid;
+  grid-template-columns: 2.4rem 1fr;
+  gap: 0.1rem 0.5rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.55rem 1rem 0.55rem 0.8rem;
+  font-size: 0.92rem;
+}
+.ref-list li::before {
+  content: "[" counter(ref) "]";
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  padding-top: 0.15rem;
+}
+.ref-list a {
+  color: var(--municipality);
+  text-decoration: none;
+  word-break: break-word;
+}
+.ref-list a:hover { text-decoration: underline; }
+.ref-list a:focus-visible { outline: 2px solid var(--municipality); outline-offset: 2px; border-radius: 4px; }
+.ref-list .ext { margin-left: 0.35rem; opacity: 0.55; vertical-align: baseline; }
+.ref-list a:hover .ext { opacity: 1; }
+.ref-domain { grid-column: 2; color: var(--text-dim); font-size: 0.76rem; }
+
 .site-footer { padding: 0.8rem 2rem 1.4rem; color: var(--text-dim); font-size: 0.78rem; text-align: center; }
