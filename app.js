@@ -199,6 +199,7 @@
       ["market", "Market"],
       ["points", "Points"],
       ["political", "Political"],
+      ["estate", "Real Estate"],
       ["references", "References"],
     ];
     return `
@@ -212,6 +213,7 @@
       <div class="tab-panel" data-panel="market" hidden>${renderMarket(d)}</div>
       <div class="tab-panel" data-panel="points" hidden>${renderPoints(d)}</div>
       <div class="tab-panel" data-panel="political" hidden>${renderPolitical(d)}</div>
+      <div class="tab-panel" data-panel="estate" hidden>${d.realEstate ? renderEstate(d) : ""}</div>
       <div class="tab-panel" data-panel="references" hidden>${renderReferences(d)}</div>`;
   }
 
@@ -264,7 +266,20 @@
         ${d.climate ? `<p><strong>Climate:</strong> ${esc(d.climate)}</p>` : ""}
       </div>
       ${d.political.businessClimate ? renderBusinessClimate(d.political.businessClimate) : ""}
+      ${d.political.history ? renderPoliticalHistory(d) : ""}
       ${d.caution ? `<div class="warning-card slim"><p><strong>Caution:</strong> ${esc(d.caution)}</p></div>` : ""}`;
+  }
+
+  // Historical politics timeline — [era, text] pairs; keyed cites jump to the References tab
+  function renderPoliticalHistory(d) {
+    const cites = { 5: [12], 7: [13] }; // history index → ref numbers
+    return `<h3 class="sub-head">Historical politics</h3>
+      ${d.political.historyIntro ? `<p class="history-intro">${esc(d.political.historyIntro)}</p>` : ""}
+      <ol class="timeline">${d.political.history.map(([era, text], i) => `
+        <li class="timeline-item">
+          <span class="timeline-era">${esc(era)}</span>
+          <p>${esc(text)}${(cites[i] || []).map((n) => cite(d, n)).join("")}</p>
+        </li>`).join("")}</ol>`;
   }
 
   function renderBusinessClimate(bc) {
@@ -279,6 +294,21 @@
       <div class="bc-cards">
         ${cards.map(([t, v]) => `<div class="bc-card"><h4>${esc(t)}</h4><p>${esc(v)}</p></div>`).join("")}
       </div>`;
+  }
+
+  // Real Estate tab — land / house / rent pricing bands from live listings
+  function renderEstate(d) {
+    const re = d.realEstate;
+    const sub = (title, rows, citeMap) => `
+      <h3 class="sub-head">${title}</h3>
+      <dl class="kv">${rows.map(([k, v], i) =>
+        `<dt>${esc(k)}</dt><dd>${esc(v)}${(citeMap[i] || []).map((n) => cite(d, n)).join("")}</dd>`).join("")}</dl>`;
+    return `
+      ${re.intro ? `<p class="estate-intro">${esc(re.intro)}</p>` : ""}
+      ${sub("Land — asking prices", re.land || [], [[54, 58], [], [], [53]])}
+      ${sub("Houses — sale prices", re.houses || [], [[56], [55], [], [52], []])}
+      ${sub("Rent — monthly rates", re.rent || [], [[61], [], [59], [53]])}
+      ${re.caution ? `<div class="warning-card slim"><p><strong>Caution:</strong> ${esc(re.caution)}</p></div>` : ""}`;
   }
 
   function renderReferences(d) {

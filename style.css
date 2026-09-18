@@ -291,6 +291,29 @@ main { flex: 1; display: flex; flex-direction: column; align-items: center; padd
 .dynasty-block h3 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; }
 .dynasty-block p { margin: 0.3rem 0; font-size: 0.92rem; }
 
+/* Political history timeline */
+.history-intro { margin: 0.2rem 0 0.8rem; font-size: 0.92rem; color: var(--text-dim); }
+.timeline { list-style: none; margin: 0; padding: 0.3rem 0 0.3rem 1.35rem; position: relative; }
+.timeline::before {
+  content: ""; position: absolute; left: 0.45rem; top: 0.6rem; bottom: 0.6rem;
+  width: 2px; background: linear-gradient(var(--city), var(--municipality));
+  opacity: 0.5;
+}
+.timeline-item { position: relative; padding: 0.45rem 0 0.6rem; }
+.timeline-item::before {
+  content: ""; position: absolute; left: -1.13rem; top: 0.72rem;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--bg-soft); border: 2px solid var(--city);
+}
+.timeline-era {
+  display: inline-block; font-size: 0.78rem; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--city); background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: 999px; padding: 0.12rem 0.6rem; margin-bottom: 0.3rem;
+}
+.timeline-item p { margin: 0; font-size: 0.9rem; line-height: 1.5; }
+
 /* Citation markers + References tab */
 .cite {
   background: none; border: none; padding: 0 0 0 0.3rem;
@@ -410,6 +433,9 @@ main { flex: 1; display: flex; flex-direction: column; align-items: center; padd
   text-transform: uppercase; letter-spacing: 0.1em;
 }
 .sub-head + .kv { margin-top: 0.5rem; }
+
+/* Real Estate tab intro */
+.estate-intro { margin: 0.2rem 0 0.6rem; font-size: 0.92rem; color: var(--text-dim); }
 
 /* Business Climate 2x2 info cards */
 .bc-cards {

@@ -48,13 +48,36 @@ Data compiled September 2026 from LGU/PSA/verification research. Sources: cityof
 - Le Tour de Filipinas stop-over city
 
 ## political (Political tab)
-- Mayor: Caesar Dy Jr. (NPC) — won 2025 with 44,437 votes vs Dy Bill (WPP) 29,684
-- Vice Mayor: Leoncio Dalin Jr. (Lakas) — 55,716 votes
-- Note: some LGU pages show "Mayor Bernard Faustino / Patrick Caramat" references — conflicting/older data; Wikipedia lists Caesar Dy Jr. + Dalin as current (post-2025 election)
-- District rep: Faustino Dy V (6th district per Wikipedia) — Dy political dynasty dominant in Cauayan for decades (Dy family mayors since 1983: Benjamin Dy, Bernard Faustino Dy, Caesar Dy)
+- Mayor: Caesar "Jaycee" Dy Jr. (NPC) — won 2025 with 44,437 votes (47.4%) vs Dy Bill (WPP) 29,684 (31.7%)
+- Vice Mayor: Leoncio Dalin Jr. (Lakas) — 55,716 votes; longest-serving No. 2 (VM 1988–1998, 2013–present)
+- Note: some LGU pages show "Mayor Bernard Faustino / Patrick Caramat" references — conflicting/older data; Wikipedia lists Caesar Dy Jr. + Dalin as current (post-2025 election). Rappler's 2025 VM row shows "DY, BENJIE III (LAKAS)" — VM identity unverified; LGU directory names Dalin.
+- District rep: Faustino "Bojie" Dy III (6th district) — elected 2025; House Speaker since Sep 2025; former Cauayan mayor (1992–2001) and governor (2010–2019)
 - Council: 10 elected councilors (2025 batch: Uy-Balayan, A.K. Uy, Asirit IV, De Luna, Galutera, Mallillin, etc.)
-- Political climate: stable dynasty-led NPC/Lakas coalition; business-friendly continuity; LEDIPO active (investment promotions office); smart-city partnership culture (DOST/ISU/PLDT-Smart)
-- Caution flag: verify current mayor via cityofcauayan.gov.ph/city-officials before relying on names in any formal doc
+- Political climate: stable dynasty-led NPC/Lakas coalition; business-friendly continuity; LEDIPO active; smart-city partnership culture (DOST/ISU/PLDT-Smart); contests are almost always intra-family (Dy vs Dy)
+
+### Historical politics (timeline in Political tab)
+- 1866 Spanish era: founded 1740 (Cagayan prov. → Nueva Vizcaya 1839 → Isabela 1856); Fr. Paulino appointed Fructuoso Gannaban first gobernadorcillo; Tabacalera tobacco hacienda drew Ilocano settlers
+- 1900s–1935: Don Domingo Damatan first presidente municipal under US rule; Commonwealth mayors Guillermo Blas, Federico Acio; Jose Africano first Republic-era elected mayor
+- 1964–1971: Faustino Dy Sr. (councilor 1959) becomes mayor — start of the Dy dynasty; governor 1971–1986 & 1988–1992 (18 yrs, longest-serving); LP→KBL switch after martial law; raised 4 political sons
+- 1972–1983: Dr. Carlos A. Uy holds mayorship through martial law (re-elected Jan 30, 1980 w/ VM Benjamin Dy); 1983 appointment elevates Benjamin Dy
+- 1986–1992: OIC Diosdado Ramirez post-EDSA; Benjamin Dy wins 1988; Bojie Dy III succeeds Mar 1992
+- 1992–2001: Bojie Dy III 3 terms; cityhood platform → HB 3163 → RA 9017 signed Feb 28, 2001, plebiscite Mar 30, 2001; last municipal/first city mayor (holdover)
+- 2001–2010: Caesar Dy Sr. wins 3 terms (2001/2004/2007); 2004 Bombo Radyo dzNC shutdown controversy → SC orders city+Dy to pay ₱5M (2010)
+- 2010–2025: Benjamin Dy returns 2010, dies in office Feb 16, 2013; son Bernard Faustino "BF" Dy 3 terms (2013/2016 vs uncle Victor Dy/2019); 2022 Jaycee Dy Jr. beats Bill Dy 44,326–27,424; 2025 re-elected 44,437–29,684
+- 2018–2025: RA 11080 (Sep 27, 2018) creates 6th district (Cauayan + Echague, San Guillermo, San Isidro); Inno Dy V first rep (2019), 90.8% in 2022; 2025 Bojie Dy III wins the seat + becomes House Speaker
+- Dynasty reach: 10 Dys held elective posts simultaneously (2022, PNA); Bojie Speaker, Kiko Dy vice governor
+
+- Caution flag: verify current mayor via cityofcauayan.gov.ph/city-officials before relying on names in any formal doc. History compiled from LGU commissioned history (Miano 2014), PCIJ, Wikipedia bios — pre-1992 details are secondary-source; spot-check before formal use.
+
+## real estate (Real Estate tab)
+- Compiled Sep 2026 from live broker/marketplace listings — ASKING prices, not appraised; thin market, single listings swing averages
+- Agricultural land: ₱85–190/sqm (₱850K–1.9M/ha) — Cabugao farm lot ₱850K/ha; DBP foreclosed agri ~₱193/sqm; prime 23.3-ha San Isidro ₱82M (~₱350/sqm)
+- Residential lots: broker parcels ₱6,750–8,000/sqm (large lots) · small prime lots ₱29,500–29,800/sqm · pre-selling subdivision lots from ~₱2,800/sqm (social listings, unverified)
+- Prime central w/ structure: Mabini St District III 1,194 sqm ₱15.1M (≈₱12,650/sqm)
+- Commercial land: from ₱15,000/sqm (30,000 sqm ₱450M listing near city hall — developer-bait)
+- Houses: Camella Cauayan (Sillawit, 19-ha gated) official ₱6–8M · foreclosed 2BR ₱1.69M · broker listings ₱5.51M (99 sqm) & ₱9.56M 5BR (121 sqm) · DotProperty avg house listing ≈₱3.2M (81 listings) · RTO range ₱760K–24M
+- Rent: rooms/boarding ₱3,500–5,500/mo · premium 3BR house ₱100K/mo (190 sqm) · Centro retail ₱510/sqm/mo (2020 benchmark, 82.5 sqm ≈₱42K) · warehouse ₱120–180/sqm/mo + VAT, 2+2 terms, 5%/yr escalation
+- Caution: verify with broker + BIR zonal values; retail benchmark is 2020-dated
 
 ## data_status
 - Filled for Cauayan only. Other 36 LGUs remain blank placeholders until Justin optimizes schema.
