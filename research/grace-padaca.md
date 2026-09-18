@@ -243,7 +243,40 @@ The conviction rested on **negligence-based malversation** (allowing an NGO to h
 
 ---
 
-## 15. Open Questions / To Verify with Primary Sources
+## 15. Controversies & Criticisms — Beyond the Courtroom
+
+Beyond the EDWINLFI conviction (Section 9), her governance style and record drew sustained criticism — mostly from 2007–2016 journalism (PCIJ, VERA Files, Philstar). Consolidated here; contested claims flagged.
+
+**15.1 Bureaucratic purge overturned** — placed **eight division chiefs on floating status** as Dy loyalists blocking her programs; the **Civil Service Commission ordered seven reinstated**, the eighth resigned [R7].
+
+**15.2 Provincial board & council dysfunction** — board member Jesus Cruz Jr. complained she implemented **none of the board's resolutions**; PCIJ reported she was unable to convene the **school board, health board, and peace and order council** [R7].
+
+**15.3 The mayors' revolt & the RPT standoff** — none of the incumbent mayors supported her (33 backed Dy Jr.); she bypassed them for barangays. Retaliation: several mayors stopped remitting real property taxes — **non-remittance exceeded ₱26M in 2005**. Benjamin Dy said he used withheld RPT to fund school-board teachers "Padaca left unpaid"; she said the province kept paying [R7]. Napoleon Dy: no mayor could see her without an appointment; ex-ally Cumigad said ties "soured" [R7].
+
+**15.4 "The capitol has become a university"** — constituents grumbled at her meticulous fund-release scrutiny (written proposals, photos with every check); Fr. Antonio Ancheta reported the complaint but defended the scrutiny [R7].
+
+**15.5 Health-program switch backlash** — replaced free-medicine/full-coverage program with PhilHealth subsidies; **senior citizens unhappy** about losing free medicine; she called the old program unsustainable [R7]. RMAF frames the same decision as replacing "a bankrupt medical scheme" [R2] — the controversy is the transition pain.
+
+**15.6 Anti-logging livelihood backlash** — enforcement put **thousands of *bogadors* (timber haulers) out of work**; VERA Files ties this to her margin eroding from ~44K (2004) to ~17K (2007) [R28]; ABS-CBN argued the same before 2010 [R16]. The core critique of her signature achievement: enforcement without livelihood transition.
+
+**15.7 Jueteng: the fight she lost** — declared "ayoko ng jueteng" at inauguration; publicly accused Isabela mayors and policemen of benefiting from jueteng (2005, with Archbishop Oscar Cruz) [R7]. **Failed to eradicate it**; blamed PNP inaction and mayoral protection ("You just need the President to close the faucet") [R7][R28]. A rumor that her brother took jueteng payoffs circulated; she dismissed it as gossip — documented only as rumor [R7].
+
+**15.8 Post-governorship friction with Aquino administration** — complained (Nov 2010) that removed environment officers were pending reappointment, that PNP provincial director Jimmy Rivera showed "open bias" for the Dys/Albanos in 2010, and that letters to DILG went unactioned [R28].
+
+**15.9 Ally desertion (2016)** — 2010 runningmate **Edwin Uy** and Gamu VM **Fernando Cumigad** defected to Dy III's NPC; Cumigad cited "political survival" and said Padaca ignored his call to meet allies pre-filing [R29]. Her response: "I'm sad but I'm not mad."
+
+**15.10 Interpretive note** — controversies cluster into **(a) process/style**: centralized control, bypassing mayors/board, release scrutiny — real costs of a reformist governing alone against a patronage machine, per even sympathetic sources (PCIJ, VERA Files); and **(b) substance**: the EDWINLFI negligence conviction and SALN plea — legal findings, partially overturned on appeal. No credible source alleges personal enrichment; the Sandiganbayan's own "no personal gain" finding [R8] rebuts the strongest accusation.
+
+**Cross-reference additions (Section 13 matrix):**
+- 26. 8 division chiefs floated, CSC reinstated 7 — R7 only (single-source, PCIJ primary)
+- 27. RPT non-remittance ₱26M+ — R7 (single-source, named officials on record)
+- 28. Margin erosion 44K→17K tied to logging-livelihood losses — R28+R16 (multi-source interpretive)
+- 29. Brother-jueteng rumor — R7 (documented as rumor only)
+- 30. 2016 Uy/Cumigad defections — R29 (multi-voice)
+
+---
+
+## 16. Open Questions / To Verify with Primary Sources
 
 1. **Final appellate status of the malversation conviction** (post-Nov 2020 Sandiganbayan resolution). Check Court of Appeals docket / SC e-library.
 2. **Disposition of her 2007 annulment appeal** (Comelec en banc / SC) — she served out the term, but the legal disposition was not documented in dossier sources.
