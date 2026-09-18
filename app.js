@@ -35,6 +35,15 @@
         </div>
         <aside class="lgu-sidebar" aria-label="List of Isabela LGUs">
           <h2 class="sidebar-title">LGUs <span class="sidebar-count">${GEO.features.length}</span></h2>
+          <div class="overlay-controls">
+            <label for="overlay-select">Color map by</label>
+            <select id="overlay-select" aria-label="Choropleth overlay metric">
+              <option value="none">None (city/municipality)</option>
+              <option value="completion">Data completion</option>
+              <option value="area">Land area</option>
+            </select>
+            <div class="overlay-legend" id="overlay-legend" hidden></div>
+          </div>
           <ul class="lgu-list" id="lgu-list"></ul>
         </aside>
       </div>`;
@@ -145,6 +154,10 @@
     svg.addEventListener("mouseout", (e) => {
       if (e.target.classList && e.target.classList.contains("lgu")) label.classList.remove("visible");
     });
+
+    // choropleth overlay control
+    document.getElementById("overlay-select").addEventListener("change", (e) =>
+      applyOverlay(e.target.value));
   }
 
   // polygon centroid (area-weighted)
@@ -160,8 +173,62 @@
     return [cx / (6 * a), cy / (6 * a)];
   }
 
+  // ---------- Choropleth overlays ----------
+  // 5-step sequential palette: panel navy -> teal -> amber (matches site accents)
+  const OV_STEPS = ["#1a2440", "#1d3a52", "#1f6e6b", "#2dd4bf", "#f59e0b"];
+  function quantileBuckets(values, n) {
+    // value -> bucket index via rank, so each bucket holds ~equal count
+    const sortedVals = [...values].sort((a, b) => a - b);
+    return values.map((v) => {
+      const rank = sortedVals.filter((x) => x < v).length;
+      return Math.min(n - 1, Math.floor((rank / values.length) * n));
+    });
+  }
+  function fieldFilled(v) {
+    return !!v && (!Array.isArray(v) || v.length > 0) &&
+      (typeof v !== "object" || Array.isArray(v) || Object.keys(v).length > 0);
+  }
+  function overlayMetrics() {
+    const DATA = window.LGU_DATA || {};
+    const SCHEMA = window.SCHEMA || [];
+    const slugs = GEO.features.map((f) => slugify(f.properties.adm3_en));
+    return {
+      completion: slugs.map((s) => {
+        const d = DATA[s];
+        return SCHEMA.length ? SCHEMA.filter((sc) => fieldFilled(d ? d[sc.key] : undefined)).length / SCHEMA.length : 0;
+      }),
+      area: GEO.features.map((f) => +f.properties.area_km2 || 0),
+    };
+  }
+  function applyOverlay(mode) {
+    const svg = document.getElementById("isabela-map");
+    const legend = document.getElementById("overlay-legend");
+    if (!svg) return;
+    if (mode === "none") {
+      svg.querySelectorAll(".lgu").forEach((p) => { p.style.fill = ""; });
+      if (legend) { legend.hidden = true; legend.innerHTML = ""; }
+      return;
+    }
+    const metrics = overlayMetrics()[mode];
+    const names = GEO.features.map((f) => f.properties.adm3_en);
+    const buckets = quantileBuckets(metrics, OV_STEPS.length);
+    svg.querySelectorAll(".lgu").forEach((p) => {
+      const i = names.indexOf(p.dataset.name);
+      if (i >= 0) p.style.fill = OV_STEPS[buckets[i]];
+    });
+    const vals = metrics;
+    if (legend) {
+      const unit = mode === "area" ? " km²" : mode === "completion" ? "%" : "";
+      const fmt = (v) => mode === "completion" ? Math.round(v * 100) : Math.round(v * 10) / 10;
+      legend.innerHTML = `<span class="ov-title">${mode === "area" ? "Land area" : "Data completion"} (5 buckets)</span>` +
+        `<div class="ov-scale">${OV_STEPS.map((c, i) => `<i style="background:${c}"></i>`).join("")}</div>` +
+        `<span class="ov-range">${fmt(Math.min(...vals))}${unit} → ${fmt(Math.max(...vals))}${unit}</span>`;
+      legend.hidden = false;
+    }
+  }
+
   // ---------- City detail view ----------
-  function renderCity(slug) {
+  function renderCity(slug, tab) {
     const f = bySlug[slug];
     if (!f) {
       document.title = "Not found — Region 2 — Info";
@@ -186,7 +253,10 @@
         <div class="placeholder">Detail content coming soon — demographics, officials, attractions, and more.</div>`}
         <a class="back-link" href="#/">← Back to map</a>
       </div>`;
-    if (data) wireTabs();
+    if (data) {
+      wireTabs(slug);
+      if (tab && app.querySelector(`.tab[data-tab="${tab}"]`)) selectTab(tab);
+    }
   }
 
   // esc() keeps compiled research strings (which contain quotes) safe inside HTML
@@ -336,11 +406,16 @@
     });
   }
 
-  function wireTabs() {
+  function wireTabs(slug) {
+    // setTab keeps the active tab in the URL (no re-render) so tabs are deep-linkable
+    const setTab = (id) => {
+      selectTab(id);
+      if (slug) history.replaceState(null, "", `#/city/${slug}/${id}`);
+    };
     const tablist = app.querySelector(".tabs");
     tablist.addEventListener("click", (e) => {
       const btn = e.target.closest(".tab");
-      if (btn) selectTab(btn.dataset.tab);
+      if (btn) setTab(btn.dataset.tab);
     });
     tablist.addEventListener("keydown", (e) => {
       const tabs = [...app.querySelectorAll(".tab")];
@@ -351,7 +426,7 @@
       if (next) { e.preventDefault(); next.focus(); next.click(); }
     });
     app.querySelectorAll(".cite").forEach((c) => c.addEventListener("click", () => {
-      selectTab("references");
+      setTab("references");
       const ref = document.getElementById("ref-" + c.dataset.cite);
       if (ref) ref.scrollIntoView({ block: "center", behavior: "smooth" });
     }));
@@ -419,13 +494,108 @@
       </div>`;
   }
 
+  // ---------- Compare view ----------
+  // Side-by-side LGU comparison. Rows = metrics, columns = LGUs.
+  // Cell extractors read from each LGU's data pack; — marks missing data.
+  function cellText(v) {
+    if (v == null || v === "" || (Array.isArray(v) && !v.length)) return "—";
+    if (Array.isArray(v)) return v.map(([k, x]) => `${k}: ${x}`).join(" · ");
+    if (typeof v === "object") return Object.entries(v).map(([k, x]) => `${k}: ${x}`).join(" · ");
+    return String(v);
+  }
+  function rowCell(pack, path) {
+    // path like "general" or "realEstate.land" — arrays of [label, value] pairs
+    const parts = path.split(".");
+    let v = pack;
+    for (const p of parts) { v = v == null ? undefined : v[p]; }
+    return cellText(v);
+  }
+  const COMPARE_ROWS = [
+    ["General", null],
+    ["Population (2024)", "pop"],
+    ["Land area", "area"],
+    ["Income class / revenue", "income"],
+    ["Market", null],
+    ["Registered businesses", "biz"],
+    ["Banks / hospitals", "infra"],
+    ["Labor & costs", "laborCosts"],
+    ["Real estate", null],
+    ["Land pricing", "reLand"],
+    ["House pricing", "reHouses"],
+    ["Rent", "reRent"],
+    ["Political", null],
+    ["Mayor", "mayor"],
+    ["District rep", "rep"],
+    ["Political climate", "climate"],
+  ];
+
+  function renderCompare(slugs) {
+    const DATA = window.LGU_DATA || {};
+    const lgu = (s) => {
+      const f = bySlug[s];
+      if (!f) return null;
+      const d = DATA[s] || {};
+      return {
+        name: f.properties.adm3_en, slug: s, d,
+        pop: d.general?.find?.(([k]) => /^Population/.test(k))?.[1] || "—",
+        area: d.general?.find?.(([k]) => /^Land area/.test(k))?.[1] || "—",
+        income: d.general?.find?.(([k]) => /Income|revenue|income class/i.test(k))?.[1] || "—",
+        biz: d.market?.find?.(([k]) => /^Businesses/.test(k))?.[1] || "—",
+        infra: [
+          d.market?.find?.(([k]) => /^Banks/.test(k))?.[1],
+          d.market?.find?.(([k]) => /^Hospitals/.test(k))?.[1],
+        ].filter((x) => x && x !== "—").join(" · ") || "—",
+        laborCosts: [
+          d.labor?.find?.(([k]) => /wage/i.test(k))?.[1],
+          d.costs?.find?.(([k]) => /power/i.test(k))?.[1],
+        ].filter((x) => x && x !== "—").join(" · ") || "—",
+        reLand: rowCell(d, "realEstate.land"),
+        reHouses: rowCell(d, "realEstate.houses"),
+        reRent: rowCell(d, "realEstate.rent"),
+        mayor: d.political?.officials?.find?.(([r]) => r === "Mayor")?.slice(1).join(" — ") || "—",
+        rep: d.political?.officials?.find?.(([r]) => /^District Rep/.test(r))?.slice(1).join(" — ") || "—",
+        climate: d.political?.climate || "—",
+      };
+    };
+    const cols = slugs.map(lgu).filter(Boolean);
+    if (!cols.length) {
+      app.innerHTML = `<div class="compare-page"><h2>Compare LGUs</h2><div class="placeholder">No valid LGUs to compare.</div><a class="back-link" href="#/">← Back to map</a></div>`;
+      return;
+    }
+    document.title = "Compare — Region 2 — Info";
+    app.innerHTML = `
+      <div class="compare-page">
+        <h2>Compare LGUs</h2>
+        <p class="meta">Side-by-side view of every data pack field. “—” = not researched yet. Open <a href="#/schema">Schema</a> for per-LGU completion.</p>
+        <div class="table-wrap">
+          <table class="compare-table">
+            <thead><tr><th class="row-label">Field</th>${cols.map((c) => `<th><a href="#/city/${c.slug}">${esc(c.name)}</a></th>`).join("")}</tr></thead>
+            <tbody>
+              ${COMPARE_ROWS.map(([label, key]) => key === null
+                ? `<tr class="section-row"><td colspan="${cols.length + 1}">${esc(label)}</td></tr>`
+                : `<tr><th class="row-label">${esc(label)}</th>${cols.map((c) => `<td class="${key.startsWith("re") ? "wide" : ""}">${esc(c[key])}</td>`).join("")}</tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+        <a class="back-link" href="#/">← Back to map</a>
+      </div>`;
+  }
+
   // ---------- Router ----------
   function route() {
-    const m = location.hash.match(/^#\/city\/([a-z0-9-]+)$/);
-    if (m) renderCity(m[1]);
+    let m = location.hash.match(/^#\/city\/([a-z0-9-]+)$/);
+    if (m) { renderCity(m[1]); }
+    else if ((m = location.hash.match(/^#\/city\/([a-z0-9-]+)\/([a-z]+)$/))) {
+      renderCity(m[1], m[2]);
+    }
+    else if ((m = location.hash.match(/^#\/compare\/([a-z0-9-]+(?:,[a-z0-9-]+)*)$/))) {
+      renderCompare(m[1].split(","));
+    }
     else if (location.hash === "#/schema") renderSchema();
     else renderMap();
-    const here = location.hash === "#/schema" ? "#/schema" : "#/";
+    const here = location.hash === "#/schema" ? "#/schema"
+      : /^#\/compare\//.test(location.hash) ? location.hash
+      : "#/";
     document.querySelectorAll(".site-nav a").forEach((a) =>
       a.classList.toggle("active", a.getAttribute("href") === here));
   }

@@ -437,6 +437,38 @@ main { flex: 1; display: flex; flex-direction: column; align-items: center; padd
 /* Real Estate tab intro */
 .estate-intro { margin: 0.2rem 0 0.6rem; font-size: 0.92rem; color: var(--text-dim); }
 
+/* Choropleth overlay controls */
+.overlay-controls { margin: 0.6rem 0 0.9rem; display: grid; gap: 0.35rem; }
+.overlay-controls label { font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+.overlay-controls select {
+  background: var(--bg-soft); color: var(--text); border: 1px solid var(--line);
+  border-radius: 7px; padding: 0.4rem 0.6rem; font: inherit; font-size: 0.88rem; cursor: pointer;
+}
+.overlay-controls select:focus-visible { outline: 2px solid var(--municipality); outline-offset: 1px; }
+.overlay-legend { margin-top: 0.45rem; display: grid; gap: 0.25rem; }
+.ov-title { font-size: 0.75rem; color: var(--text-dim); }
+.ov-scale { display: flex; height: 9px; border-radius: 4px; overflow: hidden; border: 1px solid var(--line); }
+.ov-scale i { flex: 1; }
+.ov-range { font-size: 0.72rem; color: var(--text-dim); }
+
+/* Compare table */
+.compare-page { width: min(1100px, 96vw); }
+.compare-page h2 { margin: 0.4rem 0 0.2rem; }
+.compare-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.compare-table th, .compare-table td {
+  border: 1px solid var(--line); padding: 0.5rem 0.75rem; text-align: left; vertical-align: top;
+}
+.compare-table thead th { background: var(--panel); position: sticky; top: 0; }
+.compare-table thead a { color: var(--municipality); text-decoration: none; }
+.compare-table thead a:hover { text-decoration: underline; }
+.compare-table .row-label { width: 170px; color: var(--text-dim); font-weight: 600; font-size: 0.84rem; white-space: nowrap; }
+.compare-table td { min-width: 220px; }
+.compare-table td.wide { min-width: 300px; }
+.compare-table .section-row td {
+  background: var(--bg-soft); color: var(--city); font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; padding: 0.35rem 0.75rem;
+}
+
 /* Business Climate 2x2 info cards */
 .bc-cards {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
