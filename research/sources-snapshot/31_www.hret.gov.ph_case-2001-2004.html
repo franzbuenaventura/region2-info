@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Font Imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/style.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/swiper.css" type="text/css" /> -->
+
+    <!-- Construction Demo Specific Stylesheet -->
+    <!-- / -->
+    
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/slick.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/slick-theme.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/fontawesome.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/cookiealert.css" type="text/css"  />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/fonts.css" type="text/css"  />
+    <!-- <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/cafe.css" type="text/css"  /> -->
+    
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/css/custom.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- <link rel="icon" href="https://www.hret.gov.ph/storage/icons/1737162523_1707208005_favicon.ico" type="image/x-icon"> -->
+    <!-- <link rel="stylesheet" href="https://www.hret.gov.ph/theme/extra/drone.css" type="text/css"  /> -->
+ 
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/addons/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/addons/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/addons/css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/addons/include/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/addons/include/rs-plugin/css/layers.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/addons/include/rs-plugin/css/navigation.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.hret.gov.ph/theme/addons/css/custom.css" type="text/css" />
+
+
+    <!-- add-on css -->
+    <!-- main color #144596 -->
+    <style type="text/css">
+        .is-expanded-menu .menu-container:not(.mobile-primary-menu) {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            align-items: center !important;
+        }
+        #top-search.header-misc-icon {
+/*            display: none;*/
+        }
+        .primary-menu-trigger {
+/*            display: none;*/
+        }
+        body #header.transparent-header.floating-header {
+             margin-top: 0px !important;
+        }
+        #wrapper #header.transparent-header.floating-header .container {
+            background-color: transparent !important;
+        }
+        /*header#header:not(.sticky-header) div#header-wrap,
+        header#header.sticky-header  div#header-wrap {
+            margin-top: 24px;
+        }*/
+        #wrapper header#header div#header-wrap {
+             /*background-color: transparent !important;
+             box-shadow: none !important;
+             border-bottom: none !important;
+             margin-top: 24px;*/
+        }
+        
+                /* Top bar (teal strip) */
+        #top-bar {
+            background-color: #003757 !important;
+            position: relative !important;
+            z-index: 1200 !important;
+            background-clip: padding-box !important;
+            border-bottom: none !important;
+            box-shadow: none !important;
+        }
+        
+                /* Keep header internal containers transparent and bounded */
+        #top-bar .container,
+        header#header .container,
+        #header-wrap,
+        #header-wrap > .container,
+        header#header .header-row {
+            background: transparent !important;
+             background-color: #003757 !important;
+            box-shadow: none !important;
+            border: none !important;
+            box-sizing: border-box !important;
+        }
+
+        /* Make header/nav and the top bar use the same teal color and ensure menu text is visible */
+        header#header,
+        header#header.header-size-sm,
+        header#header.transparent-header,
+        header#header.floating-header {
+            background: #003757 !important;
+            background-color: #003757 !important;
+            position: relative !important;
+            z-index: 1250 !important;
+            box-shadow: none !important;
+            border: none !important;
+        }
+
+        header#header .menu-container > .menu-item > .menu-link,
+        header#header .menu-container > .menu-item.current > .menu-link,
+        header#header .header-misc a,
+        #top-search.header-misc-icon a {
+            color: #ffffff !important;
+        }
+
+
+             /* Footer container fix — place this at the end of the existing <style> block (after the other rules
+           and after the block that echoes $page->styles) so it wins. */
+        
+         /* Ensure the footer itself uses the true footer color */
+        #footer,
+        #footer.modair-footer,
+        footer,
+        .modair-footer,
+        #copyrights {
+            color: #ffffff !important;
+            /* keep it above any page content that might be overlapping */
+            position: relative !important;
+            box-shadow: none !important;
+            border: none !important;
+        }
+        
+        /* Make footer inner container transparent so it doesn't show a white background */
+        #footer .container,
+        #footer.modair-footer .container,
+        #copyrights .container {
+            background: transparent !important;
+            background-color: transparent !important;
+            width: 100% !important;
+            max-width: 1200px !important;
+            margin: 0 auto !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            box-sizing: border-box !important;
+        }
+        
+        /* Remove white backgrounds for common widget/inner elements inside the footer */
+        #footer .widget,
+        #footer .widget * ,
+        #footer .wp-block,
+        #footer .wp-block * {
+            background: transparent !important;
+            background-color: transparent !important;
+        }
+        
+        /* If page content uses .light-body or other wrappers that extend into footer,
+           keep the footer visually on top (avoid being covered) */
+        .light-body,
+        .dark-body,
+        #website-content,
+        .page-content {
+            position: relative !important;
+            z-index: 1 !important;
+        }
+        
+        /* Small safety: if an editor-saved style injected a white container inside footer area,
+           this will force it transparent */
+        #footer .container .container,
+        #footer .container .row,
+        #footer .container .col,
+        #footer .container div {
+            background: transparent !important;
+        }
+        
+        /* Footer links */
+        #footer a,
+        #copyrights a,
+        .modair-footer a {
+            color: rgba(255,255,255,0.92) !important;
+        }
+        #footer a:hover,
+        #copyrights a:hover,
+        .modair-footer a:hover {
+            color: #ffffff !important;
+            text-decoration: underline !important;
+        }
+
+        /* Constrain and ensure header containers don't introduce white backgrounds */
+        #top-bar .container,
+        header#header .container,
+        #header-wrap,
+        #header-wrap > .container,
+        header#header .header-row {
+  
+            margin-left: auto !important;
+            margin-right: auto !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+
+
+        #header-wrap > .container {
+            /*border-radius: 50px !important;
+            border: 1px solid #e5e5e599 !important;
+            box-shadow: 0px 0px 4px #4c4c4c75;*/
+        }
+        header#header .menu-container > .menu-item.current > .menu-link,
+        header#header .menu-container > .menu-item:hover > .menu-link {
+/*            color: #144596 !important;*/
+        }
+        div#wrapper section#slider {
+/*            margin-top: -85px;*/
+        }
+        /* keep footer inner elements on top of footer background */
+        #footer .container > * {
+            z-index: 1;
+        }
+        .primary-a {
+            color: #0c4499 !important;
+            background-color: #dfecfd !important;
+            font-weight: 800 !important;
+            transition: all 0.2s;
+        }
+        .primary-label {
+            color: #0c4499 !important;
+            background-color: #dfecfd !important;
+            padding: 2px 15px;
+            font-size: 32px !important;
+            max-width: fit-content;
+            border-radius: 14px;
+        }
+        .light-body {
+            background-color: #ffffff !important;
+            margin: 0px !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            padding: 55px 80px 80px 80px;
+        }
+        .dark-body {
+            background-color: #c9d3e0 !important;
+            margin: 0px !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            padding: 55px 80px 80px 80px;
+        }
+        .text-extrabold{
+            font-weight:900 !important;
+        }
+        .primary-a span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        .primary-a span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        .primary-a:hover span {
+            padding-right: 25px;
+        }
+        .primary-a:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+        .primary-a:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        #website-content .heading-block h1 {
+            margin-top: -80px;
+            z-index: 9;
+            position: absolute;
+        }
+        .primary-colors {
+            color: #0c4499 !important;
+        }
+        .qr-modair-size {
+            max-height: 510px !important;
+        }
+        li.list-style-none {
+            list-style: none;
+            color: #0c4499 !important;
+            font-size: 24px;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px #767676;
+            margin: 10px 0px;
+        }
+        li.list-style-none a {
+            color: #0c4499 !important;
+        }
+        ul.list-group-container {
+            margin-top: -16px;
+        }
+        li.list-style-none:hover {
+            scale: 1.02;
+            transition: all .2s;
+            color: #c0cde3 !important;
+            text-shadow: 2px 2px 4px #0c4499;
+        }
+        li.list-style-none:hover a {
+            color: #c0cde3 !important;
+            text-shadow: 2px 2px 4px #0c4499;
+        }
+        .light-body-services {
+            margin-top: 0px !important;
+        }
+        #website-content .light-body-services .heading-block h1 {
+            margin-top: -80px !important;
+        }
+        .col-md-6.services-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .rounded-corners {
+            border-radius: 16px;
+        }
+        div#wrapper section#slider.slider-element.boxed-slider .slider-wrap .half-one{
+            padding-top: 20px;
+        }
+        #slider .clearfix .heading-block::after {
+            display: none;
+        }
+        .floating-panel {
+            background-color: #85a1cc85;
+            border-radius: 16px;
+            padding: 24px;
+            position: absolute;
+            left: 4%;
+            top: 20%;
+            z-index: 1;
+        }
+        .flex-center-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .flex-center-center .position-relative.overflow-hidden a img {
+            border-radius: 16px;
+        }
+        .invi {
+            display: none;
+        }
+
+        .col-md-6.text-center.flex-center-center .position-relative.overflow-hidden a .card {
+            position: absolute;
+            z-index: 1;
+            min-width: 50%; 
+            max-width: 50%; 
+            min-height: 60%;
+            left: 5%;
+            top: 10%;
+            background-color: #85a1ccc7;
+            border-radius: 14px;
+            border: none;
+            text-align: left;
+            color: white;
+        }
+        .col-md-6.text-center.flex-center-center .position-relative.overflow-hidden a .card .card-header {
+            border: none;
+        }
+        i.bi-facebook,
+        i.bi-linkedin {
+            font-size: 35px;
+            margin-right: 12px;
+            margin-left: 12px;
+        }
+        .modair-primary-logo {
+            min-width: 210px;
+        }
+        
+        /*our services animations*/
+        a.img-services-wrapper {
+            position: relative;
+        }
+        a.img-services-wrapper img.img-services-item {
+            position: absolute;
+            left: 0;
+            border-radius: 100%;
+        }
+        img.img-services-item.img-services-animate-odd {
+            -webkit-animation:spin 10s linear infinite;
+            -moz-animation:spin 10s linear infinite;
+            animation:spin 10s linear infinite;
+        }
+        img.img-services-item.img-services-animate-even {
+            -webkit-animation:spin 50s linear infinite;
+            -moz-animation:spin 50s linear infinite;
+            animation:spin 50s linear infinite;
+        }
+        @-moz-keyframes spin { 
+            100% { -moz-transform: rotate(360deg); } 
+        }
+        @-webkit-keyframes spin { 
+            100% { -webkit-transform: rotate(360deg); } 
+        }
+        @keyframes spin { 
+            100% { 
+                -webkit-transform: rotate(360deg); 
+                transform:rotate(360deg); 
+            } 
+        }
+        .position-relative.overflow-hidden.img-services-container {
+            padding: 15px;
+        }
+        .scaleUp {
+            transform: scale(1.30);
+            transition: all .2s;
+        }
+        
+        .services-list li.list-style-none {
+            font-size: 32px;
+        }
+        .primary-label.neutralfix {
+            margin-left: 55px;
+        }
+        .light-body {
+            margin: 0px !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            padding: 55px 80px 80px 80px;
+        }
+        
+        .card .side-menu ul li a.menu-link {
+            color: #2c2c2c !important;
+            font-weight: 400 !important;
+        }
+        #copyrights .copyright-links a {
+            color: rgba(255, 255, 255, 0.4);
+        }
+        #header .header-wrap-clone {
+            height: 100% !important;
+        }
+        a#id0ih {
+            font-size: 16px !important;
+        }
+        div#igtwr {
+            margin-bottom: 0px;
+        }
+        
+        #iv9zm .fluid-width-video-wrapper {
+            height: 100%;
+
+        }
+        div#ijgfo.map-iframe {
+            min-width: 100%;
+            height: 450px;
+        }
+        nav.primary-menu.with-arrows .menu-container li.menu-item a.menu-link {
+            font-weight: 600;
+        }
+
+        div#iklg5 a i {
+            color: #ffffffba;
+        }
+        
+        /*section#slider.slick-wrapper.clearfix .banner-wrapper:not(.no-slider-banner),
+        section#slider.slick-wrapper.clearfix div#banner.home-slider.slick-initialized:not(.no-slider-banner) {
+            height: 443px !important;
+        }*/
+        /*.slick-slide .hero-slide .banner-caption .row.align-items-center .col-lg-12 h2.text-center.slide-content {
+            margin-top: -15%;
+        }*/
+        section#slider.slick-wrapper.clearfix .banner-wrapper .sub-banner-caption.dark > .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        section#slider.slick-wrapper.clearfix .banner-wrapper .sub-banner-caption.dark > .container .sub-banner-flex {
+            transform: translate(0px, 80px);
+        }
+        nav.primary-menu.with-arrows ul.menu-container li.menu-item.sub-menu ul.sub-menu-container {
+            background-color: rgb(0, 55, 87);
+        }
+        div#banner.home-slider:not(.no-slider-banner) .slick-list.draggable .slick-track .slick-slide .hero-slide {
+            max-height: 650px;
+        }
+        div#banner.home-slider:not(.no-slider-banner) .slick-list.draggable .slick-track .slick-slide .hero-slide .banner-caption .row.align-items-center .col-lg-12 h2 {
+            font-size: 48px;
+            font-weight: 500 !important;
+        }
+        section#slider.home-slider-banner img {
+            transform: translate(0px, -12%);
+        }
+        section#slider:not(.home-slider-banner) .sub-banner-caption.dark .container h2.text-center.excerpt-1.text-light {
+            font-weight: 500 !important;
+        }
+        section#slider:not(.home-slider-banner):not(.no-slider-banner) .sub-banner-caption.dark .container h2.text-center.excerpt-1.text-light {
+            font-weight: 500 !important;
+            font-size: 36px;
+            transform: translate(0px, -45px);
+        }
+        section#slider:not(.home-slider-banner):not(.no-slider-banner) {
+            max-height: 425px !important;
+            min-height: 425px !important;
+            height: 425px !important;
+        }
+        
+        @media only screen and (max-width: 1367px) {
+            section#slider.home-slider-banner img {
+                transform: translate(0px, -8%);
+            }
+            div#banner.home-slider:not(.no-slider-banner) .slick-list.draggable .slick-track .slick-slide .hero-slide {
+                max-height: 445px;
+            }
+            section#slider:not(.home-slider-banner):not(.no-slider-banner) {
+                max-height: 300px !important;
+                min-height: 300px !important;
+                height: 300px !important;
+            }
+            section#slider:not(.home-slider-banner):not(.no-slider-banner) .sub-banner-caption.dark .container h2.text-center.excerpt-1.text-light {
+                font-weight: 500 !important;
+                font-size: 36px;
+                transform: translate(0px, -30px);
+            }
+            section#slider.slick-wrapper.clearfix .banner-wrapper .sub-banner-caption.dark > .container .sub-banner-flex {
+                transform: translate(0px, 45px);
+            }
+        }
+        
+        div#portfolio .entry .grid-inner.shadow-sm.h-shadow .w-100 a img.w-100 {
+            max-height: 300px;
+        }
+        
+        div#banner.home-slider:not(.no-slider-banner) .slick-list.draggable .slick-track .slick-slide .hero-slide .banner-caption .container {
+            max-width: 700px;
+        }
+
+        div#banner.home-slider:not(.no-slider-banner) .slick-list.draggable .slick-track .slick-slide .hero-slide .banner-caption .container .col-lg-12 h2.text-center.slide-content {
+            text-transform: none;
+        }
+        
+    </style>
+
+    <style>
+        * { box-sizing: border-box; } body {margin: 0;}#ib3k{padding:10px;font-size:30px;font-weight:700;text-align:center;color:rgba(194,12,12,0.97);text-shadow:2px 4px 4px black;letter-spacing:3px;}.gpd-divider{height:3px;margin:10px 0px 10px 0px;background-color:rgba(0,0,0,0.05);}#ix6j{padding:10px;font-weight:700;font-size:20px;text-align:center;}#ifjkp{padding:10px;font-size:20px;font-weight:700;text-align:center;}#i19dl{padding:10px;font-size:20px;font-weight:700;text-align:center;}#iehj1{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i4hw1{padding:10px;font-size:16px;font-weight:400;text-align:left;}#ifgc2{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i1ggy{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ifmd5{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iq9t6{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iwpoe{padding:10px;font-weight:400;font-size:16px;text-align:center;}#it9ia{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i7ijj{padding:10px;font-size:16px;font-weight:400;text-align:left;}#inhdk{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i4sth{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i9y4n{padding:10px;font-size:16px;font-weight:400;text-align:left;}#idkxh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ibzcb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i73ys{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#il7b1{padding:10px;font-weight:400;font-size:16px;text-align:center;}#illpn{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iv5kl{padding:10px;font-size:16px;font-weight:400;text-align:left;}#ic3zw{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i0ht7{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iduez{padding:10px;font-size:16px;font-weight:400;text-align:left;}#itcgp{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i9oqy{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ib412{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ihe8y{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ijohb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iqr9l{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iy93z{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i6h3e{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#if9fh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ie57m{padding:10px;font-weight:400;font-size:16px;text-align:center;}#icogj{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iz6y4{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iv5vif{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ifznnv{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#in0ke7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imjezh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iewo2j{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i0s10r{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#itpykh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ioirjb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imae88{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iw0t0g{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iqozr5{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ioonni{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i5zvfq{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ibuyim{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix3hwr{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iolgt8{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihsad7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ik7xbg{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ich974{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i3ggsh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ienymu{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ikuu3e{padding:10px;font-weight:400;font-size:16px;text-align:center;}#is6j2p{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7namf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i63j7w{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ixg77x{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#if5z7i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i1sirw{padding:10px;font-weight:400;font-size:16px;text-align:center;}#itp3d5{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ixdqsc{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iziosi{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iios56{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ij8fvk{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#is73io{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iu3ldq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iooxk3{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ijj8ei{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iwztdw{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i1pod3{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7539l{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihj3ty{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7l9ov{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iaroc5{padding:10px;font-weight:400;font-size:16px;text-align:center;}#isavno{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ij5fou{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#idv2gr{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i90mx7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#io4oni{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i8aln8{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ip3qux{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ieltpa{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i4yptf{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i5tmwy{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#izgz3z{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iwf5sj{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ig7djq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i4j1qe{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ir87lj{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iyxm9i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix37io{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imd5vx{padding:10px;font-weight:400;font-size:16px;text-align:center;}#io9pmw{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix1xpf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iq5m9t{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihsttx{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ilfi8w{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ir5g29{padding:10px;font-weight:400;font-size:16px;text-align:center;}#infe3i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ic957a{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iaaxqg{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i883fg{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iwu09f{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imbl9j{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ijxe14{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ip02f8{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ihgrdk{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iyxwgf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#isdwl8{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#icbfr2{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iu5pjr{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i0nlt6{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i30hju{padding:10px;font-weight:400;font-size:16px;text-align:center;}#inbcmh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ilqfoq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iq6jn2{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i2hh1r{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i3a8fl{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ikk8gi{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i64spu{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix7bub{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}    </style>
+
+    <style>
+        * { box-sizing: border-box; } body {margin: 0;}#ib3k{padding:10px;font-size:30px;font-weight:700;text-align:center;color:rgba(194,12,12,0.97);text-shadow:2px 4px 4px black;letter-spacing:3px;}.gpd-divider{height:3px;margin:10px 0px 10px 0px;background-color:rgba(0,0,0,0.05);}#ix6j{padding:10px;font-weight:700;font-size:20px;text-align:center;}#ifjkp{padding:10px;font-size:20px;font-weight:700;text-align:center;}#i19dl{padding:10px;font-size:20px;font-weight:700;text-align:center;}#iehj1{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i4hw1{padding:10px;font-size:16px;font-weight:400;text-align:left;}#ifgc2{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i1ggy{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ifmd5{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iq9t6{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iwpoe{padding:10px;font-weight:400;font-size:16px;text-align:center;}#it9ia{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i7ijj{padding:10px;font-size:16px;font-weight:400;text-align:left;}#inhdk{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i4sth{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i9y4n{padding:10px;font-size:16px;font-weight:400;text-align:left;}#idkxh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ibzcb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i73ys{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#il7b1{padding:10px;font-weight:400;font-size:16px;text-align:center;}#illpn{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iv5kl{padding:10px;font-size:16px;font-weight:400;text-align:left;}#ic3zw{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i0ht7{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iduez{padding:10px;font-size:16px;font-weight:400;text-align:left;}#itcgp{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i9oqy{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ib412{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ihe8y{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ijohb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iqr9l{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iy93z{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i6h3e{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#if9fh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ie57m{padding:10px;font-weight:400;font-size:16px;text-align:center;}#icogj{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iz6y4{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iv5vif{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ifznnv{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#in0ke7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imjezh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iewo2j{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i0s10r{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#itpykh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ioirjb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imae88{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iw0t0g{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iqozr5{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ioonni{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i5zvfq{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ibuyim{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix3hwr{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iolgt8{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihsad7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ik7xbg{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ich974{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i3ggsh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ienymu{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ikuu3e{padding:10px;font-weight:400;font-size:16px;text-align:center;}#is6j2p{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7namf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i63j7w{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ixg77x{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#if5z7i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i1sirw{padding:10px;font-weight:400;font-size:16px;text-align:center;}#itp3d5{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ixdqsc{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iziosi{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iios56{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ij8fvk{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#is73io{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iu3ldq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iooxk3{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ijj8ei{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iwztdw{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i1pod3{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7539l{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihj3ty{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7l9ov{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iaroc5{padding:10px;font-weight:400;font-size:16px;text-align:center;}#isavno{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ij5fou{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#idv2gr{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i90mx7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#io4oni{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i8aln8{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ip3qux{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ieltpa{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i4yptf{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i5tmwy{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#izgz3z{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iwf5sj{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ig7djq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i4j1qe{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ir87lj{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iyxm9i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix37io{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imd5vx{padding:10px;font-weight:400;font-size:16px;text-align:center;}#io9pmw{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix1xpf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iq5m9t{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihsttx{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ilfi8w{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ir5g29{padding:10px;font-weight:400;font-size:16px;text-align:center;}#infe3i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ic957a{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iaaxqg{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i883fg{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iwu09f{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imbl9j{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ijxe14{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ip02f8{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ihgrdk{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iyxwgf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#isdwl8{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#icbfr2{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iu5pjr{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i0nlt6{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i30hju{padding:10px;font-weight:400;font-size:16px;text-align:center;}#inbcmh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ilqfoq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iq6jn2{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i2hh1r{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i3a8fl{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ikk8gi{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i64spu{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix7bub{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}    </style>
+    <!-- Document Title
+    ============================================= -->
+            <title>case 2001-2004 | HRET</title>
+    
+    
+    
+        <style>
+        * { box-sizing: border-box; } body {margin: 0;}#ib3k{padding:10px;font-size:30px;font-weight:700;text-align:center;color:rgba(194,12,12,0.97);text-shadow:2px 4px 4px black;letter-spacing:3px;}.gpd-divider{height:3px;margin:10px 0px 10px 0px;background-color:rgba(0,0,0,0.05);}#ix6j{padding:10px;font-weight:700;font-size:20px;text-align:center;}#ifjkp{padding:10px;font-size:20px;font-weight:700;text-align:center;}#i19dl{padding:10px;font-size:20px;font-weight:700;text-align:center;}#iehj1{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i4hw1{padding:10px;font-size:16px;font-weight:400;text-align:left;}#ifgc2{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i1ggy{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ifmd5{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iq9t6{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iwpoe{padding:10px;font-weight:400;font-size:16px;text-align:center;}#it9ia{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i7ijj{padding:10px;font-size:16px;font-weight:400;text-align:left;}#inhdk{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i4sth{padding:10px;font-size:16px;font-weight:400;text-align:left;}#i9y4n{padding:10px;font-size:16px;font-weight:400;text-align:left;}#idkxh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ibzcb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i73ys{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#il7b1{padding:10px;font-weight:400;font-size:16px;text-align:center;}#illpn{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iv5kl{padding:10px;font-size:16px;font-weight:400;text-align:left;}#ic3zw{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i0ht7{padding:10px;font-size:16px;font-weight:400;text-align:left;}#iduez{padding:10px;font-size:16px;font-weight:400;text-align:left;}#itcgp{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i9oqy{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ib412{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ihe8y{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ijohb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iqr9l{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iy93z{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i6h3e{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#if9fh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ie57m{padding:10px;font-weight:400;font-size:16px;text-align:center;}#icogj{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iz6y4{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iv5vif{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ifznnv{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#in0ke7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imjezh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iewo2j{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i0s10r{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#itpykh{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ioirjb{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imae88{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iw0t0g{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iqozr5{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ioonni{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i5zvfq{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ibuyim{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix3hwr{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iolgt8{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihsad7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ik7xbg{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ich974{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i3ggsh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ienymu{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ikuu3e{padding:10px;font-weight:400;font-size:16px;text-align:center;}#is6j2p{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7namf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i63j7w{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ixg77x{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#if5z7i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i1sirw{padding:10px;font-weight:400;font-size:16px;text-align:center;}#itp3d5{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ixdqsc{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iziosi{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iios56{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ij8fvk{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#is73io{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iu3ldq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iooxk3{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ijj8ei{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iwztdw{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i1pod3{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7539l{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihj3ty{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i7l9ov{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iaroc5{padding:10px;font-weight:400;font-size:16px;text-align:center;}#isavno{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ij5fou{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#idv2gr{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i90mx7{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#io4oni{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i8aln8{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ip3qux{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ieltpa{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i4yptf{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i5tmwy{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#izgz3z{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iwf5sj{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ig7djq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i4j1qe{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ir87lj{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iyxm9i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix37io{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imd5vx{padding:10px;font-weight:400;font-size:16px;text-align:center;}#io9pmw{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix1xpf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iq5m9t{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ihsttx{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ilfi8w{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ir5g29{padding:10px;font-weight:400;font-size:16px;text-align:center;}#infe3i{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ic957a{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iaaxqg{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i883fg{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iwu09f{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#imbl9j{padding:10px;font-weight:400;font-size:16px;text-align:center;}#ijxe14{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ip02f8{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ihgrdk{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iyxwgf{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#isdwl8{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#icbfr2{padding:10px;font-weight:400;font-size:16px;text-align:center;}#iu5pjr{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i0nlt6{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i30hju{padding:10px;font-weight:400;font-size:16px;text-align:center;}#inbcmh{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ilqfoq{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#iq6jn2{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i2hh1r{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#i3a8fl{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ikk8gi{padding:10px;font-weight:400;font-size:16px;text-align:center;}#i64spu{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}#ix7bub{padding:10px;font-size:16px;font-weight:400;text-align:left;color:#000000;}
+    </style>
+</head> <body class="stretched is-expanded-menu">
+	
+	<!-- Cart Panel Background
+	============================================= -->
+	<div class="body-overlay"></div>
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+		
+		<!-- Header
+		============================================= -->
+		<!-- Top Bar
+============================================= -->
+<div id="top-bar" class="py-2" style="background-color: #003757 !important;">
+    <div class="container">
+        <div class="d-flex justify-content-center flex-md-row fw-medium text-center text-white">
+            <!-- Logo -->
+            <div id="main-logo" class="m-0 d-none">
+                <a href="/">
+                    <!-- <img class="logo-default" src="https://www.hret.gov.ph/theme/addons/images/logos/Seal_of_the_Supreme_Court_of_the_Philippines.png" alt="logo"> -->
+                    <img class="logo-default" src="/theme/addons/images/logos/hret-logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- Title -->
+            <div class="header-title">
+                <div id="small-size-logo" class="d-none">
+                    <a href="/">
+                        <!-- <img src="https://www.hret.gov.ph/theme/addons/images/logos/Seal_of_the_Supreme_Court_of_the_Philippines.png" alt="logo"> -->
+                        <img src="/theme/addons/images/logos/hret-logo.png" alt="logo">
+                    </a>
+                </div>
+                <h4 class="text-white m-0">Republic of the Philippines</h4>
+                <h2 class="old-english text-white mb-0" style="font-size: 38px;">House of Representatives Electoral Tribunal</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header
+============================================= -->
+<header id="header" class="header-size-sm transparent-header floating-header" data-sticky-shrink="false">
+	<div id="header-wrap">
+
+
+		<div class="container" data-class="up-lg:border up-lg:shadow-sm">
+			<div class="header-row">
+
+                <!-- Logo
+				============================================= -->
+                <div id="header-logo" class="px-3 d-none">
+                    <a href="/">
+                        <!-- <img src="../images/logos/Seal_of_the_Supreme_Court_of_the_Philippines.png" alt="logo"> -->
+                        <img src="/theme/addons/images/logos/hret-logo.png" alt="logo">
+                    </a>
+                </div><!-- #logo end -->
+
+                <div class="header-misc ms-lg-2">
+                    <!-- Top Search
+					============================================= -->
+                    <div id="top-search" class="header-misc-icon  ps-lg-4">
+                        <a href="#" id="top-search-trigger">
+                            <i class="uil uil-search"></i>
+                            <i class="bi-x-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="primary-menu-trigger">
+                    <button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+                        <span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+                    </button>
+                </div>
+
+
+				<!-- Primary Navigation
+				============================================= -->
+				<nav class="primary-menu with-arrows">
+
+					<ul class="menu-container">
+            <li class="menu-item   ">
+        <a href="/home" class="menu-link">
+            <div>
+                                    Home1 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+            <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/about-us" class="menu-link" target=""><div>ABOUT US</div></a>
+        
+       
+                    <ul class="sub-menu-container">
+                
+                                
+                                    <li class="menu-item   ">
+        <a href="/transparency" class="menu-link">
+            <div>
+                                    TRANSPARENCY SEAL 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item   ">
+        <a href="/the-members-of-the-tribunal" class="menu-link">
+            <div>
+                                    Members of the Tribunal 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item   ">
+        <a href="/hret-service-charter" class="menu-link">
+            <div>
+                                    HRET SERVICE CHARTER 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                
+                
+            </ul>
+                
+    </li>
+            <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/news" class="menu-link" target=""><div>NEWS &amp; UPDATES</div></a>
+        
+       
+                    <ul class="sub-menu-container">
+                
+                                
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/hret-news-september" class="menu-link" target=""><div>HRET NEWS</div></a>
+        
+       
+                    <ul class="sub-menu-container">
+                
+                                
+                                    <li class="menu-item ">
+        <a href="https:/hret-news-september" class="menu-link" target=""><div>90th Anniversary Gala</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https:/90th-anniverssary" class="menu-link" target=""><div>90th Anniverssary</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https:/18-day-vawc-2" class="menu-link" target=""><div>18-day VAWC</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https:/hret.gov.ph/hret-news-september" class="menu-link" target=""><div>COMELEC ORIENTATIOIN</div></a>
+        
+       
+                
+    </li>
+                                
+                
+            </ul>
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/news/notice-of-hearing" class="menu-link" target=""><div>Notice of Hearing</div></a>
+        
+       
+                
+    </li>
+                                
+                
+            </ul>
+                
+    </li>
+            <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/general-services" class="menu-link" target=""><div>GENERAL SERVICES</div></a>
+        
+       
+                    <ul class="sub-menu-container">
+                
+                                
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/request-for-quotation" class="menu-link" target=""><div>REQUEST FOR QUOTATION</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/purchase-order" class="menu-link" target=""><div>PURCHASE ORDER</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://hret.gov.ph/general-services/notices" class="menu-link" target=""><div>NOTICES</div></a>
+        
+       
+                    <ul class="sub-menu-container">
+                
+                                
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/general-services/notices/invitation-to-bid" class="menu-link" target=""><div>Invitation to Bid</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/general-services/notices/notice-of-vacancies" class="menu-link" target=""><div>Notice of Vacancy</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/general-services/notice-of-award/notice-of-award-janitorial" class="menu-link" target=""><div>NOTICE OF AWARD FOR JANITORIAL SERVICE</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/general-services/notice-of-award/notice-of-award-security" class="menu-link" target=""><div>NOTICE OF AWARD FOR SECURITY PROVISION</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/notice-to-proceed-security" class="menu-link" target=""><div>NOTICE TO PROCEED SECURITY PROVISION</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/notice-to-proceed-janitorial" class="menu-link" target=""><div>NOTICE TO PROCEED JANITORIAL PROVISION</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/general-services/notice-of-award/notice-of-award-security/contract-for-security" class="menu-link" target=""><div>CONTRACT OF SECURITY PROVISION</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/contract-supply-fuel-etc-2026" class="menu-link" target=""><div>CONTRACT FOR SUPPLY OF FUEL, OIL, ETC, 2026</div></a>
+        
+       
+                
+    </li>
+                                
+                
+            </ul>
+                
+    </li>
+                                
+                
+            </ul>
+                
+    </li>
+            <li class="menu-item   ">
+        <a href="/gallery" class="menu-link">
+            <div>
+                                    Gallery 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+            <li class="menu-item current">
+        <a href="https://www.hret.gov.ph" class="menu-link" target=""><div>Cases</div></a>
+        
+       
+                    <ul class="sub-menu-container">
+                
+                                
+                                    <li class="menu-item   ">
+        <a href="/cases-2022-2025" class="menu-link">
+            <div>
+                                    2022-2025  Congressinal Term 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item   ">
+        <a href="/cases-2019-2022" class="menu-link">
+            <div>
+                                    2019-2022  Congressional Term 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item   ">
+        <a href="/cases-2016-2019" class="menu-link">
+            <div>
+                                    2016-2019  Congressional Term 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item   ">
+        <a href="/cases-2013-2016" class="menu-link">
+            <div>
+                                    2013-2016  Congressional Term 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item   ">
+        <a href="/cases-2010-2013" class="menu-link">
+            <div>
+                                    2010-2013  Congressional Term 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/case-2007-2010" class="menu-link" target=""><div>2007-2010  Congressional Term</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item   ">
+        <a href="/case-2004-2007" class="menu-link">
+            <div>
+                                    2004-2007  Congressional Term 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item current">
+        <a href="case-2001-2004" class="menu-link" target=""><div>2001-2004  Congressional Term</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/case-1998-2001" class="menu-link" target=""><div>1998-2001  Congressional Term</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="https://www.hret.gov.ph/case-1995-1998" class="menu-link" target=""><div>1995-1998  Congressional Term</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item ">
+        <a href="case-1992-1995" class="menu-link" target=""><div>1992-1995  Congressional Term</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item   ">
+        <a href="/case-1987-1992" class="menu-link">
+            <div>
+                                    1987-1992  Congressional Term 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                
+                
+            </ul>
+                
+    </li>
+            <li class="menu-item ">
+        <a href="hret-rules1" class="menu-link" target=""><div>Rules</div></a>
+        
+       
+                    <ul class="sub-menu-container">
+                
+                                
+                                    <li class="menu-item ">
+        <a href="hret-rules1" class="menu-link" target=""><div>HRET Rules</div></a>
+        
+       
+                
+    </li>
+                                    <li class="menu-item   ">
+        <a href="/election-protest-flowchart" class="menu-link">
+            <div>
+                                    Election Protest Flowchart 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                    <li class="menu-item   ">
+        <a href="/petition-for-quo-warrant-flowchart" class="menu-link">
+            <div>
+                                    Petition for Quo Warranto Flowchart 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+                                
+                
+            </ul>
+                
+    </li>
+            <li class="menu-item   ">
+        <a href="/gad" class="menu-link">
+            <div>
+                                    GAD 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+            <li class="menu-item   ">
+        <a href="/contact-us" class="menu-link">
+            <div>
+                                    Contact Us 
+                            </div>
+        </a>
+        
+                
+        
+
+        
+        
+    </li>
+
+    </ul>
+
+				</nav><!-- #primary-menu end -->
+
+				<form class="top-search-form" action="https://www.hret.gov.ph/search-result" method="get">
+					<input type="text" name="searchtxt" class="form-control" value="" placeholder="Search..." autocomplete="off" style="padding-left: 175px;">
+				</form>
+
+			</div>
+		</div>
+
+
+	</div>
+	<!-- <div class="header-wrap-clone"></div> -->
+</header><!-- #header end -->
+
+<!-- #alert start -->
+<div class="container">
+    <div class="row justify-content-center"> <!-- Center the column -->
+        <div class="col-md-6">
+            
+                    </div>
+    </div>
+</div>
+<!-- #alert end -->
+<!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slick-wrapper clearfix">
+    <div class="banner-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12" style="padding:0;">
+                    <div class="sub-banner-caption">
+                        <div class="container" style="position: relative;">
+                            <h2 class="text-center excerpt-1 text-light">case 2001-2004</h2>
+                            <div class="sub-banner-flex">
+                                                                <ol class="breadcrumb nobottommargin flex-nowrap justify-content-center">
+                                                                                                                        <li class="breadcrumb-item text-nowrap"><a href="https://www.hret.gov.ph" class="text-light"><i class="icon-home"></i></a></li>
+                                                                                                                                                                <li class="breadcrumb-item active excerpt-1 text-light" aria-current="page">case 2001-2004</li>
+                                                                                                            </ol>
+                                                            </div>
+                        </div>
+                    </div>
+                    <div id="banner" class="slick-slider">
+                        <div class="hero-slide dark">
+                            <img src="https://www.beta.hret.gov.ph/storage/banners//bg-breadcrumbs-2000x600.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>		
+		<!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="website-content">
+
+			
+
+<div class="container bottommargin-lg">
+    <div class="row">
+                    <div class="col-lg-12">
+                <div id="ist8" class="container"><div id="ib3k"><p>HRET CASE 2001 - 2004</p>
+</div></div><div class="gpd-divider gjs-selected"></div><div id="ix7u" class="container"><div id="itcq" class="row"><div id="i491" class="col-md-4"><div id="ix6j"><p>CASE NO.</p>
+</div></div><div class="col-md-4"><div id="ifjkp"><p>PARTICULARS</p>
+</div></div><div class="col-md-4"><div id="i19dl"><p>STATUS OF THE CASE</p>
+</div></div></div></div><div id="i6mte" class="container"><div class="row"><div class="col-md-4"><div id="iehj1"><p>01-001</p>
+</div></div><div class="col-md-4"><div id="i4hw1"><p>MARIA GRACIA CIELO M. PADACA -V.- FAUSTINO G. DY, III&nbsp; / 3RD&nbsp;DISTRICT ISABELA</p>
+</div></div><div class="col-md-4"><div id="ifgc2"><p>The Tribunal Resolved to <strong>DISMISS </strong>the protest for lack of merit and <strong>DECLARE</strong> Protestee FAUSTINO DY III to be the duly elected Representative of the Third Legislative District of Isabela</p>
+</div></div></div></div><div id="il2nh" class="container"><div class="row"><div class="col-md-4"><div id="inhdk"><p>01-002</p>
+</div></div><div class="col-md-4"><div id="i4sth"><p>RANJIT RAMOS SHAHANI -V.- CONRADO M. ESTRELLA,III</p>
+</div></div><div class="col-md-4"><div id="i9y4n"><p><span style="color:black">The Tribunal Resolved to <strong>DISMISS </strong>the instant election protest p</span>ursuant to Rule 76 of the 1998 Rules of the House of Representatives Electoral Tribunal</p>
+</div></div></div></div><div id="ipicv" class="container"><div class="row"><div class="col-md-4"><div id="iwpoe"><p>01-003</p>
+</div></div><div class="col-md-4"><div id="it9ia"><p>ERNESTO C. CASTA&Ntilde;EDA, JR.&nbsp;<font face="PT Serif, serif">-V.-</font>AMADO T. ESPINO, JR.&nbsp; / 2ND DISTRICT PANGASINAN</p>
+</div></div><div class="col-md-4"><div id="i7ijj"><p>The Tribunal Resolved to <strong>DISMISS </strong>the instant election protest and counter-protest without further proceedings, including the parties&rsquo; mutual claims for damages and attorney&rsquo;s fees.</p>
+</div></div></div></div><div id="iutmy" class="container"><div class="row"><div class="col-md-4"><div id="i1ggy"><p>01-004</p>
+</div></div><div id="icpas" class="col-md-4"><div id="ifmd5"><p>VICTOR I. PADILLA -V.-&nbsp;JUAN C. PONCE ENRILE, JR.&nbsp; /&nbsp; 1ST DISTRICT CAGAYAN</p>
+</div></div><div class="col-md-4"><div id="iq9t6"><p>The Tribunal Resolved to <strong>DISMISS </strong>this election protest for failure of protestant Padilla to comply with the Order dated April 10, 2002, requiring him to pay the additional cash deposit of Three Hundred Seventy-Three Thousand Nine Hundred Fifty (P373,950.00) pesos, within ten (10) days from notice; and for&nbsp; his lack of interest and/or his failure to prosecute this election protest.</p>
+</div></div></div></div><div id="i6xjf" class="container"><div class="row"><div class="col-md-4"><div id="ic3zw"><p>01-005</p>
+</div></div><div id="i6ruy" class="col-md-4"><div id="i0ht7"><p>HOMOBONO ERWIN D. ADAZA III&nbsp; -V.-<em>&nbsp;</em>JESUS JURDIN M. ROMUALDO&nbsp; &nbsp;/ LONE DISTRICT CAMIGUIN</p>
+</div></div><div class="col-md-4"><div id="iduez"><p>The Tribunal Resolved to <strong>DISMISS </strong>the petition of protest...&nbsp;finding protestee&rsquo;s <em>Memorandum (On the Nature of the Petition Filed by Protestant with Motion to Dismiss Prohibited Petition</em>) impressed with merit and by reason of the continued failure of the protestant to observe the provisions of the Rules and the Resolutions of the Tribunal showing his lack or loss of interest in pursuing the case.</p>
+</div></div></div></div><div id="ilpo7" class="container"><div class="row"><div class="col-md-4"><div id="il7b1"><p>01-006</p>
+</div></div><div id="i9u9c" class="col-md-4"><div id="illpn"><p>DULCE ANN K. HOFER<strong>&nbsp;</strong>-V.-<strong>&nbsp;</strong>BELMA A. CABILAO&nbsp; / LONE DISTRICT ZAMBOANGA SIBUGAY</p>
+</div></div><div class="col-md-4"><div id="iv5kl"><p>The Tribunal Resolved to <strong>GRANT </strong>protestee&rsquo;s <em>Motion to Dismiss,</em> this election protest is consequently&nbsp;<strong>DISMISSED </strong>for failure to prosecute</p>
+</div></div></div></div><div id="if69p" class="container"><div class="row"><div id="ishzz" class="col-md-4"><div id="idkxh"><p>01-007</p>
+</div></div><div id="i820c" class="col-md-4"><div id="ibzcb"><p>RUBEN L. ALMADRO -V.- GERARDO S. ESPINA&nbsp; / LONE DISTRICT BILIRAN</p>
+</div></div><div id="ikxvi" class="col-md-4"><div id="i73ys"><p>The Tribunal Resolved to <strong>GRANT </strong>Protestee&rsquo;s Motion to Dismiss Election Protest and <strong>DISMISS </strong>the instant Election Protest for failure to make the required additional cash deposit within the prescribed time limit pursuant to Rule 33 of the 1998 HRET Rules, it appearing that Protestant Almadro failed to pay the required additional cash deposit of Two Hundred Seventy-Two Thousand Seventy-Six and 56/100 Pesos (<s>P</s>272,076.56) due on October 17, 2001..</p>
+</div></div></div></div><div id="ifsji" class="container"><div class="row"><div class="col-md-4"><div id="ihe8y"><p>01-008</p>
+</div></div><div class="col-md-4"><div id="ijohb"><p>CONSTANTINO H. NAVARRO,JR. -V.-GLENDA B. ECLEO&nbsp; / 1ST DISTRICT SURIGAO DEL NORTE</p>
+</div></div><div class="col-md-4"><div id="iqr9l"><p>The Tribunal Resolved to <strong>DISMISS </strong>the instant election protest without further proceedings, pursuant to Rule 76 of the 1998 Rules of the House of Representatives Electoral Tribunal</p>
+</div></div></div></div><div id="ipwak" class="container"><div class="row"><div class="col-md-4"><div id="itcgp"><p>01-009</p>
+</div></div><div class="col-md-4"><div id="i9oqy"><p><span style="color:black">MIGUEL ROMERO -V.-&nbsp;EMILIO MACIAS II&nbsp; /&nbsp; 2ND DISTRICT NEGROS ORIENTAL</span></p>
+</div></div><div id="ih42t" class="col-md-4"><div id="ib412"><p><span style="color:black">the Tribunal Resolved to <strong>DISMISS</strong> the instant election protest and counter-protest without further proceedings,</span>&nbsp;in a&nbsp;Resolution promulgated on February 26, 2004</p>
+</div></div></div></div><div id="ibkcr" class="container"><div class="row"><div class="col-md-4"><div id="ie57m"><p>01-010</p>
+</div></div><div class="col-md-4"><div id="icogj"><p>EDWARD THOMAS F. JOSON -V.-AURELIO M. UMALI&nbsp; / 3RD DISTRICT NUEVA ECIJA</p>
+</div></div><div class="col-md-4"><div id="iz6y4"><p>The Tribunal Resolved to <strong>DISMISS</strong> the instant election protest and counter-protest without further proceedings<span style="color:#000080">...</span>&nbsp;in Resolution promulgated on January 15, 2004</p>
+</div></div></div></div><div id="ixlph" class="container"><div class="row"><div class="col-md-4"><div id="iy93z"><p>01-011</p>
+</div></div><div class="col-md-4"><div id="i6h3e"><p>RODOLFO F. GONZALES -V.- JOSE G. SOLIS&nbsp; / 2ND DISTRICT SORSOGON</p>
+</div></div><div class="col-md-4"><div id="if9fh"><p>The Tribunal Resolved to <strong>DISMISS </strong>the Petition for <em>Quo Warranto </em>for lack of merit..&nbsp;in a Decision promulgated on February 13, 2003</p>
+</div></div></div></div><div id="iap4vf" class="container"><div class="row"><div class="col-md-4"><div id="itpykh"><p>01-012</p>
+</div></div><div class="col-md-4"><div id="ioirjb"><p>ANTONIO H. CERILLES -V.-FILOMENA S. SAN JUAN&nbsp; / 2ND&nbsp;DISTRICT ZAMBOANGA DEL SUR</p>
+</div></div><div class="col-md-4"><div id="imae88"><p>The Tribunal Resolved to <strong>NOTE </strong>the July 6, 2004 Resolution of the Supreme Court En Banc and to <strong>CONSIDER </strong>this case <strong>CLOSED </strong>and <strong>TERMINATED&nbsp;</strong>in&nbsp;Resolution&nbsp;NO. 04-140 (II) issued on September 2, 2004</p>
+</div></div></div></div><div id="i9lqb3" class="container"><div class="row"><div class="col-md-4"><div id="imjezh"><p>01-013</p>
+</div></div><div class="col-md-4"><div id="iewo2j"><p><span style="color:black">ELISA T. KHO -V.-&nbsp;FAUSTINO L. SEACHON, JR.&nbsp; / 3RD DISTRICT MASBATE</span></p>
+</div></div><div class="col-md-4"><div id="i0s10r"><p>The Tribunal Resolved to <strong>NOTE</strong> protestee&rsquo;s <em>Manifestation</em> and <strong>GRANT</strong> protestant&rsquo;s <em>Motion to Withdraw Protest</em>.&nbsp; This case is now considered <strong>CLOSED</strong> and <strong>TERMINATED</strong>.</p>
+</div></div></div></div><div id="ikse2q" class="container"><div class="row"><div id="i63pij" class="col-md-4"><div id="iv5vif"><p>01-014</p>
+</div></div><div class="col-md-4"><div id="ifznnv"><p>RODOLFO E. AGUINALDO -V.-MANUEL N. MAMBA&nbsp; &nbsp;/ 3RD DISTRICT CAGAYAN</p>
+</div></div><div class="col-md-4"><div id="in0ke7"><p>The Tribunal Resolved to <strong>NOTE </strong>the Comment and Manifestation of the counsel of deceased Petitioner and <strong>DISMISS </strong>the present Petition due to the inability of Petitioner to prosecute this case.</p>
+</div></div></div></div><div id="i1nook" class="container"><div class="row"><div class="col-md-4"><div id="iolgt8"><p>01-015</p>
+</div></div><div class="col-md-4"><div id="ihsad7"><p>NOEL M. CARI&Ntilde;O -V.- HENRY P. LANOT&nbsp; &nbsp;/ LONE DISTRICT PASIG CITY</p>
+</div></div><div class="col-md-4"><div id="ik7xbg"><p>The Tribunal Resolve to <strong>DISMISS</strong> the instant protest and <strong>AFFIRM</strong> the proclamation of protestee HENRY P. LANOT as the duly elected Representative of the Lone Legislative District of Pasig City.</p>
+</div></div></div></div><div id="i7qlaf" class="container"><div class="row"><div class="col-md-4"><div id="i5zvfq"><p>01-016</p>
+</div></div><div class="col-md-4"><div id="ibuyim"><p><span style="color:black">ALFREDO G. RUEDA -V.- SHERWIN T. GATCHALIAN&nbsp; &nbsp;/ 1ST DISTRICT VALENZUELA CITY</span></p>
+</div></div><div class="col-md-4"><div id="ix3hwr"><p>The Tribunal Resolved to: (1) <strong>NOTE</strong> respondent&rsquo;s <em>Comment/Opposition to petitioner&rsquo;s Motion for Reconsideration</em> and (2) <strong>DENY with finality</strong> petitioner&rsquo;s <em>Motion for Reconsideration</em> for lack of merit</p>
+</div></div></div></div><div id="ijb11u" class="container"><div class="row"><div class="col-md-4"><div id="iw0t0g"><p>01-017</p>
+</div></div><div class="col-md-4"><div id="iqozr5"><p><span style="color:black">ANTONIO L. TAMAYO -V.- CYNTHIA A. AGUILAR-VILLAR&nbsp; &nbsp;/ LONE DISTRICT LAS PI&Ntilde;AS CITY</span></p>
+</div></div><div class="col-md-4"><div id="ioonni"><p><span style="color:black">The Tribunal Resolved to <strong>DISMISS</strong> the instant election protest and counter-protest without further proceedings, in a Resolution promulgated on April 1, 2004</span></p>
+</div></div></div></div><div id="iiilee" class="container"><div class="row"><div class="col-md-4"><div id="i63j7w"><p>01-018</p>
+</div></div><div class="col-md-4"><div id="ixg77x"><p>JOSE&nbsp;CABOCHAN, -V.- LORNA SILVERIO&nbsp; /&nbsp; 3RD DISTRICT BULACAN</p>
+</div></div><div class="col-md-4"><div id="if5z7i"><p>The petition for quo warranto is <strong>DISMISSED,</strong> without pronouncement as to costs in a Decision promulgated on November 28, 2002</p>
+</div></div></div></div><div id="id3a1g" class="container"><div class="row"><div class="col-md-4"><div id="ikuu3e"><p>01-019</p>
+</div></div><div class="col-md-4"><div id="is6j2p"><p>ENRIQUE SENEN MONTILLA III -V.- APOLINARIO LOZADA&nbsp; &nbsp;/ 5TH DISTRICT NEGROS OCCIDENTAL</p>
+</div></div><div class="col-md-4"><div id="i7namf"><p>The Tribunal Resolved to <strong>DISMISS </strong>the instant Election Protest for failure to comply with the Order requiring augmentation and pursuant to Rule 33 of the 1998 Rules of the Tribunal</p>
+</div></div></div></div><div id="ikua4x" class="container"><div class="row"><div class="col-md-4"><div id="ich974"><p>01-020 and 01-023</p>
+</div></div><div class="col-md-4"><div id="i3ggsh"><p>BIENVENIDO &ldquo;BENNY&rdquo; ABANTE, JR. and PRUDENCIO B. JALANDONI -V.- MARK B. JIMENEZ a.k.a. MARIO BATACAN CRESPO</p>
+
+<p>ROSENDA ANN M. OCAMPO - V.-MARIO &ldquo;MARK&nbsp; JIMENEZ&rdquo; CRESPO</p>
+
+<p>/&nbsp; 6TH DISTRICT MANILA</p>
+</div></div><div class="col-md-4"><div id="ienymu"><p>The Tribunal Resolved to (1) <strong>NOTE</strong> the <em>Manifestation</em> filed on March 14, 2003 by petitioners Abante and Jalandoni that they are not filing any comment on, or opposition to, respondent&rsquo;s motion for reconsideration on the ground that it contains no arguments not already considered by this Tribunal; and (2) to <strong>DENY WITH FINALITY</strong> respondent&rsquo;s <em>Motion for Reconsideration</em> of its Decision dated March 6, 2003, there being nothing in the aforesaid motion for reconsideration that in anyway compels a modification of the ruling in these cases, the issues raised having been already considered by the Tribunal in its decision and no good reason having been shown to warrant a reconsideration of the same.</p>
+</div></div></div></div><div id="il2ob9" class="container"><div class="row"><div class="col-md-4"><div id="iziosi"><p>01-022</p>
+</div></div><div id="io4fih" class="col-md-4"><div id="iios56"><p>ALEJANDRO A. PULIDO -V.- CELIA T. LAYUS&nbsp; &nbsp;/ 2ND DISTRICT CAGAYAN</p>
+</div></div><div id="im2tjm" class="col-md-4"><div id="ij8fvk"><p>The Tribunal Resolved to <strong>DISMISS</strong> the present protest and consequently the counter-protest, in a Decision promulgated on February 5, 2004</p>
+</div></div></div></div><div id="ib2r3g" class="container"><div class="row"><div class="col-md-4"><div id="i1sirw"><p>01-024</p>
+</div></div><div class="col-md-4"><div id="itp3d5"><p>PABLO V. OCAMPO -V.- MARIO &ldquo;MARK JIMENEZ&rdquo; CRESPO&nbsp; &nbsp;/ 6TH DISTRICT MANILA</p>
+</div></div><div class="col-md-4"><div id="ixdqsc"><p>The Tribunal Resolved to <strong>DENY WITH FINALITY</strong> protestant&rsquo;s <em>Partial Motion for Reconsideration</em> of its Resolution dated March 27, 2003 and protestee&rsquo;s <em>Motion for Reconsideration</em> likewise of its Resolution dated March 27, 2003, considering the absence in the aforesaid motions for reconsideration of any ground that in anyway compels a modification of the ruling in this case, the issues raised having been already considered by the Tribunal in its decision; and to <strong>DENY</strong> likewise protestant&rsquo;s <em>Motion to Set for Oral Argument</em>.</p>
+</div></div></div></div><div id="iselrj" class="container"><div class="row"><div class="col-md-4"><div id="ijj8ei"><p>01-025</p>
+</div></div><div class="col-md-4"><div id="iwztdw"><p>DOROTEO V. SALAZAR -V.- CLAVEL A. MARTINEZ</p>
+</div></div><div class="col-md-4"><div id="i1pod3"><p>Tribunal Resolved to <strong>DISMISS</strong> the present election protest without further proceedings, for failure to attain a substantial change in the number of votes for protestant, and for failure to adduce convincing evidence in furtherance of the claim of protestant that the elections of May 14, 2001 was attended by massive irregularities.</p>
+</div></div></div></div><div id="ike1o7" class="container"><div id="igyhm7" class="row"><div id="i6xp2r" class="col-md-4"><div id="is73io"><p>01-026</p>
+</div></div><div class="col-md-4"><div id="iu3ldq"><p>JOSE ENRICO GOLEZ -V.- EDUARDO ZIALCITA&nbsp; / LONE DISTRICT PARA&Ntilde;AQUE CITY</p>
+</div></div><div class="col-md-4"><div id="iooxk3"><p>The Tribunal Resolved to <strong>DISMISS</strong> the instant election protest and counter-protest without further proceedings, including the parties&rsquo; mutual claims for damages and attorney&rsquo;s fees.</p>
+</div></div></div></div><div id="iyjm8p" class="container"><div class="row"><div class="col-md-4"><div id="iaroc5"><p>01-027</p>
+</div></div><div class="col-md-4"><div id="isavno"><p>AURORA ROSARIO A. ORETA -V,- FEDERICO S. SANDOVAL II&nbsp; &nbsp;/ LONE DISTRICT MALABON-NAVOTAS</p>
+</div></div><div class="col-md-4"><div id="ij5fou"><p>On October 21, 2002, protestant filed an <em>Amended Motion For Leave To Withdraw Protest</em> bearing her conformity, in compliance with the Order dated October 17, 2002.</p>
+
+<p><span style="color:black">Considering the foregoing, the <em>Amended Motion for Leave to Withdraw Protest</em> filed by protestant is hereby <strong>GRANTED</strong> and this election protest is <strong>DISMISSED</strong>.</span></p>
+</div></div></div></div><div id="ijm1i8" class="container"><div class="row"><div class="col-md-4"><div id="i7539l"><p>01-028</p>
+</div></div><div id="ir3091" class="col-md-4"><div id="ihj3ty"><p>ALFRED S. ROMUALDEZ -V.- TED FAILON&nbsp; &nbsp;/ 1ST DISTRICT LEYTE</p>
+</div></div><div class="col-md-4"><div id="i7l9ov"><p>The Tribunal Resolved to <strong>DISMISS </strong>the present election protest and counter-protest without further proceedings,&nbsp;for failure to attain a substantial change in the number of votes for protestant, and for failure to adduce convincing evidence in furtherance of the claim of protestant that the elections of May 14, 2001 was attended by massive irregularities.&nbsp;&nbsp; Both parties&rsquo; claim for damages, attorney&rsquo;s fees and cost of suit are also dismissed</p>
+</div></div></div></div><div id="i66b32" class="container"><div class="row"><div class="col-md-4"><div id="i8aln8"><p>01-029</p>
+</div></div><div class="col-md-4"><div id="ip3qux"><p>MARK R. GIMENEZ, EDUARDO M. GALAPON, WILFREDO O. HERMIDA</p>
+
+<p>and FRANK A. FABELLA, Petitioners, <font face="PT Serif, serif"><em>-</em>V.-</font>&nbsp;TED FAILON, Respondent.</p>
+
+<p>&nbsp; &nbsp;/ 1ST DISTRICT LEYTE</p>
+</div></div><div class="col-md-4"><div id="ieltpa"><p>The Tribunal Resolved to <strong>DISMISS</strong> this petition for <em>quo warranto</em> for being based on improper grounds. Likewise, in view of the failure of protestee Failon to adduce evidence of damages incurred by reason of this action, no award of damages can be made</p>
+</div></div></div></div><div id="iaihal" class="container"><div class="row"><div id="i4tfks" class="col-md-4"><div id="idv2gr"><p>01-030</p>
+</div></div><div class="col-md-4"><div id="i90mx7"><p>SIMEON E. GARCIA, JR. -V.-ELEUTERIO R. VIOLAGO&nbsp; &nbsp;/ 2ND DISTRICT NUEVA ECIJA</p>
+</div></div><div class="col-md-4"><div id="io4oni"><p>The Tribunal Resolved to <strong>DENY </strong>protestant GARCIA&rsquo;s <em>Motion for Reconsideration </em>of the Resolution dated January 16, 2003 dismissing, <em>inter alia</em>, the instant protest without further proceedings.</p>
+</div></div></div></div><div id="i28thn" class="container"><div class="row"><div class="col-md-4"><div id="iwf5sj"><p>01-030</p>
+</div></div><div class="col-md-4"><div id="ig7djq"><p>SIMEON E. GARCIA, JR. -V.-ELEUTERIO R. VIOLAGO&nbsp; &nbsp;/ 2ND DISTRICT NUEVA ECIJA</p>
+</div></div><div class="col-md-4"><div id="i4j1qe"><p>The Tribunal Resolved to <strong>DENY </strong>protestant GARCIA&rsquo;s <em>Motion for Reconsideration </em>of the Resolution dated January 16, 2003 dismissing, <em>inter alia</em>, the instant protest without further proceedings.</p>
+</div></div></div></div><div id="iqkzej" class="container"><div class="row"><div class="col-md-4"><div id="i4yptf"><p>01-031</p>
+</div></div><div id="i76ecw" class="col-md-4"><div id="i5tmwy"><p>RAJAM M. AKBAR -V.-<em>&nbsp;</em>ABDULGANI SALAPUDDIN&nbsp; &nbsp;/ LONE DISTRICT BASILAN</p>
+</div></div><div class="col-md-4"><div id="izgz3z"><p><span style="color:navy">Acting on Protestant&rsquo;s <em>Motion To Withdraw</em> [Election Protest], the Tribunal Resolved to GRANT the same. </span></p>
+
+<p><span style="color:navy">Protestant&rsquo;s <em>Comment</em> on Protestee&rsquo;s Motion to Dismiss with Claim for Reimbursement of Expenses is NOTED, and this case is hereby DECLARED closed and terminated.</span></p>
+</div></div></div></div><div id="ihg9sf" class="container"><div class="row"><div class="col-md-4"><div id="imd5vx"><p>01-032</p>
+</div></div><div id="i82otu" class="col-md-4"><div id="io9pmw"><p>ARISTOTLE B. BATUHAN -V.- ANTONIO V. CUENCO&nbsp; &nbsp;/ 2ND DISTRICT CEBU CITY</p>
+</div></div><div class="col-md-4"><div id="ix1xpf"><p>The Tribunal Resolved to <strong>DISMISS</strong> the instant election protest and counter-protest without further proceedings</p>
+</div></div></div></div><div id="ilohcp" class="container"><div class="row"><div class="col-md-4"><div id="ir87lj"><p>01-033</p>
+</div></div><div id="i60ute" class="col-md-4"><div id="iyxm9i"><p>ERIBERTO V. LORETO -V.- CARMEN L. CARI&nbsp; &nbsp;/ 5TH DISTRICT LEYTE</p>
+</div></div><div class="col-md-4"><div id="ix37io"><p><span style="color:black">The Tribunal Resolved to <strong>DISMISS</strong> the instant election protest and counter-protest without further proceedings</span></p>
+</div></div></div></div><div id="imnyej" class="container"><div class="row"><div class="col-md-4"><div id="ir5g29"><p>01-034</p>
+</div></div><div class="col-md-4"><div id="infe3i"><p>ANECIO R. GUADES -V.-&nbsp;REYNALDO S. UY&nbsp; &nbsp;/ 1ST DISTRICT WESTERN SAMAR</p>
+</div></div><div class="col-md-4"><div id="ic957a"><p>The Tribunal <strong>RESOLVED</strong> to <strong>DISMISS</strong> the instant petition for petitioner&rsquo;s lack of interest and/or failure to prosecute his case.</p>
+</div></div></div></div><div id="ixptf3" class="container"><div class="row"><div class="col-md-4"><div id="iq5m9t"><p>01-035</p>
+</div></div><div class="col-md-4"><div id="ihsttx"><p>MARIA PAZ G. TUAZON, -V.- REYNALDO S. UY&nbsp;&nbsp;/ 1ST DISTRICT WESTERN SAMAR</p>
+</div></div><div class="col-md-4"><div id="ilfi8w"><p>The Tribunal Resolved to <strong>DISMISS </strong>the instant election protest.&nbsp; Protestee&rsquo;s claim for damages is also dismissed, protestee having failed to provide sufficient basis for said claim</p>
+</div></div></div></div><div id="i70gkg" class="container"><div class="row"><div class="col-md-4"><div id="icbfr2"><p>01-036</p>
+</div></div><div class="col-md-4"><div id="iu5pjr"><p>MARIA PAZ G. TUAZON, -V.- REYNALDO S. UY&nbsp;&nbsp;/ 1ST DISTRICT WESTERN SAMAR</p>
+</div></div><div class="col-md-4"><div id="i0nlt6"><p><span style="color:black">the Tribunal Resolved to <strong>DISMISS </strong>the<strong> </strong>instant petition for <em>quo warranto</em><strong> </strong>for being based on improper grounds.</span></p>
+</div></div></div></div><div id="i2gqz8" class="container"><div class="row"><div class="col-md-4"><div id="ihgrdk"><p>01-037</p>
+</div></div><div class="col-md-4"><div id="iyxwgf"><p><span style="color:black">EDCEL C. LAGMAN, -V.-<em>&nbsp;</em>NANETTE C. DAZA&nbsp; &nbsp;/ 4TH DISTRICT QUEZON CITY</span></p>
+</div></div><div class="col-md-4"><div id="isdwl8"><p>&nbsp;the Tribunal Resolved to <strong>DISMISS </strong>the instant <em>Election Protest</em> for failure of Protestant Lagman to make the required initial cash deposit of <s>P</s>75,000.00 within the prescribed period provided under Rule 32 (4) of the 1988 Rules of&nbsp;HRET.</p>
+</div></div></div></div><div id="i07nrn" class="container"><div class="row"><div class="col-md-4"><div id="imbl9j"><p>01-038 and 01-040</p>
+</div></div><div id="i2mxhi" class="col-md-4"><div id="ijxe14"><p>LININDING P. PANGANDAMAN, -<em>vs.-</em>FAYSAH RPM DUMARPA</p>
+
+<p>and</p>
+
+<p>DATU FIRDAUSI I.Y. ABBAS, -<em>vs.-</em>FAYSAH RPM DUMARPA&nbsp; &nbsp;</p>
+
+<p>/&nbsp; 1ST DISTRICT LANAO DEL SUR</p>
+</div></div><div class="col-md-4"><div id="ip02f8"><p>The Tribunal Resolved: (a) to <strong>NOTE</strong> respondent&rsquo;s <em>Opposition to the Motion for Reconsideration (Filed by Petitioner Lininding P. Pangandaman)</em> filed on September 4, 2003; (b) to <strong>DENY WITH FINALITY</strong> petitioner Pangandaman&rsquo;s <em>Motion for Reconsideration</em> of the Decision promulgated on August 14, 2003, considering the absence in the aforesaid motion for reconsideration of any ground that in anyway compels a modification of the ruling in this case, the issues raised having been already considered by the Tribunal in its decision; and (c) to <strong>DENY</strong> likewise petitioner Pangandaman&rsquo;s <em>Motion to Set for Oral Argument the Motion for Reconsideration of the Decision of August 14, 2003</em>, filed on August 26, 2003.<em> </em></p>
+</div></div></div></div><div id="i80lwj" class="container"><div class="row"><div id="ia9z2i" class="col-md-4"><div id="iaaxqg"><p>01-039</p>
+</div></div><div class="col-md-4"><div id="i883fg"><p>PANGALIAN M. BALINDONG, -V.-BENASING MACARAMBON, JR.&nbsp; &nbsp;/ 2ND DISTRICT LANAO DEL SUR</p>
+</div></div><div class="col-md-4"><div id="iwu09f"><p>The Tribunal Resolved to <strong>DISMISS </strong>the instant election protest and counter-protest, and <strong>AFFIRM </strong>the proclamation of protestee Benasing O. Macarambon, Jr. as the duly elected Representative for the Second District of Lanao del Sur for having obtained a winning margin of 4,182 votes over the second placer protestant Pangalian M. Balindong.</p>
+</div></div></div></div><div id="i2xc0r" class="container"><div class="row"><div class="col-md-4"><div id="ikk8gi"><p>01-041</p>
+</div></div><div class="col-md-4"><div id="i64spu"><p>ABDULLAH S. MANGOTARA, -V.- ABDULLAH D. DIMAPORO&nbsp; &nbsp;/&nbsp; 2ND DISTRICT LANAO DEL NORTE</p>
+</div></div><div class="col-md-4"><div id="ix7bub"><p>The Tribunal Resolved to <strong>DISMISS </strong>instant election protest and counter-protest without further proceedings.</p>
+</div></div></div></div><div id="i8qb67" class="container"><div class="row"><div id="i37bn7" class="col-md-4"><div id="iq6jn2"><p>01-042</p>
+</div></div><div id="ishg3l" class="col-md-4"><div id="i2hh1r"><p>DATU ALI B. SANGKI, -V.- GUIMID P. MATALAM&nbsp; &nbsp;/ 2ND DISTRICT MAGUINDANAO</p>
+</div></div><div class="col-md-4"><div id="i3a8fl"><p>The Tribunal Resolved to <strong>DISMISS </strong>the instant protest and <strong>AFFIRM</strong> the proclamation of protestee Guimid P. Matalam as the duly elected Representative for the Second District of Maguindanao for having obtained a winning margin of <strong>12,823 </strong>over the second placer protestant Ali B. Sangki.</p>
+</div></div></div></div><div id="iyhavi" class="container"><div class="row"><div class="col-md-4"><div id="i30hju"><p>01-043</p>
+</div></div><div class="col-md-4"><div id="inbcmh"><p>PACIANO A. TRAVERO, -V.- MA. VICTORIA LOCSIN&nbsp; &nbsp;/ 4TH DISTRICT LEYTE</p>
+</div></div><div class="col-md-4"><div id="ilqfoq"><p>The Tribunal Resolved to <strong>DISMISS</strong> the Petition, considering that the allegations stated therein are not proper grounds for a Petition for <em>Quo Warranto</em> against a Member of the House of Representatives under Section 253 of the Omnibus Election Code&nbsp;and Rule 17 of the HRET Rules, and on the ground that the Petition was filed late.</p>
+</div></div></div></div>
+            </div>
+            </div>
+</div>
+
+			
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="bg-transparent border-0">
+			<footer id="footer" draggable="true" data-highlightable="1" class="dark"><div id="ihdn" draggable="true" data-highlightable="1" class="row d-flex justify-content-between m-0"><!-- Footer Widgets
+============================================= --><div id="i0s2" draggable="true" data-highlightable="1" class="col-lg-4 px-5 pb-4"><div id="i1xk" draggable="true" data-highlightable="1" class="widget"><div id="ie1k" draggable="true" data-highlightable="1" class="contact-info-container"><h5 id="irmi" draggable="true" data-highlightable="1" class="text-white mb-4">CONTACT INFORMATION
+		  </h5><hr id="iaac" draggable="true" data-highlightable="1" class="contact-info"/><div id="ilkwh" draggable="true" data-highlightable="1" class="contact-info"><div id="i3qwk" draggable="true" data-highlightable="1" class="d-flex mb-4"><i id="i11ax" draggable="true" data-highlightable="1" class="bi-geo-alt-fill me-3 fs-4 text-white">
+			  </i><div id="ie301" draggable="true" data-highlightable="1"><span id="ix9q7" draggable="true" data-highlightable="1">Rm. 201, 2nd Floor, Right Wing, Electoral Tribunal
+				  Building</span><br id="iduch" draggable="true" data-highlightable="1"/><span id="isbei" draggable="true" data-highlightable="1">Commonwealth Avenue, Quezon City (ISJRMS)</span></div></div><div id="i7fj9" draggable="true" data-highlightable="1" class="d-flex mb-4"><i id="ijwgg" draggable="true" data-highlightable="1" class="bi-telephone-fill me-3 fs-4 text-white">
+			  </i><span id="isvvt" draggable="true" data-highlightable="1"><br></span><div id="iccaz"><p>www.hret.gov.ph</p>
+</div></div><div id="iio54" draggable="true" data-highlightable="1" class="d-flex mb-3"><a id="ixi6v" href="mailto:isjrms@hret.gov.ph?subject=Hello!"><i id="ihi1a" draggable="true" data-highlightable="1" class="bi-envelope-fill me-3 fs-4 text-white">
+			  </i></a><div id="ieqek"><p>isjrms@hret.gov.ph&nbsp;</p>
+</div></div></div></div></div></div><div id="ixjgv" draggable="true" data-highlightable="1" class="col-lg-3 px-5 pb-5"><div id="ifwgj" draggable="true" data-highlightable="1" class="widget widget_links"><ul id="iiblz" draggable="true" data-highlightable="1"><li id="ieygd" draggable="true" data-highlightable="1"><a id="i509n" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/home"><div id="ism1h" draggable="true" data-highlightable="1" class="gjs-selected">HOME
+			  </div></a></li><li id="i915s" draggable="true" data-highlightable="1"><a id="in7bs" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/about-us"><div id="ig38f" draggable="true" data-highlightable="1">ABOUT US
+			  </div></a></li><li id="iqw2p" draggable="true" data-highlightable="1"><a id="i8tep" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/the-members-of-the-tribunal"><div id="iao3g" draggable="true" data-highlightable="1">MEMBERS
+			  </div></a></li><li id="i47l7" draggable="true" data-highlightable="1"><a id="in8c7" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/news"><div id="idadi" draggable="true" data-highlightable="1">NEWS &amp; UPDATES
+			  </div></a></li><li id="iii7v" draggable="true" data-highlightable="1"><a id="i2ldg" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/cases"><div id="ioc62" draggable="true" data-highlightable="1">CASES
+			  </div></a></li><li id="i9t1j" draggable="true" data-highlightable="1"><a id="ipamh" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/hret-rules"><div id="i2bnj" draggable="true" data-highlightable="1">RULES
+			  </div></a></li><li id="i268d" draggable="true" data-highlightable="1"><a id="ih8xx" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/contact-us"><div id="i74cx" draggable="true" data-highlightable="1">CONTACT US
+			  </div></a></li></ul></div></div><div id="iv9zm" draggable="true" data-highlightable="1" class="col-lg-5 p-0"><iframe frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.3418263216095!2d121.04766928080524!3d14.693251349201182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b097520b7889%3A0xfdf74dc6e682c5f5!2sHouse%20of%20Representatives%20Electoral%20Tribunal!5e0!3m2!1sen!2sph!4v1744332255421!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="i4ocyl"></iframe></div></div><!-- Copyrights
+============================================= --><div id="copyrights" draggable="true" data-highlightable="1"><div id="i3bvj" draggable="true" data-highlightable="1" class="container"><div id="igkoz" draggable="true" data-highlightable="1" class="row col-mb-30"><div id="iptbi" draggable="true" data-highlightable="1" class="col-md-6 text-center text-md-start">
+		  © 2025 House of Representatives Electoral Tribunal. 
+		  <br id="iinfu" draggable="true" data-highlightable="1"/><div id="im3lf" draggable="true" data-highlightable="1" class="copyright-links"><a id="i6bv6" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/terms-of-use">Terms of Use</a> / 
+			<a id="irrgu" draggable="true" data-highlightable="1" href="https://www.hret.gov.ph/privacy-policy">Privacy Policy</a></div></div><div id="is96l" draggable="true" data-highlightable="1" class="col-md-6 text-center text-md-end"><div id="iklg5" draggable="true" data-highlightable="1" class="d-flex justify-content-center justify-content-md-end mb-2"><a id="iqnri" draggable="true" data-highlightable="1" href="#" class="social-icon border-transparent si-small h-bg-facebook"><i id="ir2fg" draggable="true" data-highlightable="1" class="fa-brands fa-facebook-f">
+			  </i><i id="im3vl" draggable="true" data-highlightable="1" class="fa-brands fa-facebook-f">
+			  </i></a><a id="icdjz" draggable="true" data-highlightable="1" href="#" class="social-icon border-transparent si-small h-bg-x-twitter"><i id="ii9ri" draggable="true" data-highlightable="1" class="fa-brands fa-x-twitter">
+			  </i><i id="ifpm8" draggable="true" data-highlightable="1" class="fa-brands fa-x-twitter">
+			  </i></a><a id="ia954" draggable="true" data-highlightable="1" href="#" class="social-icon border-transparent si-small h-bg-instagram tooltip-component "><i id="i5pei" draggable="true" data-highlightable="1" class="fa-brands fa-instagram">
+			  </i><i id="ieecd" draggable="true" data-highlightable="1" class="fa-brands fa-instagram">
+			  </i></a><a id="i46fx" draggable="true" data-highlightable="1" href="#" class="social-icon border-transparent si-small me-0 h-bg-linkedin"><i id="i4cyq" draggable="true" data-highlightable="1" class="fa-brands fa-linkedin">
+			  </i><i id="i20gb" draggable="true" data-highlightable="1" class="fa-brands fa-linkedin">
+			  </i></a></div>
+		  Designed and Developed by Webfocus Solutions, Inc
+		</div></div></div></div></footer>
+
+
+<!-- Subscribe Form modal
+============================================= -->
+
+<div class="modal1 mfp-hide" id="modal-subscribe">
+	<div class="card mx-auto" style="max-width: 540px;">
+		<div class="card-body" style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.3)), url('images/misc/subscribe.jpeg') no-repeat center center / cover; padding: 60px 50px; border: 12px solid #FFF">
+			<div class="d-flex justify-content-between">
+				<h2 class="card-title text-white font-body">Subscribe to our Newsletter!</h2>
+			</div>
+			<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nisi beatae temporibus nobis optio eos?</p>
+
+			<div class="subscribe-widget" data-loader="button">
+
+				<div class="widget-subscribe-form-result"></div>
+
+				<form action="https://www.hret.gov.ph/subscribe" role="form" method="post" class="mb-0">
+					<input type="hidden" name="_token" value="vRVTGtHlFX4MzTxIODu6jEuJ2rXQyPK7a0Y0nPpj" autocomplete="off">					<label for="subscriber_name" class="text-light">Name <span>*</span></label>
+					<input type="text" name="name" id="subscriber_name" class="form-control required not-dark" placeholder="your name" required>
+
+					<label for="subscriber_email" class="text-light">Email Address <span>*</span></label>
+					<input type="email" name="email" id="subscriber_email" class="form-control required not-dark" placeholder="name@email.com" required>
+
+					<button class="btn rounded btn-danger py-2 mt-3 w-100 text-uppercase ls1 fw-semibold" type="submit">Subscribe</button>
+				</form>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Subscribe form end modal -->
+
+<div style="position: fixed; z-index: 1000; width: 164px; height: 98px; bottom: 15px; left: 15px;">
+<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=hret.gov.ph','SiteLock','width=600,height=600,left=160,top=170');" >
+    <img class="img-fluid" alt="SiteLock" title="SiteLock" src="https://shield.sitelock.com/shield/hret.gov.ph" /></a></a></div>		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	
+
+	<!-- JavaScripts
+============================================= -->
+<script src="https://www.hret.gov.ph/theme/js/jquery.js"></script>
+<script src="https://www.hret.gov.ph/theme/js/slick.js"></script>
+<script src="https://www.hret.gov.ph/theme/js/plugins.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        if(localStorage.getItem('popState') != 'shown'){
+            $('#popupPrivacy').delay(1000).fadeIn();
+        }
+    });
+
+    $('#cookieAcceptBarConfirm').click(function() // You are clicking the close button
+    {
+        $('#popupPrivacy').fadeOut(); // Now the pop up is hidden.
+        localStorage.setItem('popState','shown');
+    });
+</script>
+
+<!-- Footer Scripts
+============================================= -->
+<script type="text/javascript">
+        var bannerFxIn = "bounceIn";
+        var bannerFxOut = "bounceOut";
+        var autoPlayTimeout = "4000";
+    </script>
+
+
+<script type="text/javascript">
+    var bannerCaptionFxIn = "fadeInUp";
+    var bannerID = "banner";
+</script>
+<script src="https://www.hret.gov.ph/theme/js/slick.extension.js"></script>
+<script src="https://www.hret.gov.ph/theme/js/cookiealert.js"></script>
+<script src="https://www.hret.gov.ph/theme/js/functions.js"></script>
+<script src="https://www.hret.gov.ph/js/notify.js"></script>
+
+<script>
+	jQuery(document).ready( function($){
+		function modeSwitcher( elementCheck, elementParent ) {
+			if( elementCheck.filter(':checked').length > 0 ) {
+				elementParent.addClass('dark');
+				$('.mode-switcher').toggleClass('pts-switch-active');
+			} else {
+				elementParent.removeClass('dark');
+				$('.mode-switcher').toggleClass('pts-switch-active', false);
+			}
+		}
+
+		$('.pts-switcher').each( function(){
+			var element = $(this),
+				elementCheck = element.find(':checkbox'),
+				elementParent = $('body');
+
+			modeSwitcher( elementCheck, elementParent );
+
+			elementCheck.on( 'change', function(){
+				modeSwitcher( elementCheck, elementParent );
+			});
+		});
+	});
+</script>
+
+
+
+<script>
+    $(".show_hide_password a").on('click', function(event) {
+        event.preventDefault();
+        if($(this).parent().parent().siblings('input').attr("type") == "text"){
+            $(this).parent().parent().siblings('input').attr('type', 'password');
+            $(this).children('i').addClass( "icon-eye-slash" );
+            $(this).children('i').removeClass( "icon-eye" );
+        }else if($(this).parent().parent().siblings('input').attr("type") == "password"){
+            $(this).parent().parent().siblings('input').attr('type', 'text');
+            $(this).children('i').removeClass( "icon-eye-slash" );
+            $(this).children('i').addClass( "icon-eye" );
+        }
+    });
+
+    function top_remove_product(id){
+        $('#top-product-id').val(id);
+        $('#remove-top-product').submit();
+    }
+</script>
+
+<script>
+    // Select all elements with the class "no-paste"
+    var noPasteElements = document.querySelectorAll('.no-paste');
+
+    // Loop through each element and attach event listener
+    noPasteElements.forEach(function(element) {
+        element.addEventListener('paste', function(event) {
+            event.preventDefault();
+        });
+    });
+
+    // Select all elements with the class "numbers-only"
+    var numbersOnlyElements = document.querySelectorAll('.numbers-only');
+
+    // Loop through each element and attach event listener
+    numbersOnlyElements.forEach(function(element) {
+        element.addEventListener('paste', function(event) {
+            event.preventDefault();
+        });
+
+        element.addEventListener('input', function(event) {
+            this.value = this.value.replace(/\D/g, '');
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#pageModal').modal('show');
+
+        if(localStorage.getItem('popState') != 'shown'){
+            $('#popupPrivacy').delay(1000).fadeIn();
+        }
+    });
+
+    $('#cookieAcceptBarConfirm').click(function() // You are clicking the close button
+    {
+        $('#popupPrivacy').fadeOut(); // Now the pop up is hidden.
+        localStorage.setItem('popState','shown');
+    });
+</script>
+
+
+<script>
+    function getEmail(){
+        var email = $('#widget-subscribe-form-email').val(); // Get the value of the email input field
+        $('#subscriber_email').val(email); // Set the value of the email input field in the modal form
+    }
+</script>
+
+
+
+	
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HR35693H16"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-HR35693H16');
+	</script>
+
+</body>
+</html>

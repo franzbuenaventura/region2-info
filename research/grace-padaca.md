@@ -249,7 +249,19 @@ The conviction rested on **negligence-based malversation** (allowing an NGO to h
 - R34. GMA News (Kimberly Jane Tan) — "Dy can't sit as Isabela governor yet, Comelec says" (MR pending; Macalintal's career bet; Sardillo's 50-ballot handwriting clarification): https://www.gmanetwork.com/news/topstories/regions/179602/dy-can-t-sit-as-isabela-governor-yet-comelec-says/story
 - R35. GMA News — "Comelec unseats Padaca as governor of Isabela" (Dec 2009; "immediately vacate" order; LP "vendetta politics" statement): https://www.gmanetwork.com/news/topstories/regions/178814/comelec-unseats-padaca-as-governor-of-isabela/story
 - R36. Inquirer — "Ex-Isabela Gov. Padaca appointed to Comelec" (career profile; her "politics was behind the arrest warrant" quote): https://newsinfo.inquirer.net/281434/padaca-named-comelec-commissioner
-- R38. Rappler — "Padaca faces legal issues — Comelec boss" (Brillantes: candidate-ban issue; 2010 protest "abandoned" by accepting appointment): https://www.rappler.com/philippines/13483-padaca-faces-legal-issues-comelec-boss
+- R38. Rappler — "Padaca faces legal issues — Comelec boss" (Brillantes on the candidate-ban issue and her 2010 protest being "abandoned"): https://www.rappler.com/philippines/13483-padaca-faces-legal-issues-comelec-boss
+
+**Third-pass sources (September 2026)**
+- R37. HRET official case index — Case No. 01-001, Padaca v. Dy III: "DISMISS the protest for lack of merit": https://www.hret.gov.ph/case-2001-2004
+- R39. GMA News — "Ex-Isabela gov Padaca says Sandigan overturned her graft conviction" (June 2020 MR granted, acquittal wording, HDO lifted, bail returned): https://www.gmanetwork.com/news/topstories/nation/756303/ex-isabela-gov-padaca-says-sandigan-overturned-her-graft-conviction
+- R39b. GMA News — "Sandigan acquits Padaca of graft but upholds malversation conviction" (32-page resolution detail): https://www.gmanetwork.com/news/topstories/nation/756404/sandigan-acquits-padaca-of-graft-but-upholds-malversation-conviction/story
+- R40. Philstar (Elizabeth Marcelo) — "Padaca's conviction for malversation upheld" (32-page June 23, 2020 resolution analysis; term shortened to 14 yrs max): https://www.philstar.com/nation/2020/09/01/2039193/padacas-conviction-malversation-upheld
+- R41. Inquirer (Katrina Hallare) — "Padaca says Sandigan reversed her graft conviction for misuse of agri funds" (links the primary PDF): https://newsinfo.inquirer.net/1337402/padaca-says-sandigan-reversed-her-graft-conviction-for-misuse-of-agri-funds
+- R41b. Primary document — Sandiganbayan Third Division, People v. Padaca et al., SB-11-CRM-0282-0283, Resolution June 23, 2020 (PDF): https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf
+- R42. Rappler (Michael Bueza) — "Palace unsure about Padaca's reappointment to Comelec" (ad interim bypass; Respicio as complainant; Aquino paid bail personally; immunity denied): https://www.rappler.com/philippines/62708-padaca-status-appointment-comelec
+- R43. Philstar (Sheila Crisostomo) — "Padaca on way out of Comelec?" (Jimenez: appointment expired June 14, 2014): https://www.philstar.com/headlines/2014/07/08/1343681/padaca-way-out-comelec
+- R44. Haggai International (Zoë Webb) — "Grace in the Philippines: Leading with Disability, Faith, and Influence" (Mar 25, 2026; current activities, Haggai Metro Manila chapter president, LWD advocacy, John 9:3 account): https://www.haggai-international.org/grace-in-the-philippines-leading-with-disability-faith-and-influence/
+- R45. SAGE — "Attrition as a bottom-up pathway to subnational democratization" (International Political Science Review, 2021; Isabela alternation as case study; paywalled): https://journals.sagepub.com/doi/10.1177/01925121211019269
 
 ---
 
@@ -326,7 +338,51 @@ Fresh contemporaneous reporting adds two episodes the dossier previously lacked.
 
 ---
 
-## 18. Open Questions / To Verify with Primary Sources
+## 19. Third-Pass Findings (September 2026): Acquittal Details, Comelec Exit, Current Life
+
+### 19.1 The graft acquittal — full detail (upgrades Section 9.3)
+The June 23, 2020 Sandiganbayan resolution (32 pages, Third Division, Cabotaje-Tang + Fernandez + Moreno) — the same resolution that upheld the malversation conviction — **fully acquitted her of the graft charge for "failure of the prosecution to prove her guilt beyond reasonable doubt"** [R39][R40][R41]:
+- The court agreed the **EDWINLFI selection did not require public bidding** ("the transaction did not involve procurement") — the theory underpinning RA 3019 §3(e) collapsed [R40].
+- The **hold departure order was lifted** and her bail bond ordered returned (Dec 2, 2019 motion for reconsideration granted) [R39][R41].
+- The **primary document is public**: *People v. Padaca, et al.*, SB-11-CRM-0282-0283, Resolution of June 23, 2020 — linked from her Inquirer interview [R41] (site's SSL config blocked automated capture; accessible via browser).
+- Her reaction: *"Sa totoo lang, hindi na ako umasa noon na babaligtarin pa ng mga judge ang desisyon nila laban sa akin…"* [R39][R41].
+- The malversation conviction therefore stands **unappealed beyond the Sandiganbayan** as of September 2026 — no Court of Appeals or Supreme Court ruling on it was found in this pass either; the residual sentence is 12–14 years, ₱18M fine + ₱18M restitution, perpetual disqualification [R40].
+
+### 19.2 The Comelec end — bypass mechanics (upgrades Section 10)
+- Her appointment was an **ad interim appointment**; the **Commission on Appointments bypassed her in June 2014** — her first scheduled CA hearing (June 4) she left before facing the panel due to an "urgent meeting"; the rescheduled June 10 hearing **was cancelled by the CA itself with no explanation given** [R42].
+- **Comelec spokesperson James Jimenez (July 2014):** her interim appointment **expired when Congress went on recess June 14**; "Malacañang has not renewed her appointment… She is not reporting for work" [R43]. Malacañang (PCOO Sec. Coloma) confirmed July 7, 2014 that no new appointment had been issued and Aquino had made no final decision [R42].
+- **The complaint's originator:** former Isabela Rep./Vice Gov. **Santiago Respicio** filed the ₱25M graft/malversation charge with the Sandiganbayan in 2011 **and opposed her Comelec appointment** [R42] — the dossier previously named only "the Ombudsman"; Respicio is the political origin of the case.
+- Timeline nuance: appointed **October 2, 2012** (announced); the outstanding warrant was **enforced two days later**; she surrendered, and **it was later revealed that President Aquino paid her ₱70,000 bail with his personal money** [R42] — this is the documented basis beneath Wikipedia's "bailed by her ally, President Aquino" phrasing (see matrix row 20).
+- She **pleaded not guilty on October 30, 2012**; her request for **immunity from suit as a Comelec commissioner was denied by the Sandiganbayan** (motion "junked… anew") [R42].
+- Prosecutors claimed she had "managed to evade arrest" in 2012; she said "the police simply never arrested her" [R42].
+
+### 19.3 Current activities (post-politics, 2025–2026)
+- **Haggai International feature (March 25, 2026)** — the most recent first-person profile found: she is now **"a self-employed leader and speaker, serving as president of the Haggai Metro Manila Chapter"** of the Christian leadership-training network [R44].
+- She attended the **Haggai Leader Experience after her 2010 defeat** (having been invited repeatedly as governor but unable to leave the province), describing it as "grace upon grace," redirecting her "away from anger and depression" [R44].
+- Her current focus: championing **Leaders With Disability (LWD)** within Haggai — convening a **national seminar in April 2025 (Pasay City) with 25 emerging leaders, 15 of them LWD**; mentoring on ethical leadership and good governance [R44].
+- Faith detail from the same source: at 17 she encountered John 9:3 ("disability not as punishment but a stage for God's work") via the first Bible she read — the identity reframe she credits before entering broadcasting [R44]. (Faith framing from an avowedly religious organization; treat as her own account as published there.)
+- No source documents any 2025 electoral activity — consistent with Open Question #5.
+
+### 19.4 The 2001 HRET case — tribunal's own record (upgrades Section 4)
+The HRET's official case index confirms the protest as **HRET Case No. 01-001, Maria Gracia Cielo M. Padaca v. Faustino G. Dy III (3rd District, Isabela)**: "The Tribunal Resolved to **DISMISS** the protest for lack of merit and **DECLARE** Protestee Faustino Dy III to be the duly elected Representative" [R37]. This is the tribunal's own characterization — "dismissed for lack of merit," stronger than the neutral "declared Dy winner" framing in earlier sections.
+
+### 19.5 Academic treatment
+- The 2021 SAGE journal article *"Attrition as a bottom-up pathway to subnational democratization"* (International Political Science Review) analyzes the Isabela alternation as a case of dynasty erosion through repeated electoral attrition — the Padaca 2004/2007 wins and 2010 reversal are its case material [R45]. (Paywalled; abstract confirms framing. Useful citation for the Region 2 project's "dynasty vulnerability" analysis; full text behind paywall.)
+
+**Added cross-reference matrix rows:**
+- 31. Graft acquittal wording ("failure to prove guilt beyond reasonable doubt"), HDO lifted, bail returned — R39+R40+R41 (multi-source + primary PDF linked)
+- 32. CA bypass mechanics: ad interim appointment, June 2014, hearing cancelled without explanation — R42+R43 (multi-source)
+- 33. Santiago Respicio = original complainant (2011) and appointment oppositor — R42 (single-source, named on record)
+- 34. Aquino personally paid her ₱70K bail — R42 (Rappler reporting; consistent with matrix row 20's resolution)
+- 35. Immunity-from-suit motion denied — R42
+- 36. Current: Haggai Metro Manila chapter president, LWD advocacy, April 2025 Pasay seminar — R44 (single-source, org's own profile)
+- 37. HRET 01-001 "dismissed for lack of merit" — R37 (tribunal's official index)
+
+**Added references:** see the "Third-pass" block in Section 14.
+
+---
+
+## 20. Open Questions / To Verify with Primary Sources
 
 1. **Final appellate status of the malversation conviction** (post-Nov 2020 Sandiganbayan resolution). Check Court of Appeals docket / SC e-library.
 2. **Disposition of her 2007 annulment appeal** (Comelec en banc / SC) — she served out the term, but the legal disposition was not documented in dossier sources.
