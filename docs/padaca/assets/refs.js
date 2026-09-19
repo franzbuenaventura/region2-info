@@ -74,7 +74,7 @@ window.PADACA_REFS = [
 },
 {
 "id": "R6",
-"title": "US State Dept — International Women of Courage (2007 honoree list):  (Wikipedia's original ABS-CBN conferral link is dead)",
+"title": "US State Dept archive — IWOC portal (note: the State Dept's official 2007 honoree list does NOT include Padaca; award claim is Philippine-press-documented only — see dossier Open Q4)",
 "url": "https://2009-2017.state.gov/s/ocr/woc/",
 "cat": "Government source",
 "icon": "🏛️",
@@ -346,7 +346,7 @@ window.PADACA_REFS = [
 },
 {
 "id": "R41b",
-"title": "Primary document — Sandiganbayan Third Division, People v. Padaca et al., SB-11-CRM-0282-0283, Resolution June 23, 2020 (PDF)",
+"title": "Primary document — Sandiganbayan Third Division, People v. Padaca et al., SB-II-CRM-0282-0283, Resolution June 23, 2020 (PDF; live URL 404 after site migration — archived copy in research/sources-snapshot/ file 48 via Wayback 2021-05-17)",
 "url": "https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf",
 "cat": "Other",
 "icon": "🔗",
@@ -383,5 +383,9 @@ window.PADACA_REFS = [
 "cat": "Academic paper",
 "icon": "📚",
 "snapshot": "05_journals.sagepub.com_doi_10.1177_01925121211019269.md"
-}
+},
+    { "id": "R46", "title": "VERA Files (Booma Cruz) — \"Padaca struggles to keep faith in government\" (Nov 11, 2010; bogador livelihoods, 44K→17K erosion, \"close the faucet\" jueteng quote, 3,438-vote 2010 loss, 40-year Dy rule)", "url": "https://verafiles.org/articles/padaca-struggles-to-keep-faith-in-government-2", "cat": "News report", "icon": "📰", "snapshot": null },
+    { "id": "R47", "title": "Philstar (Raymund Catindig) — \"Padaca loses allies\" (Mar 30, 2016; Uy/Cumigad defections to Dy III's NPC; \"I'm sad but I'm not mad\")", "url": "https://www.philstar.com/nation/2016/03/30/1567694/padaca-loses-allies", "cat": "News report", "icon": "📰", "snapshot": null },
+    { "id": "R49", "title": "GMA News (Karljohn Castro) — \"Isabela's Dy wants Padaca to inhibit from hearing poll protest case\" (Mar 20, 2013; oath as Comelec commissioner Oct 8, 2012; 2010 protest abandonment motion)", "url": "https://www.gmanetwork.com/news/topstories/regions/300153/isabela-s-dy-wants-padaca-to-inhibit-from-hearing-poll-protest-case/story/", "cat": "News report", "icon": "📰", "snapshot": null },
+    { "id": "R50", "title": "GMA News — \"Dy scion beats Padaca in race for Isabela governor\" (May 14, 2010; Comelec official tally 274,757 vs 271,319 = 3,438)", "url": "https://www.gmanetwork.com/news/topstories/regions/190914/dy-scion-beats-padaca-in-race-for-isabela-governor/story", "cat": "News report", "icon": "📰", "snapshot": null }
 ];

@@ -2,7 +2,7 @@
 
 **Captured:** 2026-09-18 · **Purpose:** point-in-time archive of every URL cited in `../grace-padaca.md`, so the dossier's evidence survives link rot, paywalling, or editorial changes at the source.
 
-**Result: 45 of 47 sources captured** (2 gaps noted below). Raw HTML for direct-fetchable sites (preserves original markup), markdown for sites that block raw fetches (captured via server-side text extraction), Wayback copies where available.
+**Result: 46 of 47 sources captured** (R41b Sandiganbayan resolution added 2026-09-19 via Wayback as file 48 + text extract 48b; 1 remaining gap below). Raw HTML for direct-fetchable sites (preserves original markup), markdown for sites that block raw fetches (captured via server-side text extraction), Wayback copies where available.
 
 ## Contents
 - **01_www.gmanews.tv_video_27703_iWitness-Si-GOB-at-ang-mga-BUGADOR.html** — 150KB · sha256:717fe64beecdab91 · http://www.gmanews.tv/video/27703/iWitness-Si-GOB-at-ang-mga-BUGADOR
@@ -50,16 +50,18 @@
 - **45_www.rappler.com_philippines_5832-arrest-warrant-vs-grace-padaca.html** — 390KB · sha256:dbb65971b7e942d7 · https://www.rappler.com/philippines/5832-arrest-warrant-vs-grace-padaca
 - **46_www.rappler.com_philippines_62708-padaca-status-appointment-comelec.html** — 400KB · sha256:fcd5686aeafacfb4 · https://www.rappler.com/philippines/62708-padaca-status-appointment-comelec
 - **47_www.rappler.com_philippines_elections_133007-political-clans-dominate-north-luzon-polls.html** — 403KB · sha256:9659a817a6a4ee38 · https://www.rappler.com/philippines/elections/133007-political-clans-dominate-north-luzon-polls/
+- **48_web.archive.org_web_20211117004717_sb.judiciary.gov.ph_RESOLUTIONS_2020_SB-11-CRM-0282-0283_People_vs_Padaca_Resolution_June_23_2020.pdf** — 22344KB · sha256:3f0c184ddc0111fe · https://web.archive.org/web/20211117004717/https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf (Wayback capture of the dead R41b primary — Sandiganbayan Third Division resolution of June 23, 2020; 32 pp., text-extracted and verified 2026-09-19)
+- **48b_web.archive.org_web_20211117004717_sb.judiciary.gov.ph_SB-II-CRM-0282-0283_People_vs_Padaca_Resolution_June_23_2020.txt** — 59KB · sha256:1c9503089c3aab66 · text layer of file 48 (extracted via pypdf 6.19.0, 2026-09-19; docket caption reads SB-II-CRM-0282/0283, Third Division, Cabotaje-Tang PJ — full resolution text for citation without PDF tooling)
 - ❌ https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf — wayback-failed: HTTP Error 429: Too Many Requests
 - ❌ https://web.senate.gov.ph/press_release/2008/0801_pangilinan2.asp — wayback-failed: HTTP Error 429: Too Many Requests
 
 
 ## Gaps (2)
-- https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf — wayback-failed: HTTP Error 429: Too Many Requests
+- ~~https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf~~ RESOLVED 2026-09-19: Wayback capture 20210517150436 / 20211117004717 exists (application/pdf, HTTP 200); stored as file 48 above.
 - https://web.senate.gov.ph/press_release/2008/0801_pangilinan2.asp — wayback-failed: HTTP Error 429: Too Many Requests
 
 ## Notes
 - HTML files are the exact bytes served on capture date (including site nav/chrome).
 - `.md` files were captured as text because the site blocks non-browser fetches; content is the article body.
-- The Sandiganbayan PDF (SB-11-CRM-0282-0283) and the 2008 Senate press release could not be captured (WAF + Wayback rate-limit); both URLs are cited in the dossier with their content paraphrased from contemporaneous reporting.
+- The Sandiganbayan PDF (SB-11-CRM-0282-0283 = SB-II-CRM-0282-0283, the June 23, 2020 resolution) was captured 2026-09-19 via the Wayback Machine (capture 2021-05-17, application/pdf, 200) as file 48 — 32 pages, text-verified against the press accounts. The 2008 Senate press release could not be captured (WAF + Wayback rate-limit); its URL is cited in the dossier with content paraphrased from contemporaneous reporting, and Wayback holds a 2025 capture (timestamp 20250927070707).
 - To verify a file: `shasum -a 256 <file>` and compare against the manifest.
