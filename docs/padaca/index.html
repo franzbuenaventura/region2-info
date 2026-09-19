@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grace Padaca — The Woman Who Freed Isabela</title>
+<meta name="description" content="The story of Grace Padaca: polio survivor, broadcaster, and the governor who ended a four-decade dynasty in Isabela, Philippines. Fully sourced.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preload" as="image" href="assets/portrait.png">
+<style>
+:root{
+  --bg:#0d1321; --bg2:#141c2f; --panel:#1a2338; --line:#26324e;
+  --text:#eef2f9; --dim:#93a3bd; --faint:#5d6f8f;
+  --gold:#f0b429; --teal:#2dd4bf; --red:#e5484d; --purple:#a78bfa;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:16px/1.65 Georgia,'Times New Roman',serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+a{color:var(--teal)}
+.serif{font-family:Georgia,serif}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:50;background:rgba(13,19,33,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:8px;height:56px}
+nav .brand{font-family:system-ui,sans-serif;font-weight:700;font-size:15px;letter-spacing:.02em;color:var(--text);text-decoration:none;margin-right:auto}
+nav .brand-dot{color:var(--gold)}
+nav a.navlink{font-family:system-ui,sans-serif;font-size:13.5px;color:var(--dim);text-decoration:none;padding:6px 12px;border-radius:8px;transition:.15s}
+nav a.navlink:hover,nav a.navlink.active{color:var(--text);background:var(--bg2)}
+
+/* HERO */
+header.hero{padding:72px 0 48px;text-align:center;background:
+  radial-gradient(700px 340px at 50% -60px, rgba(240,180,41,.13), transparent 70%),
+  radial-gradient(520px 300px at 12% 30%, rgba(45,212,191,.07), transparent 70%)}
+.hero .kicker{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.hero h1{font-size:clamp(40px,7vw,68px);line-height:1.05;font-weight:400;letter-spacing:-.01em}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero .sub{max-width:560px;margin:22px auto 0;color:var(--dim);font-size:clamp(17px,2.4vw,20px);font-style:italic}
+.portrait-wrap{width:min(340px,72vw);margin:40px auto 0;position:relative}
+.portrait-wrap img{width:100%;border-radius:14px;display:block;border:1px solid var(--line);
+  box-shadow:0 24px 70px -18px rgba(0,0,0,.65)}
+.portrait-wrap::after{content:"";position:absolute;inset:0;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+.hero-caption{font-family:system-ui,sans-serif;font-size:12px;color:var(--faint);margin-top:12px}
+
+/* FACT STRIP */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:52px 0 0}
+.facts div{background:var(--bg2);padding:18px 14px;text-align:center}
+.facts b{display:block;font-family:system-ui,sans-serif;font-size:22px;color:var(--gold);font-weight:600}
+.facts span{font-family:system-ui,sans-serif;font-size:12px;color:var(--dim);letter-spacing:.04em;text-transform:uppercase}
+
+/* CHAPTERS */
+main{padding-bottom:40px}
+.chapter{padding:58px 0 8px}
+.chapter .no{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase;margin-bottom:10px}
+.chapter h2{font-size:clamp(26px,4vw,36px);font-weight:400;line-height:1.2;margin-bottom:22px}
+.chapter p{color:#c9d4e5;margin-bottom:18px;font-size:17.5px}
+.chapter p.lead{font-size:20px;color:var(--text)}
+.chapter .lede::first-letter{font-size:54px;float:left;line-height:.85;padding:6px 10px 0 0;color:var(--gold);font-style:italic}
+.pull{border-left:3px solid var(--gold);padding:6px 0 6px 22px;margin:26px 0;font-size:20px;font-style:italic;color:var(--text);line-height:1.5}
+.pull cite{display:block;font-style:normal;font-family:system-ui,sans-serif;font-size:12.5px;color:var(--dim);margin-top:10px;letter-spacing:.04em}
+.cite{font-family:system-ui,sans-serif;font-size:.68em;vertical-align:super;color:var(--faint);cursor:pointer;border:none;background:none;padding:0 1px;transition:.15s}
+.cite:hover{color:var(--teal)}
+.imgfigure{margin:30px 0}
+.imgfigure img{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+.imgfigure figcaption{font-family:system-ui,sans-serif;font-size:12px;color:var(--faint);margin-top:9px}
+.imgfigure.small{max-width:420px;margin:30px auto}
+.two{display:grid;grid-template-columns:1fr 260px;gap:34px;align-items:start}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+
+/* VERDICT / TIMELINE */
+.verdicts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:28px 0}
+.verdict{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:18px}
+.verdict h4{font-family:system-ui,sans-serif;font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.verdict p{font-size:14.5px;color:var(--dim);margin:0}
+.v-gold h4{color:var(--gold)} .v-red h4{color:var(--red)} .v-teal h4{color:var(--teal)} .v-purple h4{color:var(--purple)}
+.callout{background:rgba(240,180,41,.08);border:1px solid rgba(240,180,41,.3);border-radius:12px;padding:18px 20px;margin:26px 0;font-size:15.5px}
+.callout-red{background:rgba(229,72,77,.08);border-color:rgba(229,72,77,.35)}
+
+/* SOURCES PAGE */
+#sources .src-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+#sources .count{font-family:system-ui,sans-serif;font-size:13px;color:var(--dim)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 26px}
+.chip{font-family:system-ui,sans-serif;font-size:12.5px;color:var(--dim);background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:6px 13px;cursor:pointer;transition:.15s}
+.chip:hover{color:var(--text);border-color:var(--dim)}
+.chip.active{color:#0d1321;background:var(--gold);border-color:var(--gold);font-weight:600}
+.src{border:1px solid var(--line);border-radius:12px;background:var(--bg2);padding:16px 18px;margin-bottom:12px;transition:border-color .15s}
+.src:hover{border-color:var(--dim)}
+.src .top{display:flex;gap:10px;align-items:baseline}
+.src .rid{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--gold);white-space:nowrap}
+.src h4{font-family:system-ui,sans-serif;font-size:15px;font-weight:600;line-height:1.4}
+.src .cat{font-family:system-ui,sans-serif;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--purple);margin:6px 0 4px}
+.src p{font-size:14px;color:var(--dim);margin:4px 0 8px}
+.src .links{display:flex;gap:16px;flex-wrap:wrap}
+.src .links a{font-family:system-ui,sans-serif;font-size:13px;color:var(--teal);text-decoration:none;border-bottom:1px dotted transparent}
+.src .links a:hover{border-bottom-color:var(--teal)}
+.src .links .snap{color:var(--faint)}
+
+/* FOOTER */
+footer{border-top:1px solid var(--line);padding:40px 0 60px;margin-top:60px}
+footer p{font-family:system-ui,sans-serif;font-size:13px;color:var(--dim);max-width:640px}
+footer .fine{color:var(--faint);font-size:12px;margin-top:10px}
+.backtop{display:inline-block;margin-top:18px;font-family:system-ui,sans-serif;font-size:13px;color:var(--teal);text-decoration:none}
+@media print{ nav{display:none} body{background:#fff;color:#000} .chapter p{color:#222} }
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="#top">Grace Padaca<span class="brand-dot"> ●</span></a>
+  <a class="navlink" href="#story">The Story</a>
+  <a class="navlink" href="#verdict">The Verdict</a>
+  <a class="navlink" href="#legacy">Legacy</a>
+  <a class="navlink" href="#sources" data-nav="sources">Sources</a>
+</div></nav>
+
+<div class="wrap" id="top">
+<header class="hero">
+  <div class="kicker">Isabela Province · Philippines</div>
+  <h1>The broadcaster who took on a dynasty — <em>and won.</em></h1>
+  <p class="sub">Grace Padaca: polio survivor, radio commentator, and the reform governor who broke a 40-year political family's grip on one of the Philippines' largest provinces.</p>
+  <div class="portrait-wrap"><img src="assets/portrait.png" alt="Official portrait of Grace Padaca, Ramon Magsaysay Award 2008"></div>
+  <p class="hero-caption">Official portrait · Ramon Magsaysay Award for Government Service, 2008</p>
+
+  <div class="facts">
+    <div><b>2004</b><span>Ends 40-yr dynasty</span></div>
+    <div><b>+44,292</b><span>vote margin, 2004</span></div>
+    <div><b>2 terms</b><span>Governor 2004–2010</span></div>
+    <div><b>1 of 8</b><span>Magsaysay Awardees 2008</span></div>
+    <div><b>₱18M</b><span>acquitted of graft 2020</span></div>
+  </div>
+</header>
+
+<main>
+  <!-- chapters injected by app.js from inline content below -->
+  <section id="story"></section>
+  <section id="verdict"></section>
+  <section id="legacy"></section>
+  <section id="sources"></section>
+</div>
+
+<footer><div class="wrap">
+  <p>An independent, non-partisan information page about Maria Gracia Cielo "Grace" Magno Padaca. Every claim is source-tagged; the <a href="#sources">Sources page</a> lists all 48 references with what each one contributed, plus archived snapshots.</p>
+  <p class="fine">Part of the Region 2 — Info project · <a href="/">region2-info</a> · Compiled September 2026 · Corrections welcome.</p>
+  <a class="back-link" href="#top">↑ Back to top</a>
+</div></footer>
+
+<script src="assets/refs.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
