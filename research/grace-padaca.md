@@ -7,11 +7,13 @@ All claims carry reference tags `[R#]` resolving to the source list at the end. 
 
 ## 1. Executive Summary
 
-Maria Gracia Cielo "Grace" Magno Padaca (b. October 25, 1963, Cauayan, Isabela) is a certified public accountant turned radio broadcaster who ended the Dy family's four-decade political control of Isabela province by winning the governorship in 2004 [R1][R2][R3]. A polio survivor who has used crutches since age three, she built a household name as "Bombo Grace," a hard-hitting commentator on Dy-era corruption, jueteng, and logging over 14 years at DZNC-Bombo Radyo Cauayan [R1][R2][R4].
+Maria Gracia Cielo "Grace" Magno Padaca (b. October 25, 1963, Cauayan, Isabela) is a certified public accountant turned radio broadcaster who ended the Dy family's four-decade political control of Isabela province by winning the governorship in 2004 [R1][R2][R3]. A polio survivor who has used crutches since age three, she built a household name as "Bombo Grace," a hard-hitting commentator on Dy-era corruption, jueteng, and logging over 14 years at DZNC-Bombo Radyo Cauayan [R1][R2][R3].
 
-She governed Isabela from June 30, 2004 to June 30, 2010 (two terms, the second annulled post-hoc by Comelec but served to completion) [R1][R4], winning the 2008 Ramon Magsaysay Award for Government Service [R2][R5] and the US State Department's International Women of Courage Award in 2007 [R1][R6]. Her fiscal turnaround (two-thirds debt reduction), hybrid rice program, and record anti-illegal-logging enforcement were the signature achievements of the "reform governor" wave of 2004 alongside Among Ed Panlilio and Jesse Robredo [R2][R7].
+She governed Isabela from June 30, 2004 to June 30, 2010 (two terms, the second annulled post-hoc by Comelec but served to completion) [R1][R2], winning the 2008 Ramon Magsaysay Award for Government Service [R2][R5] and the US State Department's International Women of Courage Award in 2007 [R1][R6]. Her fiscal turnaround (two-thirds debt reduction), hybrid rice program, and record anti-illegal-logging enforcement were the signature achievements of the "reform governor" wave of 2004 alongside Among Ed Panlilio and Jesse Robredo [R2][R7].
 
 Her record is not unblemished: in 2019 the Sandiganbayan convicted her of graft and malversation over the 2006 EDWINLFI rice-program funding anomaly (₱25M released, ₱18M unaccounted) [R8][R9]; her graft conviction was overturned on appeal in 2020 while the malversation conviction was upheld, and she remains free pending further appeal [R1][R10]. She later served as Comelec commissioner (2012–2014, unconfirmed by the Commission on Appointments) [R1][R10] and lost three subsequent comeback attempts (2016 governor, 2019 vice governor) to the restored Dy machine [R1][R11].
+
+On the awards ledger, the **Ramon Magsaysay Award for Government Service (2008)** and the **U.S. Secretary of State's International Women of Courage Award (2007)** — an award established that year by Secretary Condoleezza Rice; Padaca appears on its 2007 recipients list — are her two anchor international honors [R1][R2][R6].
 
 **Bottom line for investors/researchers:** her 2004–2010 interregnum is the only non-Dy provincial government in Isabela in modern times; it demonstrated the province's appetite for alternation but also the durability of the Dy coalition, which has held every provincial and Cauayan executive seat since 2010.
 
@@ -33,8 +35,8 @@ Her record is not unblemished: in 2019 the Sandiganbayan convicted her of graft 
 - Joined Bombo Radyo's Cauayan station (DZNC) in 1986 as accountant; became program host, later assistant station manager [R1][R3].
 - Fourteen years of daily commentary [R2][R3]. Her self-deprecating line: radio "suited her… because 'I could be heard but not seen'" [R2].
 - Editorial targets: the Dy dynasty's governance, illegal gambling (jueteng) rackets, and logging; coverage of the province's stagnating rural economy and environmental degradation [R1][R2].
-- **1995 anti-split campaign:** helped galvanize public opposition to a proposal (supported by the Dys) to partition Isabela into two provinces; she broadcast the provincial anthem hourly during the campaign. The split failed [R1][R13].
-- 2000: left journalism; became an auditor at the Commission on Audit, then the Government Service Insurance System until 2001 [R1]. Around 2003 she worked as an accountant for businessman Enrique Zóbel [R1][R3].
+- **1995 anti-split campaign:** helped galvanize public opposition to a proposal (supported by the Dys) to partition Isabela; she broadcast the provincial anthem hourly during the campaign. The split failed [R1][R3b]. (The proposal at issue was RA 7891, Feb 20, 1995, dividing Isabela into **two** provinces — Isabela del Norte and Isabela del Sur, per lawphil; Bulatlat's warlordism piece R3b describes it as a "Dy–Albano plan to divide Isabela into three provinces" — likely a Bulatlat error or a different proposal. Treat "two" per the statute.)
+- 2000: left journalism; became an auditor at the Commission on Audit, then the Government Service Insurance System until 2001 [R1]. Around 2003–2004 she worked as an accountant **for one of the haciendas of the late Enrique Zóbel in Batangas** (Zóbel died in 1990) — per Bulatlat, 10 months, May 2003 to February 2004, between her HRET loss and the 2004 campaign [R3]. (Wikipedia's "accountant for businessman Enrique Zobel" phrasing is imprecise; Bulatlat's hacienda/estate framing is the documented one.)
 - **Later irony:** in 2004 the Cauayan city government under her rival Mayor Caesar Dy shut down Bombo Radyo dzNC (her old station, then seen as aligned with her) over zoning/permit allegations; the Supreme Court in 2010 ordered the city and Dy to pay Bombo Radyo ₱5M in damages [R14]. (Same station, same rival family — the shutdown occurred months before she unseated the Dys' gubernatorial incumbent.)
 
 ---
@@ -42,7 +44,7 @@ Her record is not unblemished: in 2019 the Sandiganbayan convicted her of graft 
 ## 4. Entry into Politics — the 2001 Congressional Race
 
 - Ran for Representative of Isabela's 3rd district in 2001 as a political novice with "little money and no political base," crisscrossing the province in a borrowed truck [R2][R3].
-- Initial tally: lost to Faustino "Bojie" Dy III by 1,285 votes (50.7% vs 49.3%) [R1].
+- Initial tally: lost to Faustino "Bojie" Dy III by 1,285 votes (50.7% vs 49.3%) [R1][R48].
 - She protested 151 ballot boxes; Dy counter-petitioned all 812 precincts in the district. She funded the revision through an **"Adopt A Ballot Box"** popular-funding campaign [R1].
 - After 2.5 years, the House of Representatives Electoral Tribunal (HRET, decision promulgated December 18, 2003) declared Dy the winner by **48 votes** — the majority refused to count ballots with "Grace" written on them in her favor [R1][R2].
 - Her own account: "Way back in 2001… I already won the elections for congressman, but somebody else was proclaimed" [R2].
@@ -57,7 +59,7 @@ Her record is not unblemished: in 2019 the Sandiganbayan convicted her of graft 
 - **Result:** won with ~55% and a margin of **44,292 votes** over reelectionist Gov. Faustino Dy Jr. [R1][R2 ("more than forty-four thousand")][R3].
 - Campaign conditions: opposed by 33 of the province's mayors; charged by opponents with being "in league with terrorists"; slogan: **"Free Isabela"**; volunteers guarded ballot boxes on election day [R2][R3].
 - Her own three stated victory factors: (1) popular desire to break the dynasty, (2) her respected media profile, (3) lingering fury over the disputed 2001 count [R3].
-- She ended "the three-decade reign of the Dy family" [R11][R15].
+- She ended the Dy family's decades-long reign of the province — sources put it at roughly three decades ("three-decade reign" per GMA 2012 [R11]; "34-year reign" per Newsbreak/ABS-CBN 2010; "40-year"/"four decades" per VERA Files and Bulatlat; the Dys took the governorship in the late 1960s) [R11][R46].
 - Press framing at the time cast her among a small class of outsiders defeating entrenched provincial machines (PCIJ's "Isabela's non-dynasty detour" profiled her 2007 re-election bid in this frame [R7]).
 
 ---
@@ -88,7 +90,7 @@ Party: won in 2004 under Aksyon Demokratiko; ran again in 2007 under the Liberal
 - Co-founded **Kaya Natin!** with Gov. Eddie Panlilio (Pampanga), Mayor Jesse Robredo (Naga), and Mayor Sonia Lorenzo (San Isidro, Nueva Ecija) — recruiting principled local officials; "Islands of Hope" campus tour launched July 31, 2008 at Ateneo de Manila [R1][R7].
 
 ### 6.6 Recognition
-- **International Women of Courage Award**, conferred personally by US Ambassador Kristie Kenney, December 5, 2007 [R1] (original ABS-CBN link is dead per Wikipedia's own note; treat date via Wikipedia).
+- **International Women of Courage Award** — the **U.S. Secretary of State's** award (established 2007 by Secretary Condoleezza Rice; Padaca is listed on the award's 2007 recipients list), conferred personally by US Ambassador Kristie Kenney, December 5, 2007 [R1][R6] (GMA's 2012 career profile corroborates date and conferral [R11]; the dossier's earlier "primary link rotten" hedge is resolved — the claim stands).
 - **Ramon Magsaysay Award for Government Service, July 31, 2008** — citation: "empowering Isabela voters to reclaim their democratic right to elect leaders of their own choosing, and to contribute as full partners in their own development" [R2]. Her acceptance speech ("the burden of the brave") is reproduced in full by RMAF [R2].
 - Senate tribute (Sen. Kiko Pangilinan, Aug 1, 2008): "Gov. Padaca — a heroine ahead of our time" [R5].
 - Portrayed by Janice de Belen in GMA's *Magpakailanman* (2004) [R1].
@@ -121,16 +123,15 @@ Party: won in 2004 under Aksyon Demokratiko; ran again in 2007 under the Liberal
 - Outcome: EDWINLFI remitted only **₱7M** to the province; **₱18M** was never liquidated or accounted for [R8][R9a (P3.6M unliquidated + ₱18M "loan receivables" per Ombudsman)].
 
 ### 9.2 Procedural history
-- Ombudsman filed cases in **2011** (finding: release of ₱25M "without due regard to the rules on government procurement" and pre-ratification MOA) [R9a][R20].
+- Ombudsman filed cases in court in **2011** (finding: release of ₱25M "without due regard to the rules on government procurement" and pre-ratification MOA). The underlying complaint was filed with the Ombudsman by **Santiago Respicio on February 26, 2007** (SC e-library G.R. 201800) — see Section 19.2 [R9a][R20].
 - **2012:** arrest warrants issued; Padaca posted bail (₱70,000) [R21 (Inquirer: "bailed by her ally, President Aquino" — phrasing disputed, see Section 13)][R9a (additional ₱70,000 posted 2019 pending appeal)].
 - **2018:** Supreme Court (2nd Division, Justice Andres Reyes Jr.) affirmed the Ombudsman's indictment — trial proceeded [R20][R21].
 - **November 15, 2019:** Sandiganbayan 3rd Division (Presiding Justice Amparo Cabotaje-Tang) convicted her of **one count of malversation (12–14 years)** and **one count of graft under Sec. 3(e), RA 3019 (6–10 years)** — aggregate headlines "up to 24 years" — plus **perpetual disqualification from public office**, a fine equal to **₱18M**, and restitution of **₱18M plus 6% interest** from finality [R8][R9a][R22 (Inquirer)].
-- Her courtroom statement: "With the ₱25 million, I didn't personally gain even one cent. That all went to the farmers of Isabela" [R8]. Co-accused: former provincial legal officer **Johnas Lamonera** (died before resolution); also named: **Servando Soriano** and EDWINLFI manager **Dionisio Pine** [R8][R20].
+- Her courtroom statement: "With the ₱25 million, I didn't personally gain even one cent. That all went to the farmers of Isabela" [R8]. Co-accused: former provincial legal officer **Johnas Lamonera**, EDWINLFI chairman **Servando Soriano** (municipal councilor), and manager **Dionisio Pine** — per Philstar, the Third Division dismissed the cases against **all three "due to their death"** (the dossier previously reported only Lamonera's death) [R8][R9b][R20].
 
 ### 9.3 Appeals — current state
-- **September 2020:** Sandiganbayan denied her motion for reconsideration **on malversation** but granted the appeal **on graft** (agreeing the EDWINLFI selection did not require public bidding) [R9a].
-- **November 2020:** the court **overturned the graft conviction** while upholding malversation [R1][R23 (CNN Philippines, archived)].
-- **Status:** she remains free pending further appeal [R1]. **No dossier source documents a Court of Appeals or Supreme Court ruling on the malversation conviction's finality as of September 2026 — treat the malversation conviction as affirmed at the Sandiganbayan level and unresolved above it.**
+- **June 23, 2020 (single resolution, two rulings):** the Sandiganbayan **denied her motion for reconsideration on malversation** (for lack of merit) and in the **same 32-page resolution granted her appeal on graft** — acquitting her of the graft charge (agreeing the EDWINLFI selection did not require public bidding). The resolution was promulgated June 23, 2020 and posted to the Sandiganbayan website/reported in early September 2020 (Inquirer Sept 19; Philstar Sept 1; GMA; CNN's Nov 16, 2020 piece was a republication) [R9a][R23][R39][R39b][R40][R41]. (The dossier's earlier "September 2020 MR granted" / "November 2020 overturned" phrasing split one resolution into two events — corrected.)
+- **Status:** she remains free pending further appeal [R1]. **No dossier source documents a Court of Appeals or Supreme Court ruling on the malversation conviction's finality as of September 2026 — treat the malversation conviction as affirmed at the Sandiganbayan level and unresolved above it.** Her counsel announced in Nov 2019 they would appeal "all the way to the Supreme Court" [R39b]; the June 23, 2020 resolution denied the malversation MR; nothing further found in 2021–2026 searches.
 - Related: in **2017** she pleaded guilty to four counts of non-filing of SALNs (2007–2010) and was fined **₱4,000** [R24 (Rappler)].
 
 ### 9.4 Interpretive note
@@ -149,14 +150,14 @@ The conviction rested on **negligence-based malversation** (allowing an NGO to h
 ## 11. Comeback Attempts (2016, 2019)
 
 - **2016, Governor:** lost to reelectionist **Faustino Dy III by over 300,000 votes** [R1][R26 (Rappler — "Incumbent clans dominate northern Luzon polls")].
-- **2019, Vice Governor:** initially allied with **Napoleon Dy** (then in a falling-out with half-brother Faustino III); the Dys reconciled pre-campaign, stranding her candidacy. Ran under **Aksyon Demokratiko**; lost to the outgoing governor **483,392 to 166,972** [R1].
+- **2019, Vice Governor:** initially allied with **Napoleon "Pol" Dy** (then in a falling-out with his half-brother Faustino III, who was then governor); the Dys reconciled pre-campaign, Pol withdrew his gubernatorial bid, and she was left without a running mate — stranding her candidacy. Ran under **Aksyon Demokratiko**; lost to the outgoing governor **483,392 to 166,972** [R1][R48].
 - Party trajectory: Aksyon (2004–2007; 2018–present), Liberal (2007–2014), Independent (2014–2018) [R1].
 
 ---
 
 ## 12. Assessment — Why She Matters (for the Region 2 project)
 
-1. **She is the single strongest evidence that Isabela's electorate will break with the Dy machine** when a credible alternative with media reach emerges — the analytical base case behind any "dynasty vulnerability" scenario for 2028+.
+1. **She is the single strongest evidence that Isabela's electorate will break with the Dy machine** when a credible alternative with media reach emerges — the analytical base case behind any "dynasty vulnerability" scenario for 2028+. (Rappler's Sept 2026 dynasty profile reaches the same conclusion: the monopoly has been "cracked only twice in recent history" [R48].)
 2. **The alternation was fragile by design:** judicial recount (2007), annulment (2009), narrow defeat (2010), overwhelming restoration (2016, 2019). The Dy counter-playbook — ballot-box revision, recount litigation, family reconciliation — is the playbook to model.
 3. **Her anti-logging and fiscal record is real but contested:** the Magsaysay citation [R2] and Inquirer/PCIJ features [R7] laud it; ABS-CBN's 2010 analysis [R16] argued it cost her rural votes; the EDWINLFI case shows the same administration's program-management weakness.
 4. **The Bombo Radyo arc** (her broadcast pulpit → 2004 shutdown under Caesar Dy → 2010 SC damages ruling [R14]) is a compact case study of press-politics conflict in Cauayan specifically — directly relevant to the region2-info Political tab's "business-friendly continuity" framing.
@@ -178,13 +179,13 @@ The conviction rested on **negligence-based malversation** (allowing an NGO to h
 | 9 | Debt reduced by two-thirds; surpluses | R1, R2 | **Multi-source** (both may trace to RMAF/Inquirer features) |
 | 10 | 10 towns top hybrid-rice producers; NFA ₱5/kg support | R1, R7 (Inquirer "Let's say grace") | **Multi-source** |
 | 11 | 1.8M board feet / ₱30M timber haul (largest in PH history) | R1 (citing ABS-CBN), R9 (GMA docu) | **Multi-source, but one is a documentary of the same events** |
-| 12 | International Women of Courage, Dec 5, 2007 | R1 (dead underlying link), R6 | **Multi-source; primary link rotten — verify via US Embassy archive before formal use** |
+| 12 | International Women of Courage, Dec 5, 2007 | R1, R6, R11 (GMA 2012 profile); IWOC award's own recipients list (2007) | **Multi-source** (award naming fixed: it is the U.S. Secretary of State's IWOC; claim substantiated — see audit 2026-09-19) |
 | 13 | Ramon Magsaysay Award, Government Service, Jul 31 2008 | R1, R2, R5, R7 | **Multi-source, authoritative (RMAF primary)** |
 | 14 | 2007 win by 17,007; Comelec reversal by 1,051 (Dec 2009) | R1, R17, R18 (Santos/ABS-CBN) | **Multi-source** |
-| 15 | She served full 2007–2010 term despite annulment | R1, R19 | **Multi-source; final appeal outcome not documented** |
-| 16 | 2010 loss to Bojie Dy III by 3,438 | R1, R19 | **Multi-source (both may trace to Manila Times)** |
+| 15 | She served full 2007–2010 term despite annulment | R1, R34 (GMA: MR pending at term end) | **Multi-source; final appeal outcome not documented — Open Q2** |
+| 16 | 2010 loss to Bojie Dy III by 3,438 | R1, R46 (VERA Files) | **Multi-source** (Manila Times snapshot was an index page; VERA Files Nov 2010 documents "lost by only 3,438 votes") |
 | 17 | EDWINLFI mechanics: ₱35M DBP → ₱25M NGO → ₱7M remitted / ₱18M unrecovered | R8 (Rappler), R9a (Philstar), R9a/Ombudsman | **Multi-source** |
-| 18 | 2019 conviction sentences (12–14 malv; 6–10 graft; ₱18M; perpetual disqualification) | R8, R9a, R22 | **Multi-source** |
+| 18 | 2019 conviction sentences (12–14 malv; 6–10 graft; ₱18M; perpetual disqualification) | R8, R9b, R22 | **Multi-source** (note: Inquirer R22b swapped the two sentences — "14 graft / 10 malversation"; Philstar R9b, Rappler R8, GMA R39b agree with this row's split, which is the verified one) |
 | 19 | Graft conviction overturned 2020; malversation upheld | R1, R9a, R23 | **Multi-source** |
 | 20 | "Bailed by her ally President Aquino" (2012) | R1 (Wikipedia phrasing) vs R9a ("posted ₱70,000 bail") | **Conflict** — Wikipedia's phrasing is ambiguous/misleading; the documented act is her posting bail. Use R9a formulation |
 | 21 | Fine "₱36M" (Wikipedia) vs ₱18M fine + ₱18M restitution (Rappler/Philstar) | R8, R9a vs R1 | **Conflict** — R8/R9a are quoting the decision itself; ₱36M appears to conflate fine + civil liability. Use ₱18M + ₱18M |
@@ -204,7 +205,7 @@ The conviction rested on **negligence-based malversation** (allowing an NGO to h
 - R2. Ramon Magsaysay Award Foundation — 2008 citation, biography, and acceptance speech: https://rmaward.asia/rmawardees/padaca-grace/
 - R3. Bulatlat — "The Spark that Crippled a Dynasty" (May 30–Jun 5, 2004, Dabet Castaeda): https://www.bulatlat.com/news/4-17/4-17-dynasty.html
 - R3b. Bulatlat — "The Isabelinos' Struggle Against Warlordism and Political Dynasty" (Jun 2004): https://www.bulatlat.com/news/4-19/4-19-warlordism.html
-- R5. Senate of the Philippines — Pangilinan press release, "Gov. Padaca — A Heroine Ahead of Our Time" (Aug 1, 2008): https://web.senate.gov.ph/press_release/2008/0801_pangilinan2.asp
+- R5. Senate of the Philippines — Pangilinan press release, "Gov. Padaca — A Heroine Ahead of Our Time" (Aug 1, 2008): https://web.senate.gov.ph/press_release/2008/0801_pangilinan2.asp (returns 403 to bots as of 2026-09-19, not proven dead; alternative primary anchor: Senate issuances library lists **Senate Resolution No. 101, s. 2008** commending Padaca for the Magsaysay Award — https://issuances-library.senate.gov.ph/subject/padaca-grace)
 - R12. Lyceum of the Philippines University — alumni profile: https://manila.lpu.edu.ph/lycean-trailblazer-of-the-week/maria-gracia-cielo-grace-padaca
 
 **Governorship coverage**
@@ -251,13 +252,20 @@ The conviction rested on **negligence-based malversation** (allowing an NGO to h
 - R36. Inquirer — "Ex-Isabela Gov. Padaca appointed to Comelec" (career profile; her "politics was behind the arrest warrant" quote): https://newsinfo.inquirer.net/281434/padaca-named-comelec-commissioner
 - R38. Rappler — "Padaca faces legal issues — Comelec boss" (Brillantes on the candidate-ban issue and her 2010 protest being "abandoned"): https://www.rappler.com/philippines/13483-padaca-faces-legal-issues-comelec-boss
 
+**Fourth-pass additions (September 2026 audit — previously dangling citations, now defined)**
+- R46. VERA Files (Booma Cruz) — "Padaca struggles to keep faith in government" (Nov 11, 2010; post-governorship: bogador livelihood losses tied to 44K→17K margin erosion, "close the faucet" jueteng quote, Jimmy Rivera bias complaint, DILG letters unactioned, 3,438-vote 2010 loss, 40-year Dy rule): https://verafiles.org/articles/padaca-struggles-to-keep-faith-in-government-2
+- R47. Philstar (Raymund Catindig) — "Padaca loses allies" (Mar 30, 2016; Edwin Uy + Fernando Cumigad defect to Dy III's NPC; "political survival"; "I'm sad but I'm not mad"): https://www.philstar.com/nation/2016/03/30/1567694/padaca-loses-allies
+- R48. Rappler (Jodesz Gavilan/Roland Andam Jr.) — "Dy dynasty dominates Isabela for decades" (Sept 10, 2026 dynasty profile; independently re-confirms 1,285-vote 2001 trail, HRET 48-vote ruling with "Grace"-ballot invalidation, 2004/2007 wins snapping the clan's rule, 2010 reclamation, 2019 VG loss to Bojie with Pol Dy's withdrawal, Dy Sr.'s 18-year governorship from the late 1960s, Bojie's Speakership): https://www.rappler.com/philippines/luzon/political-dynasty-dy-dominates-isabela-province/
+
+*(Audit note 2026-09-19: the tags R28/R29 formerly cited in §15 pointed to no defined references; their content is now sourced by R46/R47 above. Snapshot gaps: the ABS-CBN live-URL captures (snapshots 20/21) caught only a homepage redirect — original story text verified via Wayback (20091213004843 for the Santos annulment piece; 2010 Newsbreak logging piece); the Manila Times snapshot 17 captured the regions index page, not the Padaca article itself — the 3,438 margin is instead corroborated by R46 (VERA Files).*
+
 **Third-pass sources (September 2026)**
 - R37. HRET official case index — Case No. 01-001, Padaca v. Dy III: "DISMISS the protest for lack of merit": https://www.hret.gov.ph/case-2001-2004
 - R39. GMA News — "Ex-Isabela gov Padaca says Sandigan overturned her graft conviction" (June 2020 MR granted, acquittal wording, HDO lifted, bail returned): https://www.gmanetwork.com/news/topstories/nation/756303/ex-isabela-gov-padaca-says-sandigan-overturned-her-graft-conviction
 - R39b. GMA News — "Sandigan acquits Padaca of graft but upholds malversation conviction" (32-page resolution detail): https://www.gmanetwork.com/news/topstories/nation/756404/sandigan-acquits-padaca-of-graft-but-upholds-malversation-conviction/story
 - R40. Philstar (Elizabeth Marcelo) — "Padaca's conviction for malversation upheld" (32-page June 23, 2020 resolution analysis; term shortened to 14 yrs max): https://www.philstar.com/nation/2020/09/01/2039193/padacas-conviction-malversation-upheld
 - R41. Inquirer (Katrina Hallare) — "Padaca says Sandigan reversed her graft conviction for misuse of agri funds" (links the primary PDF): https://newsinfo.inquirer.net/1337402/padaca-says-sandigan-reversed-her-graft-conviction-for-misuse-of-agri-funds
-- R41b. Primary document — Sandiganbayan Third Division, People v. Padaca et al., SB-11-CRM-0282-0283, Resolution June 23, 2020 (PDF): https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf
+- R41b. Primary document — Sandiganbayan Third Division, People v. Padaca et al., SB-11-CRM-0282-0283, Resolution June 23, 2020 (PDF): https://sb.judiciary.gov.ph/RESOLUTIONS/2020/F_Crim_SB-11-CRM-0282-0283_People%20vs%20Padaca,%20et%20al_06_23_2020.pdf — **now DEAD (HTTP 404; Sandiganbayan site migrated to WordPress; captured 2026-09-19). Try Wayback Machine for an archived copy; the audit's Wayback attempt was rate-limited (429). Until re-archived, rely on the press accounts R39/R39b/R40/R41.**
 - R42. Rappler (Michael Bueza) — "Palace unsure about Padaca's reappointment to Comelec" (ad interim bypass; Respicio as complainant; Aquino paid bail personally; immunity denied): https://www.rappler.com/philippines/62708-padaca-status-appointment-comelec
 - R43. Philstar (Sheila Crisostomo) — "Padaca on way out of Comelec?" (Jimenez: appointment expired June 14, 2014): https://www.philstar.com/headlines/2014/07/08/1343681/padaca-way-out-comelec
 - R44. Haggai International (Zoë Webb) — "Grace in the Philippines: Leading with Disability, Faith, and Influence" (Mar 25, 2026; current activities, Haggai Metro Manila chapter president, LWD advocacy, John 9:3 account): https://www.haggai-international.org/grace-in-the-philippines-leading-with-disability-faith-and-influence/
@@ -279,22 +287,24 @@ Beyond the EDWINLFI conviction (Section 9), her governance style and record drew
 
 **15.5 Health-program switch backlash** — replaced free-medicine/full-coverage program with PhilHealth subsidies; **senior citizens unhappy** about losing free medicine; she called the old program unsustainable [R7]. RMAF frames the same decision as replacing "a bankrupt medical scheme" [R2] — the controversy is the transition pain.
 
-**15.6 Anti-logging livelihood backlash** — enforcement put **thousands of *bogadors* (timber haulers) out of work**; VERA Files ties this to her margin eroding from ~44K (2004) to ~17K (2007) [R28]; ABS-CBN argued the same before 2010 [R16]. The core critique of her signature achievement: enforcement without livelihood transition.
+**15.6 Anti-logging livelihood backlash** — enforcement put **thousands of *bogadors* (timber haulers) out of work**; VERA Files ties this to her margin eroding from ~44K (2004) to ~17K (2007) [R46]; ABS-CBN argued the same before 2010 [R16]. The core critique of her signature achievement: enforcement without livelihood transition. (VERA Files R46, Nov 11, 2010, is the verified source for the bogador-livelihood claim and the "close the faucet" jueteng quote; it also documents the 3,438-vote 2010 loss and post-2010 PNP/DILG friction — see §15.8.)
 
-**15.7 Jueteng: the fight she lost** — declared "ayoko ng jueteng" at inauguration; publicly accused Isabela mayors and policemen of benefiting from jueteng (2005, with Archbishop Oscar Cruz) [R7]. **Failed to eradicate it**; blamed PNP inaction and mayoral protection ("You just need the President to close the faucet") [R7][R28]. A rumor that her brother took jueteng payoffs circulated; she dismissed it as gossip — documented only as rumor [R7].
+**15.7 Jueteng: the fight she lost** — declared "ayoko ng jueteng" at inauguration; publicly accused Isabela mayors and policemen of benefiting from jueteng (2005, with Archbishop Oscar Cruz) [R7]. **Failed to eradicate it**; blamed PNP inaction and mayoral protection ("You just need the President to close the faucet") [R7][R46]. A rumor that her brother took jueteng payoffs circulated; she dismissed it as gossip — documented only as rumor [R7].
 
-**15.8 Post-governorship friction with Aquino administration** — complained (Nov 2010) that removed environment officers were pending reappointment, that PNP provincial director Jimmy Rivera showed "open bias" for the Dys/Albanos in 2010, and that letters to DILG went unactioned [R28].
+**15.8 Post-governorship friction with Aquino administration** — complained (Nov 2010) that removed environment officers were pending reappointment, that PNP provincial director Jimmy Rivera showed "open bias" for the Dys/Albanos in 2010, and that letters to DILG went unactioned [R46].
 
-**15.9 Ally desertion (2016)** — 2010 runningmate **Edwin Uy** and Gamu VM **Fernando Cumigad** defected to Dy III's NPC; Cumigad cited "political survival" and said Padaca ignored his call to meet allies pre-filing [R29]. Her response: "I'm sad but I'm not mad."
+**15.9 Ally desertion (2016)** — 2010 runningmate **Edwin Uy** and Gamu VM **Fernando Cumigad** defected to Dy III's NPC; Cumigad cited "political survival" and said Padaca ignored his call to meet allies pre-filing [R47]. Her response: "I'm sad but I'm not mad."
 
 **15.10 Interpretive note** — controversies cluster into **(a) process/style**: centralized control, bypassing mayors/board, release scrutiny — real costs of a reformist governing alone against a patronage machine, per even sympathetic sources (PCIJ, VERA Files); and **(b) substance**: the EDWINLFI negligence conviction and SALN plea — legal findings, partially overturned on appeal. No credible source alleges personal enrichment; the Sandiganbayan's own "no personal gain" finding [R8] rebuts the strongest accusation.
 
 **Cross-reference additions (Section 13 matrix):**
 - 26. 8 division chiefs floated, CSC reinstated 7 — R7 only (single-source, PCIJ primary)
 - 27. RPT non-remittance ₱26M+ — R7 (single-source, named officials on record)
-- 28. Margin erosion 44K→17K tied to logging-livelihood losses — R28+R16 (multi-source interpretive)
+- 28. Margin erosion 44K→17K tied to logging-livelihood losses — R46+R16 (multi-source interpretive)
 - 29. Brother-jueteng rumor — R7 (documented as rumor only)
-- 30. 2016 Uy/Cumigad defections — R29 (multi-voice)
+- 30. 2016 Uy/Cumigad defections — R47 (multi-voice)
+
+*(Note: rows 26–37 are maintained as lists here and in §19 rather than inside the §13 table; the table itself has 25 rows. Consolidate in a future structural edit.)*
 
 ---
 
@@ -312,13 +322,13 @@ Fresh contemporaneous reporting adds two episodes the dossier previously lacked.
 - When she publicly accused unnamed mayors and policemen of taking jueteng payola (see 15.7), the mayors' league response was captured in contemporaneous detail: LMP provincial president **Napoleon Dy called her statements an "indiscretion," said mayors reacted "violently," and floated a possible libel complaint** [R30].
 - An anonymous mayor charged the jueteng drive was a **"smoke screen" for her "weak" administration and the "alarming insurgency problem"** in the province [R30].
 - She escalated to a national dialogue with **DILG Secretary Angelo Reyes and PNP Chief Gen. Arturo Lomibao**, plus the Catholic Church (May 2005) [R30].
-- **PNP pushback:** outgoing provincial police director **Sr. Supt. Napoleon Estilles publicly belied her claim**, saying jueteng had been "crippled by 85 percent in the past three weeks" and recorded "zero" operations in seven towns (Palanan, Maconacon, Divilacan, Dinapigue, Santo Tomas, San Pablo, Delfin Albano) [R30]. This conflicts with her "entrenched in almost all municipalities" characterization — a documented dispute between her office and the provincial police, foreshadowing the PNP-friction theme that recurs in 2010 [R28].
+- **PNP pushback:** outgoing provincial police director **Sr. Supt. Napoleon Estilles publicly belied her claim**, saying jueteng had been "crippled by 85 percent in the past three weeks" and recorded "zero" operations in seven towns (Palanan, Maconacon, Divilacan, Dinapigue, Santo Tomas, San Pablo, Delfin Albano) [R30]. This conflicts with her "entrenched in almost all municipalities" characterization — a documented dispute between her office and the provincial police, foreshadowing the PNP-friction theme that recurs in 2010 [R30][R46].
 - Ilagan Mayor Delfinito Albano (of the Albano clan) was reportedly hurt by her singling out Ilagan, Alicia, and Cauayan as focus areas [R30].
 
 ## 17. The Graft Case — Additional Documentation (2012 Warrant & Counter-Narrative)
 
 ### 17.1 The 2012 arrest warrant in detail
-- The warrant was signed **May 21, 2012 by Associate Justice Roland B. Jurado, chairman of the Sandiganbayan's Fifth Division** — bail set at **₱40,000 (malversation) + ₱30,000 (graft) = ₱70,000 total** [R32]. (Note: the 2019 conviction was promulgated by the Third Division under Presiding Justice Cabotaje-Tang — the case apparently moved divisions between 2012 and 2019; flag for verification, Section 18.)
+- The warrant was signed **May 21, 2012 by Associate Justice Roland B. Jurado, chairman of the Sandiganbayan's Fifth Division** — bail set at **₱40,000 (malversation) + ₱30,000 (graft) = ₱70,000 total** [R32]. (Division-transfer note RESOLVED: the Fifth Division signed the 2012 warrant; the Nov 15, 2019 conviction was promulgated by the **Third Division** under Presiding Justice Cabotaje-Tang [R8][R9b] — the case demonstrably moved divisions between 2012 and 2019; treat as documented fact.)
 - Copies were directed to **NBI Region 2, the Isabela provincial police commander, and the Ilagan police chief** [R32].
 - Prosecutors framed the EDWINLFI transaction as "in the nature of a management or consultancy contract" (bidding required) and noted **no safeguards on the entrusted amount** [R32].
 - The **COA audit at the heart of the case**: EDWINLFI failed to liquidate **₱3.6M** (booked as "due from NGOs/POs") and another **₱18M** (booked as "loans receivable") [R32] — consistent with the Sandiganbayan's later ₱18M restitution award [R8].
@@ -384,10 +394,11 @@ The HRET's official case index confirms the protest as **HRET Case No. 01-001, M
 
 ## 20. Open Questions / To Verify with Primary Sources
 
-1. **Final appellate status of the malversation conviction** (post-Nov 2020 Sandiganbayan resolution). Check Court of Appeals docket / SC e-library.
-2. **Disposition of her 2007 annulment appeal** (Comelec en banc / SC) — she served out the term, but the legal disposition was not documented in dossier sources.
-3. **Original Sandiganbayan decision text** (People v. Padaca, SB 3rd Division, Nov 15, 2019) — pull from elibrary.judiciary.gov.ph for exact holdings.
-4. **International Women of Courage primary citation** — State Dept 2007 ceremony records (Wikipedia's conferral link is dead).
-5. **Any 2022/2025 activity** — no dossier source documents her involvement in the 2025 Isabela elections; absence of evidence, treat as "no documented activity since 2019 candidacy + court appeals."
+1. **Final appellate status of the malversation conviction** (post-June 23, 2020 Sandiganbayan resolution). Check Court of Appeals docket / SC e-library. No CA/SC ruling found as of the Sept 19, 2026 audit; counsel announced in Nov 2019 they would appeal "all the way to the Supreme Court" [R39b], and the malversation MR was denied June 23, 2020.
+2. **Disposition of her 2007 annulment appeal** (Comelec en banc / SC) — she served out the term, but the legal disposition was not documented in dossier sources. MR pending when her term expired June 30, 2010 [R34]; Brillantes later ruled her separate 2010 protest "abandoned" [R38]. Still no en banc/SC disposition found (audit pass 4).
+3. **Original Sandiganbayan decision texts** (2019 conviction; June 23, 2020 resolution) — UPDATE (audit pass 4): the 2020 resolution PDF (R41b) is now dead (SB site migrated; 404); the SC e-library hosts only the 2018 certiorari-stage resolution (G.R. 201800), not trial-court decisions. Obtain both via Wayback or the Sandiganbayan research office; until then the five agreeing press accounts (R8, R9b, R39b, R40, R41) are the operative record.
+4. **International Women of Courage primary citation** — LARGELY RESOLVED (audit pass 4): Padaca appears on the IWOC award's 2007 recipients list (with Shatha Abdul Razzak Abbousi et al.), and the Dec 5, 2007 Kenney conferral is corroborated by GMA's 2012 career profile [R11]. Remaining polish: locate the State Dept's 2007 ceremony page in the 2009-2017.state.gov IWOC archive (portal: https://2009-2017.state.gov/s/gwi/iwoc/index.htm).
+5. **Any 2022/2025 activity** — no dossier source documents her involvement in the 2025 Isabela elections; absence of evidence, treat as "no documented activity since 2019 candidacy + court appeals." (Latest first-person account remains the Haggai profile, March 2026 [R44].)
+6. **(New, audit pass 4)** Re-archive the dead R41b Sandiganbayan PDF via Wayback (attempt was 429-rate-limited) and, ideally, the 2019 decision text with it; also re-capture the ABS-CBN and Manila Times articles from Wayback to replace the empty homepage/index snapshots (see §14 audit note).
 
 *Document compiled 2026-09-18 by Hermes for Justin's Region 2 - Info project. All URLs live as of compilation date unless marked archived.*
