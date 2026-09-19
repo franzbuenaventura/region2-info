@@ -241,6 +241,16 @@ The conviction rested on **negligence-based malversation** (allowing an NGO to h
 - R14b. PNA — "10 Dys, 3 Albanos proclaimed winners in Isabela" (2022 dynasty consolidation): https://www.pna.gov.ph/articles/1174100
 - R14c. Inquirer — "Poll choices: Dy or Dy" (2016 Cauayan mayoral race, Dy family web): https://newsinfo.inquirer.net/780140/poll-choices-dy-or-dy
 
+**Expanded coverage (added in second research pass)**
+- R30. Philstar (Charlie Lagasca) — "Jueteng raps stir up Isabela mayors" (May 16, 2005; Napoleon Dy "indiscretion," Estilles PNP rebuttal, national dialogue): https://www.philstar.com/nation/2005/05/16/277854/jueteng-raps-stir-isabela-mayors
+- R31. Philstar (Lito Salatan) — "Albano: I can never run from a good fight" (recall drive in 25 towns; her "Gob. Grace" radio program on dwSI; Mar 28, 2005): https://www.philstar.com/nation/2005/03/28/271748/albano-i-can-never-run-good-fight
+- R32. Rappler — "Arrest warrant vs Grace Padaca" (May 2012: Jurado warrant, ₱40K+₱30K bail, COA ₱3.6M/₱18M audit figures): https://www.rappler.com/philippines/5832-arrest-warrant-vs-grace-padaca
+- R33. Inquirer (Philip Tubeza) — "Padaca asks Supreme Court to order dropping of charges" (45-page SC petition; her Dy-clan accusation + the Dys' denial; May 30, 2012): https://newsinfo.inquirer.net/202777/padaca-asks-sc-to-junk-graft-raps
+- R34. GMA News (Kimberly Jane Tan) — "Dy can't sit as Isabela governor yet, Comelec says" (MR pending; Macalintal's career bet; Sardillo's 50-ballot handwriting clarification): https://www.gmanetwork.com/news/topstories/regions/179602/dy-can-t-sit-as-isabela-governor-yet-comelec-says/story
+- R35. GMA News — "Comelec unseats Padaca as governor of Isabela" (Dec 2009; "immediately vacate" order; LP "vendetta politics" statement): https://www.gmanetwork.com/news/topstories/regions/178814/comelec-unseats-padaca-as-governor-of-isabela/story
+- R36. Inquirer — "Ex-Isabela Gov. Padaca appointed to Comelec" (career profile; her "politics was behind the arrest warrant" quote): https://newsinfo.inquirer.net/281434/padaca-named-comelec-commissioner
+- R38. Rappler — "Padaca faces legal issues — Comelec boss" (Brillantes: candidate-ban issue; 2010 protest "abandoned" by accepting appointment): https://www.rappler.com/philippines/13483-padaca-faces-legal-issues-comelec-boss
+
 ---
 
 ## 15. Controversies & Criticisms — Beyond the Courtroom
@@ -276,7 +286,47 @@ Beyond the EDWINLFI conviction (Section 9), her governance style and record drew
 
 ---
 
-## 16. Open Questions / To Verify with Primary Sources
+## 16. The Recall Attempt & the Jueteng War Front (2005)
+
+Fresh contemporaneous reporting adds two episodes the dossier previously lacked.
+
+### 16.1 The recall drive (early 2005)
+- Barely ten months into her term, a **recall movement against her was "gaining ground in 25 of Isabela's 35 towns and one city"**, described by some mayors as "unstoppable" [R31].
+- **Rodolfo Albano Jr.** — former congressman, then Energy Regulatory Commission chair, of the rival Albano clan — positioned himself as the prospective recall rival ("Mr. Better Alternative… like a dutiful soldier, I can never run from a good fight") [R31]. (A recall election never materialized; no dossier source documents one being scheduled.)
+- She fought back **on the airwaves while governor**: her own Saturday one-hour program *"Gob. Grace"* over dwSI in Santiago City, where she lambasted local media for "agitating the recall move" and ignoring her anti-poverty work [R31].
+- Contextual note: the same Sangguniang Panlalawigan whose members later complained about her passed a resolution expressing support for her administration that week [R31] — the board relationship was fractious but not uniformly hostile.
+
+### 16.2 The jueteng counter-attack
+- When she publicly accused unnamed mayors and policemen of taking jueteng payola (see 15.7), the mayors' league response was captured in contemporaneous detail: LMP provincial president **Napoleon Dy called her statements an "indiscretion," said mayors reacted "violently," and floated a possible libel complaint** [R30].
+- An anonymous mayor charged the jueteng drive was a **"smoke screen" for her "weak" administration and the "alarming insurgency problem"** in the province [R30].
+- She escalated to a national dialogue with **DILG Secretary Angelo Reyes and PNP Chief Gen. Arturo Lomibao**, plus the Catholic Church (May 2005) [R30].
+- **PNP pushback:** outgoing provincial police director **Sr. Supt. Napoleon Estilles publicly belied her claim**, saying jueteng had been "crippled by 85 percent in the past three weeks" and recorded "zero" operations in seven towns (Palanan, Maconacon, Divilacan, Dinapigue, Santo Tomas, San Pablo, Delfin Albano) [R30]. This conflicts with her "entrenched in almost all municipalities" characterization — a documented dispute between her office and the provincial police, foreshadowing the PNP-friction theme that recurs in 2010 [R28].
+- Ilagan Mayor Delfinito Albano (of the Albano clan) was reportedly hurt by her singling out Ilagan, Alicia, and Cauayan as focus areas [R30].
+
+## 17. The Graft Case — Additional Documentation (2012 Warrant & Counter-Narrative)
+
+### 17.1 The 2012 arrest warrant in detail
+- The warrant was signed **May 21, 2012 by Associate Justice Roland B. Jurado, chairman of the Sandiganbayan's Fifth Division** — bail set at **₱40,000 (malversation) + ₱30,000 (graft) = ₱70,000 total** [R32]. (Note: the 2019 conviction was promulgated by the Third Division under Presiding Justice Cabotaje-Tang — the case apparently moved divisions between 2012 and 2019; flag for verification, Section 18.)
+- Copies were directed to **NBI Region 2, the Isabela provincial police commander, and the Ilagan police chief** [R32].
+- Prosecutors framed the EDWINLFI transaction as "in the nature of a management or consultancy contract" (bidding required) and noted **no safeguards on the entrusted amount** [R32].
+- The **COA audit at the heart of the case**: EDWINLFI failed to liquidate **₱3.6M** (booked as "due from NGOs/POs") and another **₱18M** (booked as "loans receivable") [R32] — consistent with the Sandiganbayan's later ₱18M restitution award [R8].
+
+### 17.2 Her counter-narrative — documented, with the Dys' denial
+- In a **45-page Supreme Court petition (May 2012)** she sought to reverse Ombudsman Conchita Carpio Morales' resolution and dismiss the informations [R33].
+- She **publicly accused the Dy clan, her political adversaries, of being behind the filing of the graft charges; the Dys denied it** [R33]. Both positions are on the record — the dossier treats the orchestration claim as her allegation, not established fact.
+- At her appointment, she repeated that **"politics was behind the arrest warrant"** [R36].
+
+### 17.3 The 2010 unseating — additional detail resolving Open Question #2 (partially)
+- The Comelec Second Division's December 2009 ruling ordered her to **"immediately vacate"** and turn over the post to Benjamin Dy; the LP called it part of the administration's **"vendetta politics"** against opposition local executives, and she said "there were other ways employed to get to such decision… institutions like Comelec were used for this purpose" [R35].
+- Days later, Comelec **refused to seat Dy pending her motion for reconsideration** [R34] — the MR was live when her term expired June 30, 2010; the final en banc/SC disposition remains undocumented (Open Question #2 stands, with this added precision).
+- **Handwriting-claim nuance:** election lawyer Romulo Macalintal (acting "for a friend") publicly bet his 25-year election-law career that the SC would not allow the unseating, characterizing the Dy camp's claim as "one person wrote 18,000 ballots." Dy's lawyer Maria Bernadette Sardillo corrected the record: they claimed **similar handwriting on about 50 ballots across many precincts — not a single hand writing 18,000** [R34]. Wikipedia's "written by a single individual" phrasing [R1] overstates the Dy camp's own claim.
+
+### 17.4 The Comelec appointment's legal cloud
+- Comelec Chair **Sixto Brillantes Jr. acknowledged at appointment that she "could face legal issues"**: the Constitution bars appointees who were **candidates in the immediately preceding elections** — she had run (and lost) for governor in 2010, a year before her 2012 appointment [R38]. He also ruled her pending **2010 electoral protest "abandoned"** by accepting the appointment ("It's academic") [R38]. This contextualizes the Commission on Appointments' eventual bypass beyond just the graft case.
+
+---
+
+## 18. Open Questions / To Verify with Primary Sources
 
 1. **Final appellate status of the malversation conviction** (post-Nov 2020 Sandiganbayan resolution). Check Court of Appeals docket / SC e-library.
 2. **Disposition of her 2007 annulment appeal** (Comelec en banc / SC) — she served out the term, but the legal disposition was not documented in dossier sources.
