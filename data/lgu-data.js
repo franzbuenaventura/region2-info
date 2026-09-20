@@ -1019,4 +1019,1024 @@ window.LGU_DATA = {
     }
   ]
 },
+  tumauini: {
+  "nicknames": [
+    "Home of the Unique San Matias Bell Tower",
+    "Bambanti Country"
+  ],
+  "founded": "1704 (Spanish mission) · Town May 10, 1751",
+  "etymology": "From the \"mauini\" trees of the old poblacion — a native, asked by Spaniards what the big trees were called, answered with the last word he heard: \"Tumauini\".",
+  "general": [
+    [
+      "Land area",
+      "467.30 km² (5.62% of Isabela)"
+    ],
+    [
+      "Barangays",
+      "46"
+    ],
+    [
+      "Population (2024)",
+      "77,153 (PSA POPCEN) · 16,825 households · ~165/km²"
+    ],
+    [
+      "Elevation",
+      "22–126 m (seat ~42 m)"
+    ],
+    [
+      "Languages",
+      "Ibanag, Ilocano, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~415 km via Maharlika Hwy · between Cabagan (N) and Ilagan (S)"
+    ],
+    [
+      "Festivals",
+      "Mangi Festival · Bambanti Festival (province-wide scarecrow festival)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱436.7M (2024) · assets ₱2,117M · poverty incidence 14.82% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Retail strip along the National Highway — SM Savemore (2015, first in town) + Puregold anchor the grocery trade; BPLO for current count"
+    ],
+    [
+      "Banks",
+      "Rural/commercial bank branches; nearest full banking cluster is Ilagan (20 km S)"
+    ],
+    [
+      "Hospitals",
+      "Tumauini Medicare Community Hospital + birthing clinics; tertiary care refers to Isabela Provincial Hospital (Ilagan)"
+    ],
+    [
+      "Education anchors",
+      "ISU Tumauini campus (agri/education programs) · public & private high schools"
+    ],
+    [
+      "Retail anchors",
+      "SM Savemore · Puregold"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "Tumauini Water District (LWUA-assisted)"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "47,634 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱80–3,750/sqm (median ₱1,250) · commercial up to ₱8,750/sqm along the National Highway (District 1)"
+    ],
+    [
+      "Internet",
+      "PLDT/Converge fiber available in the poblacion"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "14.82% (2023) — above the national family rate (10.9%)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Northern Isabela farm town on the Maharlika Hwy, 20 km north of Ilagan"
+    ],
+    [
+      "Catchment logic",
+      "Serves its 46 barangays plus Mallig Plains traffic; shoppers go to Ilagan for malls/tertiary care"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "San Matias Parish Church — a National Cultural Treasure with the country's only cylindrical brick bell tower (1785-97, Dominican-built)",
+      "Bambanti Festival heartland — the province-wide scarecrow festival celebrates the corn/rice farm economy",
+      "Mangi Festival celebrates the town's founding and patronage",
+      "Camp Samal — pre-war scouting/heritage site of the Boy Scouts of the Philippines",
+      "Magoli River eco-tourism (swimming/rapids)",
+      "SM Savemore (2015) made Tumauini an early SM Savemore site in rural Cagayan Valley"
+    ],
+    "floodRisk": [
+      "Poblacion barangays along the Panti River",
+      "low-lying rice barangays near the Cagayan River"
+    ],
+    "floodNote": "Northern Isabela floodplain — Typhoon Uwan (Nov 2025) hit the province-wide grid; verify barangay-level maps with the MDRRMO.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace through the poblacion (Phivolcs Jun 2026 list covers Divilacan/Santiago/Ilagan faults) — verify site-level via FaultFinder.",
+      "typhoon": "Frequent direct landfall zone (Uwan Nov 2025).",
+      "implication": "Wind + flood exposure → structural spec + drainage capacity matter for any build."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Venus T. Bautista (PFP)",
+        "27,699 votes (58.15%) vs Mark Anthony De Alban (IND) 8,904 — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Christopher \"Cris\" B. Uy (PFP)",
+        "27,539 votes (57.81%)"
+      ],
+      [
+        "District Rep",
+        "Antonio \"Tonypet\" Albano (Lakas)",
+        "Isabela 1st district (with Ilagan, Cabagan, etc.) — unopposed 2025"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-dominated 2025 batch"
+      ]
+    ],
+    "officialNote": "2025 winners verified via Rappler/ABS-CBN halalan results; confirm officeholders at tumauini-isabela.gov.ph before formal use.",
+    "dynasty": "Bautista-Uy coalition (PFP) runs the town; the De Alban clan is the perennial challenger. Part of the 1st-district Albano orbit.",
+    "climate": "Stable agricultural-town politics; farm services and flood control dominate the agenda.",
+    "historyIntro": "A 1704 Dominican mission that became a town in 1751 — its church tower is its legacy landmark.",
+    "history": [
+      [
+        "1704 · Mission founded",
+        "Established as a Spanish (Dominican) mission; civil administration shuttled between Cabagan and Ilagan."
+      ],
+      [
+        "May 10, 1751 · Townhood",
+        "Became a town in its own right under the patronage of St. Matthias."
+      ],
+      [
+        "1785–1797 · The bell tower",
+        "Dominicans built the San Matias Parish Church with the Philippines' only cylindrical brick bell tower — now a National Cultural Treasure."
+      ],
+      [
+        "1952–1957 · Territorial cuts",
+        "Barrios Barucbuc, Siempre Viva, Bimmonton, Pasurgong, Manga and Settlement No. 1 went to the new town of Mallig (1952); more barrios followed in 1957 — the Mallig Plains frontier was carved out of Tumauini."
+      ],
+      [
+        "2015 · Modern retail",
+        "SM opened its first Savemore Market branch here along the National Highway, followed by Puregold."
+      ],
+      [
+        "2025 · Present",
+        "Mayor Venus Bautista (PFP) re-elected at 58.15%; the town remains a 1st-class farm municipality in the Albano-led 1st district."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; historical detail is Wikipedia-sourced (Dominican records via secondary histories).",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide Business One-Stop Shop (BOSS) initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule: real property tax + business tax on gross sales (per municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor — private listings are thin and mostly Facebook/broker postings.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱80–3,750/sqm (median ₱1,250) · commercial ₱1,500–8,750/sqm — peaks along the National Highway, Barangay District 1"
+      ],
+      [
+        "Most affordable",
+        "₱80/sqm interior lots (Sinippil) — farm-adjacent pricing"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices; verify with brokers and RDO 015 before underwriting."
+  },
+  "references": [
+    {
+      "title": "Tumauini — Wikipedia (2024 census, history 1704/1751, San Matias tower, Savemore)",
+      "url": "https://en.wikipedia.org/wiki/Tumauini"
+    },
+    {
+      "title": "PSA PSGC — Tumauini (PSGC 0203137000): 1st income class, 77,153 (2024), 46 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203137000"
+    },
+    {
+      "title": "PhilAtlas — Tumauini profile (barangay-level data)",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/tumauini.html"
+    },
+    {
+      "title": "Tumauini LGU — official site (services, programs)",
+      "url": "https://tumauini-isabela.gov.ph"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Tumauini results (Bautista 27,699; Uy 27,539)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/tumauini"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — Tumauini official results",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/tumauini"
+    },
+    {
+      "title": "PeoPlaid/ivoteph — Tumauini 2025 electorate (47,634 voters)",
+      "url": "https://peoplaid.com"
+    },
+    {
+      "title": "GMA News — 2025 election returns, Isabela towns",
+      "url": "https://www.gmanetwork.com/news/eleksyon/2025/results/local/REGION+II/ISABELA"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Tumauini (res ₱80–3,750/sqm, median ₱1,250)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/tumauini"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Tumauini History (1704 mission, 1751 townhood, 1952/1957 Mallig carve-outs)",
+      "url": "https://en.wikipedia.org/wiki/Tumauini#History"
+    },
+    {
+      "title": "National Museum / Wikipedia — San Matias Parish Church, National Cultural Treasure (cylindrical bell tower)",
+      "url": "https://en.wikipedia.org/wiki/Tumauini#San_Matias_Parish_Church"
+    },
+    {
+      "title": "Wikipedia — Mallig, Isabela (1952 creation out of Tumauini barrios)",
+      "url": "https://en.wikipedia.org/wiki/Mallig,_Isabela"
+    }
+  ]
+},
+  echague: {
+  "nicknames": [
+    "First Capital of Nueva Vizcaya (pre-1865)",
+    "Home of the Yogad"
+  ],
+  "founded": "1752 · ecclesiastically under St. Joseph May 12, 1753",
+  "etymology": "Formerly \"Camarag\" (a big tree common in the place); renamed for Spanish Governor-General Rafael de Echagüe y Bermingham.",
+  "general": [
+    [
+      "Land area",
+      "680.80 km²"
+    ],
+    [
+      "Barangays",
+      "64"
+    ],
+    [
+      "Population (2024)",
+      "91,320 (PSA POPCEN) · 23,536 households · ~134/km²"
+    ],
+    [
+      "Elevation",
+      "47–101 m (seat ~70 m)"
+    ],
+    [
+      "Languages",
+      "Yogad (ancestral, conserved locally), Ilocano, Ibanag, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~360 km · adjacent to Cauayan City (W) and Ilagan (N)"
+    ],
+    [
+      "Festivals",
+      "Panagdadapun Festival · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱656M (2024) · assets ₱1,527M · poverty incidence 11.4% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Agri-trade + highway commercial strip; farm machinery dealers and rice mills serve the Cauayan-Echague corridor; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Branch banks along the Maharlika Hwy; full cluster next door in Cauayan"
+    ],
+    [
+      "Hospitals",
+      "RHU + private clinics; tertiary care in Cauayan (CVMC, IUDMC) 15-20 min away"
+    ],
+    [
+      "Education anchors",
+      "ISU Echague campus (flagship agri campus of ISU) · public high schools"
+    ],
+    [
+      "Retail anchors",
+      "Puregold; corridor Savemore presence; public market hub"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "Echague Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "58,845 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–2,500/sqm (median ₱1,125) · commercial up to ₱4,375/sqm (Cabugao, along the National Highway)"
+    ],
+    [
+      "Internet",
+      "PLDT/Converge fiber along the Maharlika corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "11.4% (2023) — roughly at the national family rate"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Immediately southeast of Cauayan City on the Maharlika Hwy — inside the Cauayan commute belt"
+    ],
+    [
+      "Catchment logic",
+      "Cheaper land than Cauayan for warehousing/expansion; shares the city's airport (CYZ ~20 min)"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "First capital of Nueva Vizcaya (as Camarag) before the seat moved to Bayombong in 1865",
+      "Ancestral home of the Yogad language — one of the smallest ethnolinguistic groups in the valley",
+      "ISU Echague is the flagship agricultural campus of the Isabela State University system",
+      "Direct neighbor of Cauayan City — effectively the city's southeastern expansion zone",
+      "Rice/corn powerhouse with farm-machinery trade along the highway"
+    ],
+    "floodRisk": [
+      "Riverside barangays of the Cagayan River",
+      "Gabriela Silang-area lowlands"
+    ],
+    "floodNote": "Cagayan River western bank exposure; Uwan (Nov 2025) flooded province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace (Phivolcs Jun 2026 list covers Divilacan/Santiago/Ilagan faults) — verify site-level.",
+      "typhoon": "Frequent landfall province (Uwan Nov 2025, Paolo Sig#4).",
+      "implication": "Standard Cagayan Valley build spec: flood-resilient siting + wind rating."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Faustino \"Inno\" A. Dy V (Lakas)",
+        "40,279 votes (68.45%) vs Don Primo Gaffud (IND) 11,552 — elected 2025 after three terms as 6th-district congressman"
+      ],
+      [
+        "Vice Mayor",
+        "Allan P. Tupong (Lakas)",
+        "38,048 votes"
+      ],
+      [
+        "District Rep",
+        "Faustino \"Kiko\" Dy (Lakas)",
+        "6th district (with Cauayan, San Guillermo, San Isidro) — won 2025; the Dy rotation continues"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "Lakas sweep 2025 (Alili, Agustin, Alzate, Domingo…)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via Rappler/ABS-CBN/GMA returns. The Dy family now holds Echague's mayorship + the 6th-district seat + the House speakership (Bojie Dy III).",
+    "dynasty": "The Dy dynasty's newest stronghold: Inno Dy V moved from Congress to the mayor's office in 2025, cousin Kiko Dy took the congressional seat, and family patriarch Speaker Bojie Dy III anchors the 6th district.",
+    "climate": "One-party (Lakas) dominance with token independent opposition; continuity politics, business-friendly.",
+    "historyIntro": "From Nueva Vizcaya's first capital to a Dy-family bastion beside Cauayan City.",
+    "history": [
+      [
+        "1752 · Founding as Camarag",
+        "Founded 1752; ecclesiastically placed under St. Joseph on May 12, 1753. Camarag = a big tree common in the place."
+      ],
+      [
+        "Pre-1865 · NV's first capital",
+        "Before separating from Nueva Vizcaya, Camarag was the province's first capital — the seat moved to Bayombong in 1865."
+      ],
+      [
+        "1856 · To Isabela",
+        "When Isabela de Luzon was created (1856), Echague became part of the new province."
+      ],
+      [
+        "Renamed",
+        "The town took the name of Governor-General Rafael de Echagüe y Bermingham during the Spanish reorganization."
+      ],
+      [
+        "2018 · 6th district created",
+        "RA 11080 (Sep 27, 2018) carved the new 6th district around Cauayan with Echague, San Guillermo and San Isidro; Inno Dy V won it 2019 and 2022 (90.8%)."
+      ],
+      [
+        "2025 · Dy consolidation",
+        "Inno Dy V termed out of Congress and won the mayorship at 68.45%; Kiko Dy won the congressional seat — the third generation now holds town, district and the speakership."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site. The 2025 6th-district result is read from Echague returns (Kiko Dy 70.18%) — confirm the province-wide certificate of canvass.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "investmentPromo": "Positions itself as Cauayan's expansion ground — cheaper land, same corridor",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the floor — the corridor's land trades privately at Cauayan-adjacent premiums.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–2,500/sqm (median ₱1,125) · commercial ₱1,125–4,375/sqm — peaks in Cabugao along the National Highway"
+      ],
+      [
+        "Most affordable",
+        "₱500/sqm interior lots (Angoluan)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices; Cauayan-spillover pricing can exceed zonals materially."
+  },
+  "references": [
+    {
+      "title": "Echague — Wikipedia (2024 census, Camarag etymology, NV first-capital history)",
+      "url": "https://en.wikipedia.org/wiki/Echague"
+    },
+    {
+      "title": "PSA PSGC — Echague (PSGC 0203112000): 1st income class, 91,320 (2024), 64 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203112000"
+    },
+    {
+      "title": "PhilAtlas — Echague profile (barangay-level data)",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/echague.html"
+    },
+    {
+      "title": "Echague LGU — official site (services, programs)",
+      "url": "https://echague.gov.ph"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Echague results (Inno Dy 40,279 / 68.45%)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/echague"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — Echague official results (Dy 40,279; Tupong 38,048)",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/echague"
+    },
+    {
+      "title": "GMA Eleksyon 2025 — Echague returns",
+      "url": "https://www.gmanetwork.com/news/eleksyon/2025/results/local/REGION+II/ISABELA/ECHAGUE"
+    },
+    {
+      "title": "Wikipedia — Isabela's 6th congressional district (RA 11080; Dy rotation)",
+      "url": "https://en.wikipedia.org/wiki/Isabela%27s_6th_congressional_district"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Echague (res ₱500–2,500/sqm, median ₱1,125)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/echague"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Echague History (1752 founding, St. Joseph 1753, NV capital to Bayombong 1865)",
+      "url": "https://en.wikipedia.org/wiki/Echague#History"
+    },
+    {
+      "title": "Fr. Pedro Salgado OP — Cagayan Valley and Eastern Cordillera (Camarag etymology, via Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Echague#Etymology"
+    },
+    {
+      "title": "PhilAtlas — Yogad people/language context",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/echague.html"
+    }
+  ]
+},
+  roxas: {
+  "nicknames": [
+    "Crossroads of northern Isabela",
+    "Home town of the Albano clan"
+  ],
+  "founded": "July 1, 1948 (EO 136 by President Elpidio Quirino) — out of Barrio Vira",
+  "etymology": "Named for President Manuel Roxas; formerly Bindang (Bayani) and Barrio Vira of the old Cagayan province.",
+  "general": [
+    [
+      "Land area",
+      "184.80 km²"
+    ],
+    [
+      "Barangays",
+      "26"
+    ],
+    [
+      "Population (2024)",
+      "66,593 (PSA POPCEN) · 16,094 households · ~360/km²"
+    ],
+    [
+      "Elevation",
+      "45–97 m (seat ~61 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, English"
+    ],
+    [
+      "Distance from Manila",
+      "~390 km · on the Cauayan-Ilagan-Mallig corridor"
+    ],
+    [
+      "Festivals",
+      "Town fiesta (Jan) · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱649.2M (2024) · assets ₱1,318M · poverty incidence 13.24% (2021)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Commercial hub of the 5th district's farm belt — rice/corn mills, trading posts along the Maharlika Hwy; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank branches; full cluster in Ilagan/Cauayan"
+    ],
+    [
+      "Hospitals",
+      "Roxas District Hospital (provincial) + private clinics; tertiary referral to Ilagan"
+    ],
+    [
+      "Education anchors",
+      "ISU Roxas campus (Roxas State College lineage) · public high schools"
+    ],
+    [
+      "Retail anchors",
+      "Savemore/Puregold-class groceries + public market"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "Roxas Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "41,442 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱563–10,000/sqm (median ₱1,000) · commercial up to ₱18,750/sqm (Bantug, National Highway)"
+    ],
+    [
+      "Internet",
+      "PLDT/Converge fiber on the highway corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "13.24% (2021)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Crossroads where the Maharlika Hwy meets the Mallig Plains roads — trading hub between Ilagan and the northern plains"
+    ],
+    [
+      "Catchment logic",
+      "Draws farm trade from Mallig, Quezon, San Manuel edges; bigger retail pulls north to Tuguegarao, south to Ilagan"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Created by presidential fiat: Executive Order 136 (Jul 1, 1948) by President Elpidio Quirino, honoring Manuel Roxas",
+      "Trading hub of the Mallig Plains farm belt — rice/corn mills and equipment dealers",
+      "Albano family country — the dynasty's municipal base in the 5th district",
+      "ISU Roxas campus anchors agri education"
+    ],
+    "floodRisk": [
+      "Lowland rice barangays",
+      "Siffu/marsh-adjacent areas"
+    ],
+    "floodNote": "Plains-town flood exposure; Uwan (Nov 2025) hit province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace through the town proper — verify via Phivolcs FaultFinder.",
+      "typhoon": "Frequent landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec: flood-resilient siting + wind rating."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Benedict C. Calderon (PFP)",
+        "24,389 votes (58.85%) vs Gretelmar Paguyo (IND) 9,271 — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Kristin Uy (IND)",
+        "23,308 votes (56.24%) — an independent beating PFP's Jonathan Navalta (19,791)"
+      ],
+      [
+        "District Rep",
+        "Rodolfo \"Rodito\" Albano III (PFP)",
+        "5th district — won 2025 (56.63% in Roxas returns); the Albano dynasty's seat"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led batch mixed with independents"
+      ]
+    ],
+    "officialNote": "2025 winners verified via Rappler returns. Note the split executive: PFP mayor + INDEPENDENT vice mayor — unusual for Isabela towns.",
+    "dynasty": "Albano dynasty country (5th district); Calderon machine runs the mayor's office; the Uy family holds the vice mayoralty.",
+    "climate": "Machine politics with real contestation — 2025 saw genuine independents in both races.",
+    "historyIntro": "A Quirino-era creation (1948) out of Barrio Vira, grown into the Mallig Plains' trading hub.",
+    "history": [
+      [
+        "Pre-1948 · Bindang/Vira",
+        "The place was called Bindang (Bayani), part of the old Provincia del Valle de Cagayan; later Barrio Vira."
+      ],
+      [
+        "Jul 1, 1948 · EO 136",
+        "President Elpidio Quirino created the municipality of Roxas from Barrio Vira, honoring his predecessor Manuel Roxas."
+      ],
+      [
+        "1950s–70s · Plains boom",
+        "Grew as the crossroads market of the Mallig Plains corn belt."
+      ],
+      [
+        "Albano era",
+        "The Albano clan made Roxas its political base across the late 20th century (congressional + local posts)."
+      ],
+      [
+        "2025 · Split ticket",
+        "Calderon (PFP) re-elected mayor 58.85% — but independent Kristin Uy took the vice mayoralty, a genuine opposition win."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; EO 136 date (Jul 1, 1948) vs infobox founded (Jul 4, 1948) — the EO date is the legal creation.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; private listings thin.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱563–10,000/sqm (median ₱1,000) · commercial ₱750–18,750/sqm — peaks in Bantug along the National Highway; highest residential in Vira (₱10,000)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Roxas, Isabela — Wikipedia (2024 census, EO 136 founding, Bindang etymology)",
+      "url": "https://en.wikipedia.org/wiki/Roxas,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Roxas (PSGC 0203126000): 1st income class, 66,593 (2024), 26 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203126000"
+    },
+    {
+      "title": "PhilAtlas — Roxas profile (barangay-level data)",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/roxas.html"
+    },
+    {
+      "title": "Roxas LGU — official site (services, programs)",
+      "url": "https://roxas-isabela.gov.ph"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Roxas results (Calderon 24,389; Uy 23,308)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/roxas"
+    },
+    {
+      "title": "PeoPlaid — Roxas 2025 results & electorate (41,442 voters)",
+      "url": "https://peoplaid.com/2025/05/09/roxas-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Wikipedia — Isabela's 5th congressional district (Albano dynasty)",
+      "url": "https://en.wikipedia.org/wiki/Isabela%27s_5th_congressional_district"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Roxas (res ₱563–10,000/sqm, com to ₱18,750)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/roxas"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Roxas Etymology & History (EO 136, Quirino, Manuel Roxas namesake)",
+      "url": "https://en.wikipedia.org/wiki/Roxas,_Isabela#Etymology"
+    },
+    {
+      "title": "Isabela (province) — Wikipedia (5th district composition)",
+      "url": "https://en.wikipedia.org/wiki/Isabela_(province)"
+    }
+  ]
+},
+  cordon: {
+  "nicknames": [
+    "Gateway to the South (Quirino/NV)",
+    "Crossroads of Region 2"
+  ],
+  "founded": "1878 (settlement under Carig) · Town 1896 (Spanish Royal Decree)",
+  "etymology": "Unclear — first recorded 1837 as a Spanish military warehouse called \"Cordon\"; other accounts say a quarantine stop for travelers.",
+  "general": [
+    [
+      "Land area",
+      "144.00 km²"
+    ],
+    [
+      "Barangays",
+      "26 (incl. Magat Reservoir territories Taliktik & Dallao)"
+    ],
+    [
+      "Population (2024)",
+      "46,688 (PSA POPCEN) · 11,578 households · ~324/km²"
+    ],
+    [
+      "Elevation",
+      "86–530 m (seat ~138 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Gaddang, Ibanag, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~310 km — first Isabela town from Nueva Vizcaya on the Maharlika Hwy"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱244.6M (2024) · assets ₱515.1M · poverty incidence 12.96% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Highway service economy — gas stops, eateries, agritrade at the Isabela-Quirino-NV junction; BPLO for count"
+    ],
+    [
+      "Banks",
+      "LandBank/rural bank presence; full banking in Santiago (10 min)"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Santiago (SIMC) — 10-15 min"
+    ],
+    [
+      "Education anchors",
+      "Public high schools; higher ed in Santiago"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "Cordon Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "29,546 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–7,000/sqm (median ₱1,000) · commercial up to ₱10,000/sqm (Malapat, National Highway)"
+    ],
+    [
+      "Internet",
+      "Fiber along the Maharlika corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "12.96% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Southern gateway of Isabela — the mountain-pass junction of Isabela, Quirino and Nueva Vizcaya"
+    ],
+    [
+      "Catchment logic",
+      "Highway traffic + Quirino-bound commuters; Santiago's orbit keeps retail competitive pressure high"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The southern gateway of Isabela — every road from Nueva Vizcaya/Quirino enters through Cordon",
+      "Founded 1878 as a rest stop and military outpost at the mountain pass (under old Carig/Santiago); townhood by Spanish Royal Decree 1896",
+      "Magat Reservoir territories (Taliktik, Dallao) — hydropower country",
+      "The 1972 Taringsing Documents raid (NPA hideout, Barrio Taringsing) fed the justifications for Marcos's martial-law declaration",
+      "Modern crossroads economy: gas, food, agritrade serving three provinces"
+    ],
+    "floodRisk": [
+      "Riverside barangays near the Magat/Diadi rivers"
+    ],
+    "floodNote": "Magat dam-release and riverine exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Santiago Segment fault (M7.2 potential) runs near the corridor — verify site-level via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Seismic + flood exposure at the pass junction → site due diligence is mandatory."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026) — a historical NPA heartland (Taringsing 1972) now cleared."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Florenz M. Zuniega (Aksyon)",
+        "14,305 votes (48.42%) vs Victor Dy (Lakas) 9,384 (31.76%) — won 2025, defeating a Dy"
+      ],
+      [
+        "Vice Mayor",
+        "Lynn M. Zuniega-Dy (PFP)",
+        "15,197 votes (51.44%) — the mayor's relative; an Aksyon mayor with a PFP (Zuniega-Dy) vice mayor"
+      ],
+      [
+        "District Rep",
+        "Joseph S. Tan (Lakas)",
+        "4th district (with Santiago, Ramon, San Isidro)"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "Mixed Aksyon/PFP/Lakas 2025 batch"
+      ]
+    ],
+    "officialNote": "2025 winners verified via Rappler returns. Cordon is one of the few Isabela towns where an opposition slate (Aksyon) beats a Dy — though the VM is a Zuniega-Dy, so the family web persists.",
+    "dynasty": "Zuniega family (mayor) + Dy connection via the vice mayoralty (Lynn Zuniega-Dy); Victor Dy (Lakas) ran and lost — the Dy clan reaches even here, but does not yet own it.",
+    "climate": "Contested politics — Aksyon beat Lakas in 2025; local issues (highway services, Magat releases) dominate.",
+    "historyIntro": "A Spanish-era rest stop at the mountain pass, an NPA flashpoint under martial law, today a three-province crossroads.",
+    "history": [
+      [
+        "1878 · Rest stop",
+        "Founded as a settlement under Carig (now Santiago) — a rest stop for travelers and a military outpost at the Isabela-NV mountain pass."
+      ],
+      [
+        "1896 · Townhood",
+        "Converted into a town by Spanish Royal Decree; the name first appears in an 1837 expedition record (a warehouse called \"Cordon\")."
+      ],
+      [
+        "1972 · Taringsing Documents",
+        "A Jul 18, 1972 military raid on an NPA hideout in Barrio Taringsing uncovered CPP-NPA plans to overthrow the government by 1973 — cited among the justifications for Marcos's martial law."
+      ],
+      [
+        "2025 · Opposition wins",
+        "Aksyon's Florenz Zuniega beat Lakas's Victor Dy for mayor — opposition politics stay alive at the province's gateway."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; the Taringsing/martial-law link is Wikipedia-sourced (cite the primary documents if used formally).",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; highway-frontage lots are the premium product.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–7,000/sqm (median ₱1,000) · commercial ₱813–10,000/sqm — peaks in Malapat along the National Highway"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Cordon, Isabela — Wikipedia (2024 census, 1878 founding, Taringsing Documents)",
+      "url": "https://en.wikipedia.org/wiki/Cordon,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Cordon (PSGC 0203109000): 1st income class, 46,688 (2024), 26 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203109000"
+    },
+    {
+      "title": "PhilAtlas — Cordon profile (barangay-level data)",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/cordon.html"
+    },
+    {
+      "title": "Cordon LGU — official site (services, programs)",
+      "url": "https://cordon-isabela.gov.ph"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Cordon results (Zuniega 14,305; Zuniega-Dy 15,197)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/cordon"
+    },
+    {
+      "title": "PeoPlaid — Cordon 2025 results & electorate (29,546 voters)",
+      "url": "https://peoplaid.com/2025/05/09/cordon-election-2025-results-winners"
+    },
+    {
+      "title": "Wikipedia — Isabela's 4th congressional district",
+      "url": "https://en.wikipedia.org/wiki/Isabela%27s_4th_congressional_district"
+    },
+    {
+      "title": "Wikipedia — Southern Isabela Medical Center (Santiago referral)",
+      "url": "https://en.wikipedia.org/wiki/Southern_Isabela_Medical_Center"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Cordon (res ₱500–7,000/sqm, com to ₱10,000)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/cordon"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Cordon History (1878 Carig settlement, 1896 Royal Decree, 1837 warehouse)",
+      "url": "https://en.wikipedia.org/wiki/Cordon,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Martial law under Marcos (Taringsing Documents context)",
+      "url": "https://en.wikipedia.org/wiki/Martial_law_under_Ferdinand_Marcos"
+    },
+    {
+      "title": "Wikipedia — Magat Dam (reservoir context)",
+      "url": "https://en.wikipedia.org/wiki/Magat_Dam"
+    }
+  ]
+},
 };
