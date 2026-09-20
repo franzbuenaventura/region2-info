@@ -3030,4 +3030,942 @@ window.LGU_DATA = {
     }
   ]
 },
+  "angadanan": {
+  "nicknames": [
+    "Mother town of Alicia"
+  ],
+  "founded": "1745 (mid-18th c., Gaddang settlement site in present-day Nueva Vizcaya) · moved 1776 · third site 19th c.",
+  "etymology": "From the Angaranan Creek — the settlement's water source and landmark; the chief Gaddanan is an alternate namesake.",
+  "general": [
+    [
+      "Land area",
+      "204.40 km²"
+    ],
+    [
+      "Barangays",
+      "59"
+    ],
+    [
+      "Population (2024)",
+      "45,970 (PSA POPCEN) · 11,130 households · ~225/km²"
+    ],
+    [
+      "Elevation",
+      "41–106 m (seat ~64 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Ibanag, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~350 km · 58.6 km south of Ilagan, beside Alicia"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱236M (2024) · assets ₱876.9M · poverty incidence 15.2% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Rice/corn trading along the Cauayan-Alicia corridor; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cauayan (20 min) for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Cauayan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools; ISU campuses nearby (Echague/Alicia)"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "Angadanan Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "28,877 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱438–1,500/sqm (median ₱500 — among the lowest medians in Isabela) · commercial ₱875–3,125/sqm (Centro I)"
+    ],
+    [
+      "Internet",
+      "Poblacion fiber; rural coverage thinner"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "15.2% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Cagayan River western bank between Cauayan and Alicia"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment across 59 barangays; Cauayan is the urban magnet"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Mother town of Alicia — the original Angadanan (1745, near Bagabag/Bayombong in NV) moved twice before its highway site split off as Alicia in 1949",
+      "Named for the Angaranan Creek (and possibly the Gaddang chief Gaddanan)",
+      "59 barangays across a riverside farm landscape",
+      "2025 note: Mayor Joelle Panganiban was listed among Isabela's top-performing mayors in a February 2025 local poll"
+    ],
+    "floodRisk": [
+      "Cagayan/Angaranan riverside barangays"
+    ],
+    "floodNote": "Cagayan River western bank exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Joelle Mathea S. Panganiban (PFP)",
+        "22,606 votes — re-elected 2025 (ran unopposed per PeoPlaid aggregation)"
+      ],
+      [
+        "Vice Mayor",
+        "Lourdes S. Panganiban (NPC)",
+        "22,258 votes — family tandem"
+      ],
+      [
+        "District Rep",
+        "3rd district",
+        "Angadanan votes in Isabela's 3rd congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/NPC mix 2025 (Siquian, Alog, Rivera…)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid/Rappler returns. A Feb 2025 Facebook-sourced mayoral poll ranked Panganiban #2 in Isabela (94.7%) — social-media sourced, treat as anecdote only.",
+    "dynasty": "Panganiban family tandem (mayor PFP + vice mayor NPC) runs the town.",
+    "climate": "Incumbent dominance; farm-services governance.",
+    "historyIntro": "A thrice-moved Gaddang-era town — its third site's highway half became Alicia in 1949.",
+    "history": [
+      [
+        "Mid-1700s · Founding",
+        "Founded as a Gaddang settlement site in present-day Nueva Vizcaya between Bagabag and Bayombong; named for the Angaranan Creek (or chief Gaddanan)."
+      ],
+      [
+        "1776 · First move",
+        "Spaniards relocated the town north to the Ganano/Alicia area."
+      ],
+      [
+        "19th century · Second move",
+        "Moved again 6 km east along the Cagayan River for transport links and defense against Igorot/Gaddang raids."
+      ],
+      [
+        "1949 · The split",
+        "Angadanan Viejo became the separate municipality of Alicia (EO 268); 'Nuevo' was dropped from the remaining town's name."
+      ],
+      [
+        "2025 · Present",
+        "Mayor Joelle Panganiban (PFP) re-elected; family tandem with the vice mayoralty."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; the Angadanan-moves chronology is Wikipedia-sourced.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; listings minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱438–1,500/sqm (median ₱500) · commercial ₱875–3,125/sqm — peaks in Centro I along the National Highway"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Angadanan — Wikipedia (2024 census, Angaranan Creek etymology, moves history)",
+      "url": "https://en.wikipedia.org/wiki/Angadanan"
+    },
+    {
+      "title": "PSA PSGC — Angadanan (PSGC 0203102000): 1st income class, 45,970 (2024), 59 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203102000"
+    },
+    {
+      "title": "PhilAtlas — Angadanan profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/angadanan.html"
+    },
+    {
+      "title": "PeoPlaid — Angadanan 2025 results (Panganiban 22,606; electorate 28,877)",
+      "url": "https://peoplaid.com/2025/05/09/angadanan-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Angadanan results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/angadanan"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Angadanan (res ₱438–1,500/sqm, median ₱500)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/angadanan"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Angadanan History (Gaddan chief, 1776/19th-c moves, 1949 Alicia split)",
+      "url": "https://en.wikipedia.org/wiki/Angadanan#History"
+    },
+    {
+      "title": "Wikipedia — Angadanan Etymology (Angaranan Creek)",
+      "url": "https://en.wikipedia.org/wiki/Angadanan#Etymology"
+    },
+    {
+      "title": "Wikipedia — Alicia, Isabela (the 1949 split)",
+      "url": "https://en.wikipedia.org/wiki/Alicia,_Isabela"
+    }
+  ]
+},
+  "aurora": {
+  "nicknames": [
+    "Rice town of the Doña Aurora grant"
+  ],
+  "founded": "July 3, 1948 (EO 139 by President Elpidio Quirino)",
+  "etymology": "Named for Aurora Quezon, the First Lady (wife of Manuel L. Quezon) — one of several Philippine places carrying her name.",
+  "general": [
+    [
+      "Land area",
+      "115.56 km²"
+    ],
+    [
+      "Barangays",
+      "33"
+    ],
+    [
+      "Population (2024)",
+      "37,191 (PSA POPCEN) · 9,471 households · ~322/km²"
+    ],
+    [
+      "Elevation",
+      "47–90 m (seat ~62 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~400 km · 40 km south of Ilagan"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱53.67M (2024) · assets ₱1,556M · poverty incidence 10.22% (2023) — the valley's lowest among municipalities"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Rice-farm service town; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Ilagan/Cauayan for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools; ISU campuses nearby"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "Aurora Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "24,521 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–2,500/sqm (median ₱625) · commercial ₱688–5,000/sqm (San Jose, National Highway)"
+    ],
+    [
+      "Internet",
+      "Poblacion fiber"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "10.22% (2023) — the lowest of any Isabela municipality; a rice-prosperity pocket"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Central-eastern Isabela farm town between San Manuel and Burgos"
+    ],
+    [
+      "Catchment logic",
+      "Compact farm catchment; Ilagan is the urban draw 40 km north"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Created by EO 139 (Jul 3, 1948) under President Elpidio Quirino and named for First Lady Aurora Quezon",
+      "Lowest poverty incidence of any Isabela municipality (10.22%, 2023) — a quiet rice prosperity",
+      "Doña Aurora Memorial National High School carries the namesake",
+      "Tight-knit rice town on the Ilagan–Cauayan farm belt"
+    ],
+    "floodRisk": [
+      "Lowland rice barangays"
+    ],
+    "floodNote": "Cagayan Valley floodplain; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Romeo Torio (PFP)",
+        "17,288 votes — elected 2025 (Wikipedia infobox lists Joseph Christian G. Uy for the 2022-25 term; verify the transition)"
+      ],
+      [
+        "Vice Mayor",
+        "Melvin S. Martin (2022-25 infobox) / verify",
+        "PeoPlaid 2025 lists the Torio slate; VM winner cross-check pending"
+      ],
+      [
+        "District Rep",
+        "5th district",
+        "Aurora votes in Isabela's 5th congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025 (Alivia, Rivera, Casiano, Galingana…)"
+      ]
+    ],
+    "officialNote": "2025 mayoral winner (Torio, PFP, 17,288) verified via PeoPlaid. The Wikipedia infobox (Uy) reflects the pre-2025 term — treat the handover as the 2025 transition.",
+    "dynasty": "Local-family rotation (Uy → Torio); no dominant dynasty.",
+    "climate": "Quiet rice-town politics; continuity.",
+    "historyIntro": "A 1948 Quirino-era creation honoring First Lady Aurora Quezon.",
+    "history": [
+      [
+        "Pre-1948 · Farm hinterland",
+        "Aurora's territory was farm hinterland of the older towns (San Manuel/Burgos orbit) before independence."
+      ],
+      [
+        "Jul 3, 1948 · EO 139",
+        "President Elpidio Quirino created the municipality of Aurora, named for First Lady Aurora Quezon."
+      ],
+      [
+        "2025 · Transition",
+        "Romeo Torio (PFP) won the mayorship at 17,288 votes — succeeding the Uy administration."
+      ]
+    ],
+    "caution": "Verify current officials via the LGU site — the 2025 transition (Uy → Torio) needs confirmation from the LGU or COMELEC COC.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; listings minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–2,500/sqm (median ₱625) · commercial ₱688–5,000/sqm — peaks in San Jose along the National Highway"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Aurora, Isabela — Wikipedia (2024 census, EO 139, Aurora Quezon namesake)",
+      "url": "https://en.wikipedia.org/wiki/Aurora,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Aurora (PSGC 0203103000): 1st income class, 37,191 (2024), 33 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203103000"
+    },
+    {
+      "title": "PhilAtlas — Aurora profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/aurora.html"
+    },
+    {
+      "title": "PeoPlaid — Aurora 2025 results (Torio 17,288; electorate 24,521)",
+      "url": "https://peoplaid.com/2025/05/09/aurora-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Aurora results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/aurora"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Aurora (res ₱500–2,500/sqm, median ₱625)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/aurora"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Aurora History (EO 139, Jul 3 1948)",
+      "url": "https://en.wikipedia.org/wiki/Aurora,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Aurora Quezon (namesake)",
+      "url": "https://en.wikipedia.org/wiki/Aurora_Quezon"
+    }
+  ]
+},
+  "san-mateo": {
+  "nicknames": [
+    "Munggo Capital of the Philippines",
+    "Agro-Ecological Destination of Cagayan Valley"
+  ],
+  "founded": "March 17, 1946 (EO 97 by President Sergio Osmeña) — out of Cauayan/Santiago territory",
+  "etymology": "First named Marasat (a former barangay of Cauayan, then Santiago); briefly \"Municipality of Yoshisawa\" under the Japanese Imperial Army in WWII; renamed San Mateo for Don Mateo Cadeliña.",
+  "general": [
+    [
+      "Land area",
+      "242.10 km²"
+    ],
+    [
+      "Barangays",
+      "33"
+    ],
+    [
+      "Population",
+      "66,663 (2020 census — the 2024 POPCEN row was not yet on the Wikipedia infobox; PhilAtlas/Rappler still cite 66,663; a 67,433 figure appears on aggregators citing PSA 2024 — verify before publishing)"
+    ],
+    [
+      "Elevation",
+      "seat ~83 m"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~330 km · between Alicia and Ramon on the Maharlika Hwy"
+    ],
+    [
+      "Festivals",
+      "Munggo Festival (mung-bean harvest) · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱175.2M (2024) · assets ₱538.6M · poverty incidence 10.46% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Munggo (mung bean) trading capital + rice/corn mills; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank branches; Santiago/Cauayan for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Santiago/Cauayan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools; ISU campuses nearby"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "San Mateo Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "42,566 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱100–3,125/sqm (median ₱1,250) · commercial ₱400–6,250/sqm (Barangay 1, National Highway)"
+    ],
+    [
+      "Internet",
+      "Fiber on the highway corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "10.46% (2023) — among the valley's lowest"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Central Isabela on the Maharlika Hwy, inside the Santiago-Cauayan twin-city orbit"
+    ],
+    [
+      "Catchment logic",
+      "Munggo trade catchment + Santiago commuters; cheap land between the two cities"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The Munggo Capital of the Philippines — the national mung-bean trading hub",
+      "WWII oddity: renamed 'Yoshisawa' under the Japanese occupation before liberation restored/renamed it",
+      "Created by EO 97 (Mar 17, 1946) under President Sergio Osmeña — one of the first post-liberation towns",
+      "Agro-Ecological Destination branding (munggo + rice + corn)"
+    ],
+    "floodRisk": [
+      "Magat/Ganano riverside barangays"
+    ],
+    "floodNote": "Riverine flood exposure; Magat spill events affect the eastern edge. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Santiago Segment fault (M7.2 potential) to the south — verify site-level.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Atty. Gregorio A. Pua (PFP)",
+        "22,328 votes vs Ogos Gamboa (Aksyon) 13,415 — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Alan L. Cabacungan (2022-25 infobox) / verify 2025",
+        "PeoPlaid lists the Pua slate; VM cross-check pending"
+      ],
+      [
+        "District Rep",
+        "3rd district",
+        "San Mateo votes in Isabela's 3rd congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025 batch"
+      ]
+    ],
+    "officialNote": "2025 mayoral winner verified via PeoPlaid. The vice-mayoral 2025 winner needs cross-checking (infobox shows Cabacungan for 2022-25).",
+    "dynasty": "Pua machine (PFP); the Cadeliña/Pua lineage traces to the town's founding families.",
+    "climate": "Incumbent dominance with a real Aksyon challenge (13,415 votes).",
+    "historyIntro": "From Marasat to wartime Yoshisawa to the post-liberation munggo capital.",
+    "history": [
+      [
+        "Pre-1946 · Marasat",
+        "First named Marasat — a barangay of Cauayan, then Santiago territory."
+      ],
+      [
+        "WWII · Yoshisawa",
+        "The Japanese Imperial Army renamed the municipality 'Yoshisawa' during the occupation."
+      ],
+      [
+        "Mar 17, 1946 · EO 97",
+        "President Sergio Osmeña established San Mateo as a formal municipality, named for Don Mateo Cadeliña."
+      ],
+      [
+        "Postwar · Munggo boom",
+        "Rose as the national mung-bean trading capital; COA income certification later confirmed its 1st-class status."
+      ],
+      [
+        "2025 · Present",
+        "Atty. Gregorio Pua (PFP) re-elected at 62.5% of the two-way vote."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; the Yoshisawa episode is Wikipedia-sourced.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)",
+      "investmentPromo": "Munggo value-chain and agro-ecological tourism branding"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱100–3,125/sqm (median ₱1,250) · commercial ₱400–6,250/sqm — peaks in Barangay 1 along the National Highway"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "San Mateo, Isabela — Wikipedia (Munggo Capital, Yoshisawa WWII episode, EO 97)",
+      "url": "https://en.wikipedia.org/wiki/San_Mateo,_Isabela"
+    },
+    {
+      "title": "PhilAtlas — San Mateo profile (2020 census 66,663; 242.10 km²; 33 barangays)",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/san-mateo.html"
+    },
+    {
+      "title": "PSA PSGC — San Mateo (PSGC 0203132000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203132000"
+    },
+    {
+      "title": "PeoPlaid — San Mateo 2025 results (Pua 22,328 vs Gamboa 13,415; electorate 42,566)",
+      "url": "https://peoplaid.com/2025/05/09/san-mateo-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — San Mateo results (population 66,663)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/san-mateo"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, San Mateo (res ₱100–3,125/sqm, com to ₱6,250)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/san-mateo"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — San Mateo Etymology (Marasat, Yoshisawa, Don Mateo Cadeliña)",
+      "url": "https://en.wikipedia.org/wiki/San_Mateo,_Isabela#Etymology"
+    },
+    {
+      "title": "Wikipedia — San Mateo History (EO 97, Mar 17 1946; COA income certification)",
+      "url": "https://en.wikipedia.org/wiki/San_Mateo,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Mung bean (munggo context)",
+      "url": "https://en.wikipedia.org/wiki/Mung_bean"
+    }
+  ]
+},
+  "san-pablo": {
+  "nicknames": [
+    "The Oldest Pueblo of Isabela (1646, as Maquila/Cabagan Viejo)"
+  ],
+  "founded": "1646 (as Maquila, by Fr. Pedro de Santo Tomas — oldest town in Isabela) · Jan 1, 1910 (established as San Pablo)",
+  "etymology": "Maquila = 'sparkling'; renamed Cabagan (place where people wear 'ba-ag'); final name for St. Paul the Apostle (San Pablo).",
+  "general": [
+    [
+      "Land area",
+      "637.90 km²"
+    ],
+    [
+      "Barangays",
+      "17"
+    ],
+    [
+      "Population (2024)",
+      "26,462 (PSA POPCEN) · 5,867 households · ~41/km²"
+    ],
+    [
+      "Elevation",
+      "14–168 m (seat ~41 m)"
+    ],
+    [
+      "Languages",
+      "Ibanag, Ilocano, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~440 km · west of Cabagan, toward the Cordillera foothills"
+    ],
+    [
+      "Festivals",
+      "Town fiesta (St. Paul) · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱272.5M (2024) · assets ₱657.9M · poverty incidence 19.09% (2023) — the highest in Isabela"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Upland agri-trade (corn, tobacco); BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cabagan/Tuguegarao for banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Tuguegarao"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Power",
+      "ISELCO-II service area"
+    ],
+    [
+      "Water",
+      "San Pablo Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "17,489 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱625–1,250/sqm (median ₱750) · commercial up to ₱4,375/sqm (Poblacion)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage; rural thinner"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "19.09% (2023) — the highest of any Isabela LGU"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Northwestern Isabela, upland edge toward the Cordillera"
+    ],
+    [
+      "Catchment logic",
+      "Remote upland farm trade; Cabagan is the service town"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The oldest pueblo of Isabela — founded 1646 as Maquila ('sparkling'), predating the province itself",
+      "This is old Cabagan Viejo — the original Cabagan, renamed San Pablo on Jan 1, 1910 after the town split (Viejo vs Nuevo)",
+      "1683 raid: Mengal Baladdon's troops devastated the town, killing 12 and forcing flight to the mountains",
+      "Highest poverty incidence in Isabela (19.09%) — an upland development-challenge town"
+    ],
+    "floodRisk": [
+      "Abulug/upper Cagayan tributary banks"
+    ],
+    "floodNote": "Upland flash-flood exposure + typhoon tail; verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Cordillera-fringe seismicity — verify site-level via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Remote-site logistics + flash-flood siting."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Antonio Jose T. Miro III (PFP)",
+        "10,999 votes vs Norma Pinson (IND) 3,510 — elected 2025; the family's third-generation handover"
+      ],
+      [
+        "Vice Mayor",
+        "Antonio N. Miro Jr. (PFP)",
+        "9,894 votes — father-and-son executive"
+      ],
+      [
+        "District Rep",
+        "Antonio \"Tonypet\" Albano (Lakas)",
+        "1st district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025 (Lim-Gollayan…) with independents"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid returns. The Wikipedia infobox's 2022-25 listing (Antonio N. Miro Jr. mayor) is the father; the 2025 election passed the mayorship to the son (Miro III) with the father as vice mayor.",
+    "dynasty": "The Miro family's father-son executive — a textbook small-town dynasty handover.",
+    "climate": "Miro dominance in a poor upland town; development-assistance politics.",
+    "historyIntro": "The valley's oldest pueblo — Maquila 1646, Cabagan Viejo, then San Pablo from 1910.",
+    "history": [
+      [
+        "1646 · Maquila founded",
+        "Fr. Pedro de Santo Tomas founded Maquila ('sparkling') — the oldest pueblo in what became Isabela."
+      ],
+      [
+        "Renamed · Cabagan",
+        "Became 'Cabagan' (place where people wear 'ba-ag'); the mother church of the Irraya missions."
+      ],
+      [
+        "1683 · The Baladdon raid",
+        "Mengal Baladdon's troops devastated the town; the alcalde-mayor of Cagayan rescued the settlement."
+      ],
+      [
+        "1709 · Fire",
+        "Fire destroyed the Cabagan Church and convent."
+      ],
+      [
+        "1877–1888 · The two Cabagans",
+        "When the Spaniards re-sited Cabagan Nuevo, this old town became Cabagan Viejo."
+      ],
+      [
+        "Jan 1, 1910 · San Pablo",
+        "The American-era reorganization renamed Cabagan Viejo as San Pablo (for St. Paul the Apostle)."
+      ],
+      [
+        "2025 · Present",
+        "Antonio Jose Miro III (PFP) won the mayorship; his father Antonio Miro Jr. is vice mayor."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; 1646/1683/1910 chronology is Wikipedia-sourced (Salgado history).",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱625–1,250/sqm (median ₱750) · commercial up to ₱4,375/sqm (Poblacion)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "San Pablo, Isabela — Wikipedia (oldest pueblo 1646 Maquila, Cabagan Viejo, 1910 renaming)",
+      "url": "https://en.wikipedia.org/wiki/San_Pablo,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — San Pablo (PSGC 0203133000): 1st income class, 26,462 (2024), 17 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203133000"
+    },
+    {
+      "title": "PhilAtlas — San Pablo profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/san-pablo.html"
+    },
+    {
+      "title": "PeoPlaid — San Pablo 2025 results (Miro III 10,999; Miro Jr. 9,894; electorate 17,489)",
+      "url": "https://peoplaid.com/2025/05/09/san-pablo-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — San Pablo results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/san-pablo"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, San Pablo (res ₱625–1,250/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/san-pablo"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — San Pablo History (Maquila 1646, Baladdon raid 1683, fire 1709)",
+      "url": "https://en.wikipedia.org/wiki/San_Pablo,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Cabagan (the two-Cabagans context)",
+      "url": "https://en.wikipedia.org/wiki/Cabagan"
+    }
+  ]
+},
 };
