@@ -3968,4 +3968,2018 @@ window.LGU_DATA = {
     }
   ]
 },
+  "san-manuel": {
+  "nicknames": [
+    "Mallig Plains frontier town"
+  ],
+  "founded": "June 23, 1957 (as Callang) · renamed June 19, 1965 (as San Manuel)",
+  "etymology": "First named Callang — a Kalinga word for the molave hardwood that lined the area; renamed San Manuel later.",
+  "general": [
+    [
+      "Land area",
+      "112.77 km²"
+    ],
+    [
+      "Barangays",
+      "19"
+    ],
+    [
+      "Population (2024)",
+      "34,740 (PSA POPCEN) · 8,714 households · ~308/km²"
+    ],
+    [
+      "Elevation",
+      "49–318 m (seat ~65 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Kalinga/Irraya heritage"
+    ],
+    [
+      "Distance from Manila",
+      "~370 km · western edge of the Mallig Plains"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "2nd municipal income class · revenue ₱185.9M (2024) · assets ₱688.3M · poverty incidence 11.63% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn/tobacco farm trade on the Mallig Plains; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Roxas (20 min) for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Roxas/Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "San Manuel Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "21,089 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–2,500/sqm (median ₱625) · commercial ₱875–5,625/sqm (District 1, National Highway)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "11.63% (2023) — below the national family rate"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Western Mallig Plains between Roxas and Aurora"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment across 19 barangays; Roxas is the commercial draw"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Central Luzon settlers founded communities here in the early 1920s — a Tagalog-language pocket in an Ilocano region",
+      "Created 1957 as Callang (a former barrio of Gamu), renamed San Manuel in 1965",
+      "Mallig Plains corn/tobacco economy",
+      "A Dy at the helm: Faustino \"Dondon\" Dy IV — the dynasty's branch beyond Cauayan/Echague"
+    ],
+    "floodRisk": [
+      "Mallig River lowland barangays"
+    ],
+    "floodNote": "Mallig Plains flood exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Faustino \"Dondon\" Dy IV (LDP)",
+        "12,343 votes — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Temestocles \"Juntocles\" A. Santos Jr. (LDP)",
+        "11,781 votes"
+      ],
+      [
+        "District Rep",
+        "5th district",
+        "San Manuel votes in Isabela's 5th congressional district (Albano orbit)"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "LDP/IND mix 2025 (Cabrera…)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid returns. A Dy IV here is notable: the dynasty's fourth generation holds a western Mallig Plains town.",
+    "dynasty": "Dy IV (LDP) with the Santos tandem; the Dy web extends from Cauayan/Echague to San Manuel.",
+    "climate": "Incumbent dominance; farm-services governance.",
+    "historyIntro": "A 1920s Central Luzon settlement colony on the Mallig Plains frontier.",
+    "history": [
+      [
+        "1920s · Settlers arrive",
+        "Initial groups of settlers from Central Luzon founded communities in Callang, then a barrio of Gamu — a Tagalog-speaking pocket in the Ilocano valley."
+      ],
+      [
+        "Jun 23, 1957 · Callang townhood",
+        "Callang became a municipality."
+      ],
+      [
+        "Jun 19, 1965 · Renamed",
+        "The town took the name San Manuel."
+      ],
+      [
+        "2025 · Present",
+        "Faustino Dy IV (LDP) re-elected at 12,343 votes — the Dy dynasty's western outpost."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; early-settlement history is Wikipedia-sourced.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; listings minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–2,500/sqm (median ₱625) · commercial ₱875–5,625/sqm — peaks in District 1 along the National Highway"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "San Manuel, Isabela — Wikipedia (2024 census, Callang 1957, 1965 rename, Dy IV)",
+      "url": "https://en.wikipedia.org/wiki/San_Manuel,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — San Manuel (PSGC 0203130000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203130000"
+    },
+    {
+      "title": "PhilAtlas — San Manuel profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/san-manuel.html"
+    },
+    {
+      "title": "PeoPlaid — San Manuel 2025 results (Dy IV 12,343; Santos 11,781; electorate 21,089)",
+      "url": "https://peoplaid.com/2025/05/09/san-manuel-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — San Manuel results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/san-manuel"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, San Manuel (res ₱500–2,500/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/san-manuel"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — San Manuel History (Central Luzon settlers, Gamu mother town)",
+      "url": "https://en.wikipedia.org/wiki/San_Manuel,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — San Manuel Etymology (Callang/molave)",
+      "url": "https://en.wikipedia.org/wiki/San_Manuel,_Isabela#Etymology"
+    }
+  ]
+},
+  "burgos": {
+  "nicknames": [
+    "Highest seat of government in Isabela (523 m)",
+    "Cordillera-fringe town"
+  ],
+  "founded": "May 18, 1967 (RA 4877 — barrios detached from Gamu and Aurora)",
+  "etymology": "Named for Fr. José Burgos, the Ilocano martyr of GOMBURZA.",
+  "general": [
+    [
+      "Land area",
+      "73.10 km²"
+    ],
+    [
+      "Barangays",
+      "14"
+    ],
+    [
+      "Population (2024)",
+      "26,729 (PSA POPCEN) · 6,410 households · ~366/km²"
+    ],
+    [
+      "Elevation",
+      "122–915 m (seat ~523 m — the highest municipal seat in Isabela)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~390 km · upland west of Aurora on the Cordon-Burgos road"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "3rd municipal income class · revenue ₱193.3M (2024) · assets ₱896.6M · poverty incidence 16.38% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Upland farm trade (vegetables, root crops) + Cordillera-fringe trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Ilagan for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Burgos Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "17,190 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱475–1,250/sqm (median ₱625) · commercial ₱675–1,875/sqm (Caliguian)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage; upland thinner"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "16.38% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Upland western Isabela at the Cordillera fringe"
+    ],
+    [
+      "Catchment logic",
+      "Highland farm trade; Ilagan is the urban magnet"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The highest municipal seat in Isabela (523 m) — a cool-climate Cordillera-fringe town",
+      "Named for Fr. José Burgos (GOMBURZA martyr)",
+      "Created 1967 from Gamu and Aurora barrios (RA 4877)",
+      "Vegetable/root-crop highland farming distinct from the valley's rice-corn economy"
+    ],
+    "floodRisk": [
+      "Lower-elevation riverine barangays only"
+    ],
+    "floodNote": "Highland town — flash-flood/landslide edges, not riverine floodplain. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Cordillera-fringe seismicity — verify site-level via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025); highland winds can be severe.",
+      "implication": "Landslide-siting + road-access resilience matter more than river flooding here."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Kervin Francis Uy (PFP)",
+        "9,969 votes vs Hector Anagaran Jr. (IND) 3,603 — elected 2025 (succeeding Isis Dominique Uy per the pre-2025 infobox)"
+      ],
+      [
+        "Vice Mayor",
+        "Ruben A. Gragasin (PFP)",
+        "8,952 votes"
+      ],
+      [
+        "District Rep",
+        "5th district",
+        "Burgos votes in Isabela's 5th congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The Uy name continues (Isis Dominique → Kervin Francis) — a family succession; verify the relationship before asserting dynasty.",
+    "dynasty": "Uy family succession (PFP) in the highland town.",
+    "climate": "Incumbent-machine politics; upland services agenda.",
+    "historyIntro": "A 1967 highland creation named for a martyr — carved from Gamu and Aurora.",
+    "history": [
+      [
+        "Pre-1967 · Gamu/Aurora barrios",
+        "Burgos's territory was barrios of Gamu and Aurora."
+      ],
+      [
+        "May 18, 1967 · RA 4877",
+        "Congress detached the barrios into the new municipality of Burgos, named for Fr. José Burgos."
+      ],
+      [
+        "2025 · Present",
+        "Kervin Francis Uy (PFP) won at 73.4% of the two-way vote."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; highland access roads affect all cost estimates.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱475–1,250/sqm (median ₱625) · commercial ₱675–1,875/sqm (Caliguian)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Burgos, Isabela — Wikipedia (2024 census, RA 4877 1967, José Burgos namesake, 523 m seat)",
+      "url": "https://en.wikipedia.org/wiki/Burgos,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Burgos (PSGC 0203105000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203105000"
+    },
+    {
+      "title": "PhilAtlas — Burgos profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/burgos.html"
+    },
+    {
+      "title": "PeoPlaid — Burgos 2025 results (Uy 9,969; Gragasin 8,952; electorate 17,190)",
+      "url": "https://peoplaid.com/2025/05/09/burgos-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Burgos results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/burgos"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Burgos (res ₱475–1,250/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/burgos"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Burgos History (RA 4877, Gamu/Aurora barrios)",
+      "url": "https://en.wikipedia.org/wiki/Burgos,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — José Burgos (namesake, GOMBURZA)",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Burgos"
+    }
+  ]
+},
+  "mallig": {
+  "nicknames": [
+    "Mallig Plains namesake",
+    "Quezon-era resettlement colony"
+  ],
+  "founded": "April 8, 1952 — carved from Tumauini (and neighboring territories)",
+  "etymology": "Named for the Mallig River that runs through it.",
+  "general": [
+    [
+      "Land area",
+      "133.40 km²"
+    ],
+    [
+      "Barangays",
+      "18"
+    ],
+    [
+      "Population (2024)",
+      "32,509 (PSA POPCEN) · 7,814 households · ~244/km²"
+    ],
+    [
+      "Elevation",
+      "44–630 m (seat ~95 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~380 km · northwest of Roxas on the Mallig Plains"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱343.7M (2024) · assets ₱1,410M · poverty incidence 15.64% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn-belt trade center of the Mallig Plains; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Roxas (20 min) for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Roxas/Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools; ISU-adjacent campuses"
+    ],
+    [
+      "Water",
+      "Mallig Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "20,355 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–2,500/sqm (median ₱625) · commercial ₱750–4,375/sqm (Centro I)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "15.64% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Mallig Plains crossroads northwest of Roxas"
+    ],
+    [
+      "Catchment logic",
+      "Plains farm trade; Roxas/Ilagan are the commercial pulls"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The 1621 refuge: Irraya/Gaddang people fled here after the Dayag-Catabay revolt (recorded by Fr. Pedro de Santo Tomás)",
+      "1939: President Quezon declared western Isabela a resettlement area — Mallig is the heart of that colony",
+      "Carved from Tumauini in 1952 (with barrios from Santo Tomas/San Manuel edges)",
+      "Corn country — the Mallig Plains' central market town"
+    ],
+    "floodRisk": [
+      "Mallig River lowland barangays"
+    ],
+    "floodNote": "Riverine flood exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Jose Philip \"JP\" F. Calderon (PFP)",
+        "11,088 votes vs Andong Baniqued (Aksyon) 5,991 — elected 2025 (succeeding Jose Philip Calderon per the pre-2025 infobox; verify continuity)"
+      ],
+      [
+        "Vice Mayor",
+        "Deo Angelo Elefante (Lakas)",
+        "10,177 votes"
+      ],
+      [
+        "District Rep",
+        "5th district",
+        "Mallig votes in Isabela's 5th congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025 batch"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The Calderon name carries from Roxas's mayoral family — verify the relationship before asserting dynasty.",
+    "dynasty": "Calderon linkage to Roxas's machine (PFP); Baniqued's Aksyon is the local opposition.",
+    "climate": "Contested but PFP-led; plains farm governance.",
+    "historyIntro": "A 1621 refugee refuge turned 1939 Quezon resettlement colony turned 1952 corn-belt town.",
+    "history": [
+      [
+        "1621 · The Irraya refuge",
+        "Fray Pedro de Santo Tomás recorded the area as where the Irraya/Gaddang fled after the Dayag-Catabay revolt near Ilagan."
+      ],
+      [
+        "1939 · Quezon resettlement",
+        "President Manuel L. Quezon declared western Isabela a resettlement area — the Mallig Plains colonization began in earnest."
+      ],
+      [
+        "Apr 8, 1952 · Townhood",
+        "Mallig was created (barrios carved mostly from Tumauini; Abut/Minagbag came via Santo Tomas that year)."
+      ],
+      [
+        "2025 · Present",
+        "JP Calderon (PFP) won at 11,088 votes; Aksyon's Baniqued made it a real race."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; 1621/1939 chronology is Wikipedia-sourced.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–2,500/sqm (median ₱625) · commercial ₱750–4,375/sqm (Centro I)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Mallig — Wikipedia (2024 census, 1952 creation, 1939 Quezon resettlement, 1621 refuge)",
+      "url": "https://en.wikipedia.org/wiki/Mallig"
+    },
+    {
+      "title": "PSA PSGC — Mallig (PSGC 0203119000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203119000"
+    },
+    {
+      "title": "PhilAtlas — Mallig profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/mallig.html"
+    },
+    {
+      "title": "PeoPlaid — Mallig 2025 results (Calderon 11,088; Elefante 10,177; electorate 20,355)",
+      "url": "https://peoplaid.com/2025/05/09/mallig-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Mallig results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/mallig"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Mallig (res ₱500–2,500/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/mallig"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Mallig History (Dayag-Catabay revolt refuge, Quezon resettlement)",
+      "url": "https://en.wikipedia.org/wiki/Mallig#History"
+    },
+    {
+      "title": "Wikipedia — Tumauini (the 1952 carve-out)",
+      "url": "https://en.wikipedia.org/wiki/Tumauini"
+    }
+  ]
+},
+  "quezon": {
+  "nicknames": [
+    "Mallig Plains colony town"
+  ],
+  "founded": "June 21, 1959 (RA 2418), named for President Manuel L. Quezon",
+  "etymology": "Named for President Manuel Luis Quezon, whose 1939 resettlement program opened the Mallig Plains.",
+  "general": [
+    [
+      "Land area",
+      "189.90 km²"
+    ],
+    [
+      "Barangays",
+      "15"
+    ],
+    [
+      "Population (2024)",
+      "28,376 (PSA POPCEN) · 6,618 households · ~149/km²"
+    ],
+    [
+      "Elevation",
+      "80–814 m (seat ~117 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~375 km · Mallig Plains, northwest of Roxas"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱257.7M (2024) · assets ₱795.3M · poverty incidence 14.56% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn/rice farm trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Roxas for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Roxas/Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Quezon Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "16,004 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–2,500/sqm (median ₱750) · commercial ₱813–4,375/sqm (Alunan)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "14.56% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Mallig Plains interior between Mallig and Roxas"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Roxas/Ilagan are the commercial draws"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Named for President Manuel L. Quezon (RA 2418, 1959) — his 1939 resettlement program opened the Mallig Plains",
+      "Earliest inhabitants: Igorot and Kalinga groups from the Cordillera, before the lowland settlement wave",
+      "1961: absorbed the Abut/Minagbag barrios from Santo Tomas",
+      "Genuine contestation: the Gascon-Gamazon swap kept one family across both top posts"
+    ],
+    "floodRisk": [
+      "Mallig River lowland barangays"
+    ],
+    "floodNote": "Plains flood exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Daryl G. Gascon (Lakas)",
+        "10,354 votes — elected 2025; the pre-2025 vice mayor moving up"
+      ],
+      [
+        "Vice Mayor",
+        "Jimmy \"Jimboy\" S. Gamazon Jr. (Lakas)",
+        "10,226 votes — the pre-2025 mayor moving to VM (rotation swap)"
+      ],
+      [
+        "District Rep",
+        "5th district",
+        "Quezon votes in Isabela's 5th congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "Lakas sweep 2025 (Gante…)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The pre-2025 infobox (Mayor Gamazon, VM Gascon) plus the 2025 swap pattern indicates a term-limit rotation within the same slate — verify with the LGU.",
+    "dynasty": "Gascon-Gamazon rotation (Lakas) — the standard term-swapping duo pattern.",
+    "climate": "One-slate dominance; rotation politics.",
+    "historyIntro": "From Cordillera foothills to a Quezon-era resettlement colony on the Mallig Plains.",
+    "history": [
+      [
+        "Pre-1959 · Frontier",
+        "Historians believe the earliest inhabitants were Igorots and Kalingas from the Cordillera; the plains stayed sparsely settled."
+      ],
+      [
+        "1939 · Resettlement push",
+        "Quezon's western-Isabela resettlement declaration seeded the colony towns."
+      ],
+      [
+        "Jun 21, 1959 · RA 2418",
+        "Quezon municipality was created, named for the president."
+      ],
+      [
+        "1961 · Territorial gain",
+        "The barrios of Abut and Minagbag (via Santo Tomas/Mallig) were transferred to Quezon."
+      ],
+      [
+        "2025 · Rotation",
+        "Gascon and Gamazon swapped seats (mayor ↔ VM) under Lakas."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site — the 2025 swap needs LGU confirmation.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–2,500/sqm (median ₱750) · commercial ₱813–4,375/sqm (Alunan)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Quezon, Isabela — Wikipedia (2024 census, RA 2418 1959, Mallig Plains, Igorot/Kalinga origins)",
+      "url": "https://en.wikipedia.org/wiki/Quezon,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Quezon (PSGC 0203122000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203122000"
+    },
+    {
+      "title": "PhilAtlas — Quezon profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/quezon.html"
+    },
+    {
+      "title": "PeoPlaid — Quezon 2025 results (Gascon 10,354; Gamazon 10,226; electorate 16,004)",
+      "url": "https://peoplaid.com/2025/05/09/quezon-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Quezon results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/quezon"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Quezon (res ₱500–2,500/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/quezon"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Quezon History (RA 2418, Jun 21 1959)",
+      "url": "https://en.wikipedia.org/wiki/Quezon,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Santo Tomas (the 1961 Abut/Minagbag transfer)",
+      "url": "https://en.wikipedia.org/wiki/Santo_Tomas,_Isabela"
+    }
+  ]
+},
+  "quirino": {
+  "nicknames": [
+    "Cheapest zonal land in Isabela"
+  ],
+  "founded": "June 17, 1967 (RA 4901), named for President Elpidio Quirino",
+  "etymology": "Named for President Elpidio Quirino.",
+  "general": [
+    [
+      "Land area",
+      "126.20 km²"
+    ],
+    [
+      "Barangays",
+      "21"
+    ],
+    [
+      "Population (2024)",
+      "25,205 (PSA POPCEN) · 6,632 households · ~200/km²"
+    ],
+    [
+      "Elevation",
+      "12–160 m (seat ~34 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~370 km · Mallig Plains, western Isabela"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "4th municipal income class · Wikipedia infobox revenue ₱462M (2024) — an outlier vs 4th-class peers (₱150–260M); verify against COA before citing · assets ₱2,161M · poverty incidence 12.97% (2021)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Palay/corn farm trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Roxas for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Roxas/Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Power",
+      "ISELCO-II service area"
+    ],
+    [
+      "Water",
+      "Quirino Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "16,742 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱375–625/sqm (median ₱500) · commercial ₱563–1,125/sqm (Luna bgy) — the cheapest zonal schedule in Isabela"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "12.97% (2021)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Western Mallig Plains, Roxas orbit"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Roxas/Ilagan are the commercial draws"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "A Quirino-era creation (RA 4901, 1967) on the Mallig Plains",
+      "The cheapest BIR zonal land in Isabela (residential ₱375–625/sqm)",
+      "Sprawling flatlands — palay and corn country",
+      "2025: PFP's Edward Juan held the mayorship (10,834) with Lakas's Callangan as vice mayor — a split-ticket executive"
+    ],
+    "floodRisk": [
+      "Mallig River lowland barangays"
+    ],
+    "floodNote": "Plains flood exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Edward D. Juan (PFP)",
+        "10,834 votes vs Eristeo Manlutac (Aksyon) 3,313 — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Victor Emmanuel G. Callangan (Lakas)",
+        "10,985 votes — a different-party vice mayor"
+      ],
+      [
+        "District Rep",
+        "Faustino Michael Carlos T. Dy III (5th district per infobox)",
+        "verify: the 5th-district seat sits in the Albano/Calderon orbit — confirm mapping"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/Lakas mix 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The infobox's representative line names Dy III for the 5th district — cross-check the district rep against COMELEC (Roxas returns showed Albano).",
+    "dynasty": "Juan machine (PFP) with a Lakas vice mayor — genuine split-ticket governance.",
+    "climate": "Small-town machine politics with party-split executive.",
+    "historyIntro": "A 1967 Mallig Plains creation honoring President Quirino.",
+    "history": [
+      [
+        "Jun 17, 1967 · RA 4901",
+        "Quirino was established in the Mallig Plains of western Isabela, named for President Elpidio Quirino."
+      ],
+      [
+        "2025 · Split ticket",
+        "Edward Juan (PFP) re-elected mayor; Lakas's Victor Callangan won the vice mayoralty."
+      ]
+    ],
+    "caution": "Verify officials and the revenue outlier via the LGU/COA before formal use.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱375–625/sqm (median ₱500) · commercial ₱563–1,125/sqm — cheapest in Isabela"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Quirino, Isabela — Wikipedia (2024 census, RA 4901 1967, Mallig Plains, ISELCO-II)",
+      "url": "https://en.wikipedia.org/wiki/Quirino,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Quirino (PSGC 0203123000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203123000"
+    },
+    {
+      "title": "PhilAtlas — Quirino profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/quirino.html"
+    },
+    {
+      "title": "PeoPlaid — Quirino 2025 results (Juan 10,834; Callangan 10,985; electorate 16,742)",
+      "url": "https://peoplaid.com/2025/05/09/quirino-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Quirino results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/quirino"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Quirino (res ₱375–625/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/quirino"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Quirino History (RA 4901)",
+      "url": "https://en.wikipedia.org/wiki/Quirino,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Elpidio Quirino (namesake)",
+      "url": "https://en.wikipedia.org/wiki/Elpidio_Quirino"
+    }
+  ]
+},
+  "luna": {
+  "nicknames": [
+    "Formerly Antatet"
+  ],
+  "founded": "June 8, 1951 (RA 633 — renamed from Antatet to Luna)",
+  "etymology": "Renamed for Gen. Antonio Luna; formerly the settlement of Antatet.",
+  "general": [
+    [
+      "Land area",
+      "~45.7 km² (population ÷ density 459.8/km² — verify against PSGC; one of Isabela's smallest)"
+    ],
+    [
+      "Barangays",
+      "19"
+    ],
+    [
+      "Population (2024)",
+      "21,015 (PSA POPCEN) · 5,253 households · ~460/km²"
+    ],
+    [
+      "Elevation",
+      "39–128 m (seat ~65 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Ibanag, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~404 km · 37.7 km north of Ilagan"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "5th municipal income class · revenue ₱260.2M (2022) · assets ₱641.4M (2022) · poverty incidence 10.5% (2021)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Compact farm-trade town; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cabagan/Ilagan for banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Power",
+      "ISELCO-I service area"
+    ],
+    [
+      "Water",
+      "Luna Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "14,869 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱60–2,000/sqm (median ₱1,000) · commercial ₱100–2,500/sqm (Centro 1)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "10.5% (2021)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Small compact town between Cabagan and Ilagan"
+    ],
+    [
+      "Catchment logic",
+      "Local farm catchment; Ilagan is the urban magnet"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "One of Isabela's smallest towns (≈46 km², 19 barangays) with big-town density (≈460/km²)",
+      "Renamed from Antatet to Luna by RA 633 (1951) for Gen. Antonio Luna",
+      "A KBL candidate (Mendoza, 2,770) on the 2025 ballot — a Marcos-era party still fielding candidates",
+      "Poverty incidence 10.5% — among the valley's lowest"
+    ],
+    "floodRisk": [
+      "Cagayan River riverside barangays"
+    ],
+    "floodNote": "Cagayan River floodplain; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Adrian Leandro P. Tio (PFP)",
+        "9,487 votes vs Chuchi Mendoza (KBL) 2,770 — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Lelamen R. Soingco (PFP)",
+        "8,933 votes"
+      ],
+      [
+        "District Rep",
+        "1st district (infobox lists Dy III — verify)",
+        "Luna sits in the 1st district; the infobox's rep line needs cross-checking against COMELEC"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The infobox's representative line (Dy III) conflicts with 1st-district expectations (Albano) — verify mapping before citing.",
+    "dynasty": "Tio-Soingco PFP tandem; no dominant dynasty.",
+    "climate": "Quiet small-town politics.",
+    "historyIntro": "From Antatet to Luna — a 1951 renaming for the general.",
+    "history": [
+      [
+        "Pre-1951 · Antatet",
+        "The settlement was known as Antatet."
+      ],
+      [
+        "Jun 8, 1951 · RA 633",
+        "Renamed Luna for Gen. Antonio Luna."
+      ],
+      [
+        "2025 · Present",
+        "Adrian Leandro Tio (PFP) re-elected at 9,487 votes."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; verify the district-rep mapping.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱60–2,000/sqm (median ₱1,000) · commercial ₱100–2,500/sqm (Centro 1)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Luna, Isabela — Wikipedia (2024 census, RA 633 1951, Antatet, ISELCO-I)",
+      "url": "https://en.wikipedia.org/wiki/Luna,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Luna (PSGC 0203116000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203116000"
+    },
+    {
+      "title": "PhilAtlas — Luna profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/luna.html"
+    },
+    {
+      "title": "PeoPlaid — Luna 2025 results (Tio 9,487; Soingco 8,933; electorate 14,869)",
+      "url": "https://peoplaid.com/2025/05/09/luna-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Luna results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/luna"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Luna (res ₱60–2,000/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/luna"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Luna History (Antatet, RA 633)",
+      "url": "https://en.wikipedia.org/wiki/Luna,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Antonio Luna (namesake)",
+      "url": "https://en.wikipedia.org/wiki/Antonio_Luna"
+    }
+  ]
+},
+  "santa-maria": {
+  "nicknames": [
+    "Masigan-family town (1703)"
+  ],
+  "founded": "1703 (pueblo Santa Maria de Luzon, detached from Cabagan) · royal order Dec 4, 1879",
+  "etymology": "Named for Doña Maria, firstborn child of Don Pablo Marasigan (a Spaniard) and Doña Masid (a native).",
+  "general": [
+    [
+      "Land area",
+      "140.00 km²"
+    ],
+    [
+      "Barangays",
+      "20"
+    ],
+    [
+      "Population (2024)",
+      "25,919 (PSA POPCEN) · 5,485 households · ~185/km²"
+    ],
+    [
+      "Elevation",
+      "14–223 m (seat ~34 m)"
+    ],
+    [
+      "Languages",
+      "Ibanag, Ilocano, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~430 km · west of Cabagan toward the Cordillera foothills"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "4th municipal income class · revenue ₱155.9M (2024) · assets ₱452.3M · poverty incidence 18.36% (2021)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Upland agri-trade (tobacco/corn); BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cabagan for banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Tuguegarao/Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Power",
+      "ISELCO-II service area"
+    ],
+    [
+      "Water",
+      "Santa Maria Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "18,011 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱625–1,875/sqm (median ₱875) · commercial ₱1,000–3,125/sqm (Poblacion 1)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "18.36% (2021) — among the province's highest"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Northwestern Isabela upland edge"
+    ],
+    [
+      "Catchment logic",
+      "Remote upland farm trade; Cabagan is the service town"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "A 1703 pueblo (Santa Maria de Luzon) detached from old Cabagan — governed for most of its history by the Masigan family",
+      "Royal order of Dec 4, 1879 legally split the town",
+      "Named for Doña Maria, daughter of Don Pablo Marasigan and Doña Masid — a mestizo founding story",
+      "One of the province's highest poverty rates (18.36%) — an upland development-challenge town"
+    ],
+    "floodRisk": [
+      "Upland flash-flood fringes"
+    ],
+    "floodNote": "Upland exposure + typhoon tail; verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Cordillera-fringe seismicity — verify site-level.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Remote-site logistics + flash-flood siting."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Hilario G. Pagauitan (per 2022-25 infobox)",
+        "2025: Pagauitan ticket led per Rappler partial returns (96.15% precincts) — final COC vote counts not verified"
+      ],
+      [
+        "Vice Mayor",
+        "Michael A. Pagauitan",
+        "father-and-son executive per the infobox; verify 2025 handover"
+      ],
+      [
+        "District Rep",
+        "Antonio T. Albano (1st district)",
+        "Santa Maria votes in Isabela's 1st congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "verify 2025 composition"
+      ]
+    ],
+    "officialNote": "Rappler's Santa Maria page showed 96.15% precincts reporting on May 15, 2025 — the final COMELEC canvass was not captured in this pass. Re-verify officials and vote counts before formal use.",
+    "dynasty": "The Masigan founding family's centuries-long executive legacy; the Pagauitan family holds the current posts.",
+    "climate": "Small-town machine politics in a poor upland town.",
+    "historyIntro": "A 1703 mestizo-foundling pueblo run for generations by the Masigan family.",
+    "history": [
+      [
+        "1703 · Santa Maria de Luzon",
+        "The hamlet was established as a pueblo, detached from Cabagan (now San Pablo), with Don Martin Masigan as governor — the Masigan family dominated the town's executive for generations."
+      ],
+      [
+        "Dec 4, 1879 · Royal split",
+        "A royal order legally separated the historic town of Santa Maria."
+      ],
+      [
+        "2025 · Partial returns",
+        "The Pagauitan ticket led at 96% precincts — final canvass unverified."
+      ]
+    ],
+    "caution": "Verify officials and 2025 results via the LGU/COMELEC before formal use.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱625–1,875/sqm (median ₱875) · commercial ₱1,000–3,125/sqm (Poblacion 1)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Santa Maria, Isabela — Wikipedia (2024 census, 1703 pueblo, Masigan family, Dec 4 1879 royal order)",
+      "url": "https://en.wikipedia.org/wiki/Santa_Maria,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Santa Maria (PSGC 0203134000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203134000"
+    },
+    {
+      "title": "PhilAtlas — Santa Maria profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/santa-maria.html"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Santa Maria results (96.15% precincts at capture)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/santa-maria"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — Santa Maria results",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/santa-maria"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Santa Maria (res ₱625–1,875/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/santa-maria"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Santa Maria History (1703 pueblo, Masigan family)",
+      "url": "https://en.wikipedia.org/wiki/Santa_Maria,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Santa Maria Etymology (Doña Maria/Marasigan-Masid)",
+      "url": "https://en.wikipedia.org/wiki/Santa_Maria,_Isabela"
+    }
+  ]
+},
+  "santo-tomas": {
+  "nicknames": [
+    "Northern farm town of the two-Cabagans orbit"
+  ],
+  "founded": "July 1, 1949 — from barrios of Cabagan",
+  "etymology": "For St. Thomas the Apostle.",
+  "general": [
+    [
+      "Land area",
+      "≈60.7 km² (population ÷ density 428.3/km² — verify against PSGC)"
+    ],
+    [
+      "Barangays",
+      "27"
+    ],
+    [
+      "Population (2024)",
+      "25,997 (PSA POPCEN) · 5,578 households · ~428/km²"
+    ],
+    [
+      "Elevation",
+      "16–217 m (seat ~65 m)"
+    ],
+    [
+      "Languages",
+      "Ibanag, Ilocano, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~440 km · northeast of Cabagan"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "4th municipal income class · revenue ₱152.2M (2024) · assets ₱295.4M · poverty incidence 17.36% (2021)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn/rice farm trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cabagan/Tuguegarao for banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Tuguegarao"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Power",
+      "ISELCO-II service area"
+    ],
+    [
+      "Water",
+      "Santo Tomas Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "17,760 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱625–1,875/sqm (median ₱875) · commercial ₱1,125–3,750/sqm (Centro)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "17.36% (2021)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Northern Isabela farm town toward the Cagayan line"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Cabagan is the nearest service town"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Created Jul 1, 1949 from Cabagan barrios; lost Abut/Minagbag to Mallig (1952), which then went to Quezon (1961) — a textbook territorial shuffle",
+      "2025: an INDEPENDENT Talaue (La, 6,581) beat the PFP Talaue (Amado, 6,202) for mayor — an intra-family, cross-party race",
+      "High poverty (17.36%) in a compact farm town",
+      "27 barangays across the Cabagan-Santo Tomas farm belt"
+    ],
+    "floodRisk": [
+      "Cagayan River riverside barangays"
+    ],
+    "floodNote": "Cagayan River floodplain; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Leandro Antonio \"LA\" P. Talaue (IND)",
+        "6,581 votes vs Amado Talaue (PFP) 6,202 — won 2025 as an independent, unseating the PFP line"
+      ],
+      [
+        "Vice Mayor",
+        "Antonio M. Talaue Sr. (PFP)",
+        "8,751 votes — the third Talaue; family holds both top posts across party lines"
+      ],
+      [
+        "District Rep",
+        "Antonio T. Albano (1st district)",
+        "Santo Tomas votes in Isabela's 1st congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/IND mix 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. Three Talaues on one ballot: La (IND) for mayor, Amado (PFP) for mayor, Antonio Sr. (PFP) for VM — a family feud playing out across parties.",
+    "dynasty": "The Talaue family — an independent beat the family machine's PFP line, while the father (Antonio Sr.) took the vice mayoralty.",
+    "climate": "Genuinely contested — the narrowest mayoral margin (379 votes) among Isabela's 2025 races we tracked.",
+    "historyIntro": "A 1949 Cabagan split that lost two barrios within a decade — and a 2025 family feud for City Hall, mayor-style.",
+    "history": [
+      [
+        "Jul 1, 1949 · Created",
+        "Carved from barrios of Cabagan."
+      ],
+      [
+        "1952 · First loss",
+        "Barrios Abut and Minagbag went to the newly created Mallig."
+      ],
+      [
+        "1961 · Second loss",
+        "Those barrios moved again to the newly created Quezon."
+      ],
+      [
+        "2025 · Family split",
+        "Independent La Talaue edged PFP's Amado Talaue 6,581–6,202 for mayor; PFP's Antonio Talaue Sr. took the vice mayoralty."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; the land-area figure is computed from density — confirm with PSGC.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱625–1,875/sqm (median ₱875) · commercial ₱1,125–3,750/sqm (Centro)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Santo Tomas, Isabela — Wikipedia (2024 census, Jul 1 1949 creation, 1952/1961 barrio transfers)",
+      "url": "https://en.wikipedia.org/wiki/Santo_Tomas,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Santo Tomas (PSGC 0203136000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203136000"
+    },
+    {
+      "title": "PhilAtlas — Santo Tomas profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/santo-tomas.html"
+    },
+    {
+      "title": "PeoPlaid — Santo Tomas 2025 results (LA Talaue 6,581 IND; Amado 6,202 PFP; Antonio 8,751; electorate 17,760)",
+      "url": "https://peoplaid.com/2025/05/09/santo-tomas-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Santo Tomas results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/santo-tomas"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Santo Tomas (res ₱625–1,875/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/santo-tomas"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Santo Tomas History (1949 creation, Mallig/Quezon transfers)",
+      "url": "https://en.wikipedia.org/wiki/Santo_Tomas,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Cabagan (mother town)",
+      "url": "https://en.wikipedia.org/wiki/Cabagan"
+    }
+  ]
+},
+  "delfin-albano": {
+  "nicknames": [
+    "Formerly Magsaysay"
+  ],
+  "founded": "June 22, 1957 · renamed October 1, 1983 (for Cong. Delfin Albano)",
+  "etymology": "Renamed for Congressman Delfin Albano; formerly the municipality of Magsaysay.",
+  "general": [
+    [
+      "Land area",
+      "189.00 km²"
+    ],
+    [
+      "Barangays",
+      "29"
+    ],
+    [
+      "Population (2024)",
+      "30,860 (PSA POPCEN) · 7,829 households · ~163/km²"
+    ],
+    [
+      "Elevation",
+      "21–210 m (seat ~35 m)"
+    ],
+    [
+      "Languages",
+      "Ibanag, Ilocano, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~420 km · northwest of Ilagan"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱216.5M (2024) · assets ₱521.3M · poverty incidence 10.89% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn/tobacco farm trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Ilagan for banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Delfin Albano Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "18,640 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱413–2,500/sqm (median ₱875) · commercial ₱1,000–3,750/sqm (Ragan Sur)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "10.89% (2023) — below the national family rate"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Northwestern Isabela between San Pablo and Ilagan"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Ilagan is the urban magnet"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Born as Magsaysay (1957), renamed in 1983 for Congressman Delfin Albano — the dynasty's namesake town",
+      "2025: Vice Mayor Thomas Pua Jr. unseated Mayor Arnold Edward Co 12,858–12,553 — a 305-vote intra-PFP coup",
+      "29 barangays across upland farm country",
+      "Poverty incidence 10.89% — among the province's best"
+    ],
+    "floodRisk": [
+      "Upland stream fringes"
+    ],
+    "floodNote": "Upland exposure + typhoon tail; verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Thomas A. Pua Jr. (PFP)",
+        "12,858 votes vs incumbent Arnold Edward Co (PFP) 12,553 — the vice mayor unseated the mayor by 305 votes"
+      ],
+      [
+        "Vice Mayor",
+        "verify (2025 runner-up slate)",
+        "PeoPlaid's council listing shows Yssel Agas (IND) 10,290 — VM result cross-check pending"
+      ],
+      [
+        "District Rep",
+        "Antonio \"Tonypet\" Albano (Lakas)",
+        "1st district — the Albano namesake's dynasty seat"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/IND mix 2025"
+      ]
+    ],
+    "officialNote": "2025 mayoral result verified via PeoPlaid. The VM winner needs cross-checking; the town was renamed for the Albano dynasty patriarch's congressional line.",
+    "dynasty": "The town is literally named for the Albano clan (Delfin Albano), yet its executive turnover happens between Pua and Co (PFP) — the dynasty's reach is congressional, not municipal, here.",
+    "climate": "Intra-party contestation (PFP vs PFP); machine politics with real knives-out.",
+    "historyIntro": "Magsaysay (1957) became Delfin Albano (1983) — and in 2025 its vice mayor took the mayor's chair from his own party-mate.",
+    "history": [
+      [
+        "Jun 22, 1957 · Founded as Magsaysay",
+        "Created as the municipality of Magsaysay."
+      ],
+      [
+        "Oct 1, 1983 · Renamed",
+        "Renamed Delfin Albano for the congressman."
+      ],
+      [
+        "2025 · The coup",
+        "VM Thomas Pua Jr. (PFP) unseated Mayor Arnold Edward Co (PFP) by ~305 votes."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; the VM result needs cross-checking.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "BIR zonal values (RDO 015, eff. 7/20/2023) as the pricing floor; market minimal.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱413–2,500/sqm (median ₱875) · commercial ₱1,000–3,750/sqm (Ragan Sur)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Delfin Albano, Isabela — Wikipedia (2024 census, Magsaysay 1957, 1983 rename, Cong. Delfin Albano)",
+      "url": "https://en.wikipedia.org/wiki/Delfin_Albano,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Delfin Albano (PSGC 0203118000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203118000"
+    },
+    {
+      "title": "PhilAtlas — Delfin Albano profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/delfin-albano.html"
+    },
+    {
+      "title": "PeoPlaid — Delfin Albano 2025 results (Pua Jr. 12,858; Co 12,553; electorate 18,640)",
+      "url": "https://peoplaid.com/2025/05/09/delfin-albano-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Delfin Albano results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/delfin-albano"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Delfin Albano (res ₱413–2,500/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/delfin-albano"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Delfin Albano infobox (Magsaysay nickname, founded/renamed dates)",
+      "url": "https://en.wikipedia.org/wiki/Delfin_Albano,_Isabela"
+    },
+    {
+      "title": "Wikipedia — Isabela's 1st congressional district (Albano namesake link)",
+      "url": "https://en.wikipedia.org/wiki/Isabela%27s_1st_congressional_district"
+    }
+  ]
+},
 };
