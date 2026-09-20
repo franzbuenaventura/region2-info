@@ -5982,4 +5982,2855 @@ window.LGU_DATA = {
     }
   ]
 },
+  "maconacon": {
+  "nicknames": [
+    "Northernmost coastal town of Isabela"
+  ],
+  "founded": "June 21, 1969 (RA 5776) — from a barrio of Cabagan",
+  "etymology": "Uncertain; likely from the Ibanag/local term for the area's first fishing settlement.",
+  "general": [
+    [
+      "Land area",
+      "538.66 km²"
+    ],
+    [
+      "Barangays",
+      "10"
+    ],
+    [
+      "Population (2024)",
+      "4,252 (PSA POPCEN) · 967 households · ~8/km² — the smallest town of Isabela"
+    ],
+    [
+      "Elevation",
+      "0–2,963 m (seat ~113 m) — coastal to Sierra Madre ridge"
+    ],
+    [
+      "Languages",
+      "Ibanag, Tagalog, Paranan/Agta (indigenous)"
+    ],
+    [
+      "Distance from Manila",
+      "~590 km · road access via Ilagan-San Mariano-Divilacan coastal road, or boat from Cagayan coast"
+    ],
+    [
+      "Income class",
+      "2nd municipal income class · revenue ₱195.9M (2024) · assets ₱407M · poverty incidence 16.59% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Subsistence fishing + coastal farm trade; tiny commercial base"
+    ],
+    [
+      "Banks",
+      "None on the ground — mobile/agent banking only"
+    ],
+    [
+      "Hospitals",
+      "Maconacon District Hospital (small); serious cases evacuate by air/boat"
+    ],
+    [
+      "Education anchors",
+      "Elementary/secondary schools"
+    ],
+    [
+      "Power",
+      "ISELCO-II, diesel-hybrid coastal supply"
+    ],
+    [
+      "Water",
+      "Level-II/III systems in the poblacion"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (nominal here — subsistence economy)"
+    ],
+    [
+      "Electorate",
+      "3,702 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Logistics premium",
+      "Everything is imported by boat/truck over the Sierra Madre road — expect 1.5-2x Cauayan price levels for materials"
+    ],
+    [
+      "Internet",
+      "Satellite/LTE only; no fiber"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023) — a ceiling reference; local incomes are far lower"
+    ],
+    [
+      "Poverty incidence",
+      "16.59% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Isabela's Pacific coast — northernmost of the three coastal towns"
+    ],
+    [
+      "Catchment logic",
+      "Self-contained coastal community; Ilagan is the administrative link ~3.5h away by mountain road"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The smallest town of Isabela (4,252 people across 538 km² of rainforest and coast)",
+      "Pacific-coast fishing community facing the Philippine Sea directly",
+      "Tragic recent history: Mayor Francisco Talosig ambushed 2009; successor Erlinda Domingo assassinated 2013 — coastal politics were literally deadly",
+      "Declared insurgency-free (Apr 12, 2024, like Divilacan)",
+      "Access: the Ilagan–Divilacan coastal road (finished sections) finally links the coast by land"
+    ],
+    "floodRisk": [
+      "Coastal storm-surge barangays"
+    ],
+    "floodNote": "Direct Pacific exposure — typhoon first-landfall zone; storm surge is the defining hazard.",
+    "geohazard": {
+      "seismic": "Divilacan Fault (M7.2 potential) runs through this coastal zone — the most seismic-exposed corner of Isabela.",
+      "typhoon": "First-landfall coast (Uwan Nov 2025 hit here first).",
+      "implication": "Extreme hazard stack: surge + quake + remote logistics. Any coastal venture needs evacuation planning."
+    },
+    "security": "Declared insurgency-free (Apr 12, 2024); PRO2 monitors the coast."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Aida Manalay (PFP)",
+        "1,708 votes vs Lycelle Domingo (Lakas) 1,156 — elected 2025; the Domingo family's return attempt fell short"
+      ],
+      [
+        "Vice Mayor",
+        "Jolly Taberner (PFP)",
+        "1,707 votes"
+      ],
+      [
+        "District Rep",
+        "Antonio T. Albano (1st district)",
+        "Maconacon votes in the 1st district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/Lakas mix 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. Pre-2025 infobox (Mayor Rolly Quebral) reflects the outgoing term.",
+    "dynasty": "The Domingo family (two mayors lost to assassins) sought a comeback via Lycelle Domingo; Manalay (PFP) held the town.",
+    "climate": "Small-coastal-town politics; fishing and insurgency-aftermath governance.",
+    "historyIntro": "A Cabagan barrio turned 1969 coastal municipality with a violent recent past and a Pacific-facing future.",
+    "history": [
+      [
+        "Pre-1969 · Cabagan barrio",
+        "Maconacon was a distant coastal barrio of Cabagan."
+      ],
+      [
+        "Jun 21, 1969 · RA 5776",
+        "Created as a separate municipality (same law as Divilacan)."
+      ],
+      [
+        "2009-2013 · The assassinations",
+        "Mayor Francisco Talosig was ambushed (2009, died after four months in a coma); his successor Erlinda Domingo was assassinated in 2013."
+      ],
+      [
+        "Apr 12, 2024 · Insurgency-free",
+        "Declared free of CPP-NPA-NDF influence."
+      ],
+      [
+        "2025 · Present",
+        "Aida Manalay (PFP) won the mayorship at 1,708 votes."
+      ]
+    ],
+    "caution": "Verify officials via the LGU; the assassination history is Wikipedia/Inquirer-sourced.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO; everything else runs through Ilagan/provincial offices in practice",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "No formal land market — coastal communal and ancestral-adjacent parcels; verify alienability with DENR/NCIP before any purchase.",
+    "land": [
+      [
+        "Market reality",
+        "No BIR zonal schedule coverage; transactions are informal. The 2019-2026 coastal road is the only real-estate catalyst"
+      ]
+    ],
+    "caution": "Do not transact without land-classification verification (forest zone risk) and NCIP diligence near Agta areas."
+  },
+  "references": [
+    {
+      "title": "Maconacon — Wikipedia (2024 census, RA 5776 1969, mayors assassinated 2009/2013, insurgency-free 2024)",
+      "url": "https://en.wikipedia.org/wiki/Maconacon"
+    },
+    {
+      "title": "PSA PSGC — Maconacon (PSGC 0203117000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203117000"
+    },
+    {
+      "title": "PhilAtlas — Maconacon profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/maconacon.html"
+    },
+    {
+      "title": "PeoPlaid — Maconacon 2025 results (Manalay 1,708; Taberner 1,707; electorate 3,702)",
+      "url": "https://peoplaid.com/2025/05/09/maconacon-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Maconacon results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/maconacon"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Maconacon History (Talosig/Domingo assassinations, RA 5776)",
+      "url": "https://en.wikipedia.org/wiki/Maconacon#History"
+    },
+    {
+      "title": "Manila Bulletin — Cagayan Valley insurgency-free declarations (2024-2026)",
+      "url": "https://mb.com.ph/2026/06/06/cagayan-valley-declared-insurgency-free"
+    }
+  ]
+},
+  "divilacan": {
+  "nicknames": [
+    "Gateway to Divilacan Bay",
+    "Namesake of the Divilacan Fault"
+  ],
+  "founded": "June 21, 1969 (RA 5776) — from a barrio of Tumauini",
+  "etymology": "From the Casiguran Dumagat Agta compound \"vilacan\" — fish and shell.",
+  "general": [
+    [
+      "Land area",
+      "889.49 km²"
+    ],
+    [
+      "Barangays",
+      "12"
+    ],
+    [
+      "Population (2024)",
+      "5,871 (PSA POPCEN) · 1,449 households · ~6.6/km²"
+    ],
+    [
+      "Elevation",
+      "0–1,129 m (seat ~46 m)"
+    ],
+    [
+      "Languages",
+      "Tagalog, Ibanag, Agta/Dumagat (indigenous)"
+    ],
+    [
+      "Distance from Manila",
+      "~570 km · on the Ilagan–Divilacan coastal road (~2.5-3h from Ilagan)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱288.6M (2024) · assets ₱656M · poverty incidence 17.23% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Fishing + copra + eco-tourism gateway services"
+    ],
+    [
+      "Banks",
+      "None — mobile money only"
+    ],
+    [
+      "Hospitals",
+      "Rural health unit; evacuations to Ilagan/Cauayan"
+    ],
+    [
+      "Education anchors",
+      "Elementary/secondary schools"
+    ],
+    [
+      "Water",
+      "Level-II systems"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (nominal reference)"
+    ],
+    [
+      "Electorate",
+      "4,021 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Logistics premium",
+      "Boat/truck over the Sierra Madre road — 1.5-2x Cauayan material costs"
+    ],
+    [
+      "Internet",
+      "Satellite/LTE"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023) — reference ceiling"
+    ],
+    [
+      "Poverty incidence",
+      "17.23% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Central Pacific coast of Isabela"
+    ],
+    [
+      "Catchment logic",
+      "Fishing communities + emerging surf/eco tourism; Ilagan is the administrative link"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The Divilacan Fault (M7.2 potential, Phivolcs 2026) is named after this town — the most seismically significant trace in Isabela",
+      "Fishing/shelling economy (the town's name means 'fish and shell' in Dumagat Agta)",
+      "Gateway to the Northern Sierra Madre's eastern rainforest and the Ilagan-Divilacan road",
+      "Declared insurgency-free (Apr 12, 2024)",
+      "One of the most sparsely settled towns in the Philippines (~6.6 persons/km²)"
+    ],
+    "floodRisk": [
+      "Coastal storm-surge barangays"
+    ],
+    "floodNote": "Direct Pacific exposure — first-landfall zone; surge + remote response is the defining hazard.",
+    "geohazard": {
+      "seismic": "The Divilacan Fault (M7.2 potential) runs through the municipality — highest seismic risk in Isabela.",
+      "typhoon": "First-landfall coast (Uwan Nov 2025).",
+      "implication": "Extreme hazard stack: fault + surge + remoteness. Not a market for casual investment."
+    },
+    "security": "Declared insurgency-free (Apr 12, 2024)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Florita Bulan (PFP)",
+        "2,399 votes vs Oli Juanatas (Aksyon) 731 — re-elected 2025 (pre-2025 infobox lists Venturito C. Bulan)"
+      ],
+      [
+        "Vice Mayor",
+        "Cesar Tabbada (PFP)",
+        "1,623 votes"
+      ],
+      [
+        "District Rep",
+        "Antonio T. Albano (1st district)",
+        "Divilacan votes in the 1st district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/IND mix 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The Bulan name carries from the pre-2025 infobox (Venturito → Florita) — verify the family relationship.",
+    "dynasty": "Bulan family continuity (PFP) in a 4,000-voter town.",
+    "climate": "Small-town continuity politics; fishing/eco-tourism governance.",
+    "historyIntro": "A Tumauini barrio turned 1969 coastal town — and the namesake of the valley's most-watched fault line.",
+    "history": [
+      [
+        "Pre-1969 · Tumauini barrio",
+        "Divilacan was a remote coastal barrio of Tumauini."
+      ],
+      [
+        "Jun 21, 1969 · RA 5776",
+        "Created as a separate municipality (same law as Maconacon)."
+      ],
+      [
+        "Apr 12, 2024 · Insurgency-free",
+        "Declared free of CPP-NPA influence."
+      ],
+      [
+        "2025 · Present",
+        "Florita Bulan (PFP) re-elected at 76.6% of the two-way vote."
+      ]
+    ],
+    "caution": "Verify officials via the LGU; fault-seismicity claims should cite Phivolcs directly.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO; eco-tourism ventures need DENR/NCIP diligence",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "No formal land market — coastal and forest-zone parcels; verify alienability before any transaction.",
+    "land": [
+      [
+        "Market reality",
+        "No BIR zonal coverage; the coastal road is the only catalyst"
+      ]
+    ],
+    "caution": "Forest-zone and ancestral-domain checks are mandatory (NCIP/DENR)."
+  },
+  "references": [
+    {
+      "title": "Divilacan — Wikipedia (2024 census, RA 5776 1969, vilacan etymology, insurgency-free 2024)",
+      "url": "https://en.wikipedia.org/wiki/Divilacan"
+    },
+    {
+      "title": "PSA PSGC — Divilacan (PSGC 0203111000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203111000"
+    },
+    {
+      "title": "PhilAtlas — Divilacan profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/divilacan.html"
+    },
+    {
+      "title": "PeoPlaid — Divilacan 2025 results (Bulan 2,399; Tabbada 1,623; electorate 4,021)",
+      "url": "https://peoplaid.com/2025/05/09/divilican-election-2025-results-winners"
+    },
+    {
+      "title": "Manila Times — Phivolcs: Divilacan Fault M7.2 potential (Jun 2026)",
+      "url": "https://www.manilatimes.net/2026/06/11/regions/phivolcs-identifies-active-fault-lines-in-isabela-amid-rising-mindanao-quake-toll/2362958"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Divilacan History (Tumauini barrio, RA 5776)",
+      "url": "https://en.wikipedia.org/wiki/Divilacan#History"
+    },
+    {
+      "title": "Wikipedia — Casiguran Dumagat Agta language (etymology context)",
+      "url": "https://en.wikipedia.org/wiki/Casiguran_Dumagat_Agta"
+    }
+  ]
+},
+  "dinapigue": {
+  "nicknames": [
+    "Southern coastal town of Isabela"
+  ],
+  "founded": "June 21, 1968 (RA 5776) — from a barrio of San Mariano",
+  "etymology": "From the local (Agta/Ilongot) name for the area's coastal plain.",
+  "general": [
+    [
+      "Land area",
+      "574.40 km²"
+    ],
+    [
+      "Barangays",
+      "6"
+    ],
+    [
+      "Population (2024)",
+      "6,116 (PSA POPCEN) · 1,405 households · ~10.7/km²"
+    ],
+    [
+      "Elevation",
+      "0–2,444 m (seat ~124 m)"
+    ],
+    [
+      "Languages",
+      "Tagalog, Ilocano, Agta/Ilongot heritage"
+    ],
+    [
+      "Distance from Manila",
+      "~540 km · southernmost coastal town, adjacent to Aurora (Dipaculao) and Quirino"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱292.2M (2024) · assets ₱899.6M · poverty incidence 44.81% (2018 — the highest recorded in Isabela; dated figure, re-verify)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Subsistence fishing + coconut; nickel-mining exploration interest in the Sierra Madre foothills (controversial)"
+    ],
+    [
+      "Banks",
+      "None — mobile money"
+    ],
+    [
+      "Hospitals",
+      "RHU; long evacuations to Cauayan/Santiago"
+    ],
+    [
+      "Education anchors",
+      "Elementary/secondary schools"
+    ],
+    [
+      "Water",
+      "Level-II systems"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (nominal reference)"
+    ],
+    [
+      "Electorate",
+      "5,760 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Logistics",
+      "Longest supply line of any Isabela town — boat via Aurora coast or mountain roads"
+    ],
+    [
+      "Internet",
+      "Satellite/LTE"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023) — reference ceiling"
+    ],
+    [
+      "Poverty incidence",
+      "44.81% (2018) — the worst figure recorded in the province; 2018-dated, re-check PSA 2023 release"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Isabela's southern Pacific coast, at the Aurora boundary"
+    ],
+    [
+      "Catchment logic",
+      "Self-contained coastal community; nearest urban service is Cauayan/Santiago by mountain road"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Only 6 barangays for 574 km² of Sierra Madre rainforest and Pacific coast",
+      "Highest recorded poverty incidence in Isabela (44.81%, 2018) — the province's hardest development frontier",
+      "Nickel-mining exploration proposals in the watershed have drawn Church/environmentalist opposition",
+      "Founded 1968 from San Mariano (RA 5776-related legislation)"
+    ],
+    "floodRisk": [
+      "Coastal storm-surge barangays"
+    ],
+    "floodNote": "Pacific first-landfall exposure; the 2024-2025 cycle hit the southern coast too.",
+    "geohazard": {
+      "seismic": "Divilacan Fault zone to the north; coastal seismicity — verify site-level.",
+      "typhoon": "First-landfall coast (Uwan Nov 2025).",
+      "implication": "Extreme remoteness + hazard stack; any venture needs its own logistics chain."
+    },
+    "security": "Historically an NPA corridor along the Sierra Madre spine; region-wide insurgency-free declaration (RPOC Jun 2026) covers it."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Vicente Mendoza (PFP)",
+        "2,705 votes vs Reynaldo Derije (Aksyon) 1,840 — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Rea Sylvia Candido (Lakas)",
+        "2,739 votes — a split-ticket executive in a 6-barangay town"
+      ],
+      [
+        "District Rep",
+        "Joseph S. Tan (4th district per infobox)",
+        "verify — Dinapigue's district assignment (2nd vs 4th) has shifted with reapportionment"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/Lakas/IND mix 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. District assignment needs COMELEC verification (infobox says 4th; neighboring coastal towns sit in the 2nd/1st).",
+    "dynasty": "Mendoza continuity (PFP); small-town family rotation.",
+    "climate": "Tiny-town politics; fishing/mining-governance tensions.",
+    "historyIntro": "A San Mariano barrio turned 1968 frontier coastal municipality.",
+    "history": [
+      [
+        "Pre-1968 · San Mariano barrio",
+        "Dinapigue was a remote barrio of San Mariano."
+      ],
+      [
+        "Jun 21, 1968 · Townhood",
+        "RA-created as a separate municipality (infobox dates RA 5776; the 1968/1969 split between Dinapigue and its coastal neighbors needs the statute text to settle)."
+      ],
+      [
+        "2025 · Present",
+        "Vicente Mendoza (PFP) re-elected; Lakas's Candido took the vice mayoralty."
+      ]
+    ],
+    "caution": "Verify officials + district via COMELEC/LGU; the 1968-vs-1969 founding date conflict (infobox Jun 21, 1969 vs history Jun 21, 1968 RA 5776) — cite the RA text.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO; any extractive/tourism venture needs DENR + NCIP clearance",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "No formal land market; ancestral-domain and forest-zone checks are mandatory.",
+    "land": [
+      [
+        "Market reality",
+        "No BIR zonal coverage; informal transactions only"
+      ]
+    ],
+    "caution": "Do not transact without land-classification and NCIP diligence."
+  },
+  "references": [
+    {
+      "title": "Dinapigue — Wikipedia (2024 census, RA 5776/1968, 44.81% poverty 2018, San Mariano mother town)",
+      "url": "https://en.wikipedia.org/wiki/Dinapigue"
+    },
+    {
+      "title": "PSA PSGC — Dinapigue (PSGC 0203110000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203110000"
+    },
+    {
+      "title": "PhilAtlas — Dinapigue profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/dinapigue.html"
+    },
+    {
+      "title": "PeoPlaid — Dinapigue 2025 results (Mendoza 2,705; Candido 2,739; electorate 5,760)",
+      "url": "https://peoplaid.com/2025/05/09/dinapigue-election-2025-results-winners"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Dinapigue History (San Mariano barrio, RA 5776)",
+      "url": "https://en.wikipedia.org/wiki/Dinapigue#History"
+    },
+    {
+      "title": "Manila Bulletin — Cagayan Valley insurgency-free (RPOC Jun 2026)",
+      "url": "https://mb.com.ph/2026/06/06/cagayan-valley-declared-insurgency-free"
+    }
+  ]
+},
+  "palanan": {
+  "nicknames": [
+    "Where Aguinaldo was captured (Mar 23, 1901)",
+    "Historic Pacific coast town"
+  ],
+  "founded": "1625 (Spanish mission from Baler, Pacific-side) — one of the valley's oldest coastal settlements",
+  "etymology": "From Ibanag \"palanammu\" — a warning of caution, since the area was surrounded by Aetas.",
+  "general": [
+    [
+      "Land area",
+      "880.24 km²"
+    ],
+    [
+      "Barangays",
+      "17"
+    ],
+    [
+      "Population (2024)",
+      "18,091 (PSA POPCEN) · 4,537 households · ~20.6/km²"
+    ],
+    [
+      "Elevation",
+      "0–896 m (seat ~52 m)"
+    ],
+    [
+      "Languages",
+      "Tagalog (locally 'Palanan Tagalog'), Ilocano, Agta/Ilongot heritage"
+    ],
+    [
+      "Distance from Manila",
+      "~560 km · Pacific coast; air strip + Ilagan mountain road + boat links"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱311.6M (2024) · assets ₱667.2M · poverty incidence 16.98% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Fishing + copra + emerging eco/historical tourism"
+    ],
+    [
+      "Banks",
+      "None — mobile money"
+    ],
+    [
+      "Hospitals",
+      "Palanan District Hospital (small); evacuations by air/boat"
+    ],
+    [
+      "Education anchors",
+      "Elementary/secondary schools; Palanan airstrip enables access"
+    ],
+    [
+      "Water",
+      "Level-II systems"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (nominal reference)"
+    ],
+    [
+      "Electorate",
+      "12,460 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Logistics",
+      "Air (CYZ-Palanan charters) or boat/mountain road — 1.5-2x Cauayan costs"
+    ],
+    [
+      "Internet",
+      "Satellite/LTE"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023) — reference ceiling"
+    ],
+    [
+      "Poverty incidence",
+      "16.98% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Isabela's central Pacific coast — the historic end of the Aguinaldo trail"
+    ],
+    [
+      "Catchment logic",
+      "Coastal communities + historical-tourism niche (Aguinaldo capture site)"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The most storied address in Isabela: General Emilio Aguinaldo was captured here by Funston's force (aided by Macabebe Scouts) on March 23, 1901 — ending the First Philippine Republic's armed phase",
+      "Founded 1625 from the Pacific side (Baler) — Palanan was oriented to the sea before the valley was",
+      "The Palanan wilderness (Northern Sierra Madre Natural Park's southern gateway) is one of the Philippines' great rainforest blocks",
+      "Aguinaldo Bridge and the capture-site markers anchor the historical-tourism niche"
+    ],
+    "floodRisk": [
+      "Coastal storm-surge barangays",
+      "Palanan River mouth"
+    ],
+    "floodNote": "Pacific first-landfall exposure (Uwan Nov 2025); surge + riverine floods compound.",
+    "geohazard": {
+      "seismic": "Divilacan Fault zone offshore — verify site-level.",
+      "typhoon": "First-landfall coast.",
+      "implication": "Surge + fault + remoteness — expedition-grade planning required."
+    },
+    "security": "Region-wide insurgency-free declaration (RPOC Jun 2026); the Sierra Madre spine stays monitored."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Angelo A. Bernardo (PFP)",
+        "7,354 votes — re-elected 2025 (also won a 2016-era recount case that raised his margin by 54 votes, per GMA)"
+      ],
+      [
+        "Vice Mayor",
+        "Elizabeth Ochoa (PFP)",
+        "7,537 votes"
+      ],
+      [
+        "District Rep",
+        "2nd district (Ed Christopher Go per infobox)",
+        "Palanan votes in the 2nd district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025 (Garcia, Bernardo Bilog…)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid/ABS-CBN. Bernardo has held the mayorship since 2022 (LGU officials page) — survived a 54-vote recount margin in an earlier race.",
+    "dynasty": "Bernardo-Ochoa machine (PFP); the Bernardo name repeats on the council.",
+    "climate": "Long-incumbency coastal-town politics; fishing + tourism governance.",
+    "historyIntro": "Founded from the sea in 1625 — and remembered as the place the First Republic ended.",
+    "history": [
+      [
+        "1625 · Founded from the Pacific",
+        "Spanish forces arriving by boat from Baler (Tayabas/Aurora coast) established Palanan — oriented to the sea, unlike the riverine valley towns."
+      ],
+      [
+        "Mar 23, 1901 · Aguinaldo captured",
+        "General Frederick Funston's force (with Macabebe Scouts) captured President Emilio Aguinaldo at his Palanan headquarters — effectively ending the Philippine-American War's first phase."
+      ],
+      [
+        "20th century · Isolation",
+        "Roadless for most of a century — access by boat and trail kept Palanan a frontier."
+      ],
+      [
+        "2000s–2020s · The road years",
+        "Incremental Ilagan–Palanan road works and an airstrip connected the town; a recount (2016 era) raised Bernardo's margin by 54 votes."
+      ],
+      [
+        "2025 · Present",
+        "Angelo Bernardo (PFP) re-elected at 7,354 votes."
+      ]
+    ],
+    "caution": "Verify officials via palanan.gov.ph; the Aguinaldo capture narrative is well-documented (kahimyang/Wikipedia primary citations).",
+    "businessClimate": {
+      "permitting": "Municipal BPLO; tourism ventures need DENR (protected area) clearance",
+      "taxes": "Standard LGU schedule (municipal revenue code)",
+      "investmentPromo": "Historical + eco-tourism positioning (Aguinaldo capture site, NSMNP gateway)"
+    }
+  },
+  "realEstate": {
+    "intro": "No formal land market; protected-area and ancestral-domain checks are mandatory.",
+    "land": [
+      [
+        "Market reality",
+        "No BIR zonal coverage; informal coastal transactions only"
+      ]
+    ],
+    "caution": "NSMNP protected-area rules + NCIP diligence before any land play."
+  },
+  "references": [
+    {
+      "title": "Palanan — Wikipedia (2024 census, 1625 founding from Baler, Aguinaldo 1901)",
+      "url": "https://en.wikipedia.org/wiki/Palanan"
+    },
+    {
+      "title": "PSA PSGC — Palanan (PSGC 0203121000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203121000"
+    },
+    {
+      "title": "PhilAtlas — Palanan profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/palanan.html"
+    },
+    {
+      "title": "PeoPlaid — Palanan 2025 results (Bernardo 7,354; Ochoa 7,537; electorate 12,460)",
+      "url": "https://peoplaid.com/2025/05/09/palanan-election-2025-results-winners"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — Palanan results (Bernardo 7,354)",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/palanan"
+    },
+    {
+      "title": "GMA News — Vote recount raises Bernardo's winning margin (54 votes)",
+      "url": "https://www.gmanetwork.com/news/topstories/regions/12700"
+    },
+    {
+      "title": "kahimyang.com — March 23, 1901: Aguinaldo captured at Palanan",
+      "url": "https://kahimyang.com/kauswagan/articles/1657/march-23-1"
+    },
+    {
+      "title": "Wikipedia — Emilio Aguinaldo (1901 capture at Palanan)",
+      "url": "https://en.wikipedia.org/wiki/Emilio_Aguinaldo"
+    },
+    {
+      "title": "Palanan LGU — elected officials directory",
+      "url": "https://www.palanan.gov.ph/government/elected-officials/"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Northern Sierra Madre Natural Park",
+      "url": "https://en.wikipedia.org/wiki/Northern_Sierra_Madre_Natural_Park"
+    }
+  ]
+},
+  "san-guillermo": {
+  "nicknames": [
+    "6th-district farm frontier"
+  ],
+  "founded": "June 17, 1967 (RA 4906, sponsored by Rep. Melanio Singson)",
+  "etymology": "Named for Eugenio Guillermo, former mayor of Angadanan (its mother town), with the Saint William of Maleval patronal echo.",
+  "general": [
+    [
+      "Land area",
+      "325.49 km²"
+    ],
+    [
+      "Barangays",
+      "26"
+    ],
+    [
+      "Population (2024)",
+      "21,043 (PSA POPCEN) · 4,989 households · ~64.7/km²"
+    ],
+    [
+      "Elevation",
+      "43–420 m (seat ~88 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~380 km · upland east of Angadanan, in the new 6th district"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "2nd municipal income class · revenue ₱203M (2024) · assets ₱587.8M · poverty incidence 19.02% (2023) — among the province's highest"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Upland corn/rice trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cauayan for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Cauayan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "San Guillermo Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "13,806 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Minimal published schedule — verify with RDO 015; upland farm lots are the only product"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "19.02% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Upland southeastern Isabela, east of Angadanan toward the Sierra Madre foothills"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Cauayan is the urban magnet"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Created 1967 from 15 Angadanan barangays (RA 4906, via Rep. Melanio Singson)",
+      "Named for Eugenio Guillermo, Angadanan's former mayor",
+      "One of the valley's highest poverty rates (19.02%) — an upland frontier town",
+      "Sits in the new 6th district (RA 11080) — Dy-family congressional orbit"
+    ],
+    "floodRisk": [
+      "Upland stream fringes"
+    ],
+    "floodNote": "Upland flash-flood exposure; verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Felipe \"Pipot/Janong\" N. Guyud",
+        "2025: ABS-CBN shows Guyud (Lakas) 7,916 vs Marilou Sanchez (Lakas) 7,787; Rappler's embed lists Guyud (PFP) 10,080 — a Guyud-vs-Guyud split ticket across party lines; verify the final COC"
+      ],
+      [
+        "Vice Mayor",
+        "Bernadine M. Lucas",
+        "per the pre-2025 infobox; the 2025 VM winner needs cross-checking"
+      ],
+      [
+        "District Rep",
+        "Faustino \"Bojie\" Dy III (6th district)",
+        "San Guillermo sits in the Speaker's congressional district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "verify 2025 composition"
+      ]
+    ],
+    "officialNote": "The 2025 returns show TWO Guyuds splitting the mayoral vote across Lakas/PFP — a family feud mirror of Santo Tomas's Talaue split. Verify which Guyud won the proclamation.",
+    "dynasty": "Guyud family split-ticket contest; the town sits in Speaker Dy III's 6th district.",
+    "climate": "Small-town machine politics with a family split.",
+    "historyIntro": "A 1967 Angadanan carve-out named for a mayor — now inside the Speaker's district.",
+    "history": [
+      [
+        "Jun 17, 1967 · RA 4906",
+        "Created from 15 barangays of Angadanan, sponsored by Rep. Melanio Singson; named for Eugenio Guillermo."
+      ],
+      [
+        "2018 · New district",
+        "RA 11080 placed San Guillermo in the new 6th district with Cauayan/Echague/San Isidro."
+      ],
+      [
+        "2025 · Family split",
+        "Two Guyuds contested the mayorship across party lines (Lakas vs PFP) — a 129-vote margin on ABS-CBN's count."
+      ]
+    ],
+    "caution": "Verify the 2025 proclamation and officials via COMELEC/LGU before citing.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "No published zonal highlights captured — verify with RDO 015; upland farm lots dominate.",
+    "land": [
+      [
+        "Market reality",
+        "Thin published schedule; farm-lot pricing follows regional benchmarks (₱850K-1.9M/ha)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "San Guillermo, Isabela — Wikipedia (2024 census, RA 4906 1967, Eugenio Guillermo namesake)",
+      "url": "https://en.wikipedia.org/wiki/San_Guillermo,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — San Guillermo (PSGC 0203129000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203129000"
+    },
+    {
+      "title": "PhilAtlas — San Guillermo profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/san-guillermo.html"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — San Guillermo results (Guyud 7,916 vs Sanchez 7,787)",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/san-guillermo"
+    },
+    {
+      "title": "Rappler Halalan 2025 — San Guillermo embed (Guyud PFP 10,080)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/embed/isabela/san-guillermo"
+    },
+    {
+      "title": "Wikipedia — Isabela's 6th congressional district (RA 11080; Dy III)",
+      "url": "https://en.wikipedia.org/wiki/Isabela%27s_6th_congressional_district"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — San Guillermo History (RA 4906, Angadanan barangays, Singson sponsor)",
+      "url": "https://en.wikipedia.org/wiki/San_Guillermo,_Isabela#History"
+    },
+    {
+      "title": "Wikipedia — Saint William of Maleval (patronal namesake echo)",
+      "url": "https://en.wikipedia.org/wiki/Saint_William_of_Maleval"
+    }
+  ]
+},
+  "san-isidro": {
+  "nicknames": [
+    "6th-district rice town between Echague and Cauayan"
+  ],
+  "founded": "June 17, 1967 (RA 4901-era creation alongside Quirino)",
+  "etymology": "For St. Isidore the Farmer; the area's early inhabitants were Yogads of Echague, later joined by Ilocano settlers at Camarag.",
+  "general": [
+    [
+      "Land area",
+      "≈71.9 km² (population ÷ density 380.1/km² — verify with PSGC)"
+    ],
+    [
+      "Barangays",
+      "13"
+    ],
+    [
+      "Population (2024)",
+      "27,326 (PSA POPCEN) · 6,774 households · ~380/km²"
+    ],
+    [
+      "Elevation",
+      "23–617 m (seat ~65 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Yogad heritage, Ibanag, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~350 km · immediately north of Echague, inside the Cauayan orbit"
+    ],
+    [
+      "Festivals",
+      "Town fiesta (St. Isidore, May) · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "3rd municipal income class · revenue ₱141.7M (2024) · assets ₱860.2M · poverty incidence 12% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Rice/corn farm trade in the Cauayan-Echague corridor; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cauayan (15 min) for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Cauayan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "San Isidro Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "16,761 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Minimal published schedule — verify with RDO 015; corridor-adjacent land trades at Cauayan-spillover premiums"
+    ],
+    [
+      "Internet",
+      "Fiber on the Maharlika corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "12% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Inside the Cauayan-Echague twin-city belt on the Cagayan River's east bank"
+    ],
+    [
+      "Catchment logic",
+      "Commuter town for Cauayan; cheapest land inside the orbit"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The 6th district's smallest town (13 barangays) — created 1967 alongside Quirino",
+      "Yogad ancestral ground (Echague's natives) with an Ilocano settlement overlay from Camarag days",
+      "Inside the Cauayan commuter belt — the corridor's cheapest land",
+      "2025: a Bravo-Tumamao split (PFP mayor vs IND VM runner-up dynamics) — verify final VM"
+    ],
+    "floodRisk": [
+      "Cagayan River riverside barangays"
+    ],
+    "floodNote": "Cagayan River east-bank exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Vilmer B. Bravo (PFP)",
+        "8,419 votes vs Roderick Cruz (Aksyon) 5,858 — elected 2025 (pre-2025 infobox lists the same Bravo line)"
+      ],
+      [
+        "Vice Mayor",
+        "Artemio Tumamao Jr. (IND) — verify",
+        "PeoPlaid shows Tumamao Jr. (IND) 7,190 and Tumamao Nardo (PFP) 6,399; the pre-2025 infobox lists Leonardo A. Tumamao — a Tumamao-family contest for VM"
+      ],
+      [
+        "District Rep",
+        "Faustino \"Kiko\" Dy (6th district)",
+        "San Isidro sits in the Speaker's orbit district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP/IND mix 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The VM race shows two Tumamaos (IND vs PFP) — verify the proclaimed winner.",
+    "dynasty": "Bravo machine (PFP) vs the Tumamao family's VM contest — town-scale family politics.",
+    "climate": "Contested but PFP-led; corridor-commuter governance.",
+    "historyIntro": "Yogad farmland turned 1967 municipality inside the Cauayan orbit.",
+    "history": [
+      [
+        "Early history · Yogad ground",
+        "The first inhabitants were Yogads, natives of Echague; Ilokanos later settled at Camarag."
+      ],
+      [
+        "Jun 17, 1967 · Townhood",
+        "San Isidro was created as a municipality (RA 4901-era, same date as Quirino)."
+      ],
+      [
+        "2025 · Present",
+        "Vilmer Bravo (PFP) won at 8,419 votes."
+      ]
+    ],
+    "caution": "Verify officials and the 2025 VM winner via COMELEC/LGU.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)",
+      "investmentPromo": "Cauayan-spillover positioning — cheapest corridor land"
+    }
+  },
+  "realEstate": {
+    "intro": "Thin published zonal schedule; corridor-adjacent parcels trade at Cauayan-spillover premiums.",
+    "land": [
+      [
+        "Market reality",
+        "Verify with RDO 015; farm lots follow regional benchmarks; commuter-belt demand is rising with Cauayan's growth"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "San Isidro, Isabela — Wikipedia (2024 census, 1967 creation, Yogad early history)",
+      "url": "https://en.wikipedia.org/wiki/San_Isidro,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — San Isidro (PSGC 0203128000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203128000"
+    },
+    {
+      "title": "PhilAtlas — San Isidro profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/san-isidro.html"
+    },
+    {
+      "title": "PeoPlaid — San Isidro 2025 results (Bravo 8,419; Tumamao Jr. 7,190; electorate 16,761)",
+      "url": "https://peoplaid.com/2025/05/09/san-isidro-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Wikipedia — Isabela's 6th congressional district (RA 11080)",
+      "url": "https://en.wikipedia.org/wiki/Isabela%27s_6th_congressional_district"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — San Isidro History (Yogads of Echague, Camarag Ilocanos)",
+      "url": "https://en.wikipedia.org/wiki/San_Isidro,_Isabela#History"
+    }
+  ]
+},
+  "san-agustin": {
+  "nicknames": [
+    "Jones's 1949 southern split"
+  ],
+  "founded": "September 28, 1949 (EO 269 by President Elpidio Quirino) — from the southern portion of Jones",
+  "etymology": "For St. Augustine of Hippo.",
+  "general": [
+    [
+      "Land area",
+      "≈278.4 km² (population ÷ density 79.8/km² — verify with PSGC)"
+    ],
+    [
+      "Barangays",
+      "23"
+    ],
+    [
+      "Population (2024)",
+      "22,228 (PSA POPCEN) · 5,544 households · ~80/km²"
+    ],
+    [
+      "Elevation",
+      "84–1,014 m (seat ~90 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~390 km · southwestern Isabela toward the Nueva Vizcaya/Quirino boundary"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "2nd municipal income class · revenue ₱184.4M (2024) · assets ₱543M · poverty incidence 11.86% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn/rice + upland farm trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cauayan/Santiago for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Santiago/Cauayan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "San Agustin Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "15,378 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Minimal published schedule — verify with RDO 015"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "11.86% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Southwestern Isabela farm town on the Jones-Cordon axis"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Santiago/Cauayan are the urban pulls"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Created the same day as Alicia (Sep 28, 1949) by Quirino's EO 269 — from Jones's southern half",
+      "Named for St. Augustine of Hippo",
+      "Upland edge toward the Nueva Vizcaya/Quirino boundaries",
+      "2025: a Mondala family split — Raden (Lakas, 7,965) beat the PFP line while Cesar Mondala took VM (9,472)"
+    ],
+    "floodRisk": [
+      "Upland stream fringes"
+    ],
+    "floodNote": "Upland exposure; verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Raden Mondala (Lakas)",
+        "7,965 votes vs Menchie Yasol (Aksyon) 3,570 — elected 2025 (pre-2025 infobox lists Cesar A. Mondala as mayor)"
+      ],
+      [
+        "Vice Mayor",
+        "Cesar Mondala (PFP)",
+        "9,472 votes — the outgoing mayor moving to VM; another rotation/split"
+      ],
+      [
+        "District Rep",
+        "Joseph S. Tan (4th district per infobox)",
+        "verify — San Agustin's district mapping (4th vs 2nd) needs COMELEC confirmation"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "Lakas/PFP mix 2025 (Micu IND 735)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid/GMA. The Mondala rotation (Cesar mayor → VM under Raden) mirrors Quezon's Gascon-Gamazon swap — verify with the LGU.",
+    "dynasty": "Mondala family rotation (mayor ↔ VM across Lakas/PFP).",
+    "climate": "Family-machine politics in an upland farm town.",
+    "historyIntro": "A 1949 Quirino split from Jones — same-day twin of Alicia.",
+    "history": [
+      [
+        "Sep 28, 1949 · EO 269",
+        "Created from the southern portion of Jones (the same decree date as Alicia's EO 268); first officials elected Nov 15, 1949."
+      ],
+      [
+        "2025 · Rotation",
+        "Raden Mondala (Lakas) won the mayorship; outgoing mayor Cesar Mondala (PFP) took the vice mayoralty."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; the EO 269 date is Wikipedia-sourced.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "Thin published zonal schedule; farm lots dominate.",
+    "land": [
+      [
+        "Market reality",
+        "Verify with RDO 015; regional farm-lot benchmarks apply"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "San Agustin, Isabela — Wikipedia (2024 census, EO 269 Sep 28 1949, Jones split, St. Augustine namesake)",
+      "url": "https://en.wikipedia.org/wiki/San_Agustin,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — San Agustin (PSGC 0203127000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203127000"
+    },
+    {
+      "title": "PhilAtlas — San Agustin profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/san-agustin.html"
+    },
+    {
+      "title": "PeoPlaid — San Agustin 2025 results (Raden Mondala 7,965; Cesar Mondala 9,472; electorate 15,378)",
+      "url": "https://peoplaid.com/2025/05/09/san-agustin-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "GMA Eleksyon 2025 — San Agustin returns",
+      "url": "https://www.gmanetwork.com/news/eleksyon/2025/results/local/REGION+II/ISABELA/SAN+AGUSTIN"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — San Agustin History (EO 269, Jones, Nov 15 1949 elections)",
+      "url": "https://en.wikipedia.org/wiki/San_Agustin,_Isabela#History"
+    }
+  ]
+},
+  "jones": {
+  "nicknames": [
+    "Biggest town of southern Isabela"
+  ],
+  "founded": "January 1, 1921 — named for William Atkinson Jones (author of the Jones Law)",
+  "etymology": "For US Congressman William Atkinson Jones, author of the Jones Law (1916) that promised Philippine independence.",
+  "general": [
+    [
+      "Land area",
+      "≈670.2 km² (population ÷ density 68.88/km² — verify with PSGC; among the province's largest municipalities)"
+    ],
+    [
+      "Barangays",
+      "42"
+    ],
+    [
+      "Population (2024)",
+      "46,160 (PSA POPCEN) · 11,804 households · ~69/km²"
+    ],
+    [
+      "Elevation",
+      "65–512 m (seat ~90 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~370 km · southern Isabela, east of Echague toward Quirino"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱387M (2024) · assets ₱1,279M · poverty incidence 11.98% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn-belt trade + upland farming across 42 barangays; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cauayan/Santiago for full banking"
+    ],
+    [
+      "Hospitals",
+      "Jones Emergency Hospital + RHUs; tertiary referral to Cauayan/Santiago"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Jones Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "30,296 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Minimal published schedule — verify with RDO 015; vast upland farm lots at regional benchmark prices"
+    ],
+    [
+      "Internet",
+      "Poblacion fiber; rural coverage thinner"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "11.98% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Southern Isabela's biggest land area — farm frontier between Cauayan and the Quirino boundary"
+    ],
+    [
+      "Catchment logic",
+      "42-barangay farm catchment; Cauayan/Santiago are the urban pulls"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Among the province's largest municipalities by land area (~670 km², 42 barangays)",
+      "Named for William Atkinson Jones — the Jones Law author whose statute promised Philippine independence",
+      "Created Jan 1, 1921 — the American-era consolidation era",
+      "Nhel Montano (PFP) won 2025 at 75.67% — the strongest rural mandate we recorded"
+    ],
+    "floodRisk": [
+      "Cagayan River riverside barangays",
+      "upland flash-flood fringes"
+    ],
+    "floodNote": "Dual exposure (river + upland); Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace through the town proper — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec; distance drives logistics costs."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Nhel C. Montano (PFP)",
+        "22,924 votes (75.67%) — elected 2025 (ABS-CBN partial count showed 9,888 early; Rappler's final aggregation 22,924)"
+      ],
+      [
+        "Vice Mayor",
+        "Evelyn R. Raspado",
+        "per the infobox; 2025 VM winner verify"
+      ],
+      [
+        "District Rep",
+        "2nd/4th district — verify",
+        "Jones's district mapping needs COMELEC confirmation (infobox lines conflict across revisions)"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025"
+      ]
+    ],
+    "officialNote": "2025 mayoral winner verified via Rappler (22,924, 75.67%). District assignment requires COMELEC confirmation.",
+    "dynasty": "Montano machine (PFP) in the south; no entrenched dynasty.",
+    "climate": "Dominant-incumbent politics in a big farm town.",
+    "historyIntro": "A 1921 American-era creation honoring the man whose law promised independence.",
+    "history": [
+      [
+        "Jan 1, 1921 · Created",
+        "Named for William Atkinson Jones, author of the 1916 Jones Law (the promise of eventual independence)."
+      ],
+      [
+        "Sep 28, 1949 · Southern split",
+        "San Agustin was carved from Jones's southern portion (EO 269)."
+      ],
+      [
+        "2025 · Landslide",
+        "Nhel Montano (PFP) won at 75.67%."
+      ]
+    ],
+    "caution": "Verify officials + district via COMELEC/LGU; land area is density-derived — confirm with PSGC.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "Vast farm land with thin transaction data; regional benchmarks apply.",
+    "land": [
+      [
+        "Market reality",
+        "Verify with RDO 015; large corn/rice parcels at ₱850K-1.9M/ha benchmark"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Jones, Isabela — Wikipedia (2024 census, Jan 1 1921, William Atkinson Jones namesake, 42 barangays)",
+      "url": "https://en.wikipedia.org/wiki/Jones,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Jones (PSGC 0203114000-adjacent; confirm exact PSGC)",
+      "url": "https://psa.gov.ph/classification/psgc"
+    },
+    {
+      "title": "PhilAtlas — Jones profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/jones.html"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Jones results (Montano 22,924 / 75.67%)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/jones"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — Jones results (early count 9,888)",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/jones"
+    },
+    {
+      "title": "Wikipedia — Jones Law (Philippine Autonomy Act, 1916)",
+      "url": "https://en.wikipedia.org/wiki/Jones_Law_(Philippines)"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Jones Etymology (William Atkinson Jones)",
+      "url": "https://en.wikipedia.org/wiki/Jones,_Isabela#Etymology"
+    },
+    {
+      "title": "Wikipedia — San Agustin (the 1949 split from Jones)",
+      "url": "https://en.wikipedia.org/wiki/San_Agustin,_Isabela"
+    }
+  ]
+},
+  "reina-mercedes": {
+  "nicknames": [
+    "Formerly Abbag → Callering → Calanusian"
+  ],
+  "founded": "1743 (Gaddang site of Abbag) · Jan 20, 1886 (pueblo date in the infobox)",
+  "etymology": "Renamed for Queen Mercedes of Orléans, consort of King Alfonso XII of Spain; earlier names: Abbag ('on the other side' of the Magat River), Callering, Calanusian.",
+  "general": [
+    [
+      "Land area",
+      "57.14 km²"
+    ],
+    [
+      "Barangays",
+      "20"
+    ],
+    [
+      "Population (2024)",
+      "28,222 (PSA POPCEN) · 7,470 households · ~494/km² — the densest municipality of Isabela"
+    ],
+    [
+      "Elevation",
+      "32–88 m (seat ~49 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Ibanag, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~355 km · immediately northwest of Ilagan, on the Cagayan River"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱330M (2024) · assets ₱820.2M · poverty incidence 11.41% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Ilagan-adjacent commuter trade + rice/corn; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Ilagan (15 min) for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Reina Mercedes Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "17,780 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Minimal published schedule — verify with RDO 015; Ilagan-spillover premiums near the boundary"
+    ],
+    [
+      "Internet",
+      "Fiber on the Maharlika corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "11.41% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Ilagan's dense northwestern twin on the Cagayan River"
+    ],
+    [
+      "Catchment logic",
+      "Commuter belt of the provincial capital; dense farmland with quick city access"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The densest municipality of Isabela (~494/km²) — a small, packed farm town beside Ilagan",
+      "1743 Gaddang origins at Abbag ('on the other side' of the Magat River); renamed thrice before honoring Queen Mercedes of Orléans (1886)",
+      "2025 family drama: the Respicio brothers contested the vice mayoralty — Jeryll Harold won (6,042) over Bong; a COMELEC proclamation case followed (Philstar, Jun 2025)",
+      "1st-class income in a 57-km² package — efficient, dense, capital-adjacent"
+    ],
+    "floodRisk": [
+      "Cagayan/Magat riverside barangays"
+    ],
+    "floodNote": "Confluence-adjacent exposure (Magat meets Cagayan nearby); Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Maria Lourdes P. Respicio-Saguban (per infobox)",
+        "2025: ABS-CBN partial shows the mayoral winner at 10,466 — verify the final count and name"
+      ],
+      [
+        "Vice Mayor",
+        "Jeryll Harold P. Respicio (IND)",
+        "6,042 votes (33.98%) — beat brother/rival Bong Respicio; cleared for proclamation after a COMELEC case (Philstar, Jun 2, 2025)"
+      ],
+      [
+        "District Rep",
+        "Ed Christopher S. Go (2nd district per infobox)",
+        "verify — the 2nd-district mapping for Reina Mercedes needs confirmation"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "verify 2025 composition"
+      ]
+    ],
+    "officialNote": "The vice-mayoral race was a Respicio-vs-Respicio affair with a post-election COMELEC case before proclamation (Philstar, Jun 2, 2025). The mayoral result (10,466 partial) needs the final canvass. Verify all before formal use.",
+    "dynasty": "The Respicio family contested itself for the vice mayoralty — town-scale dynasty friction.",
+    "climate": "Contested small-town politics with a legal epilogue.",
+    "historyIntro": "A 1743 Gaddang riverside site renamed through three Spanish-era names before honoring a queen.",
+    "history": [
+      [
+        "1743 · Abbag",
+        "Founded on the early Gaddang site of Abbag — 'on the other side' of the Magat River."
+      ],
+      [
+        "Spanish era · Renamings",
+        "Abbag → Callering → Calanusian as the settlement moved and re-chartered."
+      ],
+      [
+        "Jan 20, 1886 · Reina Mercedes",
+        "Renamed for Queen Mercedes of Orléans, consort of Alfonso XII."
+      ],
+      [
+        "2025 · The brothers' race",
+        "Jeryll Harold Respicio won the vice mayoralty over Bong Respicio (6,042 votes); a COMELEC case delayed proclamation until June 2025."
+      ]
+    ],
+    "caution": "Verify the 2025 mayoral result and officials via COMELEC/LGU before formal use.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)",
+      "investmentPromo": "Ilagan-commuter positioning; dense farmland with capital-city adjacency"
+    }
+  },
+  "realEstate": {
+    "intro": "Thin published zonal schedule; Ilagan-spillover parcels are the premium product.",
+    "land": [
+      [
+        "Market reality",
+        "Verify with RDO 015; density (494/km²) + Ilagan adjacency drive urban-lot demand"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Reina Mercedes, Isabela — Wikipedia (2024 census, 1743 Abbag origins, 1886 renaming, Mercedes of Orléans)",
+      "url": "https://en.wikipedia.org/wiki/Reina_Mercedes,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Reina Mercedes (PSGC 0203125000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203125000"
+    },
+    {
+      "title": "PhilAtlas — Reina Mercedes profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/reina-mercedes.html"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — Reina Mercedes results (partial 10,466)",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/reina-mercedes"
+    },
+    {
+      "title": "Wikipedia — Jeryll Harold Respicio (2025 VM 6,042, Independent, proclamation case)",
+      "url": "https://en.wikipedia.org/wiki/Jeryll_Harold_Respicio"
+    },
+    {
+      "title": "Philstar — Respicio cleared for proclamation as Isabela vice mayor (Jun 2, 2025)",
+      "url": "https://www.philstar.com/nation/2025/06/02/2447671/respicio-cleared-for-proclamation-as-isabela-vice-mayor"
+    },
+    {
+      "title": "provinceofisabela.ph — History of Isabela (Abbag → Callering → Calanusian → Reina Mercedes)",
+      "url": "https://provinceofisabela.ph/images/2018/History_of_Isabela.pdf"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Mercedes of Orléans (namesake)",
+      "url": "https://en.wikipedia.org/wiki/Mercedes_of_Orl%C3%A9ans"
+    }
+  ]
+},
+  "cabatuan": {
+  "nicknames": [
+    "Densest farm town beside Cauayan",
+    "Former Kalinga treehouse country"
+  ],
+  "founded": "November 5, 1949 — out of Cauayan territory",
+  "etymology": "From the Kalinga/Ilocano 'kabatuan' (upland clearing tradition); the area's first inhabitants were Kalingas living in tree houses.",
+  "general": [
+    [
+      "Land area",
+      "≈72 km² (population ÷ density 558.7/km² — verify with PSGC)"
+    ],
+    [
+      "Barangays",
+      "22"
+    ],
+    [
+      "Population (2024)",
+      "40,223 (PSA POPCEN) · 9,843 households · ~559/km²"
+    ],
+    [
+      "Elevation",
+      "44–249 m (seat ~60 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Kalinga heritage, Ibanag, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~350 km · immediately west of Cauayan City"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱250.2M (2024) · assets ₱757.4M · poverty incidence 9.74% (2023) — the LOWEST poverty incidence recorded among Isabela LGUs in the 2023 release"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Cauayan-commuter trade + rice/corn; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Cauayan (10 min) for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Cauayan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Cabatuan Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "26,018 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–3,750/sqm (median ₱750) · commercial ₱750–7,500/sqm (Centro)"
+    ],
+    [
+      "Internet",
+      "Fiber on the Maharlika corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "9.74% (2023) — the best in Isabela"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Cauayan's immediate western twin — inside the city's daily commute belt"
+    ],
+    [
+      "Catchment logic",
+      "Commuter town with the province's lowest poverty; cheap land next to a growing city"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "The lowest poverty incidence of any Isabela LGU (9.74%, 2023) — the valley's quiet success story",
+      "Kalinga treehouse settlers were the original inhabitants of these forests",
+      "A genuine three-way 2025 race: Charlton Uy (NUP) beat Benben Dy (Lakas) 11,395–8,839 — a Uy-vs-Dy clash outside the Dy heartland",
+      "Dense (559/km²) farm town pressed against Cauayan's western edge"
+    ],
+    "floodRisk": [
+      "Cagayan River riverside barangays"
+    ],
+    "floodNote": "Cagayan River west-bank exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "No mapped active fault trace — verify via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Charlton Uy (NUP)",
+        "11,395 votes vs Benben Dy (Lakas) 8,839 — elected 2025; a genuine Uy-vs-Dy contest"
+      ],
+      [
+        "Vice Mayor",
+        "Dr. Mario I. Acosta (NUP)",
+        "8,207 votes vs CID Dayrit (Aksyon) 7,489"
+      ],
+      [
+        "District Rep",
+        "Ian Paul Dy (3rd district)",
+        "Cabatuan sits in the 3rd district — a Dy seat, while the town hall went NUP"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "NUP-led 2025"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The pre-2025 infobox listed Mayor 'Charlton' — the Uy name carries; NUP beat the Dy family's Lakas here in a real race.",
+    "dynasty": "Uy machine (NUP) vs the Dy orbit (Lakas's Benben Dy) — one of the few towns where the Dys lost in 2025.",
+    "climate": "Contested, business-friendly continuity; best poverty numbers in the province.",
+    "historyIntro": "Kalinga treehouse country turned Cauayan's prosperous western twin.",
+    "history": [
+      [
+        "Pre-1949 · Kalinga forest",
+        "The first inhabitants were Kalingas from the mountain provinces, living in tree houses across the vast forestland."
+      ],
+      [
+        "Nov 5, 1949 · Townhood",
+        "Cabatuan was created (carved from Cauayan territory)."
+      ],
+      [
+        "2025 · The Uy win",
+        "Charlton Uy (NUP) beat Benben Dy (Lakas) — a rare direct defeat of a Dy in Isabela local politics."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; land area is density-derived — confirm with PSGC.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)",
+      "investmentPromo": "Cauayan-spillover positioning with the province's best poverty profile"
+    }
+  },
+  "realEstate": {
+    "intro": "Cauayan-spillover market — the corridor's best-value land next to the region's commercial hub.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–3,750/sqm (median ₱750) · commercial ₱750–7,500/sqm (Centro)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices; Cauayan adjacency pushes street prices above zonals."
+  },
+  "references": [
+    {
+      "title": "Cabatuan, Isabela — Wikipedia (2024 census, Nov 5 1949 creation, Kalinga treehouse settlers)",
+      "url": "https://en.wikipedia.org/wiki/Cabatuan,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Cabatuan (PSGC 0203107000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203107000"
+    },
+    {
+      "title": "PhilAtlas — Cabatuan profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/cabatuan.html"
+    },
+    {
+      "title": "PeoPlaid — Cabatuan 2025 results (Uy 11,395 vs Dy 8,839; electorate 26,018)",
+      "url": "https://peoplaid.com/2025/05/09/cabatuan-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Cabatuan (res ₱500–3,750/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/cabatuan"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Cabatuan History (Kalinga indigenous settlements)",
+      "url": "https://en.wikipedia.org/wiki/Cabatuan,_Isabela#History"
+    }
+  ]
+},
+  "gamu": {
+  "nicknames": [
+    "Ilagan's northern twin",
+    "Merged from two towns (1741)"
+  ],
+  "founded": "December 5, 1741 — merger of Batavag (near Lullutan, Ilagan) and Itugod (now Brgy. Lenzon)",
+  "etymology": "From the merger compromise site; the name's root is local (Ibanag/Gaddang) for the meeting place.",
+  "general": [
+    [
+      "Land area",
+      "≈129.4 km² (population ÷ density 238.4/km² — verify with PSGC)"
+    ],
+    [
+      "Barangays",
+      "16"
+    ],
+    [
+      "Population (2024)",
+      "30,850 (PSA POPCEN) · 7,501 households · ~238/km²"
+    ],
+    [
+      "Elevation",
+      "29–292 m (seat ~55 m)"
+    ],
+    [
+      "Languages",
+      "Ibanag, Ilocano, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~395 km · 8 km north of Ilagan on the Maharlika Hwy"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "2nd municipal income class · revenue ₱215.1M (2024) · assets ₱636.6M · poverty incidence 12.21% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Ilagan-commuter trade + farm services; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Ilagan for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools; ISU proximity"
+    ],
+    [
+      "Water",
+      "Gamu Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "20,313 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱438–1,250/sqm (median ₱688) · commercial ₱813–3,125/sqm (District I)"
+    ],
+    [
+      "Internet",
+      "Fiber on the Maharlika corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "12.21% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Immediately north of Ilagan — the capital's northern commuter town"
+    ],
+    [
+      "Catchment logic",
+      "Cheap land beside the provincial capital; Ilagan-bound traffic passes through"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Born from a merger: Batavag + Itugod compromised on a new site in 1741 — one of the valley's oldest towns",
+      "The mother town of Roxas and Naguilian (both carved from Gamu)",
+      "Ilagan's immediate northern neighbor — commuter-belt economics",
+      "2025: Atty. Xian Galanza (PFP) won 11,131–5,559 with a Galanza-Burkley slate"
+    ],
+    "floodRisk": [
+      "Cagayan River riverside barangays"
+    ],
+    "floodNote": "Cagayan River west-bank exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Unnamed Ilagan fault is nearby to the south — verify site-level via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Atty. Xian-Al D. Galanza (PFP)",
+        "11,131 votes vs Sheryl Labbuanan (Aksyon) 5,559 — elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Alfredo \"Bob\" Burkley Jr. (PFP)",
+        "10,025 votes"
+      ],
+      [
+        "District Rep",
+        "Ed Christopher S. Go (2nd district)",
+        "Gamu votes in the 2nd district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025 (Galanza Timoteo, Cumigad contest…)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid. The pre-2025 infobox (Mayor Xian-Al Galanza) matches — continuity.",
+    "dynasty": "Galanza-Burkley PFP slate; no entrenched dynasty.",
+    "climate": "Commuter-town machine politics; capital-adjacent growth agenda.",
+    "historyIntro": "A 1741 merger of two towns — and the mother town of two more.",
+    "history": [
+      [
+        "Dec 5, 1741 · The merger",
+        "Gamu was founded by merging Batavag (near today's Lullutan in Ilagan) and Itugod (now Brgy. Lenzon); the present site was a compromise between the two towns' residents."
+      ],
+      [
+        "1948 · First child town",
+        "Roxas (as Callang) was created from Gamu territory."
+      ],
+      [
+        "Nov 27, 1896 · Second child",
+        "Naguilian was separated by Spanish royal decree."
+      ],
+      [
+        "2025 · Present",
+        "Atty. Xian Galanza (PFP) won at 11,131 votes."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; the 1741 merger story is Wikipedia-sourced.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)",
+      "investmentPromo": "Ilagan-commuter positioning; highway commercial strips"
+    }
+  },
+  "realEstate": {
+    "intro": "Ilagan-spillover market on the Maharlika corridor.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱438–1,250/sqm (median ₱688) · commercial ₱813–3,125/sqm (District I)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Gamu — Wikipedia (2024 census, Dec 5 1741 merger of Batavag and Itugod)",
+      "url": "https://en.wikipedia.org/wiki/Gamu"
+    },
+    {
+      "title": "PSA PSGC — Gamu (PSGC 0203113000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203113000"
+    },
+    {
+      "title": "PhilAtlas — Gamu profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/gamu.html"
+    },
+    {
+      "title": "PeoPlaid — Gamu 2025 results (Galanza 11,131; Burkley 10,025; electorate 20,313)",
+      "url": "https://peoplaid.com/2025/05/09/gamu-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Gamu results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/gamu"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Gamu (res ₱438–1,250/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/gamu"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Gamu History (Batavag-Itugod merger)",
+      "url": "https://en.wikipedia.org/wiki/Gamu#History"
+    },
+    {
+      "title": "Wikipedia — Naguilian (the 1896 split from Gamu)",
+      "url": "https://en.wikipedia.org/wiki/Naguilian,_Isabela"
+    }
+  ]
+},
+  "naguilian": {
+  "nicknames": [
+    "Home of BIR RDO 015",
+    "1896 royal-decree town"
+  ],
+  "founded": "November 27, 1896 (Spanish Royal Decree — separated from Gamu)",
+  "etymology": "From the Ilocano/Ibanag root for the 'naguilian' (clearing/settlement) — the town predates the province.",
+  "general": [
+    [
+      "Land area",
+      "≈169.8 km² (population ÷ density 203.3/km² — verify with PSGC)"
+    ],
+    [
+      "Barangays",
+      "25"
+    ],
+    [
+      "Population (2024)",
+      "34,520 (PSA POPCEN) · 8,363 households · ~203/km²"
+    ],
+    [
+      "Elevation",
+      "29–315 m (seat ~60 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Ibanag, Gaddang, Tagalog"
+    ],
+    [
+      "Distance from Manila",
+      "~390 km · between Gamu and Benito Soliven, west of the Maharlika Hwy"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "1st municipal income class · revenue ₱221M (2024) · assets ₱1,120M · poverty incidence 13.03% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn/rice trade + BIR provincial presence (RDO 015 is named 'Naguilian'); BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Ilagan (20 min) for full banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary care in Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Naguilian Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "21,382 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱500–3,125/sqm (median ₱563) · commercial ₱813–5,625/sqm (Magsaysay bgy)"
+    ],
+    [
+      "Internet",
+      "Poblacion fiber"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "13.03% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "West of the highway between Gamu and Benito Soliven"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Ilagan is the urban magnet"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Home of BIR Revenue District Office 015 — the tax office whose name covers most of Isabela's zonal-value schedules",
+      "Created by Spanish royal decree Nov 27, 1896 (out of Gamu) — one of the province's last colonial-era towns",
+      "A Capuchino family sweep in 2025: Egay (mayor, 11,441) + Chu (VM, 13,616) + Deong (council, 10,272) — three Capuchinos on one ballot",
+      "25 barangays of corn and rice upland"
+    ],
+    "floodRisk": [
+      "Cagayan River tributary fringes"
+    ],
+    "floodNote": "Upland exposure; Uwan (Nov 2025) province-wide. Verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Unnamed Ilagan fault nearby to the east — verify site-level via Phivolcs FaultFinder.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026)."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Juan \"Egay\" R. Capuchino (Lakas)",
+        "11,441 votes vs Marie Dee Belagan (IND) 6,578 — re-elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "Isidro \"Chu\" D. Acosta Jr. (Lakas)",
+        "13,616 votes — note: PeoPlaid lists 'CAPUCHINO, CHU' as a winning VM candidate; the infobox's VM (Acosta) may be the pre-2025 term — verify which name holds the proclamation"
+      ],
+      [
+        "District Rep",
+        "Ed Christopher S. Go (2nd district)",
+        "Naguilian votes in the 2nd district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "Lakas/IND mix 2025 (Capuchino Deong, Ramirez…)"
+      ]
+    ],
+    "officialNote": "2025 mayoral winner verified via PeoPlaid. The VM line conflicts (PeoPlaid 'Capuchino Chu' vs infobox 'Acosta Jr.') — resolve against the COMELEC COC before formal use.",
+    "dynasty": "The Capuchino family fielded three winners in 2025 (mayor + VM candidate + councilor) — town-scale dynasty.",
+    "climate": "Machine politics in a BIR-anchored farm town.",
+    "historyIntro": "A royal-decree town of 1896 — born of Gamu, now the province's tax-office namesake.",
+    "history": [
+      [
+        "Pre-1896 · Gamu territory",
+        "Naguilian was part of the town of Gamu."
+      ],
+      [
+        "Nov 27, 1896 · Royal decree",
+        "Separated from Gamu by Spanish royal decree — one of the colony's final town creations."
+      ],
+      [
+        "2025 · The Capuchino sweep",
+        "Egay Capuchino (Lakas) re-elected at 11,441; family members won across the ballot."
+      ]
+    ],
+    "caution": "Verify officials (esp. the VM line) via COMELEC/LGU.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)",
+      "investmentPromo": "BIR-proximity services niche; highway-adjacent commerce"
+    }
+  },
+  "realEstate": {
+    "intro": "Thin published zonal schedule; farm lots dominate.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱500–3,125/sqm (median ₱563) · commercial ₱813–5,625/sqm (Magsaysay)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Naguilian, Isabela — Wikipedia (2024 census, Nov 27 1896 royal decree, Gamu mother town)",
+      "url": "https://en.wikipedia.org/wiki/Naguilian,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — Naguilian (PSGC 0203120000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203120000"
+    },
+    {
+      "title": "PhilAtlas — Naguilian profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/naguilian.html"
+    },
+    {
+      "title": "PeoPlaid — Naguilian 2025 results (Capuchino 11,441; 'Chu' 13,616; electorate 21,382)",
+      "url": "https://peoplaid.com/2025/05/09/naguilian-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Naguilian results",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/naguilian"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Naguilian (res ₱500–3,125/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/naguilian"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Naguilian History (1896 decree, Gamu)",
+      "url": "https://en.wikipedia.org/wiki/Naguilian,_Isabela#History"
+    },
+    {
+      "title": "BIR — Revenue Region/District structure (RDO 015 Naguilian)",
+      "url": "https://www.bir.gov.ph/zonal-values"
+    }
+  ]
+},
+  "benito-soliven": {
+  "nicknames": [
+    "Formerly Melappia (of San Mariano)"
+  ],
+  "founded": "May 18, 1967 (RA 4873) — from San Mariano's Melappia district",
+  "etymology": "Named for Benito Tagorda Soliven, Congressman of Ilocos Sur's 1st district.",
+  "general": [
+    [
+      "Land area",
+      "≈184.4 km² (population ÷ density 166.4/km² — verify with PSGC)"
+    ],
+    [
+      "Barangays",
+      "29"
+    ],
+    [
+      "Population (2024)",
+      "30,682 (PSA POPCEN) · 7,373 households · ~166/km²"
+    ],
+    [
+      "Elevation",
+      "40–472 m (seat ~80 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Tagalog, Ibanag"
+    ],
+    [
+      "Distance from Manila",
+      "~400 km · upland east of Ilagan toward San Mariano"
+    ],
+    [
+      "Festivals",
+      "Town fiesta · Bambanti (province-wide)"
+    ],
+    [
+      "Income class",
+      "2nd municipal income class · revenue ₱185.7M (2024) · assets ₱685M · poverty incidence 12.59% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Corn/banana upland farm trade; BPLO for count"
+    ],
+    [
+      "Banks",
+      "Rural bank presence; Ilagan/San Mariano for banking"
+    ],
+    [
+      "Hospitals",
+      "RHU + clinics; tertiary referral to Ilagan"
+    ],
+    [
+      "Education anchors",
+      "Public high schools"
+    ],
+    [
+      "Water",
+      "Benito Soliven Water District"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Electorate",
+      "19,914 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Land (BIR zonal)",
+      "Residential ₱313–1,500/sqm (median ₱500) · commercial ₱875–3,750/sqm (District I)"
+    ],
+    [
+      "Internet",
+      "Poblacion coverage"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023)"
+    ],
+    [
+      "Poverty incidence",
+      "12.59% (2023)"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Upland east of Ilagan, on the San Mariano corridor"
+    ],
+    [
+      "Catchment logic",
+      "Farm-trade catchment; Ilagan is the urban magnet"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Born as Melappia of San Mariano — created May 18, 1967 by RA 4873 (the same law that made Burgos)",
+      "Named for an Ilocos Sur congressman (Benito Tagorda Soliven) — an unusual cross-province namesake",
+      "Upland corn/banana belt on the road to San Mariano's Sierra Madre gateway",
+      "2025: the Azur-Lungan PFP tandem swept — JP Azur (mayor candidate line) 11,614 and Robert Lungan 12,515 vs a KBL challenge (Macaraeg 5,057)"
+    ],
+    "floodRisk": [
+      "Upland stream fringes"
+    ],
+    "floodNote": "Upland exposure near the Sierra Madre foothills; verify with MDRRMO maps.",
+    "geohazard": {
+      "seismic": "Divilacan Fault zone to the east — verify site-level.",
+      "typhoon": "Landfall province (Uwan Nov 2025).",
+      "implication": "Standard Cagayan Valley build spec."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026) — the San Mariano-Benito Soliven uplands were historically contested."
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Roberto \"Robert\" T. Lungan (PFP)",
+        "12,515 votes vs Jade Carreon (KBL) 3,363 — elected 2025"
+      ],
+      [
+        "Vice Mayor",
+        "John Paul \"JP\" S. Azur (PFP)",
+        "11,614 votes vs Paul Macaraeg (KBL) 5,057 — note: the pre-2025 infobox lists Lungan as mayor and Azur as VM; the 2025 returns show both re-elected on the PFP line"
+      ],
+      [
+        "District Rep",
+        "Ed Christopher S. Go (2nd district)",
+        "Benito Soliven votes in the 2nd district"
+      ],
+      [
+        "Council",
+        "Sangguniang Bayan (8 elected)",
+        "PFP-led 2025 (Rose Jane Azur 12,979)"
+      ]
+    ],
+    "officialNote": "2025 winners verified via PeoPlaid (Lungan 12,515; Azur VM 11,614). A KBL slate (Macaraeg 5,057) made it a real two-party race — a Marcos-era party still fielding full tickets here.",
+    "dynasty": "Lungan-Azur PFP tandem; no entrenched dynasty.",
+    "climate": "PFP dominance with a genuine KBL challenge — an odd 2025 quirk.",
+    "historyIntro": "Melappia of San Mariano became Benito Soliven in 1967 — an Ilocos Sur congressman's namesake in Isabela.",
+    "history": [
+      [
+        "Pre-1967 · Melappia",
+        "The area was known as Melappia, part of San Mariano."
+      ],
+      [
+        "May 18, 1967 · RA 4873",
+        "Created as the municipality of Benito Soliven (the same date as Burgos's RA 4877); first officials proclaimed after the Nov 1967 elections."
+      ],
+      [
+        "2025 · PFP vs KBL",
+        "The PFP tandem (Lungan-Azur) beat a full KBL slate — a two-party race rare in 2025 Isabela."
+      ]
+    ],
+    "caution": "Verify officials via the LGU site; land area is density-derived — confirm with PSGC.",
+    "businessClimate": {
+      "permitting": "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
+      "taxes": "Standard LGU schedule (municipal revenue code)"
+    }
+  },
+  "realEstate": {
+    "intro": "Thin published zonal schedule; upland farm lots dominate.",
+    "land": [
+      [
+        "BIR zonal",
+        "Residential ₱313–1,500/sqm (median ₱500) · commercial ₱875–3,750/sqm (District I)"
+      ]
+    ],
+    "caution": "Zonal values are tax floors, not market prices."
+  },
+  "references": [
+    {
+      "title": "Benito Soliven — Wikipedia (2024 census, RA 4873 May 18 1967, Melappia, Benito Tagorda Soliven namesake)",
+      "url": "https://en.wikipedia.org/wiki/Benito_Soliven"
+    },
+    {
+      "title": "PSA PSGC — Benito Soliven (PSGC 0203104000)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203104000"
+    },
+    {
+      "title": "PhilAtlas — Benito Soliven profile",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/benito-soliven.html"
+    },
+    {
+      "title": "PeoPlaid — Benito Soliven 2025 results (Lungan 12,515; Azur 11,614; KBL Macaraeg 5,057; electorate 19,914)",
+      "url": "https://peoplaid.com/2025/05/09/benito-soliven-isabela-election-2025-results-winners"
+    },
+    {
+      "title": "REN.PH — BIR zonal values, Benito Soliven (res ₱313–1,500/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/benito-soliven"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "Wikipedia — Benito Soliven History (Melappia, RA 4873, Nov 1967 elections)",
+      "url": "https://en.wikipedia.org/wiki/Benito_Soliven#History"
+    },
+    {
+      "title": "Wikipedia — San Mariano (mother town)",
+      "url": "https://en.wikipedia.org/wiki/San_Mariano,_Isabela"
+    }
+  ]
+},
 };
