@@ -3225,8 +3225,8 @@ window.LGU_DATA = {
     },
     political: {
       officials: [
-        ["Mayor", "Felipe \"Pipot/Janong\" N. Guyud", "2025: ABS-CBN shows Guyud (Lakas) 7,916 vs Marilou Sanchez (Lakas) 7,787; Rappler's embed lists Guyud (PFP) 10,080 — a Guyud-vs-Guyud split ticket across party lines; verify the final COC"],
-        ["Vice Mayor", "Bernadine M. Lucas", "per the pre-2025 infobox; the 2025 VM winner needs cross-checking"],
+        ["Mayor", "Felipe \"Pipot\" N. Guyud (PFP)", "10,080 votes (73.01%) — elected 2025 (Rappler embed; ABS-CBN's 7,916-vs-7,787 rows reflect the VM race, not the mayoral tally)"],
+        ["Vice Mayor", "verify (2025)", "ABS-CBN shows Guyud (Lakas) 7,916 vs Marilou Sanchez (Lakas) 7,787 as the VM-race top two — proclaimed winner pending; pre-2025 infobox lists Bernadine M. Lucas"],
         ["District Rep", "Faustino \"Bojie\" Dy III (6th district)", "San Guillermo sits in the Speaker's congressional district"],
         ["Council", "Sangguniang Bayan (8 elected)", "verify 2025 composition"]
       ],
@@ -3271,7 +3271,8 @@ window.LGU_DATA = {
       { title: "PIDS/iMoney — PH income classes (monthly family): poor <₱9,520 · low ₱9,520-19,040 · middle ₱19,040-114,240 · high ₱114,240-190,400 · rich ₱190,400+", url: "https://pidswebs.pids.gov.ph/CDN/NEWS/04_10_imoney.pdf" },
       { title: "BusinessWorld — 2025 LFS: national employment 95.8%; Cagayan Valley unemployment 3.1% (3rd-lowest after CAR 2.7%, Davao 2.9%)", url: "https://bworldonline.com/the-nation/2026/03/23/738165/calabarzon" },
       { title: "PSA Isabela — poverty incidence among families 15.9% (2021) → 8.4% (2023); provincial poverty threshold ₱14,375/mo", url: "https://rsso02.psa.gov.ph/content/psa-isabela-presents-key-economic-indicators-pgis-1st-quarter-joint-meeting" }
-    ]
+    ],
+    officialNote: "2025 mayoral winner verified via Rappler embed: Pipot Guyud (PFP) at 73.01%. The VM race (two Guyuds per ABS-CBN's rows) still needs the proclaimed winner confirmed via COMELEC COC."
   },
   "san-isidro": {
     nicknames: ["6th-district rice town between Echague and Cauayan"],
