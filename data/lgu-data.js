@@ -199,4 +199,824 @@ window.LGU_DATA = {
       { title: "FazWaz — Isabela land plots (Isabela-wide ₱2,210/sqm benchmark; 965 sqm w/ 160 sqm house ₱2.2M)", url: "https://www.fazwaz.ph/land-for-sale/philippines/cagayan-valley/isabela" },
     ],
   },
+  ilagan: {
+  "nicknames": [
+    "Corn Capital of the Philippines",
+    "Sports Tourism Hub of the North",
+    "Provincial Capital of Isabela"
+  ],
+  "founded": "May 4, 1686 (Dominican mission town, first called \"Bolo\") · Cityhood Aug 11, 2012 (RA 10169)",
+  "etymology": "Ibanag \"laga\" = smallpox — an outbreak marked the settlement's 1686 founding under Fr. Julian Malumbres; the Gaddang founders originally called it \"Bolo\".",
+  "smartCity": "Largest city on Luzon by land area (1,166.26 km²) — and the provincial capital",
+  "general": [
+    [
+      "Land area",
+      "1,166.26 km² — largest city on Luzon, 4th largest in the Philippines"
+    ],
+    [
+      "Barangays",
+      "91 (most in Isabela; 13 urban)"
+    ],
+    [
+      "Population (2024)",
+      "164,020 (PSA POPCEN) · 39,663 households · ~140.6/km² — most populous city of Isabela"
+    ],
+    [
+      "Elevation",
+      "24–1,388 m (city proper ~139 m)"
+    ],
+    [
+      "Languages",
+      "Ibanag, Ilocano, Gaddang, Tagalog, English"
+    ],
+    [
+      "Distance from Manila",
+      "~400 km via Maharlika Hwy · CYZ (Cauayan) airport ~20 km · Tuguegarao ~67 km"
+    ],
+    [
+      "Festivals",
+      "Aggaw na Ilagan (founding) · Binallay Festival (rice-cake) · Mammangi Festival (corn harvest) · Bambanti (province-wide)"
+    ],
+    [
+      "River",
+      "Cagayan River eastern boundary — 28 of 91 barangays flooded in Super Typhoon Uwan (Nov 2025)"
+    ],
+    [
+      "Income class",
+      "1st city income class · revenue ₱2,810M (2024) · assets ₱8,891M · poverty incidence 12.02% (2023)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "1,795 registered establishments (2006 LGU figure — newest published; current count via City BPLO)"
+    ],
+    [
+      "Banks",
+      "BDO, BPI, ChinaBank Savings strip along Maharlika Hwy — second banking cluster of the province"
+    ],
+    [
+      "Hospitals",
+      "Isabela Provincial Hospital (public tertiary, est. 1939-40, Calamagui 2nd) — the province's flagship public hospital; private care thinner than Cauayan's"
+    ],
+    [
+      "Education anchors",
+      "ISU Ilagan main campus (largest of ISU's 9 campuses) · Isabela National High School · private colleges"
+    ],
+    [
+      "Retail anchors",
+      "XentroMall Ilagan City Mall (2016) · Northstar Mall · Talavera Square — no SM/Robinsons (first SM in Region 2 is in Cauayan)"
+    ],
+    [
+      "BPO",
+      "No major BPO site yet — Cauayan's Everise (36 km) is the regional CX hub; Ilagan competes on government-services gravity"
+    ],
+    [
+      "Flights & hotels",
+      "CYZ airport 20 km (PAL + Cebu Pacific MNL) · hotel stock thin: Dreamwave Hotel (36 rooms) leads a budget-to-3-star set"
+    ],
+    [
+      "Power",
+      "ISELCO-I · residential ₱9.4739/kWh (Mar 2026)"
+    ],
+    [
+      "Water",
+      "City of Ilagan Water District (CIWD) — active pipeline replacement; minimum ~₱140/first 10 cum (LWUA schedule)"
+    ],
+    [
+      "Coworking competition",
+      "Regus/Spaces markets \"2 centers in Isabela\" (Ilagan/Santiago) at ₱890/day — none confirmed open in Ilagan proper"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Universities",
+      "ISU Ilagan main campus — biggest tertiary population in the province outside Santiago's cluster"
+    ],
+    [
+      "Electorate",
+      "105,526 registered voters (2025) — largest working-age proxy in Isabela"
+    ]
+  ],
+  "costs": [
+    [
+      "Commercial rent",
+      "Thin published market — Centro retail asks ~₱400–500/sqm/mo (broker postings); warehouse rates follow Cauayan benchmark ₱120–180/sqm/mo"
+    ],
+    [
+      "Power",
+      "ISELCO-I residential ₱9.4739/kWh (Mar 2026)"
+    ],
+    [
+      "Water",
+      "CIWD: first 10 cum ~₱140 minimum (LWUA June 2024 schedule)"
+    ],
+    [
+      "Internet",
+      "PLDT/Converge fiber available in the poblacion; provincial fiber backbone runs the Maharlika corridor"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023) · fastest-growing region nationally, +25.0% 2023→2025 (PSA)"
+    ],
+    [
+      "Poverty incidence",
+      "Ilagan 12.02% (2023) vs national families 10.9% — slightly above national, typical for the region"
+    ],
+    [
+      "Remittance base",
+      "PH remittances record $39.62B (2025) — resilient provincial demand driver"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Provincial capital, 34 km north of Cauayan on Maharlika Hwy — administrative pivot of Isabela"
+    ],
+    [
+      "Distances",
+      "Cauayan 34 km · Santiago ~89 km · Tuguegarao ~67 km · Manila ~400 km"
+    ],
+    [
+      "Catchment logic",
+      "Capital-city functions (capitol, national agencies, courts, ISU) pull daily traffic from all 34 municipalities — catchment exceeds resident 164K"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Largest city on Luzon by land area — 1,166.26 km² of corn and rice country",
+      "\"Corn Capital of the Philippines\" (designated 2015): ~200,000 MT corn/yr off 33,500 ha — biggest corn area of any PH city; ~80,000 MT rice/yr from 15,000 ha",
+      "Provincial capital: capitol, Isabela Provincial Hospital, national-agency regional offices — government-services gravity",
+      "World's Largest Wooden Lounge Chair (Butaka) · ILAGAN Sanctuary zoo & nature park · Ilagan Japanese Tunnel (WWII) · Queen Isabela Park",
+      "Sports Tourism Hub of the North — City of Ilagan Sports Complex + City Sports and Convention Center",
+      "Hosted the biggest Bagong Pilipinas Serbisyo Fair (Nov 2023): ₱500M services, 100K recipients, 26 agencies",
+      "TotalEnergies 440MWp solar farm ($300M) under construction — commercial ops late 2027",
+      "ILAGANDA development authority (2019) steering a \"liveable city by 2030\" program"
+    ],
+    "floodRisk": [
+      "Baligatan",
+      "Calamagui 2nd",
+      "Baculud",
+      "Centro Poblacion low-lying stretches",
+      "San Antonio riverside barangays"
+    ],
+    "floodNote": "Super Typhoon Uwan (Nov 2025): 28 of 91 barangays submerged, 5,000+ families affected, ~400 families isolated (GMA/ANC) — flood exposure along the Cagayan River is the city's top physical risk. Seismic: unnamed Ilagan fault produced a 500-tremor swarm (Jun 2025) — verify site-level via Phivolcs FaultFinder.",
+    "geohazard": {
+      "seismic": "Unnamed Ilagan fault (Phivolcs Jun 2026) — 500-tremor swarm Jun 2025; Divilacan Fault (M7.2 potential) offshore east. Verify site-level via Phivolcs FaultFinder.",
+      "typhoon": "Peak season Jul–Oct; Isabela is a frequent direct-landfall province (Uwan Nov 2025 super typhoon, Paolo Sig#4).",
+      "implication": "Flood + wind + swarm-prone fault → build to higher structural spec, budget backup power, insurance is a real cost line."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026); Ilagan = administrative center, stable.",
+    "growthPipeline": [
+      [
+        "TotalEnergies 440MWp solar (Ilagan)",
+        "$300M, financial close Apr 2026, commercial ops late 2027 (65/35 TotalEnergies–Nextnorth)"
+      ],
+      [
+        "CPF Ilagan agri-complex",
+        "₱5.5B swine + ₱1.8B feed mill, doubling toward ₱10B — regional agri-services magnet"
+      ],
+      [
+        "ILAGANDA liveable-city program",
+        "2030 horizon — drainage, sports complex, cityhood-anniversary infrastructure pushes"
+      ]
+    ]
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Josemarie \"Jay\" L. Diaz (PFP)",
+        "Re-elected 2025: 74,188 votes (70.3%) — mayor since 2019 (also 2013–2016; first city mayor by holdover)"
+      ],
+      [
+        "Vice Mayor",
+        "Jay Eveson \"Jayve\" C. Diaz (PFP)",
+        "60,723 votes (57.5%) — the mayor's son; father-and-son tandem proclaimed May 13, 2025"
+      ],
+      [
+        "District Rep",
+        "Antonio \"Tonypet\" Albano (Lakas)",
+        "Lone district of Ilagan — re-elected 2025 unopposed with 172,333 votes; son of the late mayor Delfinito Albano"
+      ],
+      [
+        "Council",
+        "10 elected councilors (2025 batch)",
+        "PFP sweep: Villanueva, Bello, Olalia, Borromeo, Bringas, Manaligod Jr., Tugade, Gaoiran, Malunay, Albano-Bic-Bic"
+      ]
+    ],
+    "officialNote": "Names verified against Rappler/ABS-CBN 2025 halalan results and the LGU directory pattern. Verify via cityofilagan.gov.ph before formal use — the city site's officials page has been inconsistent across redesigns.",
+    "dynasty": "Diaz machine (PFP) runs City Hall — Josemarie Diaz has won every election since 2007, with wife Evelyn Diaz holding the seat 2016–2019 as the couple alternated; son Jayve is now vice mayor. The Albano clan holds the congressional seat (Delfinito Albano, assassinated 2006, succeeded by son Tonypet). The older Uy lineage (Mercedes Pua Uy, 1992–2001) is retired from city politics.",
+    "climate": "Dominant one-party machine with thin opposition (2025: Diaz 70.3% vs a nominal independent) — policy direction is continuity; government-services gravity (capitol + national agencies) makes Ilagan less business-competitive than Cauayan/Santiago but politically stable.",
+    "historyIntro": "From a 1686 Gaddang mission town to provincial capital and (in 2012) the youngest city of Isabela — under two alternating dynasties.",
+    "history": [
+      [
+        "1686 · Founding",
+        "Gaddang settlers on the Cagayan River tobacco country founded \"Bolo\"; Fr. Julian Malumbres re-established it May 4, 1686 as a Dominican mission town renamed Ilagan (Ibanag \"laga\" = smallpox outbreak at founding)."
+      ],
+      [
+        "1763 · Revolt",
+        "Dabo and Juan Marayag led a Gaddang revolt against tribute and the tobacco monopoly — an early marker of the town's restive frontier politics."
+      ],
+      [
+        "1856 · Provincial capital",
+        "When Isabela de Luzon was carved from Cagayan (May 1, 1856), Ilagan was made the provincial capital — a role it has held continuously since."
+      ],
+      [
+        "1901 · American reorganization",
+        "Act 210 (Aug 4, 1901) re-established Isabela's civil government in Ilagan; first municipal president Rafael Maramag became the province's first governor."
+      ],
+      [
+        "1945 · Liberation",
+        "USAFIP-NL and the US 37th Division liberated Ilagan June 19, 1945; the Ilagan Japanese Tunnel (forced labor) survives as a tourist site."
+      ],
+      [
+        "1999 · First cityhood attempt fails",
+        "RA 8474 (Feb 2, 1998) would have made Ilagan a city, but voters rejected it in the March 14, 1999 plebiscite under Mayor Mercedes P. Uy."
+      ],
+      [
+        "2001–2006 · The Albano interlude",
+        "Delfinito Calimag Albano won the mayorship in 2001 and 2004 — then was assassinated in Quezon City on June 27, 2006. Vice Mayor Josemarie Diaz finished the term."
+      ],
+      [
+        "2007–2012 · Diaz era & cityhood",
+        "Diaz won 2007 and 2010, backing the \"C-U-DAD Ilagan\" cityhood campaign; HB 5917 was signed June 21, 2012 and the Aug 11, 2012 plebiscite ratified cityhood (RA 10169) — proclaimed by COMELEC Commissioner Velasco."
+      ],
+      [
+        "2013–present · The Diaz machine",
+        "Diaz held the first city mayorship (2013–2016), handed it to wife Evelyn Diaz (2016–2019), then returned in 2019. In 2025 he won 70.3% with son Jayve as running mate — while the Albano dynasty kept the congressional seat (Tonypet unopposed, 172,333 votes)."
+      ]
+    ],
+    "caution": "Verify current officials via cityofilagan.gov.ph before formal use; pre-1992 history is secondary-sourced (Wikipedia/LGU commissioned history). The \"first city mayor\" question (Diaz 2012 holdover vs the 2013 election) varies by source.",
+    "businessClimate": {
+      "permitting": "City BPLO with province-wide Business One-Stop Shop (BOSS) initiative (PIA 2026); online systems less mature than Cauayan's BPLS portal",
+      "investmentPromo": "ILAGANDA (Ilagan Development Authority, 2019) drives the \"liveable city by 2030\" program; city investor desk via the Mayor's Office",
+      "incentives": "Provincial investment code incentives available; no PEZA zone in Ilagan — national BOI registration open to qualified projects",
+      "taxes": "Standard LGU schedule: real property tax + local business tax on gross sales (per city revenue code; verify at city hall — not published online)"
+    }
+  },
+  "realEstate": {
+    "intro": "Compiled from live broker/marketplace listings and BIR zonal schedules (Sep 2026) — all figures are ASKING prices or BIR zonal floors, not appraised values. The Ilagan market is thinner than Cauayan's.",
+    "land": [
+      [
+        "BIR zonal (2023 schedule)",
+        "Residential ₱80–6,250/sqm (median ₱1,000) · commercial ₱1,000–12,500/sqm — peaks in Alibagu along the national highway"
+      ],
+      [
+        "Farmland",
+        "₱850K–1.9M per ha typical for the region's corn/rice land (regional benchmark)"
+      ],
+      [
+        "Pre-selling subdivision",
+        "Avida (Ayala) Greenlane Settings — first Ayala residential dev in Isabela, 10.4-ha, Brgy. Alibagu near the Capitol; lots advertised ~₱43K/sqm with house packages"
+      ]
+    ],
+    "houses": [
+      [
+        "Broker listings",
+        "₱4.74M house (190 sqm, Osmena) · ₱6.7M house & lot (251 sqm, Alibagu — yellow-tag title, cash only)"
+      ],
+      [
+        "Developer pricing",
+        "Avida Greenlane Settings house packages from ~₱4.1M (₱9.8K/mo financing advertised)"
+      ],
+      [
+        "Commercial compound",
+        "473-sqm lot w/ 3-storey building, Calamagui 2nd — ₱45M ask (≈₱95K/sqm, prime commercial)"
+      ]
+    ],
+    "rent": [
+      [
+        "Room / boarding",
+        "₱3,000–5,000/mo (student/working-class baseline near ISU)"
+      ],
+      [
+        "Avida financing angle",
+        "Greenlane marketed at ~₱9.8K/month amortization — a proxy for entry-level ownership cost"
+      ],
+      [
+        "Retail / office (Centro)",
+        "~₱400–500/sqm/mo asking (broker postings; thinner market than Cauayan)"
+      ]
+    ],
+    "caution": "Listing asks, not appraisals — verify with a broker and current BIR zonal values (RDO 015, eff. 7/20/2023) before underwriting. Retail rent benchmark is thin-market broker pricing."
+  },
+  "references": [
+    {
+      "title": "Ilagan — Wikipedia (2024 census, land area, barangays, history, cityhood RA 10169)",
+      "url": "https://en.wikipedia.org/wiki/Ilagan"
+    },
+    {
+      "title": "PSA PSGC — City of Ilagan (PSGC 0203114000): 1st city income class, 164,020 (2024 POPCEN), 91 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/0203114000"
+    },
+    {
+      "title": "PhilAtlas — Ilagan City profile (barangay-level population, households)",
+      "url": "https://www.philatlas.com/luzon/r02/isabela/ilagan.html"
+    },
+    {
+      "title": "City of Ilagan LGU — official site (services, festivals, programs)",
+      "url": "https://cityofilagan.gov.ph"
+    },
+    {
+      "title": "Ilagan agriculture — Corn Capital figures (33,500 ha corn, 15,000 ha rice)",
+      "url": "https://agriculture.cityofilagan.com"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Ilagan City results (Diaz 74,188; Jayve Diaz 60,723; electorate 105,526)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/ilagan-city"
+    },
+    {
+      "title": "ABS-CBN Halalan 2025 — City of Ilagan official results",
+      "url": "https://halalanresults.abs-cbn.com/local/isabela/ilagan-city"
+    },
+    {
+      "title": "Rappler — Tonypet Albano re-elected unopposed, Isabela 1st district (172,333 votes)",
+      "url": "https://ph.rappler.com/elections/2025/house-race/isabela-1st-district"
+    },
+    {
+      "title": "Wikipedia — Mayor of Ilagan (term-by-term: Maramag, Uy, Albano, Diaz, Evelyn Diaz)",
+      "url": "https://en.wikipedia.org/wiki/Mayor_of_Ilagan"
+    },
+    {
+      "title": "PNA — Bagong Pilipinas Serbisyo Fair Ilagan (Nov 2023, ₱500M, 100K recipients)",
+      "url": "https://www.pna.gov.ph/articles/1213456"
+    },
+    {
+      "title": "City of Ilagan — cityhood history (RA 10169 plebiscite Aug 11, 2012; failed 1999 RA 8474 bid)",
+      "url": "https://cityofilagan.gov.ph/history"
+    },
+    {
+      "title": "Wikipedia — Isabela's 1st legislative district (Ilagan; Albano dynasty history, Delfinito Albano assassination 2006)",
+      "url": "https://en.wikipedia.org/wiki/Isabela%27s_1st_legislative_district"
+    },
+    {
+      "title": "Philstar — Delfinito Albano assassinated in QC (Jun 27, 2006)",
+      "url": "https://www.philstar.com/nation/2006/06/28/34422/isabela-mayor-gunmen"
+    },
+    {
+      "title": "GMA News — Super Typhoon Uwan: 28 Ilagan barangays flooded, 5,000+ families affected (Nov 2025)",
+      "url": "https://www.gmanetwork.com/news/regions/"
+    },
+    {
+      "title": "TotalEnergies — 440MWp Ilagan solar ($300M, ops late 2027)",
+      "url": "https://totalenergies.com/philippines"
+    },
+    {
+      "title": "Manila Times — Phivolcs: 3 active faults in Isabela incl. unnamed Ilagan fault (Jun 2026)",
+      "url": "https://www.manilatimes.net/2026/06/11/regions/phivolcs-identifies-active-fault-lines-in-isabela-amid-rising-mindanao-quake-toll/2362958"
+    },
+    {
+      "title": "ISELCO-I — power rates (residential ₱9.4739/kWh, Mar 2026)",
+      "url": "https://www.iselcouno.com"
+    },
+    {
+      "title": "City of Ilagan Water District — rates (first 10 cum ~₱140, LWUA schedule)",
+      "url": "https://cityofilaganwaterdistrict.gov.ph"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri daily minimum)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K; +25.0% growth 2023→2025",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "BIR zonal values — City of Ilagan (RDO 015, eff. 7/20/2023: res ₱80–6,250/sqm, com ₱1,000–12,500/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/ilagan"
+    },
+    {
+      "title": "Avida Greenlane Settings Ilagan — first Ayala residential dev in Isabela (10.4 ha, Alibagu)",
+      "url": "https://primeinvestments-ph.com/2023/12/23/greenlane-settings-ilagan-isabela"
+    },
+    {
+      "title": "DotProperty — Ilagan house listings (₱4.74M Osmena; ₱6.7M Alibagu)",
+      "url": "https://www.dotproperty.com.ph/properties-for-sale/isabela/ilagan"
+    },
+    {
+      "title": "real.ph — 473-sqm commercial lot w/ 3-storey bldg, Calamagui 2nd ₱45M",
+      "url": "https://www.real.ph/listing/473-sqm-commercial-lot-with-3-storey-building"
+    },
+    {
+      "title": "FazWaz — Ilagan median land ₱1,510/sqm",
+      "url": "https://www.fazwaz.ph/land-for-sale/philippines/cagayan-valley/isabela"
+    },
+    {
+      "title": "XentroMalls — Ilagan City Mall (opened May 27, 2016)",
+      "url": "https://www.xentromalls.com/mall-locator/ilagan-city-mall-isabela/"
+    },
+    {
+      "title": "Inquirer Business — IWG/Regus 17-location PH expansion naming Ilagan & Santiago",
+      "url": "https://business.inquirer.net/495945/iwg-to-expand-ph-flexible-office-portfolio-by-50"
+    },
+    {
+      "title": "Manila Bulletin — Cagayan Valley declared insurgency-free (RPOC, Jun 2026)",
+      "url": "https://mb.com.ph/2026/06/06/cagayan-valley-declared-insurgency-free"
+    }
+  ]
+},
+  santiago: {
+  "nicknames": [
+    "Queen City of the North",
+    "Premier Investment Hub of the North",
+    "First City of Region 2"
+  ],
+  "founded": "May 4, 1743 (pueblo of \"Carig\") · Cityhood Jul 6, 1994 (RA 7720) — first city of Region 2",
+  "etymology": "Renamed for St. James the Great (Santiago), the patron saint; the original Gaddang/Ibanag settlement was \"Carig\" on the old Carig (now Diadi) River.",
+  "smartCity": "Only independent component city in Region 2 — administratively free of the provincial government since 1994",
+  "general": [
+    [
+      "Land area",
+      "255.50 km²"
+    ],
+    [
+      "Barangays",
+      "37"
+    ],
+    [
+      "Population (2024)",
+      "150,313 (PSA POPCEN) · 36,334 households · ~588/km² — densest LGU in Isabela"
+    ],
+    [
+      "Elevation",
+      "56–919 m (city proper ~156 m)"
+    ],
+    [
+      "Languages",
+      "Ilocano, Gaddang, Ibanag, Tagalog, English"
+    ],
+    [
+      "Distance from Manila",
+      "~330–360 km via Maharlika Hwy — southern gateway of Isabela; crossroads of Isabela, Quirino & Nueva Vizcaya"
+    ],
+    [
+      "Festivals",
+      "Pattaradday Festival (unity, May) · St. James the Apostle town fiesta (Jul 25) · Bambanti (province-wide)"
+    ],
+    [
+      "River",
+      "Diadi/Carig river system — southern valleys flood in extreme events"
+    ],
+    [
+      "Income class",
+      "1st city income class · assets ₱9,095M (2024) · poverty incidence 12.81% (2021)"
+    ]
+  ],
+  "market": [
+    [
+      "Businesses",
+      "Regional trade & commerce center (DTI/RDC2) — official count via City BPLO, not published online"
+    ],
+    [
+      "Banks",
+      "Densest banking cluster in southern Isabela — BDO, BPI, RCBC, LandBank, PSBank, AUB, EastWest, PNB along Maharlika Hwy"
+    ],
+    [
+      "Hospitals",
+      "8 (1 government + 7 private) — incl. Southern Isabela Medical Center (DOH regional referral for Isabela/NV/Quirino/N. Aurora) and Adventist Hospital"
+    ],
+    [
+      "Education anchors",
+      "151 institutions — University of La Salette (main campus), Isabela Colleges, STI; student hub for southern Isabela/Quirino/NV (PLT College is Bayombong, not Santiago)"
+    ],
+    [
+      "Retail anchors",
+      "Robinsons Santiago (first full Robinsons dept store in Region 2) · Walter Mart · XentroMall Santiago · SM Savemore (no SM Supermall)"
+    ],
+    [
+      "BPO",
+      "Smaller CX presence than Cauayan's Everise hub — trade/logistics/education dominate"
+    ],
+    [
+      "Flights & hotels",
+      "CYZ airport ~55–60 km · budget-to-3-star hotel strip on Maharlika Hwy; no international brand yet"
+    ],
+    [
+      "Power",
+      "ISELCO-I · residential ₱9.4739/kWh (Mar 2026)"
+    ],
+    [
+      "Water",
+      "Santiago City Water District"
+    ],
+    [
+      "Coworking competition",
+      "Regus/Spaces markets \"2 centers in Isabela\" (Ilagan/Santiago) at ₱890/day — none confirmed open in Santiago proper"
+    ]
+  ],
+  "labor": [
+    [
+      "Minimum wage (R2)",
+      "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+    ],
+    [
+      "Universities",
+      "University of La Salette + Isabela Colleges + STI — the biggest student concentration in southern Cagayan Valley"
+    ],
+    [
+      "Electorate",
+      "115,767 registered voters (2025)"
+    ]
+  ],
+  "costs": [
+    [
+      "Commercial rent",
+      "Follows Cauayan regional benchmarks: warehouse ₱120–180/sqm/mo; Centro retail ~₱400–500/sqm/mo (thin published market)"
+    ],
+    [
+      "Power",
+      "ISELCO-I residential ₱9.4739/kWh (Mar 2026)"
+    ],
+    [
+      "Water",
+      "Santiago City Water District (rate schedule via LWUA)"
+    ],
+    [
+      "Internet",
+      "PLDT/Converge fiber on the Maharlika corridor; BPO-grade leased lines available"
+    ]
+  ],
+  "demand": [
+    [
+      "Avg family income (R2)",
+      "₱290,120/yr (FIES 2023) · fastest-growing region nationally, +25.0% 2023→2025 (PSA)"
+    ],
+    [
+      "Poverty incidence",
+      "Santiago 12.81% (2021) — close to the regional norm"
+    ],
+    [
+      "Remittance base",
+      "PH remittances record $39.62B (2025) — resilient provincial demand driver"
+    ]
+  ],
+  "catchment": [
+    [
+      "Position",
+      "Southern gateway of Isabela on Maharlika Hwy — the crossroads where Isabela, Quirino and Nueva Vizcaya meet"
+    ],
+    [
+      "Distances",
+      "Cauayan ~55 km · Ilagan ~89 km · Bayombong ~45 km · Manila ~330–360 km"
+    ],
+    [
+      "Catchment logic",
+      "Trade capital of southern Cagayan Valley — shoppers, patients (SIMC referrals) and students come in from three provinces; catchment far exceeds resident 150K"
+    ]
+  ],
+  "points": {
+    "cards": [
+      "Only independent component city in Region 2 — administratively independent of Isabela since 1994 (RA 7720)",
+      "First city of Region 2 (1994 — predates Tuguegarao 1999, Cauayan 2001, Ilagan 2012)",
+      "Robinsons Santiago — first full Robinsons department store in Region 2 (proof of retail gravity)",
+      "SIMC = DOH regional referral hospital for Isabela, Nueva Vizcaya, Quirino, N. Aurora — healthcare gravity",
+      "Pattaradday Festival — \"unity\" festival marking the city's tri-people heritage (Ilocano-Ibanag-Gaddang)",
+      "Calao steel-arch bridge (Pan-American Hwy heritage) · Balay na Santiago heritage house · St. James the Apostle Parish",
+      "Briefly downgraded to a component city in 1998; independent status restored by a historic Supreme Court ruling"
+    ],
+    "floodRisk": [
+      "Batal",
+      "San Andres",
+      "Victory Sur low-lying stretches",
+      "Nabbuan riverside"
+    ],
+    "floodNote": "Southern valley barangays along the Diadi/Carig rivers flood in extreme events; Super Typhoon Uwan (Nov 2025) hit Isabela province-wide (33 towns dark). Seismic: the Santiago Segment fault (Phivolcs, M7.2 potential) runs in the province — verify site-level via Phivolcs FaultFinder.",
+    "geohazard": {
+      "seismic": "Santiago Segment fault (Phivolcs Jun 2026, M7.2 potential) — verify site-level via Phivolcs FaultFinder.",
+      "typhoon": "Peak season Jul–Oct; Isabela is a frequent direct-landfall province (Uwan Nov 2025).",
+      "implication": "Flood + seismic + wind exposure → build to higher structural spec, budget backup power, insurance is a real cost line."
+    },
+    "security": "Cagayan Valley declared insurgency-free (RPOC, Jun 2026); Santiago = commercial core, stable.",
+    "growthPipeline": [
+      [
+        "Tan-Dy investment push",
+        "\"Premier Investment Hub of the North\" branding via RDC2/r2invest — retail + healthcare expansion along Maharlika"
+      ],
+      [
+        "Camella Alta Santiago",
+        "new Camella subdivision (Brgy. Malvar) — preselling from ₱4.09M"
+      ],
+      [
+        "Robinsons retail deepening",
+        "first full Robinsons dept store in Region 2 already operating on Maharlika Hwy"
+      ]
+    ]
+  },
+  "political": {
+    "officials": [
+      [
+        "Mayor",
+        "Alyssa Sheena T. Dy (Lakas-CMD)",
+        "Re-elected 2025: 68,743 (71.9%) vs Otep Miranda (Aksyon) 19,208 — first elected 2022 at 48.97%"
+      ],
+      [
+        "Vice Mayor",
+        "Jamayne C. Tan (Lakas)",
+        "48,292 (53.6%) vs Jigs Miranda (Aksyon) 26,618 — succeeded term-limited Alvin Abaya"
+      ],
+      [
+        "District Rep",
+        "Joseph S. Tan (Lakas)",
+        "4th district — the mayor's father; held the mayorship 2013–2022 before moving to Congress"
+      ],
+      [
+        "Council",
+        "10 elected councilors (2025 batch)",
+        "Reyes, de Jesus, Ponce, Sable, Bautista, Tan, Miranda, Chan, Cabucana Jr., Miguel — Lakas 9 of 10"
+      ]
+    ],
+    "officialNote": "Names verified against Rappler/ABS-CBN/GMA 2025 results. The city's independence from Isabela province is administrative — it still votes with the 4th district for Congress.",
+    "dynasty": "Tan-Dy machine (Lakas): father Joseph Tan (congressman, ex-mayor 2013–2022), daughter Alyssa Sheena Tan (mayor), Jamayne Tan (vice mayor). Older forces: the Miranda clan (former mayors Jose, Joel, Jigs, and 2025 challenger Otep under Aksyon) and the Navarro legacy (Amelita Navarro, NPC, mayor 1999–2010).",
+    "climate": "Business-friendly continuity city — investment-promotion active (RDC2 \"Premier Investment Hub\" profile); opposition fragmented across Aksyon/NPC so policy direction changes little.",
+    "historyIntro": "From a 1743 Gaddang pueblo to the first city of Region 2 — ruled successively by the Miranda clan, a dominant Navarro decade, and now the Tan-Dy machine.",
+    "history": [
+      [
+        "1743 · Founding",
+        "Founded May 4, 1743 as pueblo \"Carig\" (Gaddang/Ibanag settlement on the old Carig River); renamed for St. James the Great, the patron saint."
+      ],
+      [
+        "1910 · Municipality restored",
+        "Re-established as a full municipality (had been reverted to a barangay of Echague)."
+      ],
+      [
+        "1994 · First city of Region 2",
+        "RA 7720 (May 5, 1994) converted Santiago into an independent component city — ahead of Tuguegarao, Cauayan and Ilagan. Jose C. Miranda was the first city mayor."
+      ],
+      [
+        "1998–1999 · Status crisis",
+        "Legally transformed into a component city in 1998; Mayor Joel G. Miranda died in office (Oct 10, 1999); a historic Supreme Court decision later restored independent-component status."
+      ],
+      [
+        "1999–2013 · The Navarro era",
+        "Amelita S. Navarro (NPC) finished Miranda's term, then won 2001, 2004 (an upset over the city's \"political Goliath\" per Philstar), 2007 and 2010 — a 14-year run."
+      ],
+      [
+        "2013–2022 · The Tan ascent",
+        "Joseph \"Jojo\" Tan won three consecutive terms (2013, 2016, 2019 — the 2019 race vs returning ex-mayor Navarro, who lost 40,747–31,571 after withdrawing her congressional bid)."
+      ],
+      [
+        "2022–present · Tan-Dy consolidation",
+        "Daughter Alyssa Sheena Tan succeeded (2022, 48.97%; 2025 landslide 71.88%) with Jamayne Tan as vice mayor and Joseph Tan holding the congressional seat — the family holds mayor + VM + Congress simultaneously."
+      ]
+    ],
+    "caution": "Verify current officials via cityofsantiago.gov.ph. The 1998 downgrading / SC restoration sequence is LGU-history-sourced; the ₱26,357M \"revenue\" figure on aggregator sites is an outlier pending COA confirmation — not used here.",
+    "businessClimate": {
+      "permitting": "City BPLO with province-wide Business One-Stop Shop (BOSS) initiative (PIA 2026)",
+      "investmentPromo": "\"Premier Investment Hub of the North\" via RDC2/r2invest; city actively courts retail, healthcare, education investors",
+      "incentives": "Provincial investment code incentives available; no PEZA zone in Santiago — national BOI registration open to qualified projects",
+      "taxes": "Standard LGU schedule: real property tax + local business tax on gross sales (per city revenue code; verify at city hall — not published online)"
+    }
+  },
+  "realEstate": {
+    "intro": "Compiled from BIR zonal schedules, developer pricing and live listings (Sep 2026) — ASKING prices, not appraisals. Santiago is the deepest real-estate market in the province after Cauayan.",
+    "land": [
+      [
+        "BIR zonal (2023 schedule)",
+        "Residential ₱800–10,750/sqm (median ₱4,000 — the highest citywide median in Isabela) · commercial ₱850–32,500/sqm — peaks in Victory Norte along the highway"
+      ],
+      [
+        "Developer land",
+        "Camella Alta Santiago (Brgy. Malvar) preselling — house & lot from ₱2.7M (Camella Isabela) to ₱4.09M+ tiers"
+      ],
+      [
+        "Commercial land",
+        "10-ha national-road parcel advertised at ₱172M (₱172/sqm... verify — aggregator listing); OnePropertee shows 1,494 Santiago-area properties incl. farm lots at ₱8,875/sqm premium tiers"
+      ]
+    ],
+    "houses": [
+      [
+        "Developer pricing",
+        "Camella Isabela (Brgy. Malvar, Santiago): house & lot from ₱2.7M up; premium tiers from ₱4.09M"
+      ],
+      [
+        "Rent-to-own / resale",
+        "OnePropertee hosts 1,275 Santiago rent/rent-to-own listings — the deepest secondary market in the province"
+      ],
+      [
+        "Top-end",
+        "₱150M mega-listing (7BR, 550 sqm, broker-listed) — outliers dominate; median transactions far lower"
+      ]
+    ],
+    "rent": [
+      [
+        "Whole house (top-end)",
+        "₱150,000/mo — 7BR/7BA 550-sqm broker listing (luxury tier)"
+      ],
+      [
+        "Land lease",
+        "10,000-sqm Nabbuan lot ₱20,000/mo (DotProperty) — industrial/agri lease proxy"
+      ],
+      [
+        "Retail / office",
+        "~₱400–500/sqm/mo asking near Centro (thin published benchmark)"
+      ]
+    ],
+    "caution": "Listing asks, not appraisals — verify with a broker and current BIR zonal values (RDO 015, eff. 7/20/2023) before underwriting. Santiago's zonal median (₱4,000/sqm residential) is 4× Ilagan's — expect that gap in pricing too."
+  },
+  "references": [
+    {
+      "title": "Santiago, Isabela — Wikipedia (2024 census, RA 7720 cityhood, history)",
+      "url": "https://en.wikipedia.org/wiki/Santiago,_Isabela"
+    },
+    {
+      "title": "PSA PSGC — City of Santiago (PSGC 023135000): ICC, 150,313 (2024 POPCEN), 37 barangays",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/023135000"
+    },
+    {
+      "title": "City of Santiago LGU — history & social profile (8 hospitals, 151 institutions, Navarro/Tan eras)",
+      "url": "https://cityofsantiago.gov.ph"
+    },
+    {
+      "title": "Rappler Halalan 2025 — Santiago City results (Tan 68,743; Jamayne Tan 48,292; electorate 115,767)",
+      "url": "https://ph.rappler.com/elections/2025/local-race/isabela/santiago-city"
+    },
+    {
+      "title": "ABS-CBN Halalan 2019 — Santiago results (Tan 40,747 vs Navarro 31,571)",
+      "url": "https://halalanresults-aws.abs-cbn.com/local/city-of-santiago"
+    },
+    {
+      "title": "Inquirer — Ex-Santiago mayor Navarro seeks comeback, loses to Tan (2019)",
+      "url": "https://newsinfo.inquirer.net/1497182/ex-santiago-city-mayor-seeks-political-comeback"
+    },
+    {
+      "title": "Wikipedia — 2025 Santiago local elections (mayor/VM/council vote counts)",
+      "url": "https://en.wikipedia.org/wiki/2025_Santiago,_Isabela,_local_elections"
+    },
+    {
+      "title": "Wikipedia — Joseph Tan (politician): mayor 2013–2022, then 4th-district congressman",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Tan_(politician)"
+    },
+    {
+      "title": "Wikipedia — Southern Isabela Medical Center (regional referral hospital)",
+      "url": "https://en.wikipedia.org/wiki/Southern_Isabela_Medical_Center"
+    },
+    {
+      "title": "SIMC Citizens' Charter — referral catchment: Isabela, Nueva Vizcaya, Quirino (DOH)",
+      "url": "https://simc.doh.gov.ph"
+    },
+    {
+      "title": "Robinsons Land — Robinsons Santiago (first full Robinsons dept store in Region 2)",
+      "url": "https://www.robinsonsland.com"
+    },
+    {
+      "title": "City of Santiago LGU — historical background (CPDO: Carig founding, gobernadorcillos, SC status restoration)",
+      "url": "https://cityofsantiago.gov.ph/history"
+    },
+    {
+      "title": "lawphil — RA 7720: An Act Converting the Municipality of Santiago into an Independent Component City (1994)",
+      "url": "https://lawphil.net/statutes/repacts/ra1994/ra_7720_1994.html"
+    },
+    {
+      "title": "GMA News — Super Typhoon Uwan: 33 Isabela towns dark (Nov 2025)",
+      "url": "https://www.gmanetwork.com/news/regions/"
+    },
+    {
+      "title": "Manila Times — Phivolcs: Santiago Segment fault M7.2 potential (Jun 2026)",
+      "url": "https://www.manilatimes.net/2026/06/11/regions/phivolcs-identifies-active-fault-lines-in-isabela-amid-rising-mindanao-quake-toll/2362958"
+    },
+    {
+      "title": "ISELCO-I — power rates (residential ₱9.4739/kWh, Mar 2026)",
+      "url": "https://www.iselcouno.com"
+    },
+    {
+      "title": "SweldoPH — Region II wage order (₱480 non-agri daily minimum)",
+      "url": "https://sweldoph.com/calculators/minimum-wage"
+    },
+    {
+      "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K; +25.0% growth 2023→2025",
+      "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
+    },
+    {
+      "title": "BIR zonal values — City of Santiago (RDO 015, eff. 7/20/2023: res ₱800–10,750/sqm, com ₱850–32,500/sqm)",
+      "url": "https://ren.ph/tools/zonal-value/isabela/santiago"
+    },
+    {
+      "title": "Camella Isabela — Santiago house & lot from ₱2.7M (Brgy. Malvar)",
+      "url": "https://www.camella.com.ph/property/camella-isabela/"
+    },
+    {
+      "title": "OnePropertee — 1,275 Santiago rent/RTO listings (₱150K/mo top-end)",
+      "url": "https://onepropertee.com/house-for-rent-santiago-city-isabela"
+    },
+    {
+      "title": "DotProperty — Santiago land lease (Nabbuan 10,000 sqm ₱20K/mo)",
+      "url": "https://www.dotproperty.com.ph/properties-for-rent/isabela/santiago"
+    },
+    {
+      "title": "Inquirer Business — IWG/Regus 17-location PH expansion naming Ilagan & Santiago",
+      "url": "https://business.inquirer.net/495945/iwg-to-expand-ph-flexible-office-portfolio-by-50"
+    },
+    {
+      "title": "Manila Bulletin — Cagayan Valley declared insurgency-free (RPOC, Jun 2026)",
+      "url": "https://mb.com.ph/2026/06/06/cagayan-valley-declared-insurgency-free"
+    }
+  ]
+},
 };
