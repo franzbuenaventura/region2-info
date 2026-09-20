@@ -342,7 +342,16 @@
 
   // Historical politics timeline — [era, text] pairs; keyed cites jump to the References tab
   function renderPoliticalHistory(d) {
-    const cites = { 5: [12], 7: [13] }; // history index → ref numbers
+    // Cites: prefer a per-LGU map (d.political.historyCites, e.g. {5: [12]}); for packs that
+    // predate it, fall back to the legacy Cauayan layout {5:[12], 7:[13]}. Timeline items whose
+    // era/text already name their source need no cite.
+    const maxRef = d.references ? d.references.length : 0;
+    const rawCites = d.political.historyCites || { 5: [12], 7: [13] };
+    const cites = {};
+    for (const [idx, arr] of Object.entries(rawCites)) {
+      const valid = arr.filter(n => n >= 1 && n <= maxRef);
+      if (valid.length) cites[idx] = valid;
+    }
     return `<h3 class="sub-head">Historical politics</h3>
       ${d.political.historyIntro ? `<p class="history-intro">${esc(d.political.historyIntro)}</p>` : ""}
       <ol class="timeline">${d.political.history.map(([era, text], i) => `

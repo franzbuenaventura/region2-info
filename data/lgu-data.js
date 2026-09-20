@@ -104,6 +104,10 @@ window.LGU_DATA = {
         investmentPromo: "LEDIPO (Local Economic Development & Investment Promotions Office) active — year-end ops reporting, investor-ready environment push (PIA 2026)",
         incentives: "Provincial investment code incentives available; PEZA agro-industrial ecozones in the region (r2invest: Isabela Ecofuel, GFII sugarcane complex) — Cauayan itself is not a PEZA zone; national BOI registration open to qualified projects",
         taxes: "Standard LGU schedule: real property tax + local business tax on gross sales (rates per city revenue code; verify schedule at city hall — not published online)"
+      },
+      historyCites: {
+        "5": [5],
+        "7": [11]
       }
     },
     realEstate: {
@@ -299,6 +303,10 @@ window.LGU_DATA = {
         investmentPromo: "ILAGANDA (Ilagan Development Authority, 2019) drives the \"liveable city by 2030\" program; city investor desk via the Mayor's Office",
         incentives: "Provincial investment code incentives available; no PEZA zone in Ilagan — national BOI registration open to qualified projects",
         taxes: "Standard LGU schedule: real property tax + local business tax on gross sales (per city revenue code; verify at city hall — not published online)"
+      },
+      historyCites: {
+        "5": [1],
+        "7": [11]
       }
     },
     realEstate: {
@@ -454,6 +462,9 @@ window.LGU_DATA = {
         investmentPromo: "\"Premier Investment Hub of the North\" via RDC2/r2invest; city actively courts retail, healthcare, education investors",
         incentives: "Provincial investment code incentives available; no PEZA zone in Santiago — national BOI registration open to qualified projects",
         taxes: "Standard LGU schedule: real property tax + local business tax on gross sales (per city revenue code; verify at city hall — not published online)"
+      },
+      historyCites: {
+        "5": [1]
       }
     },
     realEstate: {
@@ -587,6 +598,9 @@ window.LGU_DATA = {
       businessClimate: {
         permitting: "Municipal BPLO + province-wide Business One-Stop Shop (BOSS) initiative (PIA 2026)",
         taxes: "Standard LGU schedule: real property tax + business tax on gross sales (per municipal revenue code)"
+      },
+      historyCites: {
+        "5": [1]
       }
     },
     realEstate: {
@@ -700,6 +714,9 @@ window.LGU_DATA = {
         permitting: "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
         investmentPromo: "Positions itself as Cauayan's expansion ground — cheaper land, same corridor",
         taxes: "Standard LGU schedule (municipal revenue code)"
+      },
+      historyCites: {
+        "5": [1]
       }
     },
     realEstate: {
@@ -1246,6 +1263,9 @@ window.LGU_DATA = {
         permitting: "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
         taxes: "Standard LGU schedule (municipal revenue code)",
         investmentPromo: "Aquaculture + dam-tourism niches (tilapia value chain, Magat viewpoints)"
+      },
+      historyCites: {
+        "5": [1]
       }
     },
     realEstate: {
@@ -1354,6 +1374,9 @@ window.LGU_DATA = {
       businessClimate: {
         permitting: "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
         taxes: "Standard LGU schedule (municipal revenue code)"
+      },
+      historyCites: {
+        "5": [1]
       }
     },
     realEstate: {
@@ -1779,6 +1802,9 @@ window.LGU_DATA = {
       businessClimate: {
         permitting: "Municipal BPLO + province-wide BOSS initiative (PIA 2026)",
         taxes: "Standard LGU schedule (municipal revenue code)"
+      },
+      historyCites: {
+        "5": [9]
       }
     },
     realEstate: {
@@ -2481,8 +2507,8 @@ window.LGU_DATA = {
     },
     political: {
       officials: [
-        ["Mayor", "Hilario G. Pagauitan (per 2022-25 infobox)", "2025: Pagauitan ticket led per Rappler partial returns (96.15% precincts) — final COC vote counts not verified"],
-        ["Vice Mayor", "Michael A. Pagauitan", "father-and-son executive per the infobox; verify 2025 handover"],
+        ["Mayor", "Michael A. Pagauitan (PFP)", "9,984 votes (55.43% at 96.15% precincts) — elected 2025; the pre-2025 vice mayor stepping up (the infobox's 2022-25 mayor line needs re-verification)"],
+        ["Vice Mayor", "winner at 5,798 votes (2025) — name cross-check pending", "Rappler embed shows the VM winner at 5,798 vs 'Anes' runner-up; confirm identity via COMELEC COC"],
         ["District Rep", "Antonio T. Albano (1st district)", "Santa Maria votes in Isabela's 1st congressional district"],
         ["Council", "Sangguniang Bayan (8 elected)", "verify 2025 composition"]
       ],
@@ -2527,7 +2553,8 @@ window.LGU_DATA = {
       { title: "PIDS/iMoney — PH income classes (monthly family): poor <₱9,520 · low ₱9,520-19,040 · middle ₱19,040-114,240 · high ₱114,240-190,400 · rich ₱190,400+", url: "https://pidswebs.pids.gov.ph/CDN/NEWS/04_10_imoney.pdf" },
       { title: "BusinessWorld — 2025 LFS: national employment 95.8%; Cagayan Valley unemployment 3.1% (3rd-lowest after CAR 2.7%, Davao 2.9%)", url: "https://bworldonline.com/the-nation/2026/03/23/738165/calabarzon" },
       { title: "PSA Isabela — poverty incidence among families 15.9% (2021) → 8.4% (2023); provincial poverty threshold ₱14,375/mo", url: "https://rsso02.psa.gov.ph/content/psa-isabela-presents-key-economic-indicators-pgis-1st-quarter-joint-meeting" }
-    ]
+    ],
+    officialNote: "2025 verified via Rappler embed at 96.15% precincts: Michael Pagauitan (PFP) won the mayorship at 9,984 (55.43%). The VM winner (5,798 votes) needs a name confirmation — earlier pages named a Pagauitan family member. The Wikipedia infobox's Hilario-as-mayor row predates the 2025 handover. Re-verify via COMELEC COC before formal use."
   },
   "santo-tomas": {
     nicknames: ["Northern farm town of the two-Cabagans orbit"],
