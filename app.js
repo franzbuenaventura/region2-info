@@ -611,6 +611,61 @@
       </div>`;
   }
 
+  // ---------- Utilities view — barangay-level 90-day outage history ----------
+  // Renders from window.CAUAYAN_UTILITIES (data/utilities-cauayan.js) — scrape
+  // of brownoutba.com's rolling 90-day per-barangay outage history (ISELCO-I).
+  function renderUtilities() {
+    const U = window.CAUAYAN_UTILITIES;
+    document.title = "Utilities — Region 2 — Info";
+    if (!U || !U.barangays) {
+      app.innerHTML = `<div class="city-page"><h2>Utilities</h2><div class="placeholder">Utility data not loaded.</div><a class="back-link" href="#/">← Back to map</a></div>`;
+      return;
+    }
+    const rows = Object.entries(U.barangays)
+      .map(([name, r]) => ({ name, ...r }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+    const withHist = rows.filter((r) => r.has_history_block);
+    const totalOut = withHist.reduce((s, r) => s + (r.outages || 0), 0);
+    const totalHrs = withHist.reduce((s, r) => s + (r.hours_without_power || 0), 0);
+    const schedNow = rows.filter((r) => /SCHEDULED/.test(r.status || ""));
+    const statusPill = (r) => {
+      if (/SCHEDULED/.test(r.status || "")) return `<span class="upill warn">⚡ Scheduled${r.next_event ? " · " + esc(r.next_event) : ""}</span>`;
+      if (/HINDI|NO BROWNOUT/i.test(r.status || "")) return `<span class="upill ok">No brownout</span>`;
+      return `<span class="upill unk">No status</span>`;
+    };
+    const histCell = (r) => r.has_history_block
+      ? `<b>${r.outages}</b> · ${r.hours_without_power} h`
+      : `<span class="clean">— clean</span>`;
+    const causeCell = (r) => r.has_history_block
+      ? (esc((r.cause || "").slice(0, 60)) + (r.last_ended ? ` <span class="dim">(last ${esc(r.last_ended)})</span>` : ""))
+      : `<span class="dim">None recorded in window</span>`;
+    app.innerHTML = `
+      <div class="compare-page utilities-page">
+        <h2>Utilities — Cauayan City</h2>
+        <p class="meta">Power interruption history per barangay (rolling 90-day window) — provider ISELCO-I, from brownoutba.com · scraped ${esc(U.scraped_at || "—")}. ${withHist.length} of 65 barangays have recorded outages: ${totalOut} events, ${totalHrs} h downtime. Internet: no SLA published for consumer fiber (PLDT/Converge/Globe active in city); enterprise leased lines carry ~99.6% SLA. See <a href="https://github.com/franzbuenaventura/region2-info/blob/main/research/cauayan-uptime.md" target="_blank" rel="noopener">uptime research note</a>.</p>
+        ${schedNow.length ? `<div class="callout">⚡ Scheduled interruptions upcoming: ${schedNow.map((r) => esc(r.name) + (r.next_event ? " (" + esc(r.next_event) + ")" : "")).join(" · ")}</div>` : ""}
+        <div class="table-wrap">
+          <table class="compare-table utilities-table">
+            <thead><tr>
+              <th class="row-label">Barangay</th><th>Current status</th>
+              <th>90-day outages · hrs</th><th>Cause / last event</th>
+            </tr></thead>
+            <tbody>
+              ${rows.map((r) => `
+                <tr>
+                  <td class="row-label">${esc(r.name)}</td>
+                  <td>${statusPill(r)}</td>
+                  <td>${histCell(r)}</td>
+                  <td class="wide">${causeCell(r)}</td>
+                </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+        <p class="dim note">90-day window ends at scrape time; barangay history resets as brownoutba ages its records. District I–III = Poblacion.</p>
+        <a class="back-link" href="#/">← Back to map</a>
+      </div>`;
+  }
+
   // ---------- Router ----------
   function route() {
     let m = location.hash.match(/^#\/city\/([a-z0-9-]+)$/);
@@ -622,8 +677,10 @@
       renderCompare(m[1].split(","));
     }
     else if (location.hash === "#/schema") renderSchema();
+    else if (location.hash === "#/utilities") renderUtilities();
     else renderMap();
     const here = location.hash === "#/schema" ? "#/schema"
+      : location.hash === "#/utilities" ? "#/utilities"
       : /^#\/compare\//.test(location.hash) ? location.hash
       : "#/";
     document.querySelectorAll(".site-nav a").forEach((a) =>
