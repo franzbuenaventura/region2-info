@@ -494,13 +494,34 @@
             <li class="completion-row${r.pct === 100 ? " done" : r.pct === 0 ? " empty" : ""}">
               <a href="#/city/${r.slug}" class="completion-name">${esc(r.name)}</a>
               <div class="meter" role="img" aria-label="${esc(r.name)}: ${r.filled} of ${SCHEMA.length} fields filled (${r.pct}%)">
-                <span style="width:${r.pct}%"></span>
+                <span style="width:0%" data-target="${r.pct}"></span>
               </div>
-              <span class="completion-num">${r.filled}/${SCHEMA.length}</span>
+              <span class="completion-num" data-count="${r.pct}">0%</span>
             </li>`).join("")}
         </ul>
         <a class="back-link" href="#/">← Back to map</a>
       </div>`;
+    // DesignSpells: meters + numbers count up on first paint
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      app.querySelectorAll(".completion-row").forEach((row) => {
+        const span = row.querySelector(".meter span[data-target]");
+        const num = row.querySelector(".completion-num[data-count]");
+        if (span) span.style.width = span.dataset.target + "%";
+        if (num) {
+          const target = +num.dataset.count;
+          if (target === 0) { num.textContent = "0%"; return; }
+          const t0 = performance.now();
+          const D = 600;
+          const tick = (t) => {
+            const k = Math.min(1, (t - t0) / D);
+            const eased = 1 - Math.pow(1 - k, 3);
+            num.textContent = Math.round(target * eased) + "%";
+            if (k < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        }
+      });
+    }));
   }
 
   // ---------- Compare view ----------
