@@ -543,3 +543,25 @@ tr:hover .upill { transform: scale(1.05); }
 .utilities-table .clean { color: #4ade80; font-size: 0.82rem; }
 .utilities-table .dim { color: var(--text-dim); font-size: 0.8rem; }
 .utilities-page .note { margin-top: 0.9rem; }
+
+/* ---------- RE Prices table (DesignSpells pills + tabular numbers) ---------- */
+.lpill {
+  display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em;
+  padding: 0.15rem 0.55rem; border-radius: 999px; white-space: nowrap;
+}
+.lp-land { color: var(--municipality); background: rgba(45, 212, 191, 0.1); border: 1px solid rgba(45, 212, 191, 0.3); }
+.lp-subs { color: #60a5fa; background: rgba(96, 165, 250, 0.1); border: 1px solid rgba(96, 165, 250, 0.3); }
+.lp-hl { color: #fbbf24; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); }
+.lp-agri { color: #4ade80; background: rgba(74, 222, 128, 0.1); border: 1px solid rgba(74, 222, 128, 0.3); }
+.lp-comm { color: #f472b6; background: rgba(244, 114, 182, 0.1); border: 1px solid rgba(244, 114, 182, 0.3); }
+.lp-other { color: var(--text-dim); background: var(--bg-soft); border: 1px solid var(--line); }
+.reprices-table td { font-size: 0.86rem; vertical-align: top; }
+.reprices-table .num { font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.reprices-table .strong b, .reprices-table .strong { font-weight: 600; color: #4ade80; }
+.reprices-table .loc-cell { max-width: 11rem; }
+.reprices-table .snippet-cell { max-width: 24rem; color: var(--text-dim); font-size: 0.8rem; }
+.reprices-table .cy { white-space: nowrap; color: var(--text-dim); font-weight: 600; }
+.reprices-table .cy.approx { color: var(--city); }
+.reprices-table .pblink { margin-left: 0.3rem; color: var(--municipality); text-decoration: none; }
+.reprices-page .note { margin-top: 0.8rem; font-size: 0.78rem; }
+.reprices-page .meta { max-width: 70rem; }

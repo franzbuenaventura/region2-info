@@ -682,6 +682,74 @@
       </div>`;
   }
 
+  // ---------- Real Estate Prices view — the full dated FB-asks table ----------
+  // Renders from window.RE_POSTS (data/re-posts.js) — 264 structured records
+  // parsed from the 370-post Facebook lot-groups harvest (year-tagged 2021–2026*).
+  function renderREPrices() {
+    const P = window.RE_POSTS;
+    document.title = "Real Estate Prices — Region 2 — Info";
+    if (!P || !P.length) {
+      app.innerHTML = `<div class="city-page"><h2>Real Estate Prices</h2><div class="placeholder">Post data not loaded.</div><a class="back-link" href="#/">← Back to map</a></div>`;
+      return;
+    }
+    // sort: dated rows first (newest years top), then undated, then by ₱/sqm desc
+    const yearVal = (y) => /^\d{4}/.test(y) ? +y.slice(0, 4) : 2027; // 2026* → 2027 = newest bucket for unfiltered recents
+    const normLoc = (s) => {
+      if (!s) return "";
+      let t = s.trim();
+      t = t.replace(/^r[ag]?y\b/, (m) => "Ba" + m.slice(1)); // 'rangay'/'rgy' artifact -> Barangay…
+      t = t.replace(/^arangay\b/, "Barangay");
+      t = t.replace(/^\s*[Bb](?:rgy|arangay)\.?\s*/, "Brgy. ");
+      return t;
+    };
+    const rows = P.slice().sort((a, b) =>
+      (yearVal(b.year) - yearVal(a.year)) || ((b.psp || 0) - (a.psp || 0)));
+    const dated = P.filter((r) => /^\d{4}$/.test(r.year));
+    const computable = P.filter((r) => r.psp);
+    const yearCounts = {};
+    dated.forEach((r) => { yearCounts[r.year] = (yearCounts[r.year] || 0) + 1; });
+    const yrSummary = Object.keys(yearCounts).sort().map((y) => `${y}: ${yearCounts[y]}`).join(" · ");
+    // median of land-type computable rows
+    const landOnly = computable.filter((r) => r.type === "land" && r.area_sqm >= 50 && r.psp >= 100);
+    const med = landOnly.length >= 3
+      ? landOnly.map((r) => r.psp).sort((a, b) => a - b)[Math.floor(landOnly.length / 2)]
+      : null;
+    const fmtP = (n) => n == null ? "—" : "₱" + n.toLocaleString("en-PH");
+    const fmtSqm = (n) => n == null ? "—" : (n >= 10000 ? (n / 10000).toLocaleString("en-PH", {maximumFractionDigits: 1}) + " ha" : n.toLocaleString("en-PH") + " sqm");
+    const typePill = (t) => {
+      const cls = /house/.test(t) ? "lp-hl" : /farm|agri/.test(t) ? "lp-agri" : /commercial/.test(t) ? "lp-comm" : /subdivision/.test(t) ? "lp-subs" : t === "land" ? "lp-land" : "lp-other";
+      return `<span class="lpill ${cls}">${esc(t)}</span>`;
+    };
+    app.innerHTML = `
+      <div class="compare-page reprices-page">
+        <h2>Real Estate Prices — Isabela lot &amp; house posts</h2>
+        <p class="meta">${P.length} posts parsed from Facebook lot-sale groups (owner-direct asks; Isabela-wide, harvest Sept 30 2026). ${dated.length} year-tagged (${esc(yrSummary)}) · ${computable.length} with ₱/sqm · ${med ? `land-type median <b>${fmtP(med)}/sqm</b>` : "—"}. Asking prices — not transacted deals. ${P.filter(r=>r.psp && r.psp>50000).length} rows include house+unit value (see type column).</p>
+        <div class="table-wrap">
+          <table class="compare-table reprices-table">
+            <thead><tr>
+              <th>Year</th><th>Type</th><th>Location</th><th>Lot size</th>
+              <th>Price</th><th>₱/sqm</th><th>Notes</th><th>Snippet</th>
+            </tr></thead>
+            <tbody>
+              ${rows.map((r) => `
+                <tr>
+                  <td class="cy ${r.year.includes("*") ? "approx" : ""}">${esc(r.year)}</td>
+                  <td>${typePill(r.type)}</td>
+                  <td class="loc-cell">${r.loc ? esc(normLoc(r.loc)) : '<span class="dim">—</span>'}</td>
+                  <td class="num">${fmtSqm(r.area_sqm)}</td>
+                  <td class="num">${fmtP(r.price_php)}</td>
+                  <td class="num strong">${r.psp ? fmtP(r.psp) : '<span class="dim">—</span>'}</td>
+                  <td class="notes-cell">${r.note ? esc(r.note) : '<span class="dim">—</span>'}</td>
+                  <td class="snippet-cell">${esc(r.snippet.slice(0, 130))}${r.link ? ` <a href="${esc(r.link)}" target="_blank" rel="noopener" class="pblink">↗</a>` : ""}</td>
+                </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+        <p class="dim note">*2026* = harvested from "most recent" unfiltered feed (Sept 30, 2026) — exact post date not yet confirmed; re-dating pass pending. Price parse: ₱K/₱M suffixes expanded; snippet kept verbatim for verification. Raw corpus: <code>data/re-history/fb-lot-posts-raw.json</code>.</p>
+        <a class="back-link" href="#/">← Back to map</a>
+      </div>`;
+  }
+
   // ---------- Router ----------
   function route() {
     let m = location.hash.match(/^#\/city\/([a-z0-9-]+)$/);
@@ -694,9 +762,11 @@
     }
     else if (location.hash === "#/schema") renderSchema();
     else if (location.hash === "#/utilities") renderUtilities();
+    else if (location.hash === "#/re-prices") renderREPrices();
     else renderMap();
     const here = location.hash === "#/schema" ? "#/schema"
       : location.hash === "#/utilities" ? "#/utilities"
+      : location.hash === "#/re-prices" ? "#/re-prices"
       : /^#\/compare\//.test(location.hash) ? location.hash
       : "#/";
     document.querySelectorAll(".site-nav a").forEach((a) =>
