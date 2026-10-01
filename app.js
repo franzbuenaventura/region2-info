@@ -384,17 +384,18 @@
         `<dt>${esc(k)}</dt><dd>${esc(v)}${(citeMap[i] || []).map((n) => cite(d, n)).join("")}</dd>`).join("")}</dl>`;
     const H = window.RE_HISTORY;
     const isCauayan = slug === "cauayan";
+    const GA = H && H.group_asks;
     const histBlock = H ? `
       <h3 class="sub-head">Historical context</h3>
       <p class="estate-intro">Trend anchors behind the live asks above — bands, not transaction medians (PH has no public deed-price registry). ${isCauayan ? "" : "Provincial/national level only for non-Cauayan LGUs."}</p>
       <ol class="timeline">
         ${H.zonal.points.map(([era, text]) => `
           <li class="timeline-item"><span class="timeline-era">${esc(era)}</span><p>${esc(text)}</p></li>`).join("")}
+        ${GA && isCauayan ? GA.land_only_by_year.map(([y, text]) => `
+          <li class="timeline-item"><span class="timeline-era">${esc(y)} FB asks</span><p>${esc(text)}</p></li>`).join("") : ""}
+        ${GA && isCauayan ? `<li class="timeline-item"><span class="timeline-era">Bands</span><p>${esc(GA.land_band)}. ${esc(GA.agri_band)}.</p></li>` : ""}
         ${H.national.yoy_notes.slice(-4).map(([q, y]) => `
           <li class="timeline-item"><span class="timeline-era">${esc(q)}</span><p>National RPPI ${esc(y)} — bank-valuation trend backdrop.</p></li>`).join("")}
-        ${isCauayan ? H.group_asks.notable_rows.filter(x => /cauayan|isio|pinoma/i.test(x)).map((x) => `
-          <li class="timeline-item"><span class="timeline-era">2026 asks</span><p>${esc(x)}</p></li>`).join("") : ""}
-        ${isCauayan ? `<li class="timeline-item"><span class="timeline-era">2026 asks</span><p>FB-group lot asks (159 harvested): residential median ≈ ₱5,000/sqm (n=5 Cauayan-tagged; province-wide p50 ₱2,000) · farm lots ≈ ₱78/sqm. Asking prices, not deals.</p></li>` : ""}
       </ol>` : "";
     return `
       ${re.intro ? `<p class="estate-intro">${esc(re.intro)}</p>` : ""}
