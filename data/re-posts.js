@@ -107,7 +107,7 @@ window.RE_POSTS = [
   "loc": "Maddarulug Enrile Cagayan",
   "note": "",
   "snippet": "Sinta Penaflor ~ ~ · ~ Follow ~ ~ · ~ +7 ~ Sinta Penaflor ~ ~ · ~ MONTANA MISORA HOMES ~ Location: Maddarulug Enrile Cagayan ~ Mas PINAKA-AFFORDABLE na! ~ Own your dream home with only ₱5,000 MONTHLY ",
-  "link": null
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2347801146021228/"
  },
  {
   "year": "2026*",
@@ -118,7 +118,7 @@ window.RE_POSTS = [
   "loc": "Ilagan",
   "note": "",
   "snippet": "Sinta Penaflor ~ ~ · ~ Follow ~ ~ · ~ +3 ~ Sinta Penaflor ~ ~ · ~ Lupang Hulugan ba hanap mo?? ~ Pwede mong tayuan once turnover na sayo ang lote?? ~ ALIBAGU ILAGAN ,SAINT ANDREW VILLAGE ~ 100sqm ~ 4K",
-  "link": null
+  "link": "https://www.facebook.com/groups/458673597916354/posts/4362996640511190/"
  },
  {
   "year": "2026*",
@@ -228,7 +228,7 @@ window.RE_POSTS = [
   "loc": "Santiago",
   "note": "",
   "snippet": "Nimrod Methuselah ~ ~ · ~ For Sale House and Lot ~ 200 sqmtr 3 bedroom bungalow ~ Spacious Parking ~ Located at Purok 2 Rizal, Santiago City ~ Available for PAGIBIG or Bank Financing ~ incase disappro",
-  "link": null
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2347842216017121/"
  },
  {
   "year": "2026*",
@@ -327,7 +327,7 @@ window.RE_POSTS = [
   "loc": "Doña Concha",
   "note": "titled",
   "snippet": "Geraldine Baquiran Pacelo ~ ~ · ~ Follow ~ All-star contributor ~ ~ · ~ ~ · ~ 🌾 LAND INVESTMENT OPPORTUNITY! 🌾 ~ ✨ Abot-kayang presyo, pangmatagalang investment! ✨ ~ 📍 Barangay Doña Concha, Muñoz East",
-  "link": null
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2347703146031028/"
  },
  {
   "year": "2026*",
@@ -690,7 +690,7 @@ window.RE_POSTS = [
   "loc": "San Mateo",
   "note": "titled",
   "snippet": "Evelyn Maggay ~ ~ · ~ Residential Lot For Sale!! ~ Located @ Brgy San Mateo Tumauini Isabela. ~ - 100meters more or Less to National Highway. ~ - Along Brgy Road ~ - just 5minutes to New Municipal of ",
-  "link": null
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2347681422699867/"
  },
  {
   "year": "2026*",
@@ -723,7 +723,7 @@ window.RE_POSTS = [
   "loc": "Cauayan",
   "note": "titled",
   "snippet": "Antonio Clemente ~ ~ · ~ Antonio Clemente ~ ~ · ~ lot near school ISU near market san Fermin Cauayan clean title.150.1.5m ...300sqm 3m.pm mi thanks ~ Comment as Rosana Lee ~",
-  "link": null
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2347655829369093/"
  },
  {
   "year": "2026*",
@@ -921,7 +921,7 @@ window.RE_POSTS = [
   "loc": "Ilagan",
   "note": "titled; negotiable",
   "snippet": "Khaldoun Merhe ~ ~ · ~ FULLY FURNISHED HOUSE & LOT FOR SALE ~ South Francisca Village, Brgy. Alibagu, Ilagan City, Isabela ~ Reason for Selling: Family Migration Abroad ~ Price: 4M SLIGHTLY NEGO FOR S",
-  "link": null
+  "link": "https://www.facebook.com/groups/458673597916354/posts/4362996640511190/"
  },
  {
   "year": "2026*",
@@ -1009,7 +1009,7 @@ window.RE_POSTS = [
   "loc": "Naguilian",
   "note": "titled; negotiable",
   "snippet": "Arthur Pascual III ~ ~ ~ · ~ Farm Lot For sale ~ Titled land ~ 12,984sqm ~ Asking 1.5M (negotiable pa) ~ Location: Sunlife, naguilian, isabela ~ Open for installment ~ Owner seller message me lang po ",
-  "link": null
+  "link": "https://www.facebook.com/groups/1030247508912202/posts/1516915256912089/"
  },
  {
   "year": "2026*",
@@ -1031,7 +1031,7 @@ window.RE_POSTS = [
   "loc": "Ilagan",
   "note": "titled",
   "snippet": "Irene Castro Maquibulan ~ ~ · ~ Farm lot For sale san Felipe ilagan isabela near highway at DA ~ 11,576 sqm updated tax ~ Clean title ~ 350 per sqm ~ Dm for details See less ~ 5 ~ 16 ~",
-  "link": null
+  "link": "https://www.facebook.com/groups/458673597916354/posts/4362996640511190/"
  },
  {
   "year": "2026*",
@@ -1999,7 +1999,7 @@ window.RE_POSTS = [
   "loc": "San Mateo",
   "note": "",
   "snippet": "Guidem Esh ~ ~ · ~ 200sqm SPACIOUS 3BR HOME FOR SALE IN SAN MATEO, ISABELA! ~ This 400sqm property is just 10 minutes from the Public Market and ready for you! ~ Why you’ll love it: ~ • 3 Bedrooms & 2",
-  "link": null
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2347787292689280/"
  },
  {
   "year": "2026*",

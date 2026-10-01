@@ -720,19 +720,50 @@
       const cls = /house/.test(t) ? "lp-hl" : /farm|agri/.test(t) ? "lp-agri" : /commercial/.test(t) ? "lp-comm" : /subdivision/.test(t) ? "lp-subs" : t === "land" ? "lp-land" : "lp-other";
       return `<span class="lpill ${cls}">${esc(t)}</span>`;
     };
+    // distinct LGU location options (from all records, incl. barangay-level)
+    const locSet = [...new Set(P.filter((r) => r.loc).map((r) => normLoc(r.loc)))].sort();
+    const app2 = app;
     app.innerHTML = `
       <div class="compare-page reprices-page">
         <h2>Real Estate Prices — Isabela lot &amp; house posts</h2>
         <p class="meta">${P.length} posts parsed from Facebook lot-sale groups (owner-direct asks; Isabela-wide, harvest Sept 30 2026). ${dated.length} year-tagged (${esc(yrSummary)}) · ${computable.length} with ₱/sqm · ${med ? `land-type median <b>${fmtP(med)}/sqm</b>` : "—"}. Asking prices — not transacted deals. ${P.filter(r=>r.psp && r.psp>50000).length} rows include house+unit value (see type column).</p>
+        <div class="rfilters">
+          <label>Filter by location
+            <select id="rf-loc" aria-label="Filter posts by location">
+              <option value="">All locations (${locSet.length})</option>
+              ${locSet.map((l) => `<option value="${esc(l)}">${esc(l)}</option>`).join("")}
+            </select>
+          </label>
+          <label>Type
+            <select id="rf-type" aria-label="Filter posts by type">
+              <option value="">All types</option>
+              <option value="land">Land</option>
+              <option value="house+lot">House + lot</option>
+              <option value="farm/agri">Farm / agri</option>
+              <option value="commercial">Commercial</option>
+              <option value="subdivision/pre-selling">Subdivision / pre-selling</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label>Year
+            <select id="rf-year" aria-label="Filter posts by year">
+              <option value="">All years</option>
+              <option value="2026*">2026 (recent)</option>
+              ${Object.keys(yearCounts).sort().reverse().map((y) => `<option value="${y}">${y}</option>`).join("")}
+            </select>
+          </label>
+          <button id="rf-clear">Reset</button>
+          <span id="rf-count" class="dim">${P.length} shown</span>
+        </div>
         <div class="table-wrap">
-          <table class="compare-table reprices-table">
+          <table class="compare-table reprices-table" id="reprices-table">
             <thead><tr>
               <th>Year</th><th>Type</th><th>Location</th><th>Lot size</th>
-              <th>Price</th><th>₱/sqm</th><th>Notes</th><th>Snippet</th>
+              <th>Price</th><th>₱/sqm</th><th>Notes</th><th>Snippet</th><th>Link</th>
             </tr></thead>
             <tbody>
-              ${rows.map((r) => `
-                <tr>
+              ${rows.map((r, i) => `
+                <tr data-i="${i}" data-loc="${esc(normLoc(r.loc))}" data-type="${esc(r.type)}" data-year="${esc(r.year)}">
                   <td class="cy ${r.year.includes("*") ? "approx" : ""}">${esc(r.year)}</td>
                   <td>${typePill(r.type)}</td>
                   <td class="loc-cell">${r.loc ? esc(normLoc(r.loc)) : '<span class="dim">—</span>'}</td>
@@ -740,14 +771,37 @@
                   <td class="num">${fmtP(r.price_php)}</td>
                   <td class="num strong">${r.psp ? fmtP(r.psp) : '<span class="dim">—</span>'}</td>
                   <td class="notes-cell">${r.note ? esc(r.note) : '<span class="dim">—</span>'}</td>
-                  <td class="snippet-cell">${esc(r.snippet.slice(0, 130))}${r.link ? ` <a href="${esc(r.link)}" target="_blank" rel="noopener" class="pblink">↗</a>` : ""}</td>
+                  <td class="snippet-cell">${esc(r.snippet.slice(0, 130))}</td>
+                  <td class="link-cell">${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener" class="pblink">open post ↗</a>` : '<span class="dim">—</span>'}</td>
                 </tr>`).join("")}
             </tbody>
           </table>
         </div>
-        <p class="dim note">*2026* = harvested from "most recent" unfiltered feed (Sept 30, 2026) — exact post date not yet confirmed; re-dating pass pending. Price parse: ₱K/₱M suffixes expanded; snippet kept verbatim for verification. Raw corpus: <code>data/re-history/fb-lot-posts-raw.json</code>.</p>
+        <p class="dim note">*2026* = harvested from "most recent" unfiltered feed (Sept 30, 2026) — exact post date not yet confirmed; re-dating pass pending. Price parse: ₱K/₱M suffixes expanded; snippet kept verbatim for verification. Link: <code>open post ↔</code> goes to the original Facebook post — available on ~14 rows so far (FB lazy-loads per-story anchors; more get harvested as the account ages). Raw corpus: <code>data/re-history/fb-lot-posts-raw.json</code>.</p>
         <a class="back-link" href="#/">← Back to map</a>
       </div>`;
+    // wire filters (client-side row filter, no re-render)
+    const tbl = document.getElementById("reprices-table");
+    const fLoc = document.getElementById("rf-loc");
+    const fType = document.getElementById("rf-type");
+    const fYear = document.getElementById("rf-year");
+    const cnt = document.getElementById("rf-count");
+    const apply = () => {
+      const vl = fLoc.value, vt = fType.value, vy = fYear.value;
+      let shown = 0;
+      tbl.querySelectorAll("tbody tr").forEach((tr) => {
+        const ok = (!vl || tr.dataset.loc === vl) && (!vt || tr.dataset.type === vt) && (!vy || tr.dataset.year === vy);
+        tr.hidden = !ok;
+        if (ok) shown++;
+      });
+      cnt.textContent = shown + " shown";
+    };
+    fLoc.addEventListener("change", apply);
+    fType.addEventListener("change", apply);
+    fYear.addEventListener("change", apply);
+    document.getElementById("rf-clear").addEventListener("click", () => {
+      fLoc.value = ""; fType.value = ""; fYear.value = ""; apply();
+    });
   }
 
   // ---------- Router ----------

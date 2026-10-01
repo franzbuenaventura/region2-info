@@ -565,3 +565,29 @@ tr:hover .upill { transform: scale(1.05); }
 .reprices-table .pblink { margin-left: 0.3rem; color: var(--municipality); text-decoration: none; }
 .reprices-page .note { margin-top: 0.8rem; font-size: 0.78rem; }
 .reprices-page .meta { max-width: 70rem; }
+
+/* Filter bar (DesignSpells: inline controls, eased, not a form-y block) */
+.rfilters {
+  display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center;
+  margin: 0.4rem 0 0.9rem; padding: 0.55rem 0.8rem;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius-inner);
+}
+.rfilters label {
+  display: flex; align-items: center; gap: 0.4rem;
+  font-size: 0.78rem; color: var(--text-dim); letter-spacing: 0.04em; text-transform: uppercase;
+}
+.rfilters select {
+  background: var(--panel); color: var(--text); border: 1px solid var(--line);
+  border-radius: 7px; padding: 0.32rem 0.5rem; font: inherit; font-size: 0.86rem; cursor: pointer;
+  text-transform: none; letter-spacing: 0;
+  transition: border-color var(--sp-fast) var(--sp-out);
+}
+.rfilters select:hover { border-color: var(--municipality); }
+.rfilters select:focus-visible { outline: 2px solid var(--municipality); outline-offset: 1px; }
+.rfilters button {
+  background: var(--panel); color: var(--text-dim); border: 1px solid var(--line);
+  border-radius: 7px; padding: 0.32rem 0.7rem; font: inherit; font-size: 0.84rem; cursor: pointer;
+  transition: color var(--sp-fast) var(--sp-out), border-color var(--sp-fast) var(--sp-out);
+}
+.rfilters button:hover { color: var(--text); border-color: var(--city); }
+.reprices-table .link-cell { white-space: nowrap; }
