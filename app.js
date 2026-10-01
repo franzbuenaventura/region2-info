@@ -249,7 +249,7 @@
         <span class="city-badge ${isCity ? "city" : "mun"}">${isCity ? "City" : "Municipality"}</span>
         <h2>${p.adm3_en}</h2>
         <p class="meta">Isabela, Cagayan Valley · PSGC ${p.adm3_psgc} · Area ${p.area_km2} km²</p>
-        ${data ? renderTabs(data) : `
+        ${data ? renderTabs(data, slug) : `
         <div class="placeholder">Detail content coming soon — demographics, officials, attractions, and more.</div>`}
         <a class="back-link" href="#/">← Back to map</a>
       </div>`;
@@ -263,7 +263,7 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-  function renderTabs(d) {
+  function renderTabs(d, slug) {
     const tabs = [
       ["general", "General"],
       ["market", "Market"],
@@ -283,7 +283,7 @@
       <div class="tab-panel" data-panel="market" hidden>${renderMarket(d)}</div>
       <div class="tab-panel" data-panel="points" hidden>${renderPoints(d)}</div>
       <div class="tab-panel" data-panel="political" hidden>${renderPolitical(d)}</div>
-      <div class="tab-panel" data-panel="estate" hidden>${d.realEstate ? renderEstate(d) : ""}</div>
+      <div class="tab-panel" data-panel="estate" hidden>${d.realEstate ? renderEstate(d, slug) : ""}</div>
       <div class="tab-panel" data-panel="references" hidden>${renderReferences(d)}</div>`;
   }
 
@@ -376,17 +376,32 @@
   }
 
   // Real Estate tab — land / house / rent pricing bands from live listings
-  function renderEstate(d) {
+  function renderEstate(d, slug) {
     const re = d.realEstate;
     const sub = (title, rows, citeMap) => `
       <h3 class="sub-head">${title}</h3>
       <dl class="kv">${rows.map(([k, v], i) =>
         `<dt>${esc(k)}</dt><dd>${esc(v)}${(citeMap[i] || []).map((n) => cite(d, n)).join("")}</dd>`).join("")}</dl>`;
+    const H = window.RE_HISTORY;
+    const isCauayan = slug === "cauayan";
+    const histBlock = H ? `
+      <h3 class="sub-head">Historical context</h3>
+      <p class="estate-intro">Trend anchors behind the live asks above — bands, not transaction medians (PH has no public deed-price registry). ${isCauayan ? "" : "Provincial/national level only for non-Cauayan LGUs."}</p>
+      <ol class="timeline">
+        ${H.zonal.points.map(([era, text]) => `
+          <li class="timeline-item"><span class="timeline-era">${esc(era)}</span><p>${esc(text)}</p></li>`).join("")}
+        ${H.national.yoy_notes.slice(-4).map(([q, y]) => `
+          <li class="timeline-item"><span class="timeline-era">${esc(q)}</span><p>National RPPI ${esc(y)} — bank-valuation trend backdrop.</p></li>`).join("")}
+        ${isCauayan ? H.group_asks.notable_rows.filter(x => /cauayan|isio|pinoma/i.test(x)).map((x) => `
+          <li class="timeline-item"><span class="timeline-era">2026 asks</span><p>${esc(x)}</p></li>`).join("") : ""}
+        ${isCauayan ? `<li class="timeline-item"><span class="timeline-era">2026 asks</span><p>FB-group lot asks (159 harvested): residential median ≈ ₱5,000/sqm (n=5 Cauayan-tagged; province-wide p50 ₱2,000) · farm lots ≈ ₱78/sqm. Asking prices, not deals.</p></li>` : ""}
+      </ol>` : "";
     return `
       ${re.intro ? `<p class="estate-intro">${esc(re.intro)}</p>` : ""}
       ${sub("Land — asking prices", re.land || [], [[54, 58], [], [], [53]])}
       ${sub("Houses — sale prices", re.houses || [], [[56], [55], [], [52], []])}
       ${sub("Rent — monthly rates", re.rent || [], [[61], [], [59], [53]])}
+      ${histBlock}
       ${re.caution ? `<div class="warning-card slim"><p><strong>Caution:</strong> ${esc(re.caution)}</p></div>` : ""}`;
   }
 
