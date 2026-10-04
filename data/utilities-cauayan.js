@@ -1,7 +1,11 @@
 /* Cauayan · Utilities tab — barangay-level 90-day outage snapshot from brownoutba.com */
 window.CAUAYAN_UTILITIES = {
-  scraped_at: "2026-09-30T12:57:05",
-  source: "brownoutba.com — per-barangay rolling 90-day outage history (ISELCO-I",
+  scraped_at: "2026-10-04T14:36:49",
+  source: "brownoutba.com — ISELCO-I per-barangay roll (90-day) + advisories page",
+  scheduled: [
+    "City of Cauayan, San Fermin — Oct 7, 08:30–12:00 (maintenance)",
+    "City of Cauayan, San Fermin — Oct 9, 08:00–17:00 (maintenance)"
+  ],
   barangays: {
  "Alicaocao": {
   "slug": "alicaocao-city-of-cauayan",
@@ -12,8 +16,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Alinam": {
+ }, "Alinam": {
   "slug": "alinam-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -22,8 +25,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Amobocan": {
+ }, "Amobocan": {
   "slug": "amobocan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -32,8 +34,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Andarayan": {
+ }, "Andarayan": {
   "slug": "andarayan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -42,8 +43,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Baculod": {
+ }, "Baculod": {
   "slug": "baculod-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -52,8 +52,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Baringin Norte": {
+ }, "Baringin Norte": {
   "slug": "baringin-norte-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -62,8 +61,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Baringin Sur": {
+ }, "Baringin Sur": {
   "slug": "baringin-sur-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -72,8 +70,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Buena Suerte": {
+ }, "Buena Suerte": {
   "slug": "buena-suerte-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -82,8 +79,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Bugallon": {
+ }, "Bugallon": {
   "slug": "bugallon-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -92,18 +88,16 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Buyon": {
+ }, "Buyon": {
   "slug": "buyon-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
   "has_history_block": false,
   "outages": null,
-  "hours_without_power": null,
-  "last_ended": "Jul 22, 03:30 PM",
-  "cause": "Replacement of single groove pin-type insulator, re-sagging of low level primary line, and clearing of lines"
- },
- "Cabaruan": {
+  "hours_without_power": 6.5,
+  "last_ended": null,
+  "cause": null
+ }, "Cabaruan": {
   "slug": "cabaruan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -112,8 +106,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Cabugao": {
+ }, "Cabugao": {
   "slug": "cabugao-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -122,8 +115,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Carabatan Bacareno": {
+ }, "Carabatan Bacareno": {
   "slug": "carabatan-bacareno-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -132,8 +124,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Carabatan Chica": {
+ }, "Carabatan Chica": {
   "slug": "carabatan-chica-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -142,8 +133,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Carabatan Grande": {
+ }, "Carabatan Grande": {
   "slug": "carabatan-grande-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -152,8 +142,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Carabatan Punta": {
+ }, "Carabatan Punta": {
   "slug": "carabatan-punta-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -162,8 +151,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Casalatan": {
+ }, "Casalatan": {
   "slug": "casalatan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -172,8 +160,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Cassap Fuera": {
+ }, "Cassap Fuera": {
   "slug": "cassap-fuera-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -182,8 +169,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Catalina": {
+ }, "Catalina": {
   "slug": "catalina-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -192,8 +178,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Culalabat": {
+ }, "Culalabat": {
   "slug": "culalabat-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -202,8 +187,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Dabburab": {
+ }, "Dabburab": {
   "slug": "dabburab-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -212,8 +196,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "De Vera": {
+ }, "De Vera": {
   "slug": "de-vera-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -222,8 +205,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Dianao": {
+ }, "Dianao": {
   "slug": "dianao-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -232,8 +214,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Disimuray": {
+ }, "Disimuray": {
   "slug": "disimuray-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -242,8 +223,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Duminit": {
+ }, "Duminit": {
   "slug": "duminit-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -252,8 +232,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Faustino": {
+ }, "Faustino": {
   "slug": "faustino-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -262,8 +241,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Gagabutan": {
+ }, "Gagabutan": {
   "slug": "gagabutan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -272,8 +250,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Gappal": {
+ }, "Gappal": {
   "slug": "gappal-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -282,8 +259,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Guayabal": {
+ }, "Guayabal": {
   "slug": "guayabal-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -292,8 +268,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Labinab": {
+ }, "Labinab": {
   "slug": "labinab-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -302,8 +277,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Linglingay": {
+ }, "Linglingay": {
   "slug": "linglingay-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -312,8 +286,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Mabantad": {
+ }, "Mabantad": {
   "slug": "mabantad-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -322,8 +295,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Maligaya": {
+ }, "Maligaya": {
   "slug": "maligaya-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -332,8 +304,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Manaoag": {
+ }, "Manaoag": {
   "slug": "manaoag-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -342,8 +313,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Marabulig I": {
+ }, "Marabulig I": {
   "slug": "marabulig-i-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -352,8 +322,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Marabulig II": {
+ }, "Marabulig II": {
   "slug": "marabulig-ii-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -362,8 +331,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Minante I": {
+ }, "Minante I": {
   "slug": "minante-i-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -372,8 +340,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Minante II": {
+ }, "Minante II": {
   "slug": "minante-ii-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -382,18 +349,16 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Naganacan": {
+ }, "Naganacan": {
   "slug": "naganacan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
-  "has_history_block": true,
-  "outages": 1,
-  "hours_without_power": 8,
-  "last_ended": "Sep 9, 05:00 PM",
-  "cause": "Conversion of line at Nungnungan to Pinoma"
- },
- "Nagcampegan": {
+  "has_history_block": false,
+  "outages": null,
+  "hours_without_power": 8.0,
+  "last_ended": null,
+  "cause": null
+ }, "Nagcampegan": {
   "slug": "nagcampegan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -402,8 +367,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Nagrumbuan": {
+ }, "Nagrumbuan": {
   "slug": "nagrumbuan-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -412,38 +376,34 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Nungnungan I": {
+ }, "Nungnungan I": {
   "slug": "nungnungan-i-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
-  "has_history_block": true,
-  "outages": 1,
-  "hours_without_power": 8,
-  "last_ended": "Sep 9, 05:00 PM",
-  "cause": "Conversion of line at Nungnungan to Pinoma"
- },
- "Nungnungan II": {
+  "has_history_block": false,
+  "outages": null,
+  "hours_without_power": 8.0,
+  "last_ended": null,
+  "cause": null
+ }, "Nungnungan II": {
   "slug": "nungnungan-ii-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
   "has_history_block": false,
   "outages": null,
-  "hours_without_power": null,
-  "last_ended": "Sep 9, 05:00 PM",
-  "cause": "Conversion of line at Nungnungan to Pinoma"
- },
- "Pinoma": {
+  "hours_without_power": 1.0,
+  "last_ended": null,
+  "cause": null
+ }, "Pinoma": {
   "slug": "pinoma-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
-  "has_history_block": true,
-  "outages": 1,
-  "hours_without_power": 8,
-  "last_ended": "Sep 9, 05:00 PM",
-  "cause": "Conversion of line at Nungnungan to Pinoma"
- },
- "Rizal": {
+  "has_history_block": false,
+  "outages": null,
+  "hours_without_power": 8.0,
+  "last_ended": null,
+  "cause": null
+ }, "Rizal": {
   "slug": "rizal-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -452,8 +412,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Rogus": {
+ }, "Rogus": {
   "slug": "rogus-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -462,8 +421,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "San Antonio": {
+ }, "San Antonio": {
   "slug": "san-antonio-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -472,19 +430,16 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "San Fermin": {
+ }, "San Fermin": {
   "slug": "san-fermin-city-of-cauayan",
   "exists": true,
-  "status": "MAY SCHEDULED BROWNOUT",
+  "status": "UNKNOWN",
   "has_history_block": false,
   "outages": null,
   "hours_without_power": null,
   "last_ended": null,
-  "cause": null,
-  "next_event": "Oct 1"
- },
- "San Francisco": {
+  "cause": null
+ }, "San Francisco": {
   "slug": "san-francisco-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -493,19 +448,16 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "San Isidro": {
+ }, "San Isidro": {
   "slug": "san-isidro-city-of-cauayan",
   "exists": true,
-  "status": "MAY SCHEDULED BROWNOUT",
+  "status": "HINDI, Walang brownout",
   "has_history_block": false,
   "outages": null,
   "hours_without_power": null,
   "last_ended": null,
-  "cause": null,
-  "next_event": "Oct 1"
- },
- "San Luis": {
+  "cause": null
+ }, "San Luis": {
   "slug": "san-luis-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -514,8 +466,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "San Pablo": {
+ }, "San Pablo": {
   "slug": "san-pablo-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -524,8 +475,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Santa Luciana": {
+ }, "Santa Luciana": {
   "slug": "santa-luciana-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -534,8 +484,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Santa Maria": {
+ }, "Santa Maria": {
   "slug": "santa-maria-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -544,8 +493,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Sillawit": {
+ }, "Sillawit": {
   "slug": "sillawit-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -554,8 +502,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Sinippil": {
+ }, "Sinippil": {
   "slug": "sinippil-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -564,8 +511,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Tagaran": {
+ }, "Tagaran": {
   "slug": "tagaran-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -574,8 +520,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Turayong": {
+ }, "Turayong": {
   "slug": "turayong-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -584,19 +529,16 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Union": {
+ }, "Union": {
   "slug": "union-city-of-cauayan",
   "exists": true,
-  "status": "MAY SCHEDULED BROWNOUT",
+  "status": "HINDI, Walang brownout",
   "has_history_block": false,
   "outages": null,
   "hours_without_power": null,
   "last_ended": null,
-  "cause": null,
-  "next_event": "Oct 1"
- },
- "Villa Concepcion": {
+  "cause": null
+ }, "Villa Concepcion": {
   "slug": "villa-concepcion-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -605,8 +547,7 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Villa Luna": {
+ }, "Villa Luna": {
   "slug": "villa-luna-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
@@ -615,37 +556,36 @@ window.CAUAYAN_UTILITIES = {
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "Villaflor": {
+ }, "Villaflor": {
   "slug": "villaflor-city-of-cauayan",
   "exists": true,
   "status": "HINDI, Walang brownout",
-  "has_history_block": true,
-  "outages": 1,
-  "hours_without_power": 4,
-  "last_ended": "Sep 28, 03:27 AM",
-  "cause": "fault"
- },
- "District I": {
+  "has_history_block": false,
+  "outages": null,
+  "hours_without_power": 4.0,
+  "last_ended": null,
+  "cause": null
+ }, "District I": {
   "slug": "district-i-pob-city-of-cauayan",
+  "exists": true,
   "status": "HINDI, Walang brownout",
   "has_history_block": false,
   "outages": null,
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "District II": {
+ }, "District II": {
   "slug": "district-ii-pob-city-of-cauayan",
+  "exists": true,
   "status": "HINDI, Walang brownout",
   "has_history_block": false,
   "outages": null,
   "hours_without_power": null,
   "last_ended": null,
   "cause": null
- },
- "District III": {
+ }, "District III": {
   "slug": "district-iii-pob-city-of-cauayan",
+  "exists": true,
   "status": "HINDI, Walang brownout",
   "has_history_block": false,
   "outages": null,
@@ -653,5 +593,5 @@ window.CAUAYAN_UTILITIES = {
   "last_ended": null,
   "cause": null
  }
+  }
 }
-};

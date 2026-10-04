@@ -103,7 +103,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -115,7 +115,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series; sweldoph/PNA)"
+        "₱500/day non-agri & agri (RTWPB 2-24 eff Nov 5 2025; sweldoph/PNA)"
       ],
       [
         "Universities",
@@ -633,7 +633,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -774,7 +774,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -786,7 +786,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Universities",
@@ -1132,7 +1132,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -1253,7 +1253,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -1265,7 +1265,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Universities",
@@ -1582,7 +1582,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -1685,7 +1685,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -1697,7 +1697,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -1899,7 +1899,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -2002,7 +2002,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -2014,7 +2014,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -2216,7 +2216,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -2319,7 +2319,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -2331,7 +2331,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -2510,7 +2510,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -2609,7 +2609,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -2621,7 +2621,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -2804,7 +2804,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -2903,7 +2903,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -2915,7 +2915,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -3097,7 +3097,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -3195,7 +3195,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -3207,7 +3207,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -3393,7 +3393,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -3492,7 +3492,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -3504,7 +3504,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -3698,7 +3698,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -3797,7 +3797,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -3809,7 +3809,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -3997,7 +3997,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -4095,7 +4095,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -4107,7 +4107,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -4281,7 +4281,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -4379,7 +4379,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -4391,7 +4391,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -4553,7 +4553,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -4652,7 +4652,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -4664,7 +4664,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -4839,7 +4839,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -4937,7 +4937,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -4949,7 +4949,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -5132,7 +5132,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -5226,7 +5226,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -5238,7 +5238,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -5404,7 +5404,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -5499,7 +5499,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -5511,7 +5511,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -5673,7 +5673,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -5768,7 +5768,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -5780,7 +5780,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -5946,7 +5946,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -6040,7 +6040,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -6052,7 +6052,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -6222,7 +6222,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -6320,7 +6320,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -6332,7 +6332,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -6490,7 +6490,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -6588,7 +6588,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -6600,7 +6600,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -6762,7 +6762,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -6860,7 +6860,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -6872,7 +6872,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -7034,7 +7034,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -7133,7 +7133,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -7145,7 +7145,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -7311,7 +7311,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -7405,7 +7405,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -7417,7 +7417,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -7579,7 +7579,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -7673,7 +7673,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -7685,7 +7685,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (nominal here — subsistence economy)"
+        "₱500/day non-agri & agri (RTWPB 2-24 eff Nov 2025; nominal here — subsistence economy)"
       ],
       [
         "Electorate",
@@ -7852,7 +7852,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -7943,7 +7943,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -7955,7 +7955,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (nominal reference)"
+        "₱500/day non-agri & agri (RTWPB 2-24 eff Nov 2025; nominal reference)"
       ],
       [
         "Electorate",
@@ -8118,7 +8118,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -8208,7 +8208,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -8220,7 +8220,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (nominal reference)"
+        "₱500/day non-agri & agri (RTWPB 2-24 eff Nov 2025; nominal reference)"
       ],
       [
         "Electorate",
@@ -8374,7 +8374,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -8465,7 +8465,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -8477,7 +8477,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (nominal reference)"
+        "₱500/day non-agri & agri (RTWPB 2-24 eff Nov 2025; nominal reference)"
       ],
       [
         "Electorate",
@@ -8657,7 +8657,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -8751,7 +8751,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -8763,7 +8763,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -8925,7 +8925,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -9020,7 +9020,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -9032,7 +9032,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -9187,7 +9187,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -9281,7 +9281,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -9293,7 +9293,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -9443,7 +9443,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -9537,7 +9537,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -9549,7 +9549,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -9712,7 +9712,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -9806,7 +9806,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -9818,7 +9818,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -9985,7 +9985,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -10080,7 +10080,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -10092,7 +10092,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -10247,7 +10247,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -10342,7 +10342,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -10354,7 +10354,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -10521,7 +10521,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -10616,7 +10616,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -10628,7 +10628,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -10791,7 +10791,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {
@@ -10885,7 +10885,7 @@ window.LGU_DATA = {
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱12.5K/mo (₱480/day x 26) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
@@ -10897,7 +10897,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱480/day non-agri · ₱460 agri (Wage Order 02 series)"
+        "₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025)"
       ],
       [
         "Electorate",
@@ -11055,7 +11055,7 @@ window.LGU_DATA = {
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
-        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱480 non-agri / ₱460 agri; new order +20/+40 eff. Nov 2026; domestic workers ₱6,000→₱6,500/mo",
+        "title": "NWPC/RTWPB-2 — Region II minimum wage ₱500/day non-agri & agri (RTWPB 2-24, eff Nov 5 2025; domestic workers ₱6,500/mo)",
         "url": "https://nwpc.dole.gov.ph/region-II/"
       },
       {

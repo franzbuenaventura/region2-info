@@ -659,7 +659,11 @@
       <div class="compare-page utilities-page">
         <h2>Utilities — Cauayan City</h2>
         <p class="meta">Power interruption history per barangay (rolling 90-day window) — provider ISELCO-I, from brownoutba.com · scraped ${esc(U.scraped_at || "—")}. ${withHist.length} of 65 barangays have recorded outages: ${totalOut} events, ${totalHrs} h downtime. Internet: no SLA published for consumer fiber (PLDT/Converge/Globe active in city); enterprise leased lines carry ~99.6% SLA. See <a href="https://github.com/franzbuenaventura/region2-info/blob/main/research/cauayan-uptime.md" target="_blank" rel="noopener">uptime research note</a>.</p>
-        ${schedNow.length ? `<div class="callout">⚡ Scheduled interruptions upcoming: ${schedNow.map((r) => esc(r.name) + (r.next_event ? " (" + esc(r.next_event) + ")" : "")).join(" · ")}</div>` : ""}
+        ${schedNow.length
+          ? `<div class="callout">⚡ Scheduled interruptions upcoming: ${schedNow.map((r) => esc(r.name) + (r.next_event ? " (" + esc(r.next_event) + ")" : "")).join(" · ")}</div>`
+          : (Array.isArray(U.scheduled) && U.scheduled.length)
+            ? `<div class="callout">⚡ Scheduled interruptions upcoming: ${U.scheduled.map((s) => esc(s)).join(" · ")}</div>`
+            : ""}
         <div class="table-wrap">
           <table class="compare-table utilities-table">
             <thead><tr>
