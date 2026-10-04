@@ -804,6 +804,75 @@
     });
   }
 
+  // ---------- Build Costs page ----------
+  function renderBuildPrices() {
+    const B = window.RE_BUILDS;
+    document.title = "Construction Build Costs — Region 2 — Info";
+    if (!B || !B.national || !B.national.length) {
+      app.innerHTML = `<div class="compare-page"><h2>Construction Build Costs</h2><div class="placeholder">Build-cost data not loaded.</div><a class="back-link" href="#/">← Back to map</a></div>`;
+      return;
+    }
+    const fmtP = (n) => "₱" + n.toLocaleString("en-PH");
+    const confPill = (c) => `<span class="lpill ${c === "solid" ? "lp-land" : c === "moderate" ? "lp-subs" : "lp-comm"}">${esc(c)}</span>`;
+    const classes = [...new Set(B.national.map((r) => r.class))];
+    const classSet = [...new Set(B.national.map((r) => r.class))];
+    const cityNotes = B.city_differentiation || {};
+    app.innerHTML = `
+      <div class="compare-page buildcosts-page">
+        <h2>Construction Build Costs — residential &amp; commercial</h2>
+        <p class="meta">${B.note || ""} Generated ${esc(B.generated || "")}.</p>
+        <div class="table-wrap">
+          <table class="compare-table" id="builds-table">
+            <thead><tr>
+              <th>Build class</th><th>Band / tier</th><th>₱/sqm floor area</th><th>Confidence</th><th>Notes</th>
+            </tr></thead>
+            <tbody>
+              ${B.national.map((r, i) => `
+                <tr data-class="${esc(r.class)}">
+                  <td>${esc(r.class)}</td>
+                  <td>${esc(r.band || "—")}</td>
+                  <td class="num strong">${r.psp_min != null ? fmtP(r.psp_min) + " – " + fmtP(r.psp_max) : "—"}</td>
+                  <td>${confPill(r.confidence || "moderate")}</td>
+                  <td class="notes-cell">${r.note ? esc(r.note) : ""}</td>
+                </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+        ${B.regional_factor ? `<div class="card"><h3>Regional factor — NCR vs province</h3>
+          <p>${esc(B.regional_factor.manila_to_province || "")}</p>
+          <p>${esc(B.regional_factor.cagayan_valley || "")}</p></div>` : ""}
+        ${cityNotes.summary ? `<div class="card"><h3>Per-city vs province-wide</h3>
+          <p>${esc(cityNotes.summary)}</p>
+          ${cityNotes.note ? `<p class="dim">${esc(cityNotes.note)}</p>` : ""}</div>` : ""}
+        <p class="dim note">₱/sqm = cost per square meter of FLOOR AREA (the PH quoting standard), not lot size. Bands are contractor asking ranges — actual contracts vary with finishes, site access, typhoon-wind ratings, and materials logistics. Cross-checked sources: ${B.sources ? B.sources.length : 0}.</p>
+        <a class="back-link" href="#/">← Back to map</a>
+      </div>`;
+    // class filter
+    const tbl = document.getElementById("builds-table");
+    const selId = "bf-class";
+    const classesList = classSet;
+    const bar = document.createElement("div");
+    bar.className = "rfilters";
+    bar.innerHTML = `<label>Class <select id="${selId}" aria-label="Filter builds by class"></select></label>
+      <button id="bf-clear">Reset</button><span id="bf-count" class="dim"></span>`;
+    tbl.parentElement.insertBefore(bar, tbl);
+    const sel = document.getElementById(selId);
+    sel.innerHTML = `<option value="">All classes (${classesList.length})</option>` +
+      classesList.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+    const cntEl = document.getElementById("bf-count");
+    const apply = () => {
+      const vc = sel.value; let shown = 0;
+      tbl.querySelectorAll("tbody tr").forEach((tr) => {
+        const ok = !vc || tr.dataset.class === vc;
+        tr.hidden = !ok; if (ok) shown++;
+      });
+      cntEl.textContent = shown + " shown";
+    };
+    sel.addEventListener("change", apply);
+    document.getElementById("bf-clear").addEventListener("click", () => { sel.value = ""; apply(); });
+    apply();
+  }
+
   // ---------- Router ----------
   function route() {
     let m = location.hash.match(/^#\/city\/([a-z0-9-]+)$/);
@@ -817,10 +886,12 @@
     else if (location.hash === "#/schema") renderSchema();
     else if (location.hash === "#/utilities") renderUtilities();
     else if (location.hash === "#/re-prices") renderREPrices();
+    else if (location.hash === "#/build-prices") renderBuildPrices();
     else renderMap();
     const here = location.hash === "#/schema" ? "#/schema"
       : location.hash === "#/utilities" ? "#/utilities"
       : location.hash === "#/re-prices" ? "#/re-prices"
+      : location.hash === "#/build-prices" ? "#/build-prices"
       : /^#\/compare\//.test(location.hash) ? location.hash
       : "#/";
     document.querySelectorAll(".site-nav a").forEach((a) =>
