@@ -1,11 +1,13 @@
 /* Cauayan · Utilities tab — barangay-level 90-day outage snapshot from brownoutba.com */
 window.CAUAYAN_UTILITIES = {
   scraped_at: "2026-10-04T14:36:49",
-  source: "brownoutba.com — ISELCO-I per-barangay roll (90-day) + advisories page",
+  source: "brownoutba.com — ISELCO-I per-barangay roll (90-day) + province advisories (Ramon/Santiago/Cauayan/Alicia)",
   scheduled: [
-    "City of Cauayan, San Fermin — Oct 7, 08:30–12:00 (maintenance)",
-    "City of Cauayan, San Fermin — Oct 9, 08:00–17:00 (maintenance)"
-  ],
+ "Ramon — San Miguel · Oct 5, 08:30 AM–Oct 5, 04:30 PM (maintenance) · ISELCO I",
+ "City of Santiago — Patul, Plaridel, Rosario, San Isidro, Sinili, Sinsayon, Victory Norte · Oct 6, 08:00 AM–Oct 6, 05:00 PM (maintenance) · ISELCO I",
+ "City of Cauayan — San Fermin · Oct 9, 08:00 AM–Oct 9, 05:00 PM (maintenance) · ISELCO I",
+ "Alicia — Paddad · Oct 9, 08:00 AM–Oct 9, 05:00 PM (maintenance) · ISELCO I"
+],
   barangays: {
  "Alicaocao": {
   "slug": "alicaocao-city-of-cauayan",
