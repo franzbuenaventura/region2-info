@@ -4,7 +4,7 @@
 
 ## Scoreboard
 **CONFIRMED:** 18 · **CONTRADICTED:** 5 · **PARTIAL:** 4 · **flagged for internal inconsistency:** 1 (overlaps R2I-28)
-The site's data layer is broadly accurate — the disputes below are real, but they are corrections, not a takedown.
+The site's data layer is broadly accurate — the disputes below are real, but they are corrections, not a takedown. **[Remediation note, Oct 13]:** all fixes below were applied to the data layer the same day (see REMEDIATION at the end); P-1 was withdrawn as an audit-brief paraphrase artifact (site already read "Faustino Bojie Dy III"), so the final tally is **19 CONFIRMED · 5 CONTRADICTED · 3 PARTIAL**.
 
 ---
 
@@ -42,8 +42,8 @@ The site's data layer is broadly accurate — the disputes below are real, but t
 
 ## PARTIAL / MISLABELED
 
-### P-1 · House Speaker's legal name — R2I-10 — PARTIAL
-Site: "Benjamin 'Bojie' Dy III, Speaker since Sep 2025." Speakership (Sep 17, 2025, succeeding Romualdez) confirmed; legal name is **Faustino "Bojie" Dy III** — "Benjamin Dy" was his late brother (d. 2013). Fix the name.
+### P-1 · House Speaker's legal name — R2I-10 — WITHDRAWN (audit-brief artifact)
+The claims brief paraphrased the site as saying "Benjamin 'Bojie' Dy III" — it does not; the officials row always read **"Faustino 'Bojie' Dy III (6th district)"**, the correct legal name. The substantive research stands (Speakership Sep 17, 2025, succeeding Romualdez — confirmed). Recounted as CONFIRMED; no site change required.
 
 ### P-2 · FIES Region 2 baseline — R2I-18 — PARTIAL
 Site: R2 avg family income ₱290,120 (2023) → ₱388,220 (2025), +25% "fastest-growing region." The **2025 FIES release exists** (PSA Ref 2026-275, Aug 26, 2026) and ₱388,220 + fastest-region both hold — but ₱290,120 is the **2021** figure; the 2023 actual is **₱310,550**. relabel baseline year.
@@ -67,3 +67,8 @@ Site: "poverty line ₱14.3–14.6K/mo" presented as R2-regional. Researched: �
 - Snapshots (utilities scrape 2026-10-04; listings Sep 2026) are time-indexed; they verify as-of their dates, not today.
 - RDO-15 aggregator sources (ren.ph, zonalvalue.ph) were cross-checked against DOF/BIR DO 023-2023 text — keep BIR-issued documents as the citation of record.
 - Full per-claim verdict tables with URLs: generated from audit runs A/B/C/D on 2026-10-13 (raw JSON in /tmp/agy_audit_*.json, 24h retention).
+
+## REMEDIATION (Oct 13, 2026)
+All corrections applied to the data layer same-day (commit follows): VM row + officials note (Benjie Dy III), smart-city year 2015, SSL tranche re-label (₱40.2K SG-15 2025) ×37 packs, median-wage re-attribution (₱14,588 OWS 2022) ×37, FIES baseline relabel ×37 rows + ×37 refs, wage-order issue/publish/effect dates, zonal floor ₱45 (DO 023-2023), re-posts psp-parse repairs (3 fixed, 6 nulled w/ notes; 25 usable dated rows), re-history corpus reconciliation + band recomputes, re-builds stale-count fix, VERIFICATION.md §3 line + new §7 audit section. Withdrawn: P-1 name dispute.
+
+**Remaining open items** (from VERIFICATION.md §4 + new): VM identity cross-checks (Aurora, San Mateo, San Guillermo, San Isidro, Jones, Delfin Albano, Reina Mercedes, **Naguilian**, Santa Maria VM name), district-rep mappings (Quirino/Dinapigue/San Agustin/Jones), land-areas-from-density ×9 (PSGC confirm), San Mateo population variant (66,663 vs 67,433), Dinapigue 2018-dated poverty, Quirino ₱462M revenue outlier. New from this audit: agri band is geography-mixed (n=4 incl. 2 Cagayan-province rows) — recompute Cauayan/Isabela-only when the corpus is next harvested.

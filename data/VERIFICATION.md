@@ -21,7 +21,7 @@ Scope: all 37 LGU data packs in data/lgu-data.js, app.js renderer, live browser 
   - Jones: Montano 22,924 (75.67%) — matches.
   - Santa Maria: fixed as above.
 - Density arithmetic: Ilagan 164,020/1,166.26 km² = 140.6/km² ✓; San Mariano 61,876/1,469.5 = 42.1/km² ✓ (an automated flag was a regex artifact, manual math confirms).
-- Salary/income figures re-sourced: PSA OWS 2024 (₱21,544 avg; agri ₱14,615; ICT ₱43,676), median ₱13,000 (PSA LFS), NWPC RTWPB-2 (₱480/₱460; +20/+40 coming; DW ₱6,500), SSL 2025 (SG-1 ₱14,061, SG-11 ₱30,024, SG-15 ₱40,208, SG-30 ₱214,512), FIES 2023/2025 (R2 ₱290,120 → ₱388,220, +25%), PIDS class bands, BusinessWorld 2025 LFS (R2 unemployment 3.1%).
+- Salary/income figures re-sourced: PSA OWS 2024 (₱21,544 avg; agri ₱14,615; ICT ₱43,676), median ₱14,588 (PSA OWS 2022 — the earlier '₱13,000 (PSA LFS)' attribution was wrong, fixed Oct 13 audit), NWPC RTWPB-2 (RTWPB 2-24 eff Nov 5 2025: ₱500 non-agri +₱20 / agri +₱40 → both ₱500; DW ₱6,500), SSL 2025 (SG-1 ₱14,061, SG-11 ₱30,024, SG-15 ₱40,208, SG-30 ₱214,512; NOTE: Nurse I row had used the 2026 3rd-tranche ₱42,178 — fixed Oct 13), FIES (R2: 2021 ₱290,120 → 2023 ₱310,550 → 2025 ₱388,220, +25% — baselines relabeled Oct 13; the '+25%' 2023→2025 span was correct), PIDS class bands, BusinessWorld 2025 LFS (R2 unemployment 3.1%).
 
 ## 4. Remaining open verifications (flagged on-page)
 - VM identity cross-checks pending: Aurora, San Mateo, San Guillermo, San Isidro, Jones, Delfin Albano, Reina Mercedes, Naguilian (Chu Capuchino vs Acosta), Santa Maria VM name, Quirino/Dinapigue/San Agustin/Jones district-rep mappings.
@@ -38,3 +38,18 @@ Scope: all 37 LGU data packs in data/lgu-data.js, app.js renderer, live browser 
 - d5550bb class-disparity block + 8 refs (all 37)
 - 0cf7f9f verification fixes (santa-maria correction, data-driven history cites)
 - Working tree clean except pre-existing padaca research edits (untouched).
+
+## 7. External audit pass — Oct 13, 2026 (agy deep research, 5 runs, ~1.1M tokens)
+
+28 claims audited against primary sources (PSA, COMELEC, COA, BLGF/DOF, NWPC, DBM, BIR, BSP/BIS, CAAP, official gazette + Rappler/Philstar/Inquirer). Result: 18 CONFIRMED / 5 CONTRADICTED / 4 PARTIAL. Full verdict tables + sources: `docs/dispute-brief-2026-10-13.md`. Fixes applied to the data layer the same day:
+
+1. Cauayan VM row: Leoncio Dalin Jr. → **Benjamin "Benjie" Dy III (Lakas-CMD), 55,716 votes (78.6% of votes cast)** vs Ramirez 15,146 (Rappler/COMELEC). officialNote rewritten to match; ABS-CBN ref title updated.
+2. smartCity: "first DOST-designated smart city (2025)" → **Mar 25, 2015** (DOST Smarter PH). Ref title updated.
+3. Salary rows ×37: median row re-attributed to PSA OWS 2022 ₱14,588 (LFS publishes no monthly medians); Nurse I ₱42.2K → **₱40.2K (SSL 2025 2nd tranche)** — ₱42,178 was the 2026 3rd-tranche rate; wage-order row got issue/publish/effect dates.
+4. Income rows ×37: FIES baselines relabeled (2021 ₱24.2K → 2023 **₱25.9K** → 2025 ₱32.4K); poverty line rescoped (R2 ₱13.4K/mo 2023, ₱15.3K 2025; ₱14.4K is Isabela-province-only).
+5. re-posts.js: 9 corrupted psp rows repaired or nulled with notes (rates-as-totals + price-field parse artifacts; usable dated rows now 25: land n=8, agri n=4).
+6. re-history.js: RDO-15 zonal floor ₱5 → **₱45/sqm** (DOF/BIR DO 023-2023); FB-corpus stats reconciled (Sep 30: 370 harvested → 181 retained → 25 usable dated rows); land band recomputed on reconciled set (median ₱1,500 holds) and agri band recomputed (n=4, median ≈₱198 — geography-mixed incl. 2 Cagayan-province rows, treat as indicative).
+7. re-builds.js: stale "351 posts" → Sep-30/Oct-13 harvest chain.
+8. Refs: FIES titles relabeled ×37; Playroll median ref reframed as non-PSA aggregator ×37.
+9. Withdrawn during remediation: the "Benjamin Bojie Dy" dispute — the site's officials row already read "Faustino Bojie Dy III"; the variant was an artifact of the audit brief's paraphrase, not a site error.
+10. Verification updates: this file's §3 salary/income line corrected; all four data files pass `node --check`.

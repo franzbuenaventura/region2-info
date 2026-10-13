@@ -4,9 +4,11 @@
    - BIR zonal values RDO 15 (Isabela): Cauayan corridor ₱/sqm, revisions ~2017 → Jul 2023
    - PDIC e-bidding floors (dated cycles, Cauayan residential)
    - Facebook Lot-For-Sale groups (Cauayan/Isabela, owner-direct asks):
-     370 posts harvested; 31 dated ₱/sqm rows (land-only n=13, agri n=10) — asking, not transacted
+     Sep 30 harvest: 370 posts, 31 dated rows; Oct 13 audit reconciliation: re-posts.js now holds 181 rows,
+     25 usable dated ₱/sqm rows after psp-parse cleanup (land n=8, agri n=4, house+lot n=6, subdiv n=3, commercial n=4) — asking, not transacted
 */
 window.RE_HISTORY = {
+  audit_note: "Oct 13, 2026 primary-source audit (docs/dispute-brief-2026-10-13.md): zonal floor corrected ₱5→₱45 (DO 023-2023), FB-corpus stats reconciled (370 harvested / 181 retained / 25 usable dated rows after psp-parse fixes), bands recomputed from the reconciled set; RPPI series verified exact vs BSP/BIS.",
   national: {
     source: "BSP Residential Property Price Index (RPPI) via BIS",
     series: [
@@ -22,7 +24,7 @@ window.RE_HISTORY = {
     source: "BIR zonal values, RDO 15 (Isabela) — Cauayan City corridor",
     points: [
       ["~2017 schedule", "CR1 commercial corridor ≈ ₱10,000–12,500/sqm (DO 17-02 era)"],
-      ["Jul 2023 schedule (eff.)", "Maharlika Hwy CR1 ₱26,250/sqm peak; Roxas/G. Villarta CR2 ₱7,500–10,500; barangay RR interior ₱220–300/sqm; city range ₱5–26,250/sqm"]
+      ["Jul 2023 schedule (eff.)", "Maharlika Hwy CR1 ₱26,250/sqm peak; Roxas/G. Villarta CR2 ₱7,500–10,500; barangay RR interior ₱220–300/sqm; city range ₱45–26,250/sqm (floor ₱45/sqm agri class per DOF/BIR DO 023-2023 — pre-audit text said ₱5, a transcription error fixed Oct 13)"]
     ],
     note: "zonal = tax floor below market; 2017→2023 prime-corridor jump ≈ 2.2–2.6× is the best local appreciation anchor available"
   },
@@ -35,7 +37,7 @@ window.RE_HISTORY = {
   },
   group_asks: {
     source: "Facebook Lot-For-Sale groups (Isabela) — owner-direct asking prices",
-    harvest: "370 posts w/ year filter 2021-2026; 31 dated ₱/sqm rows",
+    harvest: "Sep 30: 370 posts / 31 dated rows; Oct 13 audit: 181 rows retained, 25 usable dated rows after psp-parse cleanup (land n=8, agri n=4)",
     land_only_by_year: [
       ["2021", "n=1 · ₱1,143/sqm (Cauayan-ish farm-adjacent 1,400sqm ₱1.6M)"],
       ["2022", "n=4 · ₱1,000–4,000/sqm (Gamu/Marangal/Echague/Centro)"],
@@ -43,8 +45,8 @@ window.RE_HISTORY = {
       ["2024", "n=5 · ₱500–6,000/sqm (Gamu ₱1,500×2 · Malini/Santiago ₱3,500 · PTPA ₱6,000 · Cauayan rush ₱500)"],
       ["2025", "n=2 · ₱500 (Echague rush) → ₱37,488 (Sacramento prime 1,067sqm ₱40M)"]
     ],
-    land_band: "2021-2025 land-only asks: p25 ₱1,143 · median ₱1,500 · p75 ₱6,000 · top ₱37,488 — wide by design (rush rural → prime suburban)",
-    agri_band: "agri/farm asks 2022-2025: median ≈ ₱44/sqm (n=10; range ₱26-116) — 30-500x cheaper than residential",
+    land_band: "land-only asks (Oct 13 reconciled set, n=8): p25 ≈₱775 · median ₱1,500 · p75 ≈₱2,387 · top ₱11,792 — wide by design (rush rural → prime suburban); pre-audit band (p25 ₱1,143/p75 ₱6,000/top ₱37,488) was computed on the Sep-30 harvest and is not reproducible from the current file",
+    agri_band: "agri/farm asks (Oct 13 reconciled set, n=4): median ≈ ₱198/sqm (range ₱62–400, incl. Cagayan rows) — roughly 8-24x cheaper than residential median; pre-audit figure (₱44, n=10) was Sep-30-harvest era",
     notable_rows: [
       "Isio (Cauayan, national highway) 125sqm ₱2,800/sqm",
       "Near OLPC Cauayan 404sqm ₱2M (₱4,950/sqm)",

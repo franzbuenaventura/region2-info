@@ -305,8 +305,8 @@ window.RE_POSTS = [
   "loc": null,
   "area_sqm": 80.0,
   "price_php": 6040.0,
-  "psp": 76,
-  "note": null,
+  "psp": null,
+  "note": "psp null — post is an installment promo (₱6,040 monthly hulugan), not a per-sqm quote",
   "snippet": "Jean Acosta Mandani ~ All-star contributor ~ ~ · ~ ~ · ~ Jean Acosta Mandani is with Lanie Laungayan Bugarin and ~ 3 others ~ . ~ ~ · ~ PAMASKONG HANDOG PARA SA PANGARAP MONG TAHANAN! ~ Naghahanap ka ba ng murang hulugang lote para sa iyong future home? ~ Baka ito na ang hinihintay mong investment! ~ P-5 Baluarte, City of Santiago, Isabela ~ STARTING AT ₱6,040/MONTH ~ 80 sqm per lot ~ With Split-I"
  },
  {
@@ -365,8 +365,8 @@ window.RE_POSTS = [
   "loc": "Santiago",
   "area_sqm": 240.0,
   "price_php": 6040.0,
-  "psp": 25,
-  "note": null,
+  "psp": null,
+  "note": "psp null — installment promo post, no translatable per-sqm quote",
   "snippet": "Aldrin Tejada ~ ~ · ~ Follow ~ ~ · ~ 7 DAYS PROMO DISCOUNT ~ AFFORDABLE LOT SA BALUARTE, SANTIAGO CITY! ~ LAST CALL SA PROMO PRICE! ~ Kung matagal mo nang pangarap magkaroon ng sariling lupa, ITO NA ANG SIGN MO! ~ Starting at ₱6,040/month ~ 80 | 160 | 240 sqm & ABOVE ~ With Individual Title ~ Peaceful community + Mountain View ~ Near Santiago City Sports Complex ~ BAKIT NGAYON KA DAPAT MAG-RESERVE"
  },
  {
@@ -386,8 +386,8 @@ window.RE_POSTS = [
   "loc": null,
   "area_sqm": 8050.0,
   "price_php": 1200.0,
-  "psp": 0,
-  "note": null,
+  "psp": 1200.0,
+  "note": "psp fixed Oct 13 2026 audit — source states ₱1,200/SQM directly",
   "snippet": "Dhaira Collentes ~ ~ · ~ Follow ~ All-star contributor ~ ~ · ~ ~ · ~ Dhaira Collentes ~ ~ · ~ 𝐀𝐋𝐎𝐍𝐆 𝐓𝐇𝐄 𝐇𝐈𝐆𝐇𝐖𝐀𝐘 𝐋𝐎𝐓 𝐅𝐎𝐑 𝐒𝐀𝐋𝐄! ~ ~ 𝐋𝐨𝐜𝐚𝐭𝐢𝐨𝐧: 𝐒𝐚𝐦𝐩𝐚𝐠𝐮𝐢𝐭𝐚, 𝐒𝐨𝐥𝐚𝐧𝐚, 𝐂𝐚𝐠𝐚𝐲𝐚𝐧 ~ Lot Area: 8,050 SQM ~ Price: ₱1,200/SQM ~ Perfect for: Commercial • Business • Investment • Development ~ Message us now for more details! ~ #LotForSale #HighwayLot #SampaguitaSolana #SolanaCagayan #CagayanProperty #RealEstatePH #"
  },
  {
@@ -486,8 +486,8 @@ window.RE_POSTS = [
   "loc": "Roxas",
   "area_sqm": 600.0,
   "price_php": 2026.0,
-  "psp": 3,
-  "note": null,
+  "psp": null,
+  "note": "psp null — price field held the year (2026), not a price",
   "snippet": "Sharol Cauilan ~ ~ · ~ +3 ~ Sharol Cauilan added 7 new photos to the album ~ PROPERTIES FOR SALE 2026 ~ . ~ ~ · ~ HOUSE & LOT FOR SALE ~ 600 SQ.M. LOT AREA ~ With house + 2 additional buildings ~ Spacious property with plenty of outdoor space ~ With parking area ~ Price: 3m ~ Location: Roxas Isabela ~ For inquiries, message or call: 0991 478 8541 ~ Perfect for a large family, rental business, or i"
  },
  {
@@ -538,8 +538,8 @@ window.RE_POSTS = [
   "loc": null,
   "area_sqm": 167.0,
   "price_php": 10000.0,
-  "psp": 60,
-  "note": "installment",
+  "psp": 10000.0,
+  "note": "psp fixed Oct 13 2026 audit — source states ₱10,000 per sqm (167 sqm = minimum cut)",
   "snippet": "Sinta Penaflor ~ ~ · ~ Sinta Penaflor ~ ~ · ~ LOT ONLY — TUGUEGARAO CITY, CAGAYAN ~ EXACT LOCATION: JUST BEHIND THE PROVINCIAL CAPITOL ~ PRICE: ₱10,000 PER SQM ~ MINIMUM CUT: 167 SQM UP → ~ 20% Down payment ~ 80% Balance Payable in 24 months ~ COMPLETE DOCUMENTS: Title ready for immediate transfer ~ PAYMENT OPTION: In‑house financing available — easy terms! ~ Prime location, high value appreciatio"
  },
  {
@@ -1120,8 +1120,8 @@ window.RE_POSTS = [
   "loc": "Cabatuan",
   "area_sqm": 1200.0,
   "price_php": 7000.0,
-  "psp": 6,
-  "note": "titled, negotiable",
+  "psp": 7000.0,
+  "note": "psp fixed Oct 13 2026 audit — source states ₱7,000/sqm asking (₱6K negotiable)",
   "snippet": "Francis A Cerveza ~ ~ · ~ +2 ~ Francis A Cerveza ~ ~ · ~ Commercial lot for sale ~ Area 1200sqm ~ Frontage 22meters ~ With house ~ Price 7000 per square meter down to 6k per square meter negotiable pa.. ~ Clean title. ~ Location cabatuan Isabela ~ Pm lang Po sa mga sure buyer or tumawag sa 09550240429 See less ~ See translation ~ Comment as Rosana Lee ~"
  },
  {
@@ -1310,8 +1310,8 @@ window.RE_POSTS = [
   "loc": "Cabatuan",
   "area_sqm": 1391.0,
   "price_php": 1391.0,
-  "psp": 1,
-  "note": null,
+  "psp": null,
+  "note": "psp null — price field duplicated the area (parse artifact)",
   "snippet": "Eugene Pascual ~ ~ · ~ Lot for sale 1391 sqm located at cabatuan isabela pm for more info ~ See translation ~ 5 ~ 21 ~ 1 ~"
  },
  {
@@ -1380,8 +1380,8 @@ window.RE_POSTS = [
   "loc": "Gamu",
   "area_sqm": 5360.0,
   "price_php": 5000.0,
-  "psp": 1,
-  "note": null,
+  "psp": null,
+  "note": "psp null — price field held per-sqm-of-subdivided-titles basis, unusable",
   "snippet": "Rey Uy ~ ~ · ~ For Sale: ~ Commercial lot in Gamu Isabela ~ Near Junction ~ Frontage of 30.48meters ~ Total lot area of 5,360sqm ~ Subdivided into 7 titles with one owner ~ Price is based on 3,760sqm subdivided titles ~ Remaining 1,600sqm as road right of way ~ Priced at 5,000/sqm ~ 18.800M ~ Direct to Owner See less ~ 1 ~ 1 ~"
  },
  {
@@ -1460,8 +1460,8 @@ window.RE_POSTS = [
   "loc": "San Mateo",
   "area_sqm": 1400.0,
   "price_php": 1400.0,
-  "psp": 1,
-  "note": "titled",
+  "psp": null,
+  "note": "psp null — price field duplicated the area (parse artifact)",
   "snippet": "Cazey Dacayanan ~ ~ · ~ Farm lot sale 1400sqmt ~ 1mtr along d road ~ Maraming kahoy sa paligid ~ Water way side ~ Loc.barangay 1 San Mateo ~ Solo clean titled! ~ Good 4 goat raising ~ Good 4 farming ~ Good 4 free range chicken ~ A very nice fresh air ~ Price.1.6M See less ~ 5 ~ 4 ~"
  },
  {

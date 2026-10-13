@@ -13,7 +13,7 @@ Source files: data/lgu-data.js (Cauayan pack L2-280), data/utilities-cauayan.js,
 ## 2025 elections & Dy dynasty
 - R2I-08: Mayor 2025 winner Caesar Dy Jr with 44,437 votes (47.4%), runner-up "Dy Bill" (WPP) 29,684 (31.7%) (L~232). Verify full top-3 vs Rappler/Comelec.
 - R2I-09: Vice mayor identity: page says Dalin; Rappler row shows "DY, BENJIE III" — site itself flags conflict (officialNote). Establish official winner.
-- R2I-10: Benjamin "Bojie" Dy III = Speaker of the House since Sep 2025 (L~236). Verify against House records/news.
+- R2I-10: [PARAPHRASE ARTIFACT — brief said "Benjamin"; the site actually reads "Faustino \"Bojie\" Dy III"; dispute withdrawn Oct 13 remediation] Bojie Dy III = Speaker of the House since Sep 2025 (L~236). Verify against House records/news.
 - R2I-11: Inno Dy V was Cauayan congressman until 2025 (dynasty note).
 - R2I-12: Faustino Dy Sr: elected councilor 1959; governor 1971, "ruled Isabela for 18 years", switched LP→KBL (history). Verify governorship years (1971? 1986/1988-1998?) — the "1971 + 18 years" pairing looks suspect.
 - R2I-13: Ten Dys held elective posts simultaneously in 2022 (PNA claim).

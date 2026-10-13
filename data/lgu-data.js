@@ -7,7 +7,7 @@ window.LGU_DATA = {
     ],
     "founded": "1740 (town of Cagayan province) · Cityhood Mar 30, 2001 (RA 9017)",
     "etymology": "Ilocano \"cauayan\" = bamboo; the town was originally sited at Calanusian on the Cagayan River and moved after repeated floods.",
-    "smartCity": "First DOST-designated smart city in the Philippines (2025)",
+    "smartCity": "First DOST-designated smart city in the Philippines (Mar 25, 2015; DOST Smarter PH program)",
     "general": [
       [
         "Land area",
@@ -98,16 +98,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -115,7 +115,7 @@ window.LGU_DATA = {
       ],
       [
         "Minimum wage (R2)",
-        "₱500/day non-agri & agri (RTWPB 2-24 eff Nov 5 2025; sweldoph/PNA)"
+        "₱500/day non-agri & agri (Wage Order RTWPB 2-24: issued Oct 8, published Oct 20, eff Nov 5 2025 — +₱20 non-agri/+₱40 agri; NWPC/DOLE)"
       ],
       [
         "Universities",
@@ -234,8 +234,8 @@ window.LGU_DATA = {
         ],
         [
           "Vice Mayor",
-          "Leoncio Dalin Jr. (Lakas)",
-          "55,716 votes — longest-serving No. 2 in city history (VM 1988–1998 and 2013–present)"
+          "Benjamin \"Benjie\" Dy III (Lakas-CMD)",
+          "Won 2025 with 55,716 votes (78.6% of votes cast) vs Ramirez (WPP) 15,146 — corrected Oct 13, 2026 audit; prior Dalin row was a stale directory artifact"
         ],
         [
           "District Rep",
@@ -248,7 +248,7 @@ window.LGU_DATA = {
           "Uy-Balayan, A.K. Uy, Asirit IV, De Luna, Galutera, Mallillin, etc."
         ]
       ],
-      "officialNote": "Some LGU pages still show \"Mayor Bernard Faustino / Patrick Caramat\" — conflicting/older data. Wikipedia lists Caesar Dy Jr. + Dalin as current (post-2025 election). Rappler's Cauayan vice-mayor row shows \"DY, BENJIE III (LAKAS)\" — treat the VM identity as unverified; the LGU directory names Dalin.",
+      "officialNote": "Corrected Oct 13, 2026 primary-source audit (docs/dispute-brief-2026-10-13.md): 2025 returns (Rappler/COMELEC/ABS-CBN) elect Benjamin \"Benjie\" Dy III as Vice Mayor with 55,716 votes; the old Leoncio Dalin VM row was a stale LGU-directory artifact that contradicted Rappler's \"DY, BENJIE III (LAKAS)\" row. Mayor Caesar \"Jaycee\" Dy Jr. + VM Benjie Dy III are the verified 2025-25 set.",
       "dynasty": "Dy political dynasty dominant in Cauayan for decades — Dy family mayors since 1983 (Benjamin Dy, Bernard Faustino Dy, Caesar Dy). Reach is province-wide: ten Dys held elective posts simultaneously in 2022 (PNA); Bojie Dy III is House Speaker (since 2025), his son Inno Dy V was Cauayan's congressman until 2025, and Kiko Dy is vice governor.",
       "climate": "Stable dynasty-led NPC/Lakas coalition; business-friendly continuity; LEDIPO (investment promotions office) active; smart-city partnership culture (DOST / ISU / PLDT-Smart). Contests are almost always intra-family (Dy vs Dy), so policy direction changes little across elections.",
       "historyIntro": "From Spanish-era gobernadorcillos to a dynasty in its third generation holding City Hall — nearly every mayoral race is a Dy vs. Dy contest.",
@@ -397,7 +397,7 @@ window.LGU_DATA = {
         "url": "https://isabelainfo.blogspot.com/2018/05/history-of-cauayan-cauayan-was-original.html"
       },
       {
-        "title": "DOST — 3rd iSCENE expo; Cauayan first DOST smart city, free WiFi in 65 barangays (2025)",
+        "title": "DOST — Cauayan = first DOST smart city (designated Mar 25, 2015); 3rd iSCENE smart-city expo in Isabela 2025; free WiFi rollout across 65 barangays",
         "url": "https://www.dost.gov.ph/knowledge-resources/news/86-2025-news/4000-dost-to-hold-3rd-international-smart-city-expo-in-isabela.html"
       },
       {
@@ -405,7 +405,7 @@ window.LGU_DATA = {
         "url": "https://en.wikipedia.org/wiki/SM_City_Cauayan"
       },
       {
-        "title": "ABS-CBN Halalan 2025 — City of Cauayan official results (Dy 44,437; Dalin 55,716)",
+        "title": "ABS-CBN Halalan 2025 — City of Cauayan official results (mayor Dy 44,437; VM Benjie Dy 55,716)",
         "url": "https://halalanresults.abs-cbn.com/local/isabela/city-of-cauayan"
       },
       {
@@ -509,7 +509,7 @@ window.LGU_DATA = {
         "url": "https://sweldoph.com/calculators/minimum-wage"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K; +25.0% growth 2023→2025 (fastest nationally)",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -629,7 +629,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -769,16 +769,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -1088,7 +1088,7 @@ window.LGU_DATA = {
         "url": "https://sweldoph.com/calculators/minimum-wage"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K; +25.0% growth 2023→2025",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -1128,7 +1128,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -1248,16 +1248,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -1546,7 +1546,7 @@ window.LGU_DATA = {
         "url": "https://sweldoph.com/calculators/minimum-wage"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K; +25.0% growth 2023→2025",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -1578,7 +1578,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -1680,16 +1680,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -1871,7 +1871,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/tumauini"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -1895,7 +1895,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -1997,16 +1997,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -2188,7 +2188,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/echague"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -2212,7 +2212,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -2314,16 +2314,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -2486,7 +2486,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/roxas"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -2506,7 +2506,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -2604,16 +2604,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -2776,7 +2776,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/cordon"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -2800,7 +2800,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -2898,16 +2898,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -3069,7 +3069,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/cabagan"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -3093,7 +3093,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -3190,16 +3190,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -3365,7 +3365,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/san-mariano"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -3389,7 +3389,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -3487,16 +3487,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -3674,7 +3674,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/ramon"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -3694,7 +3694,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -3792,16 +3792,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -3969,7 +3969,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/alicia"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -3993,7 +3993,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -4090,16 +4090,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -4253,7 +4253,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/angadanan"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -4277,7 +4277,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -4374,16 +4374,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -4529,7 +4529,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/aurora"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -4549,7 +4549,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -4647,16 +4647,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -4811,7 +4811,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/san-mateo"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -4835,7 +4835,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -4932,16 +4932,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -5108,7 +5108,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/san-pablo"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -5128,7 +5128,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -5221,16 +5221,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -5380,7 +5380,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/san-manuel"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -5400,7 +5400,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -5494,16 +5494,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -5649,7 +5649,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/burgos"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -5669,7 +5669,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -5763,16 +5763,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -5922,7 +5922,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/mallig"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -5942,7 +5942,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -6035,16 +6035,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -6198,7 +6198,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/quezon"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -6218,7 +6218,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -6315,16 +6315,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -6466,7 +6466,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/quirino"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -6486,7 +6486,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -6583,16 +6583,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -6738,7 +6738,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/luna"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -6758,7 +6758,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -6855,16 +6855,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -7010,7 +7010,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/santa-maria"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -7030,7 +7030,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -7128,16 +7128,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -7287,7 +7287,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/santo-tomas"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -7307,7 +7307,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -7400,16 +7400,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -7555,7 +7555,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/delfin-albano"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -7575,7 +7575,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -7668,16 +7668,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -7828,7 +7828,7 @@ window.LGU_DATA = {
         "url": "https://ph.rappler.com/elections/2025/local-race/isabela/maconacon"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -7848,7 +7848,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -7938,16 +7938,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -8094,7 +8094,7 @@ window.LGU_DATA = {
         "url": "https://www.manilatimes.net/2026/06/11/regions/phivolcs-identifies-active-fault-lines-in-isabela-amid-rising-mindanao-quake-toll/2362958"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -8114,7 +8114,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -8203,16 +8203,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -8350,7 +8350,7 @@ window.LGU_DATA = {
         "url": "https://peoplaid.com/2025/05/09/dinapigue-election-2025-results-winners"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -8370,7 +8370,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -8460,16 +8460,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -8637,7 +8637,7 @@ window.LGU_DATA = {
         "url": "https://www.palanan.gov.ph/government/elected-officials/"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -8653,7 +8653,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -8746,16 +8746,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -8901,7 +8901,7 @@ window.LGU_DATA = {
         "url": "https://en.wikipedia.org/wiki/Isabela%27s_6th_congressional_district"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -8921,7 +8921,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -9015,16 +9015,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -9167,7 +9167,7 @@ window.LGU_DATA = {
         "url": "https://en.wikipedia.org/wiki/Isabela%27s_6th_congressional_district"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -9183,7 +9183,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -9276,16 +9276,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -9423,7 +9423,7 @@ window.LGU_DATA = {
         "url": "https://www.gmanetwork.com/news/eleksyon/2025/results/local/REGION+II/ISABELA/SAN+AGUSTIN"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -9439,7 +9439,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -9532,16 +9532,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -9688,7 +9688,7 @@ window.LGU_DATA = {
         "url": "https://en.wikipedia.org/wiki/Jones_Law_(Philippines)"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -9708,7 +9708,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -9801,16 +9801,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -9965,7 +9965,7 @@ window.LGU_DATA = {
         "url": "https://provinceofisabela.ph/images/2018/History_of_Isabela.pdf"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -9981,7 +9981,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -10075,16 +10075,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -10227,7 +10227,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/cabatuan"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -10243,7 +10243,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -10337,16 +10337,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -10497,7 +10497,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/gamu"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -10517,7 +10517,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -10611,16 +10611,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -10767,7 +10767,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/naguilian"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -10787,7 +10787,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
@@ -10880,16 +10880,16 @@ window.LGU_DATA = {
     ],
     "labor": [
       [
-        "Median PH salary (LFS)",
-        "₱13,000/mo — the true 'typical' wage; the ₱21,544 national average (PSA OWS 2024) is pulled up by high earners"
+        "Median PH salary (OWS)",
+        "₱14,588/mo median basic pay (PSA OWS 2022, latest published median — LFS does not publish monthly medians); the ₱21,544 average (PSA OWS 2024) is pulled up by high earners — corrected per Oct 13, 2026 audit"
       ],
       [
         "Salary ladder (PH, 2024-26)",
-        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱42.2K (SG 15) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
+        "Farm/laborer ₱10-15K · minimum wage ₱13K/mo (₱500/day x 26, eff Nov 5 2025) · BPO/CX entry ₱11-25K (Everise Cauayan floor ₱16K+) · Teacher I ₱30.0K · Nurse I ₱40.2K/mo (SG 15, SSL 2025 2nd tranche) · Engineer III ₱56-59K · provincial manager tier ₱80-110K"
       ],
       [
         "Family income ladder (R2)",
-        "Avg family ₱24.2K/mo (2023) → ₱32.4K/mo (2025, +25% — fastest-growing region) · poverty line ₱14.3-14.6K/mo · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
+        "Avg family ₱25.9K/mo (2023, PSA FIES ₱310,550/yr) → ₱32.4K/mo (2025, ₱388,220/yr +25% — fastest-growing region; pre-audit row mislabeled the 2021 ₱24.2K baseline as 2023) · poverty line ₱13.4K/mo R2-regional 2023 (₱15.3K 2025; ₱14.4K is Isabela-only) · PIDS classes: low <₱19K · middle ₱19-114K · high ₱114-190K · rich ₱190K+/mo"
       ],
       [
         "Class disparity reality",
@@ -11031,7 +11031,7 @@ window.LGU_DATA = {
         "url": "https://ren.ph/tools/zonal-value/isabela/benito-soliven"
       },
       {
-        "title": "PSA FIES 2023 — Region 2 avg family income ₱290.12K",
+        "title": "PSA FIES — Region 2 avg family income: ₱290.12K (2021) → ₱310.55K (2023) → ₱388.22K (2025, +25.0% fastest region)",
         "url": "https://psa.gov.ph/statistics/income-expenditure/fies/node/1684064928"
       },
       {
@@ -11051,7 +11051,7 @@ window.LGU_DATA = {
         "url": "https://psa.gov.ph/statistics/occupational-wages-survey"
       },
       {
-        "title": "PSA LFS via Playroll — national median monthly salary ≈ ₱13,000 (2024)",
+        "title": "Aggregator (Playroll) ≈₱13,000/mo salary estimate — NOT a PSA statistic; superseded by official PSA OWS median ₱14,588/mo (2022) — reframed Oct 13, 2026 audit",
         "url": "https://www.playroll.com/blog/philippines-average-salary"
       },
       {
