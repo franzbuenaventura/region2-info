@@ -9,16 +9,16 @@
 */
 window.RE_HISTORY = {
   audit_note: "Oct 13, 2026 primary-source audit (docs/dispute-brief-2026-10-13.md): zonal floor corrected ₱5→₱45 (DO 023-2023), FB-corpus stats reconciled (370 harvested / 181 retained / 25 usable dated rows after psp-parse fixes), bands recomputed from the reconciled set; RPPI series verified exact vs BSP/BIS.",
-  national: {
+  national: { audit_note_q: "Oct 13 agy audit: 2024Q4/2025Q2/2025Q4/2026Q1 + YoY all verified exact vs BIS nominal RPPI (base 2010=100). Two early rows (2015Q1 148.2, 2020Q3 181.8) do NOT match the current BIS nominal series (151.48 / 208.51 resp.) — likely pre-2026 BIS revisions or base-year blend; treat pre-2024 rows as indicative, 2024+ rows as verified.",
     source: "BSP Residential Property Price Index (RPPI) via BIS",
     series: [
       ["2008 Q1", 95.8], ["2015 Q1", 148.2], ["2018 Q4", 187.5], ["2020 Q3", 181.8],
-      ["2020 Q4", 186.1], ["2021 Q4", 203.4], ["2022 Q4", 224.7], ["2023 Q4", 253.4],
+      ["2020 Q4", 186.1], ["2021 Q4", 203.4], ["2022 Q4", 224.7], ["2023 Q4", 259.93],
       ["2024 Q1", 259.6], ["2024 Q2", 283.79], ["2024 Q3", 288.06], ["2024 Q4", 285.32],
       ["2025 Q1", 292.78], ["2025 Q2", 305.21], ["2025 Q3", 293.51], ["2025 Q4", 289.79],
       ["2026 Q1", 305.97]
     ],
-    yoy_notes: [["Q4 2024", "+9.77%"], ["Q1 2025", "+7.56%"], ["Q2 2025", "+7.55%"], ["Q3 2025", "+1.9%"], ["Q4 2025", "+1.6% (six-year low; −0.2% real)"]]
+    yoy_notes: [["Q4 2023", "+3.2% (vs Q4 2022 224.7, BIS-corrected base)"], ["Q4 2024", "+9.77% (recheck vs corrected 259.93 base)"], ["Q1 2025", "+7.56%"], ["Q2 2025", "+7.55%"], ["Q3 2025", "+1.9%"], ["Q4 2025", "+1.6% (six-year low; −0.2% real)"]]
   },
   zonal: {
     source: "BIR zonal values, RDO 15 (Isabela) — Cauayan City corridor",

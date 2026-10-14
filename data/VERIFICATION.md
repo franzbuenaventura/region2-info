@@ -53,3 +53,21 @@ Scope: all 37 LGU data packs in data/lgu-data.js, app.js renderer, live browser 
 8. Refs: FIES titles relabeled ×37; Playroll median ref reframed as non-PSA aggregator ×37.
 9. Withdrawn during remediation: the "Benjamin Bojie Dy" dispute — the site's officials row already read "Faustino Bojie Dy III"; the variant was an artifact of the audit brief's paraphrase, not a site error.
 10. Verification updates: this file's §3 salary/income line corrected; all four data files pass `node --check`.
+
+## 8. agy deep-research pass #2 — Oct 13, 2026 (per-section audit, 3 batches, 191 verdicts)
+**Scope:** Batch A = 12 THIN LGU packs (luna, san-agustin, quirino, burgos, divilacan, gamu, san-isidro, delfin-albano, san-manuel, quezon, dinapigue, mallig) — 96 verdicts. Batch B = real-estate/build-costs layers (RPPI, BIR zonal, FB corpus, PSA construction, QS benchmarks) — 26 verdicts. Batch C = all §4 open flags — resolved.
+**Scoreboard:** \~75% CONFIRM (PSA PSGC land areas, POPCEN 2024 populations, barangay counts, all 2025 mayor races & vote counts, BSP RPPI 2024–26, BIR zonal incl. the ₱45 floor fix, PSA construction-statistics centavo-exact, H&H/Arcadis Q1-2026 bands, San Mateo 67,433 both-census story, 8 of 9 VM identities).
+**Key corrections applied (see research/audit/agy_batchA_verdicts.md):**
+- **Luna is 5th district (Mike "Bojie" Dy III), not 1st** — RA 11080 apportionment; the site's old "1st district" note was a district-map error.
+- **Delfin Albano 2025 = allied unopposed PFP seat-swap** (Pua mayor / Co VM) — the site's "vice mayor unseated the mayor by 305 votes" narrative was wrong.
+- **San Isidro rep = Faustino "Bojie" Dy III (6th district, Speaker)** — the site's "Kiko Dy" line confused the brother (Kiko won Vice Governor).
+- **PSGC land areas corrected ×5**: Luna 44.94 · Quezon 207.07 · Dinapigue **1,031.93** (was 574.40 — the Wikipedia figure is a cadastral understatement) · Mallig 158.55 · Santo Tomas 80.58 (supersedes 60.70).
+- **Burgos seat elevation ~238 m** (not ~523 m).
+- **Dinapigue poverty updated 44.81% (2018) → 18.93% (CMPE 2021 SAE)** — worst-in-province tag is now historical.
+- **Naguilian VM conflict RESOLVED: Juan R. "Chu" Capuchino (Lakas-CMD, 13,616)**; Acosta ran for SB.
+- **Divilacan mayor framing**: Florita Bulan newly elected (succession), not re-elected.
+- **Households relabel ×37**: every households figure = 2020 CPH Table B (not 2024) — scope labels added.
+- **Quirino ₱462M outlier EXPLAINED**: RA 8240 tobacco excise shares via DBM (1st-class reclass) — no longer a "verify" flag.
+- **re-history.js RPPI**: 2023 Q4 corrected 253.4 → **259.93** (BIS nominal; the +9.77% Q4-2024 YoY only reconciles on this base); early rows 2015Q1/2020Q3 flagged as pre-revision indicative (audit note added).
+- **re-builds.js**: constructioncost.ph occurrences relabeled (**residential-scope calculator**, not commercial) ×7.
+**New open flags:** RA 11080-based district map should stay the citation of record for any future town additions; agri-band Cagayan-contamination still pending re-harvest; 23 of 25 usable FB rows are "2026*" harvest-inferred dates (only 2 post timestamps) — keep the asking-price caveat prominent.

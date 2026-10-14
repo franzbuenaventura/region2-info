@@ -19,7 +19,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "143,539 (PSA POPCEN) · 36,399 households · ~427/km²"
+        "143,539 (PSA POPCEN) · 36,399 households · ~427/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -698,7 +698,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "164,020 (PSA POPCEN) · 39,663 households · ~140.6/km² — most populous city of Isabela"
+        "164,020 (PSA POPCEN) · 39,663 households · ~140.6/km² — most populous city of Isabela (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -1177,7 +1177,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "150,313 (PSA POPCEN) · 36,334 households · ~588/km² — densest LGU in Isabela"
+        "150,313 (PSA POPCEN) · 36,334 households · ~588/km² — densest LGU in Isabela (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -1625,7 +1625,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "77,153 (PSA POPCEN) · 16,825 households · ~165/km²"
+        "77,153 (PSA POPCEN) · 16,825 households · ~165/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -1942,7 +1942,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "91,320 (PSA POPCEN) · 23,536 households · ~134/km²"
+        "91,320 (PSA POPCEN) · 23,536 households · ~134/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -2259,7 +2259,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "66,593 (PSA POPCEN) · 16,094 households · ~360/km²"
+        "66,593 (PSA POPCEN) · 16,094 households · ~360/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -2553,7 +2553,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "46,688 (PSA POPCEN) · 11,578 households · ~324/km²"
+        "46,688 (PSA POPCEN) · 11,578 households · ~324/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -2847,7 +2847,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "55,445 (PSA POPCEN) · 11,843 households · ~129/km²"
+        "55,445 (PSA POPCEN) · 11,843 households · ~129/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -3139,7 +3139,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "61,876 (PSA POPCEN) · 14,448 households · ~42/km² — vast and thinly settled"
+        "61,876 (PSA POPCEN) · 14,448 households · ~42/km² — vast and thinly settled (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -3436,7 +3436,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "57,412 (PSA POPCEN) · 14,823 households · ~425/km²"
+        "57,412 (PSA POPCEN) · 14,823 households · ~425/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -3741,7 +3741,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "74,699 (PSA POPCEN) · 19,564 households · ~485/km²"
+        "74,699 (PSA POPCEN) · 19,564 households · ~485/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -4039,7 +4039,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "45,970 (PSA POPCEN) · 11,130 households · ~225/km²"
+        "45,970 (PSA POPCEN) · 11,130 households · ~225/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -4323,7 +4323,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "37,191 (PSA POPCEN) · 9,471 households · ~322/km²"
+        "37,191 (PSA POPCEN) · 9,471 households · ~322/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -4596,7 +4596,7 @@ window.LGU_DATA = {
       ],
       [
         "Population",
-        "66,663 (2020 census — the 2024 POPCEN row was not yet on the Wikipedia infobox; PhilAtlas/Rappler still cite 66,663; a 67,433 figure appears on aggregators citing PSA 2024 — verify before publishing)"
+        "67,433 (PSA 2024 POPCEN-CBMS, latest official) · 2020 CPH baseline 66,663 · households (2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -4881,7 +4881,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "26,462 (PSA POPCEN) · 5,867 households · ~41/km²"
+        "26,462 (PSA POPCEN) · 5,867 households · ~41/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -5174,7 +5174,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "34,740 (PSA POPCEN) · 8,714 households · ~308/km²"
+        "34,740 (PSA POPCEN) · 8,714 households · ~308/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -5447,11 +5447,11 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "26,729 (PSA POPCEN) · 6,410 households · ~366/km²"
+        "26,729 (PSA POPCEN) · 6,410 households · ~366/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
-        "122–915 m (seat ~523 m — the highest municipal seat in Isabela)"
+        "122–915 m (seat ~238 m)"
       ],
       [
         "Languages",
@@ -5708,7 +5708,7 @@ window.LGU_DATA = {
     "general": [
       [
         "Land area",
-        "133.40 km²"
+        "158.55 km² (PSGC/LMB masterlist; provincial-cited 133.40 km²)"
       ],
       [
         "Barangays",
@@ -5716,7 +5716,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "32,509 (PSA POPCEN) · 7,814 households · ~244/km²"
+        "32,509 (PSA POPCEN) · 7,814 households · ~244/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -5840,12 +5840,12 @@ window.LGU_DATA = {
         [
           "Mayor",
           "Jose Philip \"JP\" F. Calderon (PFP)",
-          "11,088 votes vs Andong Baniqued (Aksyon) 5,991 — elected 2025 (succeeding Jose Philip Calderon per the pre-2025 infobox; verify continuity)"
+          "11,088 votes (54.5%) vs Andong Baniqued (Aksyon) 5,991 — incumbent re-elected 2025"
         ],
         [
           "Vice Mayor",
           "Deo Angelo Elefante (Lakas)",
-          "10,177 votes"
+          "10,177 votes (50.0%) vs Carlos Balagan (Aksyon) 6,227"
         ],
         [
           "District Rep",
@@ -5858,7 +5858,7 @@ window.LGU_DATA = {
           "PFP-led 2025 batch"
         ]
       ],
-      "officialNote": "2025 winners verified via PeoPlaid. The Calderon name carries from Roxas's mayoral family — verify the relationship before asserting dynasty.",
+      "officialNote": "Oct 13 audit (Rappler/COMELEC): JP Calderon was the incumbent, re-elected — not a new successor.",
       "dynasty": "Calderon linkage to Roxas's machine (PFP); Baniqued's Aksyon is the local opposition.",
       "climate": "Contested but PFP-led; plains farm governance.",
       "historyIntro": "A 1621 refugee refuge turned 1939 Quezon resettlement colony turned 1952 corn-belt town.",
@@ -5980,7 +5980,7 @@ window.LGU_DATA = {
     "general": [
       [
         "Land area",
-        "189.90 km²"
+        "207.07 km² (PSGC/LMB masterlist; Wikipedia cadastral 189.90 km²) · 2024 density ~137/km²"
       ],
       [
         "Barangays",
@@ -5988,7 +5988,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "28,376 (PSA POPCEN) · 6,618 households · ~149/km²"
+        "28,376 (PSA POPCEN) · 6,618 households · ~149/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -6264,7 +6264,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "25,205 (PSA POPCEN) · 6,632 households · ~200/km²"
+        "25,205 (PSA POPCEN) · 6,632 households · ~200/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -6284,7 +6284,7 @@ window.LGU_DATA = {
       ],
       [
         "Income class",
-        "4th municipal income class · Wikipedia infobox revenue ₱462M (2024) — an outlier vs 4th-class peers (₱150–260M); verify against COA before citing · assets ₱2,161M · poverty incidence 12.97% (2021)"
+        "4th municipal income class · Wikipedia infobox revenue ₱462M (2024) — an outlier vs 4th-class peers (₱150–260M); Oct 13 agy audit: confirmed as reported total revenue per COA/BLGF — outlier EXPLAINED by RA 8240 burley/native tobacco excise-tax shares via DBM (elevated Quirino to 1st-class municipality under RA 11964); non-tobacco peers run ₱120–160M · assets ₱2,161M · poverty incidence 12.97% (2021)"
       ]
     ],
     "market": [
@@ -6524,7 +6524,7 @@ window.LGU_DATA = {
     "general": [
       [
         "Land area",
-        "~45.7 km² (population ÷ density 459.8/km² — verify against PSGC; one of Isabela's smallest)"
+        "44.94 km² (PSGC/LMB cadastral 2024; LGU-cited 45.70 km²) · one of the smallest in Isabela"
       ],
       [
         "Barangays",
@@ -6532,7 +6532,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "21,015 (PSA POPCEN) · 5,253 households · ~460/km²"
+        "21,015 (PSA POPCEN) · 5,253 households · ~460/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -6660,17 +6660,17 @@ window.LGU_DATA = {
         [
           "Mayor",
           "Adrian Leandro P. Tio (PFP)",
-          "9,487 votes vs Chuchi Mendoza (KBL) 2,770 — re-elected 2025"
+          "9,487 votes (63.8%) vs Chuchi Mendoza (KBL) 2,770 — re-elected 2025"
         ],
         [
           "Vice Mayor",
-          "Lelamen R. Soingco (PFP)",
-          "8,933 votes"
+          "Lelamen \"Lela\" R. Soingco (PFP)",
+          "8,933 votes (60.1%), unopposed"
         ],
         [
           "District Rep",
-          "1st district (infobox lists Dy III — verify)",
-          "Luna sits in the 1st district; the infobox's rep line needs cross-checking against COMELEC"
+          "Faustino Michael Carlos \"Mike\" T. Dy III (Lakas-CMD)",
+          "5th district since RA 11080 (2019) — 9,456 Luna votes; NOT the 1st district"
         ],
         [
           "Council",
@@ -6678,7 +6678,7 @@ window.LGU_DATA = {
           "PFP-led 2025"
         ]
       ],
-      "officialNote": "2025 winners verified via PeoPlaid. The infobox's representative line (Dy III) conflicts with 1st-district expectations (Albano) — verify mapping before citing.",
+      "officialNote": "2025 winners verified via Rappler/COMELEC May 15 2025 + Oct 13 agy audit. District mapping per RA 11080 (official gazette): Luna = 5th district (Dy III), not 1st.",
       "dynasty": "Tio-Soingco PFP tandem; no dominant dynasty.",
       "climate": "Quiet small-town politics.",
       "historyIntro": "From Antatet to Luna — a 1951 renaming for the general.",
@@ -6804,7 +6804,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "25,919 (PSA POPCEN) · 5,485 households · ~185/km²"
+        "25,919 (PSA POPCEN) · 5,485 households · ~185/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -7069,7 +7069,7 @@ window.LGU_DATA = {
     "general": [
       [
         "Land area",
-        "≈60.7 km² (population ÷ density 428.3/km² — verify against PSGC)"
+        "80.58 km² (PSGC/LMB cadastral 2024; supersedes the historical 60.70 km²)"
       ],
       [
         "Barangays",
@@ -7077,7 +7077,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "25,997 (PSA POPCEN) · 5,578 households · ~428/km²"
+        "25,997 (PSA POPCEN) · 5,578 households · ~428/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -7345,7 +7345,7 @@ window.LGU_DATA = {
     "general": [
       [
         "Land area",
-        "189.00 km²"
+        "189.00 km² (PSGC/LMB) · ~163/km²"
       ],
       [
         "Barangays",
@@ -7353,7 +7353,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "30,860 (PSA POPCEN) · 7,829 households · ~163/km²"
+        "30,860 (PSA POPCEN) · 7,829 households · ~163/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -7477,25 +7477,25 @@ window.LGU_DATA = {
         [
           "Mayor",
           "Thomas A. Pua Jr. (PFP)",
-          "12,858 votes vs incumbent Arnold Edward Co (PFP) 12,553 — the vice mayor unseated the mayor by 305 votes"
+          "12,858 votes (69.0%) — unopposed"
         ],
         [
           "Vice Mayor",
-          "verify (2025 runner-up slate)",
-          "PeoPlaid's council listing shows Yssel Agas (IND) 10,290 — VM result cross-check pending"
+          "Arnold Edward Co (PFP)",
+          "12,553 votes (67.3%) — unopposed; former mayor ran for VM (allied PFP seat swap)"
         ],
         [
           "District Rep",
-          "Antonio \"Tonypet\" Albano (Lakas)",
-          "1st district — the Albano namesake's dynasty seat"
+          "Antonio \"Tonypet\" T. Albano (Lakas-CMD)",
+          "1st district — 11,902 Delfin Albano votes"
         ],
         [
           "Council",
           "Sangguniang Bayan (8 elected)",
-          "PFP/IND mix 2025"
+          "PFP/IND mix 2025 (Agas IND 10,290 = top councilor, NOT VM)"
         ]
       ],
-      "officialNote": "2025 mayoral result verified via PeoPlaid. The VM winner needs cross-checking; the town was renamed for the Albano dynasty patriarch's congressional line.",
+      "officialNote": "Oct 13 audit (Rappler/COMELEC): the earlier draft framed a 305-vote mayoral upset; Pua (mayor) and Co (vice mayor) ran as allied PFP seat-swap mates, both unopposed.",
       "dynasty": "The town is literally named for the Albano clan (Delfin Albano), yet its executive turnover happens between Pua and Co (PFP) — the dynasty's reach is congressional, not municipal, here.",
       "climate": "Intra-party contestation (PFP vs PFP); machine politics with real knives-out.",
       "historyIntro": "Magsaysay (1957) became Delfin Albano (1983) — and in 2025 its vice mayor took the mayor's chair from his own party-mate.",
@@ -7621,7 +7621,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "4,252 (PSA POPCEN) · 967 households · ~8/km² — the smallest town of Isabela"
+        "4,252 (PSA POPCEN) · 967 households · ~8/km² — the smallest town of Isabela (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -7895,7 +7895,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "5,871 (PSA POPCEN) · 1,449 households · ~6.6/km²"
+        "5,871 (PSA POPCEN) · 1,449 households · ~6.6/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -8016,7 +8016,7 @@ window.LGU_DATA = {
         [
           "Mayor",
           "Florita Bulan (PFP)",
-          "2,399 votes vs Oli Juanatas (Aksyon) 731 — re-elected 2025 (pre-2025 infobox lists Venturito C. Bulan)"
+          "2,399 votes (59.7%) vs Oli Juanatas (Aksyon) 731 — newly elected 2025, succeeding outgoing mayor Venturito C. Bulan (family succession)"
         ],
         [
           "Vice Mayor",
@@ -8152,7 +8152,7 @@ window.LGU_DATA = {
     "general": [
       [
         "Land area",
-        "574.40 km²"
+        "1,031.93 km² (PSGC/LMB masterlist; LGU-cited 574.40 km²) — among Isabela's largest by area"
       ],
       [
         "Barangays",
@@ -8160,7 +8160,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "6,116 (PSA POPCEN) · 1,405 households · ~10.7/km²"
+        "6,116 (PSA POPCEN) · 1,405 households · ~10.7/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -8176,7 +8176,7 @@ window.LGU_DATA = {
       ],
       [
         "Income class",
-        "1st municipal income class · revenue ₱292.2M (2024) · assets ₱899.6M · poverty incidence 44.81% (2018 — the highest recorded in Isabela; dated figure, re-verify)"
+        "1st municipal income class · revenue ₱292.2M (2024) · assets ₱899.6M · poverty 18.93% (PSA CMPE 2021 SAE, CI 10.7–27.2) — an extreme recovery from 44.81% (2018 SAE, then the province's worst); 2023 CMPE tier ≤20% confirms the decline"
       ]
     ],
     "market": [
@@ -8244,7 +8244,7 @@ window.LGU_DATA = {
       ],
       [
         "Poverty incidence",
-        "44.81% (2018) — the worst figure recorded in the province; 2018-dated, re-check PSA 2023 release"
+        "18.93% (CMPE 2021) vs 44.81% (2018) — worst-in-province tag is now historical; latest SAE collapses the gap"
       ]
     ],
     "catchment": [
@@ -8260,7 +8260,7 @@ window.LGU_DATA = {
     "points": {
       "cards": [
         "Only 6 barangays for 574 km² of Sierra Madre rainforest and Pacific coast",
-        "Highest recorded poverty incidence in Isabela (44.81%, 2018) — the province's hardest development frontier",
+        "Poverty fell from 44.81% (2018, then province's worst) to 18.93% (PSA CMPE 2021) — the frontier is now growth, not survival",
         "Nickel-mining exploration proposals in the watershed have drawn Church/environmentalist opposition",
         "Founded 1968 from San Mariano (RA 5776-related legislation)"
       ],
@@ -8280,25 +8280,20 @@ window.LGU_DATA = {
         [
           "Mayor",
           "Vicente Mendoza (PFP)",
-          "2,705 votes vs Reynaldo Derije (Aksyon) 1,840 — re-elected 2025"
+          "2,705 votes (47.0%) vs Reynaldo Derije (Aksyon) 1,840 — re-elected 2025"
         ],
         [
           "Vice Mayor",
           "Rea Sylvia Candido (Lakas)",
-          "2,739 votes — a split-ticket executive in a 6-barangay town"
+          "2,739 votes (47.6%) vs Joel Araña (Aksyon) 1,755 — split-ticket executive"
         ],
         [
           "District Rep",
-          "Joseph S. Tan (4th district per infobox)",
-          "verify — Dinapigue's district assignment (2nd vs 4th) has shifted with reapportionment"
-        ],
-        [
-          "Council",
-          "Sangguniang Bayan (8 elected)",
-          "PFP/Lakas/IND mix 2025"
+          "Joseph S. \"Bespren\" Tan (Lakas-CMD)",
+          "4th district per RA 11080 — unambiguous since 2018; 3,135 Dinapigue votes"
         ]
       ],
-      "officialNote": "2025 winners verified via PeoPlaid. District assignment needs COMELEC verification (infobox says 4th; neighboring coastal towns sit in the 2nd/1st).",
+      "officialNote": "Oct 13 audit: district assignment (4th, Tan) is fixed since RA 11080 — no shifting to the 2nd.",
       "dynasty": "Mendoza continuity (PFP); small-town family rotation.",
       "climate": "Tiny-town politics; fishing/mining-governance tensions.",
       "historyIntro": "A San Mariano barrio turned 1968 frontier coastal municipality.",
@@ -8334,7 +8329,7 @@ window.LGU_DATA = {
     },
     "references": [
       {
-        "title": "Dinapigue — Wikipedia (2024 census, RA 5776/1968, 44.81% poverty 2018, San Mariano mother town)",
+        "title": "Dinapigue — Wikipedia (2024 census, RA 5776/1968, poverty 44.81% (2018) → 18.93% (CMPE 2021), San Mariano mother town)",
         "url": "https://en.wikipedia.org/wiki/Dinapigue"
       },
       {
@@ -8417,7 +8412,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "18,091 (PSA POPCEN) · 4,537 households · ~20.6/km²"
+        "18,091 (PSA POPCEN) · 4,537 households · ~20.6/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -8699,7 +8694,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "21,043 (PSA POPCEN) · 4,989 households · ~64.7/km²"
+        "21,043 (PSA POPCEN) · 4,989 households · ~64.7/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -8968,7 +8963,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "27,326 (PSA POPCEN) · 6,774 households · ~380/km²"
+        "27,326 (PSA POPCEN) · 6,774 households · ~380/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -9097,12 +9092,12 @@ window.LGU_DATA = {
         [
           "Vice Mayor",
           "Artemio Tumamao Jr. (IND) — verify",
-          "PeoPlaid shows Tumamao Jr. (IND) 7,190 and Tumamao Nardo (PFP) 6,399; the pre-2025 infobox lists Leonardo A. Tumamao — a Tumamao-family contest for VM"
+          "7,190 votes (42.9%) vs Leonardo \"Nardo\" Tumamao (PFP) 6,399 — Tumamao-vs-Tumamao contest"
         ],
         [
           "District Rep",
-          "Faustino \"Kiko\" Dy (6th district)",
-          "San Isidro sits in the Speaker's orbit district"
+          "Faustino \"Bojie\" Dy III (PFP, House Speaker)",
+          "6th district (since 2025, succeeding Inno Dy V) — 10,774 San Isidro votes; \"Kiko\" Dy won Vice Governor, not this seat"
         ],
         [
           "Council",
@@ -9110,7 +9105,7 @@ window.LGU_DATA = {
           "PFP/IND mix 2025"
         ]
       ],
-      "officialNote": "2025 winners verified via PeoPlaid. The VM race shows two Tumamaos (IND vs PFP) — verify the proclaimed winner.",
+      "officialNote": "2025 winners verified via Rappler/COMELEC + Oct 13 agy audit: VM = Artemio Tumamao Jr. (IND); 6th-district rep = Bojie Dy III.",
       "dynasty": "Bravo machine (PFP) vs the Tumamao family's VM contest — town-scale family politics.",
       "climate": "Contested but PFP-led; corridor-commuter governance.",
       "historyIntro": "Yogad farmland turned 1967 municipality inside the Cauayan orbit.",
@@ -9229,7 +9224,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "22,228 (PSA POPCEN) · 5,544 households · ~80/km²"
+        "22,228 (PSA POPCEN) · 5,544 households · ~80/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -9485,7 +9480,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "46,160 (PSA POPCEN) · 11,804 households · ~69/km²"
+        "46,160 (PSA POPCEN) · 11,804 households · ~69/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -9754,7 +9749,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "28,222 (PSA POPCEN) · 7,470 households · ~494/km² — the densest municipality of Isabela"
+        "28,222 (PSA POPCEN) · 7,470 households · ~494/km² — the densest municipality of Isabela (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -10028,7 +10023,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "40,223 (PSA POPCEN) · 9,843 households · ~559/km²"
+        "40,223 (PSA POPCEN) · 9,843 households · ~559/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -10290,7 +10285,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "30,850 (PSA POPCEN) · 7,501 households · ~238/km²"
+        "30,850 (PSA POPCEN) · 7,501 households · ~238/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -10564,7 +10559,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "34,520 (PSA POPCEN) · 8,363 households · ~203/km²"
+        "34,520 (PSA POPCEN) · 8,363 households · ~203/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
@@ -10692,8 +10687,8 @@ window.LGU_DATA = {
         ],
         [
           "Vice Mayor",
-          "Isidro \"Chu\" D. Acosta Jr. (Lakas)",
-          "13,616 votes — note: PeoPlaid lists 'CAPUCHINO, CHU' as a winning VM candidate; the infobox's VM (Acosta) may be the pre-2025 term — verify which name holds the proclamation"
+          "Juan R. \"Chu\" Capuchino (Lakas-CMD)",
+          "13,616 votes (63.7%) — Oct 13 audit resolved the conflict: Acosta Jr. ran for SB, not VM"
         ],
         [
           "District Rep",
@@ -10706,7 +10701,7 @@ window.LGU_DATA = {
           "Lakas/IND mix 2025 (Capuchino Deong, Ramirez…)"
         ]
       ],
-      "officialNote": "2025 mayoral winner verified via PeoPlaid. The VM line conflicts (PeoPlaid 'Capuchino Chu' vs infobox 'Acosta Jr.') — resolve against the COMELEC COC before formal use.",
+      "officialNote": "Oct 13 audit (Rappler/COMELEC): VM = Chu Capuchino (13,616); Egay Capuchino is Mayor (11,441); Isidro Acosta Jr. ran for SB member.",
       "dynasty": "The Capuchino family fielded three winners in 2025 (mayor + VM candidate + councilor) — town-scale dynasty.",
       "climate": "Machine politics in a BIR-anchored farm town.",
       "historyIntro": "A royal-decree town of 1896 — born of Gamu, now the province's tax-office namesake.",
@@ -10833,7 +10828,7 @@ window.LGU_DATA = {
       ],
       [
         "Population (2024)",
-        "30,682 (PSA POPCEN) · 7,373 households · ~166/km²"
+        "30,682 (PSA POPCEN) · 7,373 households · ~166/km² (households = 2020 CPH Table B)"
       ],
       [
         "Elevation",
