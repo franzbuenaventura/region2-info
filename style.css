@@ -558,13 +558,29 @@ tr:hover .upill { transform: scale(1.05); }
 .reprices-table td { font-size: 0.86rem; vertical-align: top; }
 .reprices-table .num { font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
 .reprices-table .strong b, .reprices-table .strong { font-weight: 600; color: #4ade80; }
-.reprices-table .loc-cell { max-width: 11rem; }
-.reprices-table .snippet-cell { max-width: 24rem; color: var(--text-dim); font-size: 0.8rem; }
+.reprices-table { width: 100%; table-layout: auto; }
+.reprices-table .loc-cell { max-width: 12rem; }
+.reprices-table .notes-cell { overflow-wrap: anywhere; }
+.reprices-table .snippet-cell { color: var(--text-dim); font-size: 0.8rem; }
 .reprices-table .cy { white-space: nowrap; color: var(--text-dim); font-weight: 600; }
 .reprices-table .cy.approx { color: var(--city); }
 .reprices-table .pblink { margin-left: 0.3rem; color: var(--municipality); text-decoration: none; }
 .reprices-page .note { margin-top: 0.8rem; font-size: 0.78rem; }
-.reprices-page .meta { max-width: 70rem; }
+.reprices-page .meta { max-width: 100rem; }
+/* RE Prices page runs wider so all 9 columns are visible without scrolling (Justin 2026-10-17) */
+.reprices-page { width: min(1920px, 98vw); }
+.reprices-page .rfilters { flex-wrap: wrap; }
+.reprices-table { table-layout: fixed; }
+.reprices-table th:nth-child(1) { width: 6%; }   /* Year */
+.reprices-table th:nth-child(2) { width: 11%; }  /* Type pill */
+.reprices-table th:nth-child(3) { width: 11%; }  /* Location */
+.reprices-table th:nth-child(4) { width: 8%; }   /* Lot size */
+.reprices-table th:nth-child(5) { width: 9%; }   /* Price */
+.reprices-table th:nth-child(6) { width: 9%; }   /* PHP/sqm */
+.reprices-table th:nth-child(7) { width: 13%; }  /* Notes */
+.reprices-table th:nth-child(8) { width: 26%; }  /* Snippet */
+.reprices-table th:nth-child(9) { width: 7%; }   /* Link */
+.reprices-table td { overflow-wrap: anywhere; }
 
 /* Filter bar (DesignSpells: inline controls, eased, not a form-y block) */
 .rfilters {
