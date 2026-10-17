@@ -696,8 +696,14 @@
       app.innerHTML = `<div class="city-page"><h2>Real Estate Prices</h2><div class="placeholder">Post data not loaded.</div><a class="back-link" href="#/">← Back to map</a></div>`;
       return;
     }
-    // sort: dated rows first (newest years top), then undated, then by ₱/sqm desc
+    // sort: Posted desc (actual post date when known) -> year bucket -> ₱/sqm desc.
+    // Rows without postedMs (Sept-30 legacy parse) fall back to yearVal buckets, newest first.
     const yearVal = (y) => /^\d{4}/.test(y) ? +y.slice(0, 4) : 2027; // 2026* → 2027 = newest bucket for unfiltered recents
+    const rows = P.slice().sort((a, b) => {
+      const ap = a.postedMs || -1, bp = b.postedMs || -1; // missing (legacy Sept-30 parse) sinks below dated rows
+      if (ap !== bp) return bp - ap;
+      return (yearVal(b.year) - yearVal(a.year)) || ((b.psp || 0) - (a.psp || 0));
+    });
     const normLoc = (s) => {
       if (!s) return "";
       let t = s.trim();
@@ -706,8 +712,6 @@
       t = t.replace(/^\s*[Bb](?:rgy|arangay)\.?\s*/, "Brgy. ");
       return t;
     };
-    const rows = P.slice().sort((a, b) =>
-      (yearVal(b.year) - yearVal(a.year)) || ((b.psp || 0) - (a.psp || 0)));
     const dated = P.filter((r) => /^\d{4}$/.test(r.year));
     const computable = P.filter((r) => r.psp);
     const yearCounts = {};
@@ -730,7 +734,7 @@
     app.innerHTML = `
       <div class="compare-page reprices-page">
         <h2>Real Estate Prices — Isabela lot &amp; house posts</h2>
-        <p class="meta">${P.length} posts parsed from Facebook lot-sale groups (owner-direct asks; Isabela-wide, harvest Sept 30 2026). ${dated.length} year-tagged (${esc(yrSummary)}) · ${computable.length} with ₱/sqm · ${med ? `land-type median <b>${fmtP(med)}/sqm</b>` : "—"}. Asking prices — not transacted deals. ${P.filter(r=>r.psp && r.psp>50000).length} rows include house+unit value (see type column).</p>
+        <p class="meta">${P.length} posts parsed from Facebook lot-sale groups (owner-direct asks; Isabela-wide; harvests Sept 30 – Oct 16, 2026). ${dated.length} year-tagged (${esc(yrSummary)}) · ${computable.length} with ₱/sqm · ${med ? `land-type median <b>${fmtP(med)}/sqm</b>` : "—"}. Asking prices — not transacted deals. ${P.filter(r=>r.psp && r.psp>50000).length} rows include house+unit value (see type column).</p>
         <div class="rfilters">
           <label>Filter by location
             <select id="rf-loc" aria-label="Filter posts by location">
@@ -762,12 +766,13 @@
         <div class="table-wrap">
           <table class="compare-table reprices-table" id="reprices-table">
             <thead><tr>
-              <th>Year</th><th>Type</th><th>Location</th><th>Lot size</th>
+              <th>Posted</th><th>Year</th><th>Type</th><th>Location</th><th>Lot size</th>
               <th>Price</th><th>₱/sqm</th><th>Notes</th><th>Snippet</th><th>Link</th>
             </tr></thead>
             <tbody>
               ${rows.map((r, i) => `
-                <tr data-i="${i}" data-loc="${esc(normLoc(r.loc))}" data-type="${esc(r.type)}" data-year="${esc(r.year)}">
+                <tr data-i="${i}" data-loc="${esc(normLoc(r.loc))}" data-type="${esc(r.type)}" data-year="${esc(r.year)}" data-posted="${r.postedMs || 0}">
+                  <td class="pd-cell">${r.postedLabel ? `<span title="${esc(r.postedApprox || "harvest-anchored, approximate")}">${esc(r.postedLabel)}</span>` : '<span class="dim">—</span>'}</td>
                   <td class="cy ${r.year.includes("*") ? "approx" : ""}">${esc(r.year)}</td>
                   <td>${typePill(r.type)}</td>
                   <td class="loc-cell">${r.loc ? esc(normLoc(r.loc)) : '<span class="dim">—</span>'}</td>
@@ -781,7 +786,7 @@
             </tbody>
           </table>
         </div>
-        <p class="dim note">*2026* = harvested from "most recent" unfiltered feed (Sept 30, 2026) — exact post date not yet confirmed; re-dating pass pending. Price parse: ₱K/₱M suffixes expanded; snippet kept verbatim for verification. Link: <code>open post ↔</code> goes to the original Facebook post — available on ~14 rows so far (FB lazy-loads per-story anchors; more get harvested as the account ages). Raw corpus: <code>data/re-history/fb-lot-posts-raw.json</code>.</p>
+        <p class="dim note">*2026* = harvested from "most recent" unfiltered feed (Sept 30, 2026) — exact post date not yet confirmed; re-dating pass pending. <b>Posted</b> = actual post date, recovered from the harvest's relative age marker and anchored to harvest time (approximate; hover for detail) — rows without it predate Oct 16 and sink below dated rows in the default sort. Price parse: ₱K/₱M suffixes expanded; snippet kept verbatim for verification. Link: <code>open post ↔</code> goes to the original Facebook post — available on ~14 rows so far (FB lazy-loads per-story anchors; more get harvested as the account ages). Raw corpus: <code>data/re-history/fb-lot-posts-raw.json</code>.</p>
         <a class="back-link" href="#/">← Back to map</a>
       </div>`;
     // wire filters (client-side row filter, no re-render)
@@ -805,6 +810,21 @@
     fYear.addEventListener("change", apply);
     document.getElementById("rf-clear").addEventListener("click", () => {
       fLoc.value = ""; fType.value = ""; fYear.value = ""; apply();
+    });
+    // Posted header click: toggle newest/oldest among dated rows (legacy undated rows always sink last)
+    const thPosted = tbl.querySelector("thead th:nth-child(1)");
+    let postedDesc = true;
+    thPosted.style.cursor = "pointer";
+    thPosted.addEventListener("click", () => {
+      postedDesc = !postedDesc; // flip FIRST: click 1 = oldest-first, click 2 = newest-first
+      const tb = tbl.querySelector("tbody");
+      const trs = Array.from(tb.querySelectorAll("tr"));
+      trs.sort((a, b) => {
+        const av = +a.dataset.posted || 0, bv = +b.dataset.posted || 0;
+        if (!av !== !bv) return av ? -1 : 1; // dated rows first in both directions
+        return postedDesc ? bv - av : av - bv;
+      });
+      trs.forEach((tr) => tb.appendChild(tr));
     });
   }
 

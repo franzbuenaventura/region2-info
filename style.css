@@ -571,16 +571,18 @@ tr:hover .upill { transform: scale(1.05); }
 .reprices-page { width: min(1920px, 98vw); }
 .reprices-page .rfilters { flex-wrap: wrap; }
 .reprices-table { table-layout: fixed; }
-.reprices-table th:nth-child(1) { width: 6%; }   /* Year */
-.reprices-table th:nth-child(2) { width: 11%; }  /* Type pill */
-.reprices-table th:nth-child(3) { width: 11%; }  /* Location */
-.reprices-table th:nth-child(4) { width: 8%; }   /* Lot size */
-.reprices-table th:nth-child(5) { width: 9%; }   /* Price */
-.reprices-table th:nth-child(6) { width: 9%; }   /* PHP/sqm */
-.reprices-table th:nth-child(7) { width: 13%; }  /* Notes */
-.reprices-table th:nth-child(8) { width: 26%; }  /* Snippet */
-.reprices-table th:nth-child(9) { width: 7%; }   /* Link */
+.reprices-table th:nth-child(1) { width: 9%; }   /* Posted (actual post date) */
+.reprices-table th:nth-child(2) { width: 5%; }   /* Year */
+.reprices-table th:nth-child(3) { width: 10%; }  /* Type pill */
+.reprices-table th:nth-child(4) { width: 10%; }  /* Location */
+.reprices-table th:nth-child(5) { width: 7%; }   /* Lot size */
+.reprices-table th:nth-child(6) { width: 9%; }   /* Price */
+.reprices-table th:nth-child(7) { width: 9%; }   /* PHP/sqm */
+.reprices-table th:nth-child(8) { width: 12%; }  /* Notes */
+.reprices-table th:nth-child(9) { width: 22%; }  /* Snippet */
+.reprices-table th:nth-child(10) { width: 7%; }  /* Link */
 .reprices-table td { overflow-wrap: anywhere; }
+.reprices-table .pd-cell { white-space: nowrap; color: var(--text-dim); font-weight: 600; font-variant-numeric: tabular-nums; }
 
 /* Filter bar (DesignSpells: inline controls, eased, not a form-y block) */
 .rfilters {
