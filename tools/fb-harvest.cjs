@@ -66,7 +66,7 @@ async function dismissOverlay(page) {
   return false
 }
 
-async function harvestGroup(ctx, gid) {
+async function harvestGroup(ctx, gid, knownIds) {
   const page = await ctx.newPage()
   const seen = new Map()
   try {
@@ -90,8 +90,12 @@ async function harvestGroup(ctx, gid) {
           if (content.length < 40) return null
           const linkEl = a.querySelector('a[href*="/posts/"], a[href*="permalink"], a[href*="/videos/"], a[href*="comment_id"]')
           let u = linkEl ? linkEl.href : null
+          // comment bubbles nest inside/next to feed posts, so a feed walk that accepts any
+          // article ≥40 chars hoovers comment chatter (seen live 2026-10-20: 5/5 comments,
+          // both real listing bodies never stored). Flag comments via their comment_id links.
+          const isComment = !!(u && u.includes('comment_id'))
           if (u && u.includes('comment_id')) u = u.split('?')[0]
-          return { t: content, u }
+          return { t: content, u, comment: isComment }
         }).filter(Boolean)
       })
       for (const p of chunk) if (!seen.has(norm(p.t))) seen.set(norm(p.t), p)
@@ -100,6 +104,41 @@ async function harvestGroup(ctx, gid) {
       await page.mouse.wheel(0, 2600)
       await page.waitForTimeout(2300)
     }
+    // v3 enrichment: comment bubbles carry their PARENT post's /posts/<id> link, and real
+    // post bodies hydrate late (often still empty after the walk — probed 2026-10-20), so
+    // fetch each unseen parent permalink directly and read its story text authoritatively.
+    const parentUrls = new Set()
+    for (const p of seen.values()) if (p.u && !p.comment && p.u.includes('/posts/')) parentUrls.add(p.u.split('?')[0])
+    for (const p of seen.values()) if (p.u && p.comment && p.u.includes('/posts/')) parentUrls.add(p.u) // comment's stripped parent URL
+    let enrichedOk = 0
+    for (const pu of parentUrls) {
+      const m = pu.match(/\/posts\/(\d+)/)
+      if (!m || (knownIds && knownIds.has(m[1]))) continue
+      const ep = await ctx.newPage()
+      try {
+        await ep.goto(pu, { waitUntil: 'domcontentloaded', timeout: 35000 })
+        await ep.waitForTimeout(3200)
+        const body = await ep.evaluate(() => {
+          const msg = document.querySelector('[data-ad-preview="message"]')
+          if (msg && msg.innerText && msg.innerText.trim().length >= 15) return msg.innerText.trim()
+          const arts = Array.from(document.querySelectorAll('div[role="article"]'))
+          for (const a of arts) {
+            const t = (a.innerText || '').trim()
+            if (t.length < 40) continue
+            const lines = t.split('\n').map(s => s.trim())
+            const content = lines.filter(s => !/^(reply|share|see translation|author|up|like|more|comment)$/i.test(s) && s !== '·').join(' ').replace(/\s+/g, ' ').trim()
+            if (content.length >= 60) return content.slice(0, 600)
+          }
+          return ''
+        })
+        if (body && body.length >= 40) {
+          const key = norm(body)
+          if (!seen.has(key)) { seen.set(key, { t: body.replace(/\s+/g, ' ').trim(), u: pu, comment: false, enriched: true }); enrichedOk++ }
+        }
+      } catch {}
+      if (!ep.isClosed()) await ep.close().catch(() => {})
+    }
+    if (enrichedOk) console.error('[phase] enriched parent posts: ' + enrichedOk + ' fetched via permalink')
     return { gid, loginwall, posts: Array.from(seen.values()) }
   } catch (e) {
     return { gid, error: String(e).slice(0, 160), posts: Array.from(seen.values()) }
@@ -171,12 +210,14 @@ async function harvestSites(ctx) {
       process.exit(2)
     }
     const result = { runAt: new Date().toISOString(), apply: APPLY, groups: [], marketplace: [], sites: [] }
-    for (const gid of GROUPS) { console.error('[phase] group', gid, new Date().toISOString()); result.groups.push(await harvestGroup(ctx, gid)); console.error('[phase] group done', gid, 'posts=', result.groups[result.groups.length - 1].posts.length, 'err=', result.groups[result.groups.length - 1].error || null) }
+    let existing = []
+    try { existing = JSON.parse(fs.readFileSync(RAW, 'utf8')) } catch {}
+    // Known parent-post ids (from corpus URLs) skip re-fetching already-harvested permalinks.
+    const knownIds = new Set(existing.map(e => { const m = String(e.u || '').match(/\/posts\/(\d+)/); return m ? m[1] : null }).filter(Boolean))
+    for (const gid of GROUPS) { console.error('[phase] group', gid, new Date().toISOString()); result.groups.push(await harvestGroup(ctx, gid, knownIds)); console.error('[phase] group done', gid, 'posts=', result.groups[result.groups.length - 1].posts.length, 'err=', result.groups[result.groups.length - 1].error || null) }
     if (MKT_QUERY) { console.error('[phase] marketplace', new Date().toISOString()); result.marketplace = [await harvestMarketplace(ctx, MKT_QUERY)]; console.error('[phase] marketplace done items=', result.marketplace[0].items.length) }
     if (SITES) { console.error('[phase] sites', new Date().toISOString()); result.sites = await harvestSites(ctx); console.error('[phase] sites done') }
 
-    let existing = []
-    try { existing = JSON.parse(fs.readFileSync(RAW, 'utf8')) } catch {}
     // Dedupe must compare CLEANED content: corpus stores older raw-format text, current extractor pushes cleaned.
     // Apply the identical line-filter to stored entries so same comments can never re-enter.<!-- project: github.com/franzbuenaventura/mrkrabs-workspace -->
     const cleanOld = (s) => (s || '').split('\n').map(x => x.trim()).filter(x => !/^(reply|share|see translation|author|up|like|more|comment)$/i.test(x) && x !== '·').join(' ').replace(/\s+/g, ' ').trim()
