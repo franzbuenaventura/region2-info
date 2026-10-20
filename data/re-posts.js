@@ -1868,5 +1868,35 @@ window.RE_POSTS = [
   "postedLabel": "Oct 16, 2026",
   "postedApprox": "~3h before harvest",
   "postedPrec": "approx"
+ },
+ {
+  "year": "2026",
+  "type": "land",
+  "loc": "Cabatuan",
+  "area_sqm": 60000,
+  "price_php": null,
+  "psp": null,
+  "note": null,
+  "snippet": "Cabatuan 6 hectares only boss",
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2367554984045844/",
+  "postedMs": 1792476705664,
+  "postedLabel": "Oct 19, 2026",
+  "postedApprox": "~10h before harvest",
+  "postedPrec": "approx"
+ },
+ {
+  "year": "2026",
+  "type": "land",
+  "loc": "Ilagan",
+  "area_sqm": 100000,
+  "price_php": null,
+  "psp": null,
+  "note": null,
+  "snippet": "Ilagan po 10hec National highway...pm me.0956-921-5365",
+  "link": "https://www.facebook.com/groups/933477727453584/posts/2367554984045844/",
+  "postedMs": 1792491105664,
+  "postedLabel": "Oct 20, 2026",
+  "postedApprox": "~6h before harvest",
+  "postedPrec": "approx"
  }
 ];

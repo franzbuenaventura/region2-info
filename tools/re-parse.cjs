@@ -22,8 +22,17 @@ const LGUS = ['Cauayan', 'Santiago', 'Ilagan', 'Echague', 'Ramon', 'San Mateo', 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 function parseEntry(e) {
-  const lines = (e.t || '').split('\n').map(s => s.trim())
-  const ageIdx = lines.findIndex(l => AGE_RE.test(l))
+  let lines = (e.t || '').split('\n').map(s => s.trim()).filter(Boolean)
+  let ageIdx = lines.findIndex(l => AGE_RE.test(l))
+  // v3 extractor (2026-10-20) joins bubble/story captures into ONE line: "author 2h body ...".
+  // Recover the author/header marker from the single line so dated parsing still works.
+  // (\b after the unit letter matters: "10hec" must NOT match as age "10h"; "7060" in a
+  // username can't match \d{1,3} + boundary; a price like "3m" may rarely misparse as
+  // minutes — postedPrec stays 'approx' so this is cosmetic, not silent corruption.)
+  if (ageIdx < 0 && lines.length === 1) {
+    const m = lines[0].match(/^(.+?)\s\b(\d{1,3})([smhdwy])\b\s*(.+)$/)
+    if (m) { lines = [m[1].trim(), m[2] + m[3], m[4].trim()]; ageIdx = 1 }
+  }
   if (ageIdx < 1) return null
   const [, num, unit] = lines[ageIdx].match(AGE_RE)
   const harvestMs = new Date(e.harvested).getTime()
